@@ -1,0 +1,204 @@
+fileFormatVersion: 2
+guid: 5708dd2d97c912f47b1f8a29674bb1fb
+ModelImporter:
+  fileIDToRecycleName:
+    4300000: oz_ybr_groves_junctionLR_a
+    4300002: decals_overlays
+    4300004: decals
+    4300006: polySurface5
+    4300008: tree_card_03
+    4300010: tree_card_03_decals
+    4300012: tree_card_01
+    4300014: tree_card_01_decals
+    4300016: tree_card_02
+    4300018: tree_card_02_decals
+    4300020: decals_hi
+    4300022: tree_card_03
+    4300024: tree_card_03_decals
+    4300026: tree_card_03
+    4300028: tree_card_03_decals
+    4300030: tree_card_03
+    4300032: tree_card_03_decals
+    4300034: tree_card_03
+    4300036: tree_card_03_decals
+    4300038: tree_card_02
+    4300040: tree_card_02_decals
+    4300042: tree_card_01
+    4300044: tree_card_01_decals
+    4300046: tree_card_01
+    4300048: tree_card_01_decals
+    4300050: tree_card_01
+    4300052: tree_card_01_decals
+    4300054: decals_lomesh
+    4300056: decals_lo
+    4300058: tree_clump_opt_decals1
+    4300060: tree_clump_opt1
+    4300062: tree_clump_opt_decals2
+    4300064: tree_clump_opt2
+    4300066: tree_decal_02
+    4300068: tree_decal_03
+    4300070: treE_decal_03
+    4300072: tree_clump_opt_decals
+    4300074: tree_clump_opt
+    4300076: tree_decal_04
+    4300078: tree_decal_05
+    4300080: treE_decal_04
+    4300082: tree_decal_06
+    4300084: treE_decal_05
+    4300086: tree_decal_07
+    4300088: tree_decal_08
+    4300090: oz_ybr_groves_junctionLR_a_force
+    4300092: decals_overlays_best
+    7400000: Take 001 //// oz_ybr_groves_junctionLR_a
+  serializedVersion: 10
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    generateAnimations: 0
+    bakeSimulation: 0
+    splitAnimations: 1
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations: []
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00400000019
+    meshCompression: 3
+    addColliders: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMesh: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 2
+    tangentImportMode: 2
+  textMetaNamesToFileIDs:
+    //RootNode:
+      data:
+        first: 1
+        second: a4860100
+      data:
+        first: 4
+        second: 841a0600
+      data:
+        first: 111
+        second: 605fa900
+    decals:
+      data:
+        first: 1
+        second: b4860100
+      data:
+        first: 4
+        second: 941a0600
+      data:
+        first: 23
+        second: 62182300
+      data:
+        first: 33
+        second: a25a3200
+    decals_overlays:
+      data:
+        first: 1
+        second: b6860100
+      data:
+        first: 4
+        second: 961a0600
+      data:
+        first: 23
+        second: 64182300
+      data:
+        first: 33
+        second: a45a3200
+    decals_overlays_best:
+      data:
+        first: 1
+        second: b8860100
+      data:
+        first: 4
+        second: 981a0600
+      data:
+        first: 23
+        second: 66182300
+      data:
+        first: 33
+        second: a65a3200
+    dummy_a_left:
+      data:
+        first: 1
+        second: a6860100
+      data:
+        first: 4
+        second: 861a0600
+    dummy_a_right:
+      data:
+        first: 1
+        second: ae860100
+      data:
+        first: 4
+        second: 8e1a0600
+    dummy_b_left:
+      data:
+        first: 1
+        second: ac860100
+      data:
+        first: 4
+        second: 8c1a0600
+    dummy_b_right:
+      data:
+        first: 1
+        second: a0860100
+      data:
+        first: 4
+        second: 801a0600
+    dummy_c_left:
+      data:
+        first: 1
+        second: b0860100
+      data:
+        first: 4
+        second: 901a0600
+    dummy_c_right:
+      data:
+        first: 1
+        second: a8860100
+      data:
+        first: 4
+        second: 881a0600
+    oz_ybr_groves_junctionLR_a:
+      data:
+        first: 1
+        second: aa860100
+      data:
+        first: 4
+        second: 8a1a0600
+      data:
+        first: 23
+        second: 60182300
+      data:
+        first: 33
+        second: a05a3200
+    path_left:
+      data:
+        first: 1
+        second: a2860100
+      data:
+        first: 4
+        second: 821a0600
+    path_right:
+      data:
+        first: 1
+        second: b2860100
+      data:
+        first: 4
+        second: 921a0600

@@ -1,0 +1,440 @@
+fileFormatVersion: 2
+guid: 0e1247c4ed418d74d9f1ce557b3c85ba
+ModelImporter:
+  fileIDToRecycleName:
+    4300000: shard01
+    4300002: shard02
+    4300004: shard03
+    4300006: shard04
+    4300008: shard05
+    4300010: shard06
+    4300012: shard07
+    4300014: ground01
+    4300016: ground02
+    4300018: ground03
+    4300020: ground04
+    4300022: oz_df_grave_arch_a
+    4300024: polySurface2
+    4300026: polySurface27
+    4300028: polySurface60
+    4300030: polySurface61
+    4300032: polySurface62
+    4300034: polySurface63
+    4300036: polySurface64
+    4300038: polySurface65
+    4300040: polySurface66
+    4300042: polySurface67
+    4300044: polySurface68
+    4300046: polySurface69
+    4300048: polySurface70
+    4300050: polySurface71
+    4300052: polySurface72
+    4300054: polySurface73
+    4300056: polySurface74
+    4300058: polySurface75
+    4300060: polySurface76
+    4300062: polySurface77
+    4300064: polySurface78
+    4300066: exploding_chunk_1
+    4300068: exploding_chunk_2
+    4300070: exploding_chunk_3
+    4300072: exploding_chunk_4
+    4300074: exploding_chunk_5
+    4300076: exploding_chunk_6
+    4300078: exploding_chunk_7
+    4300080: exploding_chunk_8
+    4300082: exploding_chunk_9
+    4300084: exploding_chunk_10
+    4300086: exploding_chunk_11
+    4300088: exploding_chunk_12
+    4300090: exploding_chunk_13
+    4300092: exploding_chunk_14
+    4300094: exploding_chunk_15
+    4300096: exploding_chunk_16
+    4300098: exploding_chunk_17
+    4300100: exploding_chunk_18
+    4300102: exploding_chunk_19
+    4300104: exploding_chunk_20
+    4300106: animBramble_01
+    4300108: animBramble_02
+    4300110: Bramble_Corkscrew:animBramble_02
+    4300112: Bramble_Corkscrew:animBramble_01
+    4300114: Bramble_Corkscrew:animBramble_03
+    4300116: animBramble_03
+    7400000: Take 001 //// oz_df_OBS_groundbreak_ledgeright_anim_a
+    7400002: groundbreak //// oz_df_OBS_groundbreak_ledgeright_anim_a
+  serializedVersion: 10
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    generateAnimations: 3
+    bakeSimulation: 0
+    splitAnimations: 1
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations:
+    - name: groundbreak
+      firstFrame: 1
+      lastFrame: 40
+      wrapMode: 0
+      loop: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00400000019
+    meshCompression: 3
+    addColliders: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMesh: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 2
+    tangentImportMode: 2
+  textMetaNamesToFileIDs:
+    //RootNode:
+      data:
+        first: 1
+        second: b8860100
+      data:
+        first: 4
+        second: 981a0600
+      data:
+        first: 111
+        second: 605fa900
+    Bramble_Corkscrew:animBramble_01:
+      data:
+        first: 1
+        second: ac860100
+      data:
+        first: 4
+        second: 8c1a0600
+      data:
+        first: 23
+        second: 6c182300
+      data:
+        first: 33
+        second: ac5a3200
+    Bramble_Corkscrew:animBramble_02:
+      data:
+        first: 1
+        second: ce860100
+      data:
+        first: 4
+        second: ae1a0600
+      data:
+        first: 23
+        second: 8a182300
+      data:
+        first: 33
+        second: ca5a3200
+    Bramble_Corkscrew:animBramble_03:
+      data:
+        first: 1
+        second: d2860100
+      data:
+        first: 4
+        second: b21a0600
+      data:
+        first: 23
+        second: 8c182300
+      data:
+        first: 33
+        second: cc5a3200
+    GroundChunks:
+      data:
+        first: 1
+        second: cc860100
+      data:
+        first: 4
+        second: ac1a0600
+    Temp_Rocks:pCube1_shardsGRP:
+      data:
+        first: 1
+        second: d0860100
+      data:
+        first: 4
+        second: b01a0600
+    animBramble_03:
+      data:
+        first: 1
+        second: d4860100
+      data:
+        first: 4
+        second: b41a0600
+      data:
+        first: 23
+        second: 8e182300
+      data:
+        first: 33
+        second: ce5a3200
+    exploding_chunk_1:
+      data:
+        first: 1
+        second: be860100
+      data:
+        first: 4
+        second: 9e1a0600
+      data:
+        first: 23
+        second: 7c182300
+      data:
+        first: 33
+        second: bc5a3200
+    exploding_chunk_10:
+      data:
+        first: 1
+        second: c4860100
+      data:
+        first: 4
+        second: a41a0600
+      data:
+        first: 23
+        second: 82182300
+      data:
+        first: 33
+        second: c25a3200
+    exploding_chunk_11:
+      data:
+        first: 1
+        second: ca860100
+      data:
+        first: 4
+        second: aa1a0600
+      data:
+        first: 23
+        second: 88182300
+      data:
+        first: 33
+        second: c85a3200
+    exploding_chunk_12:
+      data:
+        first: 1
+        second: c8860100
+      data:
+        first: 4
+        second: a81a0600
+      data:
+        first: 23
+        second: 86182300
+      data:
+        first: 33
+        second: c65a3200
+    exploding_chunk_13:
+      data:
+        first: 1
+        second: c2860100
+      data:
+        first: 4
+        second: a21a0600
+      data:
+        first: 23
+        second: 80182300
+      data:
+        first: 33
+        second: c05a3200
+    exploding_chunk_14:
+      data:
+        first: 1
+        second: c0860100
+      data:
+        first: 4
+        second: a01a0600
+      data:
+        first: 23
+        second: 7e182300
+      data:
+        first: 33
+        second: be5a3200
+    exploding_chunk_15:
+      data:
+        first: 1
+        second: b4860100
+      data:
+        first: 4
+        second: 941a0600
+      data:
+        first: 23
+        second: 74182300
+      data:
+        first: 33
+        second: b45a3200
+    exploding_chunk_16:
+      data:
+        first: 1
+        second: b2860100
+      data:
+        first: 4
+        second: 921a0600
+      data:
+        first: 23
+        second: 72182300
+      data:
+        first: 33
+        second: b25a3200
+    exploding_chunk_17:
+      data:
+        first: 1
+        second: ba860100
+      data:
+        first: 4
+        second: 9a1a0600
+      data:
+        first: 23
+        second: 78182300
+      data:
+        first: 33
+        second: b85a3200
+    exploding_chunk_18:
+      data:
+        first: 1
+        second: b6860100
+      data:
+        first: 4
+        second: 961a0600
+      data:
+        first: 23
+        second: 76182300
+      data:
+        first: 33
+        second: b65a3200
+    exploding_chunk_19:
+      data:
+        first: 1
+        second: a2860100
+      data:
+        first: 4
+        second: 821a0600
+      data:
+        first: 23
+        second: 62182300
+      data:
+        first: 33
+        second: a25a3200
+    exploding_chunk_2:
+      data:
+        first: 1
+        second: bc860100
+      data:
+        first: 4
+        second: 9c1a0600
+      data:
+        first: 23
+        second: 7a182300
+      data:
+        first: 33
+        second: ba5a3200
+    exploding_chunk_20:
+      data:
+        first: 1
+        second: a0860100
+      data:
+        first: 4
+        second: 801a0600
+      data:
+        first: 23
+        second: 60182300
+      data:
+        first: 33
+        second: a05a3200
+    exploding_chunk_3:
+      data:
+        first: 1
+        second: b0860100
+      data:
+        first: 4
+        second: 901a0600
+      data:
+        first: 23
+        second: 70182300
+      data:
+        first: 33
+        second: b05a3200
+    exploding_chunk_4:
+      data:
+        first: 1
+        second: ae860100
+      data:
+        first: 4
+        second: 8e1a0600
+      data:
+        first: 23
+        second: 6e182300
+      data:
+        first: 33
+        second: ae5a3200
+    exploding_chunk_5:
+      data:
+        first: 1
+        second: aa860100
+      data:
+        first: 4
+        second: 8a1a0600
+      data:
+        first: 23
+        second: 6a182300
+      data:
+        first: 33
+        second: aa5a3200
+    exploding_chunk_6:
+      data:
+        first: 1
+        second: a8860100
+      data:
+        first: 4
+        second: 881a0600
+      data:
+        first: 23
+        second: 68182300
+      data:
+        first: 33
+        second: a85a3200
+    exploding_chunk_7:
+      data:
+        first: 1
+        second: a6860100
+      data:
+        first: 4
+        second: 861a0600
+      data:
+        first: 23
+        second: 66182300
+      data:
+        first: 33
+        second: a65a3200
+    exploding_chunk_8:
+      data:
+        first: 1
+        second: a4860100
+      data:
+        first: 4
+        second: 841a0600
+      data:
+        first: 23
+        second: 64182300
+      data:
+        first: 33
+        second: a45a3200
+    exploding_chunk_9:
+      data:
+        first: 1
+        second: c6860100
+      data:
+        first: 4
+        second: a61a0600
+      data:
+        first: 23
+        second: 84182300
+      data:
+        first: 33
+        second: c45a3200

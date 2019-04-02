@@ -1,0 +1,148 @@
+#!/usr/bin/python
+
+import sys, os
+
+f = open(sys.argv[1] + "/Unity-iPhone.xcodeproj/project.pbxproj")
+
+airshipConfigFile = "AirshipConfig.plist"
+airshipConfigFilePath = os.getcwd() + "/Assets/Editor/Airship/" + airshipConfigFile
+
+class ac(object):
+    find = 0
+    replace = 1
+    insert = 2
+
+functions = [
+	[ ac.find, "/* Begin PBXBuildFile section */"],
+	[
+		[ ac.insert, "\t\tFC51B84D16C43435000857D5 /* " + airshipConfigFile + " in Resources */ = {isa = PBXBuildFile; fileRef = FC51B84C16C430D0000857D5 /* " + airshipConfigFile + " */; };"],
+	],
+	[ ac.find, "/* End PBXBuildFile section */"],
+                          
+	[ ac.find, "/* Begin PBXFileReference section */"],
+    [
+		[ ac.insert, "\t\tFC51B84C16C430D0000857D5 /* " + airshipConfigFile + " */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = " + airshipConfigFile + "; path = " + airshipConfigFilePath + "; sourceTree = \"<absolute>\"; };"],
+    ],
+    [ ac.find, "/* End PBXFileReference section */"],
+                      
+	[ ac.find, "/* CustomTemplate */ = {"],
+    [ ac.find, "children = ("],
+    [
+    	[ ac.insert, "\t\t\t\tFC51B84C16C430D0000857D5 /* " + airshipConfigFile + " */,"],
+    ],
+    [ ac.find, ");"],
+             
+    [ ac.find, "/* Begin PBXResourcesBuildPhase section */"],
+    [ ac.find, "files = ("],
+    [
+    	[ ac.insert, "\t\t\t\tFC51B84D16C43435000857D5 /* " + airshipConfigFile + " in Resources */,"],      
+    ],
+    [ ac.find, ");"],
+]
+
+out = "";
+i = 0;
+read = True
+log = True
+
+if (log):
+    ol=open(sys.argv[1] + "/PostprocessBuildPlayer_UA.log", 'w')
+    ol.write("airshipConfigFilePath=" + airshipConfigFilePath + "\n")
+	
+while (i < len(functions)):
+    l = f.readline()
+    
+    if (airshipConfigFile in l):
+    	ol.write(airshipConfigFile + " already exists...quitting\n")
+    	sys.exit()
+    	
+    k = None
+    
+    if (type(functions[i][0]) is not list):
+        if (functions[i][0] == ac.find):
+            if (functions[i][1] in l):
+                if (log):
+                    ol.write("Found: " + functions[i][1] + "\n")
+                
+                # Found, move on to the next instruction
+                i += 1
+        
+        else:
+            if (log):
+                ol.write("Unknown: " + functions[i][0] + "\n")
+            
+            # Unknown; get out
+            i += 1
+    
+    else:
+        toDel = []
+        
+        replaced = False
+        
+        for j, action in enumerate(functions[i]):
+            if (action[0] == ac.replace):
+                if (action[1] in l):
+                    if (log):
+                        ol.write("Replace: " + action[1] + "\n")
+                    # Found, replace and remove the action
+                    if (k is None):
+                        k = ""
+                    
+                    k += l.replace(action[1], action[2])
+                    toDel.append(j)
+                    
+                    replaced = True
+                    
+                    print action
+            
+            elif (action[0] == ac.insert):
+                if (log):
+                    ol.write("Insert: " + action[1] + "\n")
+                if (k is None):
+                    k = ""
+                
+                k += action[1] + "\n"
+                toDel.append(j)
+                
+                print action
+            
+            else:
+                if (log):
+                    ol.write("Unknown: " + action[0] + "\n")
+                # Unknown action
+                toDel.append(j)
+                print "Deleted " + action
+        
+        toDel.reverse()
+        for j in toDel:
+            del functions[i][j]
+        
+        # Move to the next set of functions if we are done with this one
+        if len(functions[i]) == 0:
+            i += 1
+        
+        if (not replaced):
+            if (k is None):
+                k = ""
+            k += l
+    
+    # Copy the treated content
+    if (k is None):
+        if (l == ""):
+            ol.write("Done")
+            break
+        
+        ol.write("Skipped: " + l)
+        out += l
+    else:
+        out += k
+
+
+# Append the remaining content
+out += f.read() 
+f.close()
+
+# Write the result
+o=open(sys.argv[1] + "/Unity-iPhone.xcodeproj/project.pbxproj", 'w')
+o.write(out)
+o.close()

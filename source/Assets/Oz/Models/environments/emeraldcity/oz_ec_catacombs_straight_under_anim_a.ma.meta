@@ -1,0 +1,201 @@
+fileFormatVersion: 2
+guid: 4a80f862e554c5743be31a090ccd95cc
+ModelImporter:
+  fileIDToRecycleName:
+    4300000: SlideUnder
+    4300002: oz_ec_catacombs_straight_under_anim_a
+    4300004: ceiling
+    4300006: oz_ec_catacombs_straight_b
+    4300008: pCylinder1
+    4300010: pCylinder2
+    4300012: oc_ec_catacombs_straight_under_anim_a
+    4300014: polySurface1
+    4300016: polySurface2
+    4300018: polySurface3
+    4300020: polySurface4
+    4300022: polySurface5
+    4300024: polySurface6
+    4300026: polySurface7
+    4300028: polySurface8
+    4300030: polySurface9
+    4300032: polySurface10
+    4300034: polySurface11
+    4300036: polySurface12
+    4300038: polySurface13
+    4300040: polySurface14
+    4300042: polySurface15
+    4300044: polySurface16
+    4300046: polySurface17
+    4300048: polySurface18
+    4300050: polySurface19
+    4300052: polySurface20
+    4300054: polySurface21
+    4300056: polySurface22
+    4300058: polySurface23
+    4300060: polySurface24
+    4300062: polySurface25
+    4300064: polySurface26
+    4300066: polySurface27
+    4300068: polySurface28
+    4300070: polySurface29
+    4300072: polySurface30
+    4300074: polySurface31
+    4300076: polySurface32
+    4300078: polySurface33
+    4300080: polySurface34
+    4300082: polySurface35
+    4300084: polySurface36
+    4300086: polySurface37
+    4300088: polySurface38
+    4300090: polySurface39
+    4300092: polySurface40
+    4300094: polySurface41
+    4300096: polySurface42
+    4300098: polySurface43
+    4300100: polySurface44
+    4300102: polySurface45
+    4300104: polySurface46
+    4300106: polySurface47
+    4300108: polySurface48
+    4300110: polySurface49
+    4300112: polySurface50
+    4300114: polySurface99
+    4300116: polySurface102
+    4300118: polySurface103
+    4300120: polySurface104
+    4300122: polySurface108
+    4300124: polySurface109
+    4300126: polySurface115
+    4300128: polySurface116
+    4300130: polySurface117
+    4300132: polySurface118
+    4300134: polySurface119
+    4300136: polySurface120
+    4300138: polySurface121
+    4300140: polySurface122
+    4300142: polySurface123
+    4300144: polySurface124
+    4300146: polySurface125
+    4300148: polySurface126
+    4300150: polySurface128
+    4300152: polySurface96
+    4300154: column
+    4300156: column3
+    4300158: greenBlock
+    4300160: greenBlock1
+    4300162: greenBlock2
+    4300164: greenBlock3
+    4300166: greenBlock4
+    4300168: greenBlock5
+    4300170: greenBlock6
+    4300172: greenBlock8
+    4300174: greenBlock9
+    4300176: greenBlock10
+    4300178: greenBlock11
+    4300180: greenBlock12
+    4300182: decals
+    7400000: Take 001 //// oz_ec_catacombs_straight_under_anim_a
+    7400002: Anim //// oz_ec_catacombs_straight_under_anim_a
+  serializedVersion: 10
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    generateAnimations: 0
+    bakeSimulation: 0
+    splitAnimations: 1
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations:
+    - name: Anim
+      firstFrame: 1
+      lastFrame: 24
+      wrapMode: 0
+      loop: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00400000019
+    meshCompression: 3
+    addColliders: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMesh: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 2
+    tangentImportMode: 2
+  textMetaNamesToFileIDs:
+    //RootNode:
+      data:
+        first: 1
+        second: a4860100
+      data:
+        first: 4
+        second: 841a0600
+      data:
+        first: 111
+        second: 605fa900
+    decals:
+      data:
+        first: 1
+        second: ac860100
+      data:
+        first: 4
+        second: 8c1a0600
+      data:
+        first: 23
+        second: 60182300
+      data:
+        first: 33
+        second: a05a3200
+    dummy_a:
+      data:
+        first: 1
+        second: a2860100
+      data:
+        first: 4
+        second: 821a0600
+    dummy_b:
+      data:
+        first: 1
+        second: a8860100
+      data:
+        first: 4
+        second: 881a0600
+    oz_ec_catacombs_straight_under_anim_a:
+      data:
+        first: 1
+        second: a0860100
+      data:
+        first: 4
+        second: 801a0600
+      data:
+        first: 23
+        second: 62182300
+      data:
+        first: 33
+        second: a25a3200
+    path_default:
+      data:
+        first: 1
+        second: aa860100
+      data:
+        first: 4
+        second: 8a1a0600
+    pointLight1:
+      data:
+        first: 1
+        second: a6860100
+      data:
+        first: 4
+        second: 861a0600

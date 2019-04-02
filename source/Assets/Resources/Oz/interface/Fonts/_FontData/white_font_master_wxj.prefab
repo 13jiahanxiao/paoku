@@ -1,0 +1,8567 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 3
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: white_font_master_wxj
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b4eb3a400afab046abb8471a9d746d6, type: 1}
+  m_Name: 
+  mMat: {fileID: 2100000, guid: a4f411e69d4204901ae4649234802e37, type: 2}
+  mUVRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  mFont:
+    mGlyphs: []
+    mSize: 36
+    mBase: 29
+    mWidth: 850
+    mHeight: 850
+    mSpriteName: white_fonts_master_wxj_0
+    mSaved:
+    - index: 32
+      x: 845
+      y: 0
+      width: 3
+      height: 1
+      offsetX: -1
+      offsetY: 35
+      advance: 8
+      channel: 15
+    - index: 33
+      x: 841
+      y: 329
+      width: 5
+      height: 21
+      offsetX: 2
+      offsetY: 8
+      advance: 9
+      channel: 15
+    - index: 37
+      x: 246
+      y: 781
+      width: 25
+      height: 21
+      offsetX: 0
+      offsetY: 8
+      advance: 25
+      channel: 15
+    - index: 40
+      x: 841
+      y: 85
+      width: 8
+      height: 26
+      offsetX: 1
+      offsetY: 8
+      advance: 9
+      channel: 15
+    - index: 41
+      x: 841
+      y: 112
+      width: 8
+      height: 26
+      offsetX: 0
+      offsetY: 8
+      advance: 9
+      channel: 15
+    - index: 44
+      x: 841
+      y: 383
+      width: 6
+      height: 7
+      offsetX: 0
+      offsetY: 26
+      advance: 7
+      channel: 15
+    - index: 45
+      x: 836
+      y: 675
+      width: 10
+      height: 2
+      offsetX: 1
+      offsetY: 20
+      advance: 12
+      channel: 15
+    - index: 46
+      x: 844
+      y: 80
+      width: 5
+      height: 3
+      offsetX: 1
+      offsetY: 26
+      advance: 7
+      channel: 15
+    - index: 47
+      x: 158
+      y: 682
+      width: 14
+      height: 25
+      offsetX: -1
+      offsetY: 8
+      advance: 12
+      channel: 15
+    - index: 48
+      x: 580
+      y: 780
+      width: 16
+      height: 21
+      offsetX: 0
+      offsetY: 8
+      advance: 16
+      channel: 15
+    - index: 49
+      x: 766
+      y: 778
+      width: 13
+      height: 21
+      offsetX: 2
+      offsetY: 8
+      advance: 16
+      channel: 15
+    - index: 50
+      x: 692
+      y: 779
+      width: 14
+      height: 21
+      offsetX: 1
+      offsetY: 8
+      advance: 16
+      channel: 15
+    - index: 51
+      x: 722
+      y: 779
+      width: 14
+      height: 21
+      offsetX: 1
+      offsetY: 8
+      advance: 16
+      channel: 15
+    - index: 52
+      x: 545
+      y: 780
+      width: 17
+      height: 21
+      offsetX: -1
+      offsetY: 8
+      advance: 16
+      channel: 15
+    - index: 53
+      x: 752
+      y: 778
+      width: 13
+      height: 21
+      offsetX: 2
+      offsetY: 8
+      advance: 16
+      channel: 15
+    - index: 54
+      x: 614
+      y: 780
+      width: 15
+      height: 21
+      offsetX: 1
+      offsetY: 8
+      advance: 16
+      channel: 15
+    - index: 55
+      x: 662
+      y: 779
+      width: 14
+      height: 21
+      offsetX: 1
+      offsetY: 8
+      advance: 16
+      channel: 15
+    - index: 56
+      x: 737
+      y: 778
+      width: 14
+      height: 21
+      offsetX: 1
+      offsetY: 8
+      advance: 16
+      channel: 15
+    - index: 57
+      x: 677
+      y: 779
+      width: 14
+      height: 21
+      offsetX: 1
+      offsetY: 8
+      advance: 16
+      channel: 15
+    - index: 58
+      x: 841
+      y: 367
+      width: 5
+      height: 15
+      offsetX: 1
+      offsetY: 14
+      advance: 7
+      channel: 15
+    - index: 61
+      x: 256
+      y: 803
+      width: 15
+      height: 8
+      offsetX: 3
+      offsetY: 16
+      advance: 21
+      channel: 15
+    - index: 63
+      x: 833
+      y: 777
+      width: 12
+      height: 21
+      offsetX: 1
+      offsetY: 8
+      advance: 14
+      channel: 15
+    - index: 64
+      x: 26
+      y: 758
+      width: 25
+      height: 24
+      offsetX: 2
+      offsetY: 8
+      advance: 29
+      channel: 15
+    - index: 65
+      x: 318
+      y: 780
+      width: 20
+      height: 21
+      offsetX: 0
+      offsetY: 8
+      advance: 20
+      channel: 15
+    - index: 66
+      x: 646
+      y: 779
+      width: 15
+      height: 21
+      offsetX: 2
+      offsetY: 8
+      advance: 18
+      channel: 15
+    - index: 67
+      x: 509
+      y: 780
+      width: 17
+      height: 21
+      offsetX: 1
+      offsetY: 8
+      advance: 19
+      channel: 15
+    - index: 68
+      x: 399
+      y: 780
+      width: 18
+      height: 21
+      offsetX: 2
+      offsetY: 8
+      advance: 21
+      channel: 15
+    - index: 69
+      x: 780
+      y: 778
+      width: 13
+      height: 21
+      offsetX: 2
+      offsetY: 8
+      advance: 15
+      channel: 15
+    - index: 70
+      x: 820
+      y: 777
+      width: 12
+      height: 21
+      offsetX: 2
+      offsetY: 8
+      advance: 15
+      channel: 15
+    - index: 71
+      x: 359
+      y: 780
+      width: 19
+      height: 21
+      offsetX: 1
+      offsetY: 8
+      advance: 21
+      channel: 15
+    - index: 72
+      x: 418
+      y: 780
+      width: 18
+      height: 21
+      offsetX: 2
+      offsetY: 8
+      advance: 22
+      channel: 15
+    - index: 73
+      x: 841
+      y: 189
+      width: 8
+      height: 21
+      offsetX: 0
+      offsetY: 8
+      advance: 8
+      channel: 15
+    - index: 75
+      x: 455
+      y: 780
+      width: 17
+      height: 21
+      offsetX: 2
+      offsetY: 8
+      advance: 18
+      channel: 15
+    - index: 76
+      x: 794
+      y: 777
+      width: 12
+      height: 21
+      offsetX: 2
+      offsetY: 8
+      advance: 14
+      channel: 15
+    - index: 77
+      x: 272
+      y: 781
+      width: 23
+      height: 21
+      offsetX: 2
+      offsetY: 8
+      advance: 27
+      channel: 15
+    - index: 78
+      x: 339
+      y: 780
+      width: 19
+      height: 21
+      offsetX: 2
+      offsetY: 8
+      advance: 23
+      channel: 15
+    - index: 79
+      x: 296
+      y: 781
+      width: 21
+      height: 21
+      offsetX: 1
+      offsetY: 8
+      advance: 23
+      channel: 15
+    - index: 80
+      x: 630
+      y: 779
+      width: 15
+      height: 21
+      offsetX: 2
+      offsetY: 8
+      advance: 17
+      channel: 15
+    - index: 81
+      x: 583
+      y: 497
+      width: 22
+      height: 26
+      offsetX: 1
+      offsetY: 8
+      advance: 23
+      channel: 15
+    - index: 82
+      x: 473
+      y: 780
+      width: 17
+      height: 21
+      offsetX: 2
+      offsetY: 8
+      advance: 18
+      channel: 15
+    - index: 83
+      x: 707
+      y: 779
+      width: 14
+      height: 21
+      offsetX: 1
+      offsetY: 8
+      advance: 16
+      channel: 15
+    - index: 84
+      x: 563
+      y: 780
+      width: 16
+      height: 21
+      offsetX: 0
+      offsetY: 8
+      advance: 16
+      channel: 15
+    - index: 85
+      x: 527
+      y: 780
+      width: 17
+      height: 21
+      offsetX: 2
+      offsetY: 8
+      advance: 21
+      channel: 15
+    - index: 86
+      x: 379
+      y: 780
+      width: 19
+      height: 21
+      offsetX: 0
+      offsetY: 8
+      advance: 19
+      channel: 15
+    - index: 87
+      x: 216
+      y: 781
+      width: 29
+      height: 21
+      offsetX: 0
+      offsetY: 8
+      advance: 29
+      channel: 15
+    - index: 89
+      x: 491
+      y: 780
+      width: 17
+      height: 21
+      offsetX: 0
+      offsetY: 8
+      advance: 17
+      channel: 15
+    - index: 90
+      x: 437
+      y: 780
+      width: 17
+      height: 21
+      offsetX: 0
+      offsetY: 8
+      advance: 17
+      channel: 15
+    - index: 92
+      x: 173
+      y: 682
+      width: 14
+      height: 25
+      offsetX: -1
+      offsetY: 8
+      advance: 12
+      channel: 15
+    - index: 95
+      x: 355
+      y: 802
+      width: 14
+      height: 2
+      offsetX: -1
+      offsetY: 32
+      advance: 13
+      channel: 15
+    - index: 97
+      x: 143
+      y: 806
+      width: 14
+      height: 15
+      offsetX: 0
+      offsetY: 14
+      advance: 15
+      channel: 15
+    - index: 98
+      x: 154
+      y: 782
+      width: 15
+      height: 22
+      offsetX: 2
+      offsetY: 7
+      advance: 18
+      channel: 15
+    - index: 99
+      x: 203
+      y: 805
+      width: 13
+      height: 15
+      offsetX: 1
+      offsetY: 14
+      advance: 14
+      channel: 15
+    - index: 100
+      x: 122
+      y: 783
+      width: 15
+      height: 22
+      offsetX: 1
+      offsetY: 7
+      advance: 18
+      channel: 15
+    - index: 101
+      x: 112
+      y: 806
+      width: 15
+      height: 15
+      offsetX: 1
+      offsetY: 14
+      advance: 16
+      channel: 15
+    - index: 102
+      x: 836
+      y: 652
+      width: 11
+      height: 22
+      offsetX: 0
+      offsetY: 7
+      advance: 10
+      channel: 15
+    - index: 103
+      x: 138
+      y: 783
+      width: 15
+      height: 22
+      offsetX: 1
+      offsetY: 14
+      advance: 18
+      channel: 15
+    - index: 104
+      x: 201
+      y: 782
+      width: 14
+      height: 22
+      offsetX: 2
+      offsetY: 7
+      advance: 17
+      channel: 15
+    - index: 105
+      x: 844
+      y: 57
+      width: 5
+      height: 22
+      offsetX: 1
+      offsetY: 7
+      advance: 7
+      channel: 15
+    - index: 106
+      x: 58
+      y: 0
+      width: 10
+      height: 29
+      offsetX: -4
+      offsetY: 7
+      advance: 7
+      channel: 15
+    - index: 107
+      x: 186
+      y: 782
+      width: 14
+      height: 22
+      offsetX: 2
+      offsetY: 7
+      advance: 15
+      channel: 15
+    - index: 108
+      x: 841
+      y: 166
+      width: 5
+      height: 22
+      offsetX: 1
+      offsetY: 7
+      advance: 7
+      channel: 15
+    - index: 109
+      x: 32
+      y: 807
+      width: 23
+      height: 15
+      offsetX: 2
+      offsetY: 14
+      advance: 26
+      channel: 15
+    - index: 110
+      x: 128
+      y: 806
+      width: 14
+      height: 15
+      offsetX: 2
+      offsetY: 14
+      advance: 17
+      channel: 15
+    - index: 111
+      x: 79
+      y: 806
+      width: 16
+      height: 15
+      offsetX: 1
+      offsetY: 14
+      advance: 18
+      channel: 15
+    - index: 112
+      x: 170
+      y: 782
+      width: 15
+      height: 22
+      offsetX: 2
+      offsetY: 14
+      advance: 18
+      channel: 15
+    - index: 113
+      x: 831
+      y: 678
+      width: 15
+      height: 22
+      offsetX: 1
+      offsetY: 14
+      advance: 18
+      channel: 15
+    - index: 114
+      x: 230
+      y: 803
+      width: 10
+      height: 15
+      offsetX: 2
+      offsetY: 14
+      advance: 11
+      channel: 15
+    - index: 115
+      x: 217
+      y: 803
+      width: 12
+      height: 15
+      offsetX: 1
+      offsetY: 14
+      advance: 13
+      channel: 15
+    - index: 116
+      x: 838
+      y: 753
+      width: 10
+      height: 19
+      offsetX: 0
+      offsetY: 10
+      advance: 10
+      channel: 15
+    - index: 117
+      x: 173
+      y: 805
+      width: 14
+      height: 15
+      offsetX: 1
+      offsetY: 14
+      advance: 17
+      channel: 15
+    - index: 118
+      x: 96
+      y: 806
+      width: 15
+      height: 15
+      offsetX: 0
+      offsetY: 14
+      advance: 15
+      channel: 15
+    - index: 119
+      x: 56
+      y: 806
+      width: 22
+      height: 15
+      offsetX: 0
+      offsetY: 14
+      advance: 22
+      channel: 15
+    - index: 120
+      x: 188
+      y: 805
+      width: 14
+      height: 15
+      offsetX: 0
+      offsetY: 14
+      advance: 14
+      channel: 15
+    - index: 121
+      x: 106
+      y: 783
+      width: 15
+      height: 22
+      offsetX: 0
+      offsetY: 14
+      advance: 15
+      channel: 15
+    - index: 122
+      x: 158
+      y: 805
+      width: 14
+      height: 15
+      offsetX: 0
+      offsetY: 14
+      advance: 14
+      channel: 15
+    - index: 123
+      x: 606
+      y: 497
+      width: 9
+      height: 26
+      offsetX: 0
+      offsetY: 8
+      advance: 9
+      channel: 15
+    - index: 125
+      x: 840
+      y: 253
+      width: 9
+      height: 26
+      offsetX: 0
+      offsetY: 8
+      advance: 9
+      channel: 15
+    - index: 160
+      x: 845
+      y: 2
+      width: 3
+      height: 1
+      offsetX: -1
+      offsetY: 35
+      advance: 8
+      channel: 15
+    - index: 169
+      x: 82
+      y: 783
+      width: 23
+      height: 22
+      offsetX: 2
+      offsetY: 8
+      advance: 27
+      channel: 15
+    - index: 8220
+      x: 283
+      y: 803
+      width: 10
+      height: 7
+      offsetX: 17
+      offsetY: 8
+      advance: 28
+      channel: 15
+    - index: 8221
+      x: 272
+      y: 803
+      width: 10
+      height: 7
+      offsetX: 1
+      offsetY: 8
+      advance: 28
+      channel: 15
+    - index: 8230
+      x: 304
+      y: 803
+      width: 21
+      height: 3
+      offsetX: 1
+      offsetY: 26
+      advance: 23
+      channel: 15
+    - index: 8804
+      x: 16
+      y: 807
+      width: 15
+      height: 18
+      offsetX: 3
+      offsetY: 11
+      advance: 21
+      channel: 15
+    - index: 8805
+      x: 0
+      y: 807
+      width: 15
+      height: 18
+      offsetX: 3
+      offsetY: 11
+      advance: 21
+      channel: 15
+    - index: 12289
+      x: 841
+      y: 211
+      width: 8
+      height: 6
+      offsetX: 1
+      offsetY: 26
+      advance: 28
+      channel: 15
+    - index: 12290
+      x: 294
+      y: 803
+      width: 9
+      height: 7
+      offsetX: 1
+      offsetY: 25
+      advance: 28
+      channel: 15
+    - index: 12298
+      x: 605
+      y: 253
+      width: 14
+      height: 27
+      offsetX: 13
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 12299
+      x: 830
+      y: 0
+      width: 14
+      height: 27
+      offsetX: 1
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 19968
+      x: 326
+      y: 802
+      width: 28
+      height: 2
+      offsetX: 0
+      offsetY: 17
+      advance: 28
+      channel: 15
+    - index: 19975
+      x: 435
+      y: 731
+      width: 28
+      height: 24
+      offsetX: 0
+      offsetY: 8
+      advance: 28
+      channel: 15
+    - index: 19977
+      x: 53
+      y: 783
+      width: 28
+      height: 22
+      offsetX: 0
+      offsetY: 8
+      advance: 28
+      channel: 15
+    - index: 19978
+      x: 406
+      y: 731
+      width: 28
+      height: 24
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 19979
+      x: 377
+      y: 731
+      width: 28
+      height: 24
+      offsetX: 0
+      offsetY: 8
+      advance: 28
+      channel: 15
+    - index: 19981
+      x: 188
+      y: 682
+      width: 29
+      height: 24
+      offsetX: 0
+      offsetY: 8
+      advance: 28
+      channel: 15
+    - index: 19982
+      x: 203
+      y: 552
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 19987
+      x: 493
+      y: 362
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 19990
+      x: 203
+      y: 707
+      width: 28
+      height: 24
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 19997
+      x: 326
+      y: 756
+      width: 28
+      height: 23
+      offsetX: 0
+      offsetY: 8
+      advance: 28
+      channel: 15
+    - index: 20004
+      x: 58
+      y: 708
+      width: 28
+      height: 24
+      offsetX: 0
+      offsetY: 8
+      advance: 28
+      channel: 15
+    - index: 20005
+      x: 783
+      y: 548
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 8
+      advance: 28
+      channel: 15
+    - index: 20010
+      x: 522
+      y: 362
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 20013
+      x: 382
+      y: 498
+      width: 25
+      height: 26
+      offsetX: 2
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 20018
+      x: 483
+      y: 498
+      width: 24
+      height: 26
+      offsetX: 2
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 20025
+      x: 29
+      y: 708
+      width: 28
+      height: 24
+      offsetX: 0
+      offsetY: 8
+      advance: 28
+      channel: 15
+    - index: 20026
+      x: 596
+      y: 470
+      width: 27
+      height: 26
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 20027
+      x: 0
+      y: 578
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 20037
+      x: 29
+      y: 578
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 20040
+      x: 145
+      y: 578
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 20041
+      x: 261
+      y: 577
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 20043
+      x: 290
+      y: 577
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 20048
+      x: 667
+      y: 575
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 20063
+      x: 657
+      y: 680
+      width: 28
+      height: 24
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 20064
+      x: 27
+      y: 783
+      width: 25
+      height: 23
+      offsetX: 1
+      offsetY: 8
+      advance: 28
+      channel: 15
+    - index: 20065
+      x: 132
+      y: 682
+      width: 25
+      height: 25
+      offsetX: 1
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 20080
+      x: 628
+      y: 680
+      width: 28
+      height: 24
+      offsetX: 0
+      offsetY: 8
+      advance: 28
+      channel: 15
+    - index: 20081
+      x: 754
+      y: 574
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 20102
+      x: 820
+      y: 728
+      width: 26
+      height: 24
+      offsetX: 1
+      offsetY: 8
+      advance: 28
+      channel: 15
+    - index: 20110
+      x: 599
+      y: 680
+      width: 28
+      height: 24
+      offsetX: 0
+      offsetY: 8
+      advance: 28
+      channel: 15
+    - index: 20114
+      x: 268
+      y: 757
+      width: 28
+      height: 23
+      offsetX: 0
+      offsetY: 8
+      advance: 28
+      channel: 15
+    - index: 20123
+      x: 541
+      y: 681
+      width: 28
+      height: 24
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 20129
+      x: 812
+      y: 574
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 20132
+      x: 0
+      y: 604
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 20135
+      x: 116
+      y: 604
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 20136
+      x: 290
+      y: 603
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 20139
+      x: 551
+      y: 362
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 20142
+      x: 580
+      y: 362
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 20154
+      x: 319
+      y: 603
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 20159
+      x: 435
+      y: 603
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 20174
+      x: 609
+      y: 602
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 20182
+      x: 261
+      y: 629
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 20184
+      x: 435
+      y: 629
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 20185
+      x: 140
+      y: 254
+      width: 27
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 20195
+      x: 609
+      y: 628
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 20197
+      x: 199
+      y: 656
+      width: 27
+      height: 25
+      offsetX: 1
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 20202
+      x: 609
+      y: 362
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 20204
+      x: 171
+      y: 656
+      width: 27
+      height: 25
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 20214
+      x: 30
+      y: 526
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 20215
+      x: 638
+      y: 361
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 20219
+      x: 88
+      y: 526
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 20240
+      x: 322
+      y: 58
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 20247
+      x: 667
+      y: 361
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 20248
+      x: 117
+      y: 526
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 20250
+      x: 90
+      y: 283
+      width: 29
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 20255
+      x: 736
+      y: 469
+      width: 27
+      height: 26
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 20256
+      x: 696
+      y: 361
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 20301
+      x: 262
+      y: 525
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 20302
+      x: 60
+      y: 283
+      width: 29
+      height: 26
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 20303
+      x: 291
+      y: 525
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 20307
+      x: 725
+      y: 361
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 20309
+      x: 754
+      y: 361
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 20313
+      x: 783
+      y: 361
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 20316
+      x: 812
+      y: 361
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 20320
+      x: 378
+      y: 525
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 20339
+      x: 436
+      y: 525
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 20351
+      x: 465
+      y: 525
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 20379
+      x: 0
+      y: 391
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 20384
+      x: 116
+      y: 114
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 20415
+      x: 58
+      y: 115
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 20445
+      x: 581
+      y: 524
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 20449
+      x: 29
+      y: 391
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 20462
+      x: 58
+      y: 391
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 20463
+      x: 87
+      y: 391
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 20465
+      x: 0
+      y: 87
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 20493
+      x: 699
+      y: 57
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 20498
+      x: 680
+      y: 469
+      width: 27
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 20505
+      x: 710
+      y: 253
+      width: 29
+      height: 26
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 20540
+      x: 583
+      y: 57
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 20542
+      x: 116
+      y: 391
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 20551
+      x: 575
+      y: 29
+      width: 29
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 20570
+      x: 813
+      y: 522
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 20581
+      x: 0
+      y: 552
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 20599
+      x: 145
+      y: 391
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 20648
+      x: 435
+      y: 113
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 20652
+      x: 174
+      y: 390
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 20803
+      x: 29
+      y: 552
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 8
+      advance: 28
+      channel: 15
+    - index: 20805
+      x: 203
+      y: 390
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 20808
+      x: 551
+      y: 113
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 20809
+      x: 232
+      y: 390
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 20813
+      x: 58
+      y: 552
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 20828
+      x: 638
+      y: 113
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 20837
+      x: 87
+      y: 552
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 20840
+      x: 116
+      y: 552
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 20849
+      x: 145
+      y: 552
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 20851
+      x: 261
+      y: 390
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 20853
+      x: 290
+      y: 390
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 20854
+      x: 319
+      y: 390
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 20855
+      x: 319
+      y: 551
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 8
+      advance: 28
+      channel: 15
+    - index: 20857
+      x: 348
+      y: 390
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 20859
+      x: 116
+      y: 29
+      width: 28
+      height: 28
+      offsetX: 0
+      offsetY: 5
+      advance: 28
+      channel: 15
+    - index: 20869
+      x: 102
+      y: 758
+      width: 24
+      height: 24
+      offsetX: 2
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 20877
+      x: 203
+      y: 732
+      width: 28
+      height: 24
+      offsetX: 0
+      offsetY: 8
+      advance: 28
+      channel: 15
+    - index: 20882
+      x: 0
+      y: 758
+      width: 25
+      height: 24
+      offsetX: 2
+      offsetY: 8
+      advance: 28
+      channel: 15
+    - index: 20892
+      x: 58
+      y: 143
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 20914
+      x: 400
+      y: 471
+      width: 27
+      height: 26
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 20917
+      x: 174
+      y: 733
+      width: 28
+      height: 24
+      offsetX: 0
+      offsetY: 8
+      advance: 28
+      channel: 15
+    - index: 20934
+      x: 545
+      y: 29
+      width: 29
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 20943
+      x: 377
+      y: 390
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 20986
+      x: 408
+      y: 498
+      width: 24
+      height: 26
+      offsetX: 2
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 20987
+      x: 638
+      y: 550
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 20998
+      x: 754
+      y: 548
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 20999
+      x: 512
+      y: 470
+      width: 27
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 21015
+      x: 540
+      y: 470
+      width: 27
+      height: 26
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 21018
+      x: 166
+      y: 499
+      width: 26
+      height: 26
+      offsetX: 1
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 21019
+      x: 568
+      y: 470
+      width: 27
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 21024
+      x: 624
+      y: 470
+      width: 27
+      height: 26
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 21033
+      x: 87
+      y: 656
+      width: 27
+      height: 25
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 21035
+      x: 619
+      y: 654
+      width: 27
+      height: 25
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 21038
+      x: 372
+      y: 471
+      width: 27
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 21040
+      x: 652
+      y: 469
+      width: 27
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 21046
+      x: 708
+      y: 469
+      width: 27
+      height: 26
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 21050
+      x: 591
+      y: 654
+      width: 27
+      height: 25
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 21051
+      x: 598
+      y: 225
+      width: 27
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 21069
+      x: 58
+      y: 604
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 21097
+      x: 820
+      y: 469
+      width: 27
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 21147
+      x: 809
+      y: 652
+      width: 26
+      height: 25
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 21150
+      x: 145
+      y: 604
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 21151
+      x: 563
+      y: 654
+      width: 27
+      height: 25
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 21152
+      x: 766
+      y: 225
+      width: 27
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 21153
+      x: 406
+      y: 390
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 21160
+      x: 580
+      y: 602
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 21161
+      x: 260
+      y: 471
+      width: 27
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 21163
+      x: 56
+      y: 255
+      width: 27
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 21169
+      x: 84
+      y: 255
+      width: 27
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 21195
+      x: 112
+      y: 255
+      width: 27
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 21215
+      x: 783
+      y: 141
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 21253
+      x: 204
+      y: 525
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 21270
+      x: 696
+      y: 601
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 21273
+      x: 435
+      y: 390
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 21290
+      x: 0
+      y: 783
+      width: 26
+      height: 23
+      offsetX: 2
+      offsetY: 8
+      advance: 28
+      channel: 15
+    - index: 21319
+      x: 464
+      y: 389
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 21321
+      x: 87
+      y: 171
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 21333
+      x: 493
+      y: 389
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 21345
+      x: 725
+      y: 600
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 21355
+      x: 355
+      y: 756
+      width: 28
+      height: 23
+      offsetX: 0
+      offsetY: 8
+      advance: 28
+      channel: 15
+    - index: 21360
+      x: 418
+      y: 253
+      width: 26
+      height: 27
+      offsetX: 1
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 21361
+      x: 58
+      y: 630
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 21363
+      x: 647
+      y: 654
+      width: 26
+      height: 25
+      offsetX: 1
+      offsetY: 8
+      advance: 28
+      channel: 15
+    - index: 21378
+      x: 464
+      y: 706
+      width: 28
+      height: 24
+      offsetX: 0
+      offsetY: 8
+      advance: 28
+      channel: 15
+    - index: 21407
+      x: 435
+      y: 706
+      width: 28
+      height: 24
+      offsetX: 0
+      offsetY: 8
+      advance: 28
+      channel: 15
+    - index: 21435
+      x: 348
+      y: 629
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 21442
+      x: 522
+      y: 389
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 21451
+      x: 551
+      y: 389
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 21452
+      x: 493
+      y: 629
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 8
+      advance: 28
+      channel: 15
+    - index: 21457
+      x: 580
+      y: 389
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 21462
+      x: 290
+      y: 706
+      width: 28
+      height: 24
+      offsetX: 0
+      offsetY: 8
+      advance: 28
+      channel: 15
+    - index: 21464
+      x: 609
+      y: 389
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 21476
+      x: 638
+      y: 388
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 21482
+      x: 522
+      y: 629
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 8
+      advance: 28
+      channel: 15
+    - index: 21486
+      x: 701
+      y: 755
+      width: 27
+      height: 23
+      offsetX: 1
+      offsetY: 8
+      advance: 28
+      channel: 15
+    - index: 21487
+      x: 232
+      y: 707
+      width: 28
+      height: 24
+      offsetX: 0
+      offsetY: 8
+      advance: 28
+      channel: 15
+    - index: 21491
+      x: 667
+      y: 388
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 21495
+      x: 180
+      y: 758
+      width: 29
+      height: 23
+      offsetX: 0
+      offsetY: 8
+      advance: 28
+      channel: 15
+    - index: 21508
+      x: 667
+      y: 169
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 21512
+      x: 580
+      y: 628
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 21513
+      x: 696
+      y: 388
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 21514
+      x: 701
+      y: 653
+      width: 26
+      height: 25
+      offsetX: 1
+      offsetY: 8
+      advance: 28
+      channel: 15
+    - index: 21516
+      x: 77
+      y: 758
+      width: 24
+      height: 24
+      offsetX: 2
+      offsetY: 8
+      advance: 28
+      channel: 15
+    - index: 21517
+      x: 80
+      y: 682
+      width: 25
+      height: 25
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 21518
+      x: 812
+      y: 169
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 21521
+      x: 433
+      y: 498
+      width: 24
+      height: 26
+      offsetX: 2
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 21527
+      x: 757
+      y: 754
+      width: 26
+      height: 23
+      offsetX: 1
+      offsetY: 8
+      advance: 28
+      channel: 15
+    - index: 21533
+      x: 58
+      y: 199
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 21542
+      x: 0
+      y: 708
+      width: 28
+      height: 24
+      offsetX: 0
+      offsetY: 8
+      advance: 28
+      channel: 15
+    - index: 21543
+      x: 645
+      y: 755
+      width: 27
+      height: 23
+      offsetX: 1
+      offsetY: 8
+      advance: 28
+      channel: 15
+    - index: 21551
+      x: 308
+      y: 254
+      width: 27
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 21560
+      x: 464
+      y: 731
+      width: 27
+      height: 24
+      offsetX: 1
+      offsetY: 8
+      advance: 28
+      channel: 15
+    - index: 21568
+      x: 520
+      y: 731
+      width: 27
+      height: 24
+      offsetX: 1
+      offsetY: 8
+      advance: 28
+      channel: 15
+    - index: 21592
+      x: 483
+      y: 681
+      width: 28
+      height: 24
+      offsetX: 0
+      offsetY: 8
+      advance: 28
+      channel: 15
+    - index: 21608
+      x: 492
+      y: 731
+      width: 27
+      height: 24
+      offsetX: 0
+      offsetY: 8
+      advance: 28
+      channel: 15
+    - index: 21629
+      x: 725
+      y: 388
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 21644
+      x: 576
+      y: 731
+      width: 27
+      height: 24
+      offsetX: 0
+      offsetY: 8
+      advance: 28
+      channel: 15
+    - index: 21697
+      x: 674
+      y: 653
+      width: 26
+      height: 25
+      offsetX: 1
+      offsetY: 8
+      advance: 28
+      channel: 15
+    - index: 21709
+      x: 193
+      y: 498
+      width: 26
+      height: 26
+      offsetX: 1
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 21710
+      x: 479
+      y: 655
+      width: 27
+      height: 25
+      offsetX: 1
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 21736
+      x: 553
+      y: 253
+      width: 26
+      height: 27
+      offsetX: 1
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 21830
+      x: 754
+      y: 388
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 21868
+      x: 406
+      y: 197
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 21916
+      x: 754
+      y: 626
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 22218
+      x: 464
+      y: 197
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 22235
+      x: 54
+      y: 682
+      width: 25
+      height: 25
+      offsetX: 2
+      offsetY: 8
+      advance: 28
+      channel: 15
+    - index: 22238
+      x: 27
+      y: 682
+      width: 26
+      height: 25
+      offsetX: 1
+      offsetY: 8
+      advance: 28
+      channel: 15
+    - index: 22242
+      x: 658
+      y: 730
+      width: 26
+      height: 24
+      offsetX: 1
+      offsetY: 8
+      advance: 28
+      channel: 15
+    - index: 22269
+      x: 685
+      y: 730
+      width: 26
+      height: 24
+      offsetX: 1
+      offsetY: 8
+      advance: 28
+      channel: 15
+    - index: 22270
+      x: 712
+      y: 729
+      width: 26
+      height: 24
+      offsetX: 1
+      offsetY: 8
+      advance: 28
+      channel: 15
+    - index: 22278
+      x: 739
+      y: 729
+      width: 26
+      height: 24
+      offsetX: 1
+      offsetY: 8
+      advance: 28
+      channel: 15
+    - index: 22303
+      x: 87
+      y: 708
+      width: 28
+      height: 24
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 22307
+      x: 558
+      y: 756
+      width: 28
+      height: 23
+      offsetX: 0
+      offsetY: 8
+      advance: 28
+      channel: 15
+    - index: 22312
+      x: 725
+      y: 197
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 22320
+      x: 150
+      y: 758
+      width: 29
+      height: 23
+      offsetX: 0
+      offsetY: 8
+      advance: 28
+      channel: 15
+    - index: 22330
+      x: 395
+      y: 655
+      width: 27
+      height: 25
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 22336
+      x: 802
+      y: 678
+      width: 28
+      height: 24
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 22343
+      x: 367
+      y: 655
+      width: 27
+      height: 25
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 22353
+      x: 29
+      y: 227
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 22359
+      x: 783
+      y: 388
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 22478
+      x: 737
+      y: 496
+      width: 29
+      height: 25
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 22521
+      x: 116
+      y: 226
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 22522
+      x: 406
+      y: 629
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 22561
+      x: 348
+      y: 706
+      width: 28
+      height: 24
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 22635
+      x: 240
+      y: 282
+      width: 29
+      height: 26
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 22659
+      x: 812
+      y: 388
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 22675
+      x: 290
+      y: 629
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 22686
+      x: 344
+      y: 471
+      width: 27
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 22721
+      x: 0
+      y: 418
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 22763
+      x: 145
+      y: 630
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 22788
+      x: 29
+      y: 418
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 22791
+      x: 30
+      y: 283
+      width: 29
+      height: 26
+      offsetX: -1
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 22797
+      x: 116
+      y: 630
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 22806
+      x: 58
+      y: 418
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 22810
+      x: 318
+      y: 226
+      width: 27
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 22815
+      x: 406
+      y: 113
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 22823
+      x: 87
+      y: 418
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 22825
+      x: 493
+      y: 706
+      width: 28
+      height: 24
+      offsetX: 0
+      offsetY: 8
+      advance: 28
+      channel: 15
+    - index: 22827
+      x: 116
+      y: 418
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 22833
+      x: 0
+      y: 630
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 22836
+      x: 145
+      y: 418
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 22855
+      x: 174
+      y: 417
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 22868
+      x: 145
+      y: 142
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 22870
+      x: 203
+      y: 417
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 22885
+      x: 232
+      y: 417
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 22899
+      x: 540
+      y: 0
+      width: 28
+      height: 28
+      offsetX: 0
+      offsetY: 5
+      advance: 28
+      channel: 15
+    - index: 22909
+      x: 812
+      y: 600
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 22914
+      x: 667
+      y: 141
+      width: 28
+      height: 27
+      offsetX: -1
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 22987
+      x: 754
+      y: 600
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 23043
+      x: 425
+      y: 29
+      width: 29
+      height: 27
+      offsetX: -1
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 23146
+      x: 696
+      y: 141
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 23376
+      x: 609
+      y: 705
+      width: 28
+      height: 24
+      offsetX: 0
+      offsetY: 8
+      advance: 28
+      channel: 15
+    - index: 23383
+      x: 261
+      y: 417
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 23384
+      x: 290
+      y: 417
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 23398
+      x: 638
+      y: 602
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 23427
+      x: 0
+      y: 682
+      width: 26
+      height: 25
+      offsetX: 1
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 23432
+      x: 319
+      y: 417
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 23433
+      x: 58
+      y: 171
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 5
+      advance: 28
+      channel: 15
+    - index: 23436
+      x: 116
+      y: 170
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 5
+      advance: 28
+      channel: 15
+    - index: 23450
+      x: 348
+      y: 417
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 23452
+      x: 522
+      y: 603
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 23453
+      x: 493
+      y: 603
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 23454
+      x: 377
+      y: 417
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 23458
+      x: 783
+      y: 169
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 5
+      advance: 28
+      channel: 15
+    - index: 23478
+      x: 406
+      y: 417
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 23481
+      x: 435
+      y: 417
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 23486
+      x: 87
+      y: 199
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 23500
+      x: 247
+      y: 498
+      width: 26
+      height: 26
+      offsetX: 1
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 23519
+      x: 464
+      y: 416
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 23545
+      x: 696
+      y: 704
+      width: 28
+      height: 24
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 23547
+      x: 812
+      y: 703
+      width: 28
+      height: 24
+      offsetX: 0
+      offsetY: 8
+      advance: 28
+      channel: 15
+    - index: 23558
+      x: 638
+      y: 197
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 23567
+      x: 0
+      y: 733
+      width: 28
+      height: 24
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 23569
+      x: 493
+      y: 416
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 23576
+      x: 58
+      y: 733
+      width: 28
+      height: 24
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 23578
+      x: 533
+      y: 497
+      width: 24
+      height: 26
+      offsetX: 2
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 23581
+      x: 580
+      y: 576
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 23601
+      x: 551
+      y: 576
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 23616
+      x: 673
+      y: 755
+      width: 27
+      height: 23
+      offsetX: 0
+      offsetY: 8
+      advance: 28
+      channel: 15
+    - index: 23631
+      x: 435
+      y: 577
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 8
+      advance: 28
+      channel: 15
+    - index: 23665
+      x: 508
+      y: 497
+      width: 24
+      height: 26
+      offsetX: 2
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 23703
+      x: 558
+      y: 497
+      width: 24
+      height: 26
+      offsetX: 2
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 23721
+      x: 293
+      y: 58
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 23789
+      x: 514
+      y: 225
+      width: 27
+      height: 27
+      offsetX: 1
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 23815
+      x: 522
+      y: 416
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 23830
+      x: 174
+      y: 578
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 24037
+      x: 500
+      y: 756
+      width: 28
+      height: 23
+      offsetX: 0
+      offsetY: 8
+      advance: 28
+      channel: 15
+    - index: 24038
+      x: 116
+      y: 733
+      width: 28
+      height: 24
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 24040
+      x: 784
+      y: 753
+      width: 26
+      height: 23
+      offsetX: 2
+      offsetY: 8
+      advance: 28
+      channel: 15
+    - index: 24043
+      x: 210
+      y: 757
+      width: 28
+      height: 23
+      offsetX: 0
+      offsetY: 8
+      advance: 28
+      channel: 15
+    - index: 24049
+      x: 811
+      y: 753
+      width: 26
+      height: 23
+      offsetX: 2
+      offsetY: 8
+      advance: 28
+      channel: 15
+    - index: 24050
+      x: 729
+      y: 754
+      width: 27
+      height: 23
+      offsetX: 1
+      offsetY: 8
+      advance: 28
+      channel: 15
+    - index: 24065
+      x: 782
+      y: 652
+      width: 26
+      height: 25
+      offsetX: 1
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 24066
+      x: 551
+      y: 416
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 24067
+      x: 554
+      y: 57
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 24069
+      x: 391
+      y: 254
+      width: 26
+      height: 27
+      offsetX: 1
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 24072
+      x: 283
+      y: 655
+      width: 27
+      height: 25
+      offsetX: 1
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 24102
+      x: 580
+      y: 416
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 24110
+      x: 570
+      y: 225
+      width: 27
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 24120
+      x: 364
+      y: 254
+      width: 26
+      height: 27
+      offsetX: 1
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 24125
+      x: 728
+      y: 652
+      width: 26
+      height: 25
+      offsetX: 1
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 24149
+      x: 609
+      y: 416
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 24178
+      x: 348
+      y: 551
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 8
+      advance: 28
+      channel: 15
+    - index: 24182
+      x: 638
+      y: 415
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 24184
+      x: 815
+      y: 57
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 24189
+      x: 139
+      y: 499
+      width: 26
+      height: 26
+      offsetX: 1
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 24207
+      x: 29
+      y: 87
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 24211
+      x: 279
+      y: 0
+      width: 28
+      height: 28
+      offsetX: 0
+      offsetY: 5
+      advance: 28
+      channel: 15
+    - index: 24212
+      x: 58
+      y: 87
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 24215
+      x: 87
+      y: 87
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 24230
+      x: 116
+      y: 86
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 24231
+      x: 667
+      y: 415
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 24310
+      x: 290
+      y: 551
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 24314
+      x: 696
+      y: 415
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 24320
+      x: 232
+      y: 551
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 8
+      advance: 28
+      channel: 15
+    - index: 24335
+      x: 87
+      y: 578
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 24341
+      x: 106
+      y: 682
+      width: 25
+      height: 25
+      offsetX: 1
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 24367
+      x: 551
+      y: 628
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 24377
+      x: 180
+      y: 282
+      width: 29
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 24378
+      x: 233
+      y: 525
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 8
+      advance: 28
+      channel: 15
+    - index: 24402
+      x: 355
+      y: 498
+      width: 26
+      height: 26
+      offsetX: 1
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 24403
+      x: 823
+      y: 280
+      width: 26
+      height: 26
+      offsetX: 1
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 24405
+      x: 338
+      y: 681
+      width: 28
+      height: 24
+      offsetX: 0
+      offsetY: 8
+      advance: 28
+      channel: 15
+    - index: 24425
+      x: 725
+      y: 415
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 24433
+      x: 320
+      y: 525
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 24448
+      x: 494
+      y: 525
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 24452
+      x: 552
+      y: 524
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 24453
+      x: 755
+      y: 522
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 24456
+      x: 380
+      y: 57
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 24459
+      x: 406
+      y: 577
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 24466
+      x: 87
+      y: 115
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 24471
+      x: 522
+      y: 577
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 24515
+      x: 261
+      y: 603
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 24517
+      x: 754
+      y: 703
+      width: 28
+      height: 24
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 24535
+      x: 174
+      y: 708
+      width: 28
+      height: 24
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 24536
+      x: 377
+      y: 706
+      width: 28
+      height: 24
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 24537
+      x: 270
+      y: 282
+      width: 29
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 24555
+      x: 232
+      y: 86
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 24577
+      x: 319
+      y: 706
+      width: 28
+      height: 24
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 24594
+      x: 203
+      y: 114
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 24615
+      x: 464
+      y: 113
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 5
+      advance: 28
+      channel: 15
+    - index: 24618
+      x: 638
+      y: 628
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 24635
+      x: 744
+      y: 678
+      width: 28
+      height: 24
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 24674
+      x: 754
+      y: 113
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 5
+      advance: 28
+      channel: 15
+    - index: 24685
+      x: 754
+      y: 415
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 24687
+      x: 707
+      y: 496
+      width: 29
+      height: 25
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 24694
+      x: 616
+      y: 755
+      width: 28
+      height: 23
+      offsetX: 0
+      offsetY: 8
+      advance: 28
+      channel: 15
+    - index: 24744
+      x: 367
+      y: 681
+      width: 28
+      height: 24
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 24748
+      x: 384
+      y: 756
+      width: 28
+      height: 23
+      offsetX: 0
+      offsetY: 8
+      advance: 28
+      channel: 15
+    - index: 24773
+      x: 464
+      y: 629
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 24800
+      x: 319
+      y: 629
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 24819
+      x: 783
+      y: 415
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 24847
+      x: 232
+      y: 629
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 24863
+      x: 551
+      y: 706
+      width: 28
+      height: 24
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 24868
+      x: 435
+      y: 169
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 24930
+      x: 406
+      y: 603
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 25096
+      x: 725
+      y: 704
+      width: 28
+      height: 24
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 25103
+      x: 87
+      y: 604
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 25104
+      x: 278
+      y: 681
+      width: 29
+      height: 24
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 25105
+      x: 29
+      y: 604
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 25106
+      x: 377
+      y: 197
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 25110
+      x: 797
+      y: 496
+      width: 29
+      height: 25
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 25112
+      x: 609
+      y: 550
+      width: 28
+      height: 25
+      offsetX: 1
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 25130
+      x: 812
+      y: 415
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 25140
+      x: 120
+      y: 283
+      width: 29
+      height: 26
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 25143
+      x: 445
+      y: 253
+      width: 26
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 25152
+      x: 0
+      y: 445
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 25163
+      x: 348
+      y: 731
+      width: 28
+      height: 24
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 25165
+      x: 174
+      y: 552
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 25171
+      x: 783
+      y: 574
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 25214
+      x: 667
+      y: 705
+      width: 28
+      height: 24
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 25216
+      x: 551
+      y: 602
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 25226
+      x: 580
+      y: 550
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 25235
+      x: 812
+      y: 141
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 25252
+      x: 423
+      y: 655
+      width: 27
+      height: 25
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 25253
+      x: 261
+      y: 707
+      width: 28
+      height: 24
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 25265
+      x: 406
+      y: 706
+      width: 28
+      height: 24
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 25289
+      x: 58
+      y: 656
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 25300
+      x: 87
+      y: 630
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 25302
+      x: 522
+      y: 706
+      width: 28
+      height: 24
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 25307
+      x: 339
+      y: 655
+      width: 27
+      height: 25
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 25308
+      x: 377
+      y: 551
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 8
+      advance: 28
+      channel: 15
+    - index: 25321
+      x: 406
+      y: 551
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 25327
+      x: 641
+      y: 57
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 25345
+      x: 29
+      y: 445
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 25353
+      x: 58
+      y: 445
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 25361
+      x: 145
+      y: 86
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 25381
+      x: 551
+      y: 550
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 25439
+      x: 493
+      y: 85
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 25441
+      x: 680
+      y: 253
+      width: 29
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 25442
+      x: 605
+      y: 29
+      width: 29
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 25443
+      x: 261
+      y: 226
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 5
+      advance: 28
+      channel: 15
+    - index: 25454
+      x: 87
+      y: 445
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 25481
+      x: 728
+      y: 57
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 5
+      advance: 28
+      channel: 15
+    - index: 25490
+      x: 116
+      y: 445
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 25506
+      x: 0
+      y: 283
+      width: 29
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 25509
+      x: 786
+      y: 57
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 25511
+      x: 145
+      y: 445
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 25512
+      x: 150
+      y: 282
+      width: 29
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 25551
+      x: 203
+      y: 444
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 25552
+      x: 725
+      y: 574
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 25588
+      x: 232
+      y: 444
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 25628
+      x: 261
+      y: 444
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 25658
+      x: 174
+      y: 86
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 25671
+      x: 290
+      y: 444
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 25758
+      x: 525
+      y: 57
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 5
+      advance: 28
+      channel: 15
+    - index: 25856
+      x: 351
+      y: 57
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 25903
+      x: 784
+      y: 522
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 25910
+      x: 261
+      y: 551
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 25913
+      x: 812
+      y: 548
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 25915
+      x: 677
+      y: 496
+      width: 29
+      height: 25
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 25918
+      x: 232
+      y: 226
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 5
+      advance: 28
+      channel: 15
+    - index: 25919
+      x: 620
+      y: 253
+      width: 29
+      height: 26
+      offsetX: 0
+      offsetY: 5
+      advance: 28
+      channel: 15
+    - index: 25928
+      x: 29
+      y: 199
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 5
+      advance: 28
+      channel: 15
+    - index: 25932
+      x: 0
+      y: 199
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 25935
+      x: 464
+      y: 169
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 5
+      advance: 28
+      channel: 15
+    - index: 25937
+      x: 145
+      y: 170
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 25945
+      x: 29
+      y: 171
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 25955
+      x: 319
+      y: 444
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 25964
+      x: 455
+      y: 29
+      width: 29
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 25968
+      x: 290
+      y: 142
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 25972
+      x: 616
+      y: 497
+      width: 30
+      height: 25
+      offsetX: -1
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 25991
+      x: 203
+      y: 142
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 4
+      advance: 28
+      channel: 15
+    - index: 26009
+      x: 116
+      y: 142
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 26012
+      x: 348
+      y: 444
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 26031
+      x: 377
+      y: 444
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 26032
+      x: 406
+      y: 444
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 26041
+      x: 0
+      y: 0
+      width: 28
+      height: 29
+      offsetX: 0
+      offsetY: 4
+      advance: 28
+      channel: 15
+    - index: 26053
+      x: 435
+      y: 444
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 26080
+      x: 697
+      y: 522
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 8
+      advance: 28
+      channel: 15
+    - index: 26085
+      x: 127
+      y: 758
+      width: 22
+      height: 24
+      offsetX: 3
+      offsetY: 8
+      advance: 28
+      channel: 15
+    - index: 26102
+      x: 115
+      y: 656
+      width: 27
+      height: 25
+      offsetX: 1
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 26126
+      x: 631
+      y: 730
+      width: 26
+      height: 24
+      offsetX: 1
+      offsetY: 8
+      advance: 28
+      channel: 15
+    - index: 26143
+      x: 239
+      y: 757
+      width: 28
+      height: 23
+      offsetX: 0
+      offsetY: 8
+      advance: 28
+      channel: 15
+    - index: 26159
+      x: 454
+      y: 681
+      width: 28
+      height: 24
+      offsetX: 0
+      offsetY: 8
+      advance: 28
+      channel: 15
+    - index: 26174
+      x: 587
+      y: 756
+      width: 28
+      height: 23
+      offsetX: 0
+      offsetY: 8
+      advance: 28
+      channel: 15
+    - index: 26222
+      x: 464
+      y: 443
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 26223
+      x: 766
+      y: 728
+      width: 26
+      height: 24
+      offsetX: 1
+      offsetY: 8
+      advance: 28
+      channel: 15
+    - index: 26230
+      x: 793
+      y: 728
+      width: 26
+      height: 24
+      offsetX: 1
+      offsetY: 8
+      advance: 28
+      channel: 15
+    - index: 26263
+      x: 346
+      y: 226
+      width: 27
+      height: 27
+      offsetX: 1
+      offsetY: 5
+      advance: 28
+      channel: 15
+    - index: 26292
+      x: 248
+      y: 682
+      width: 29
+      height: 24
+      offsetX: 0
+      offsetY: 8
+      advance: 28
+      channel: 15
+    - index: 26356
+      x: 232
+      y: 732
+      width: 28
+      height: 24
+      offsetX: 0
+      offsetY: 8
+      advance: 28
+      channel: 15
+    - index: 26366
+      x: 526
+      y: 253
+      width: 26
+      height: 27
+      offsetX: 1
+      offsetY: 5
+      advance: 28
+      channel: 15
+    - index: 26367
+      x: 493
+      y: 443
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 26368
+      x: 145
+      y: 733
+      width: 28
+      height: 24
+      offsetX: 0
+      offsetY: 8
+      advance: 28
+      channel: 15
+    - index: 26377
+      x: 58
+      y: 227
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 5
+      advance: 28
+      channel: 15
+    - index: 26379
+      x: 311
+      y: 655
+      width: 27
+      height: 25
+      offsetX: 0
+      offsetY: 8
+      advance: 28
+      channel: 15
+    - index: 26381
+      x: 377
+      y: 577
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 8
+      advance: 28
+      channel: 15
+    - index: 26399
+      x: 792
+      y: 469
+      width: 27
+      height: 26
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 26408
+      x: 522
+      y: 443
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 26410
+      x: 232
+      y: 198
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 5
+      advance: 28
+      channel: 15
+    - index: 26412
+      x: 696
+      y: 169
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 26420
+      x: 609
+      y: 169
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 26426
+      x: 210
+      y: 282
+      width: 29
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 26435
+      x: 493
+      y: 169
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 26449
+      x: 551
+      y: 443
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 26454
+      x: 377
+      y: 169
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 26463
+      x: 580
+      y: 443
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 26465
+      x: 609
+      y: 443
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 26469
+      x: 638
+      y: 442
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 26494
+      x: 348
+      y: 170
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 26500
+      x: 280
+      y: 254
+      width: 27
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 26519
+      x: 667
+      y: 442
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 26522
+      x: 696
+      y: 442
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 26524
+      x: 116
+      y: 708
+      width: 28
+      height: 24
+      offsetX: 0
+      offsetY: 8
+      advance: 28
+      channel: 15
+    - index: 26550
+      x: 725
+      y: 442
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 26597
+      x: 0
+      y: 656
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 26629
+      x: 754
+      y: 442
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 26631
+      x: 783
+      y: 442
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 26639
+      x: 569
+      y: 0
+      width: 28
+      height: 28
+      offsetX: 0
+      offsetY: 5
+      advance: 28
+      channel: 15
+    - index: 26641
+      x: 30
+      y: 59
+      width: 29
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 26681
+      x: 174
+      y: 142
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 26684
+      x: 812
+      y: 442
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 26723
+      x: 812
+      y: 113
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 26725
+      x: 783
+      y: 113
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 26742
+      x: 764
+      y: 469
+      width: 27
+      height: 26
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 26790
+      x: 87
+      y: 29
+      width: 28
+      height: 28
+      offsetX: 0
+      offsetY: 5
+      advance: 28
+      channel: 15
+    - index: 26834
+      x: 58
+      y: 30
+      width: 28
+      height: 28
+      offsetX: 0
+      offsetY: 5
+      advance: 28
+      channel: 15
+    - index: 26840
+      x: 0
+      y: 472
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 26862
+      x: 438
+      y: 57
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 26869
+      x: 261
+      y: 86
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 26893
+      x: 29
+      y: 472
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 27036
+      x: 145
+      y: 114
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 27169
+      x: 801
+      y: 0
+      width: 28
+      height: 28
+      offsetX: 0
+      offsetY: 5
+      advance: 28
+      channel: 15
+    - index: 27189
+      x: 696
+      y: 197
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 27425
+      x: 58
+      y: 472
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 27426
+      x: 87
+      y: 472
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 27454
+      x: 348
+      y: 114
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 5
+      advance: 28
+      channel: 15
+    - index: 27465
+      x: 754
+      y: 85
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 27490
+      x: 493
+      y: 551
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 27491
+      x: 471
+      y: 756
+      width: 28
+      height: 23
+      offsetX: 0
+      offsetY: 8
+      advance: 28
+      channel: 15
+    - index: 27492
+      x: 116
+      y: 472
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 5
+      advance: 28
+      channel: 15
+    - index: 27493
+      x: 145
+      y: 472
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 27515
+      x: 647
+      y: 497
+      width: 29
+      height: 25
+      offsetX: 0
+      offsetY: 8
+      advance: 28
+      channel: 15
+    - index: 27599
+      x: 174
+      y: 471
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 27604
+      x: 451
+      y: 655
+      width: 27
+      height: 25
+      offsetX: 1
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 27605
+      x: 203
+      y: 471
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 27665
+      x: 604
+      y: 730
+      width: 26
+      height: 24
+      offsetX: 2
+      offsetY: 8
+      advance: 28
+      channel: 15
+    - index: 27668
+      x: 148
+      y: 58
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 27700
+      x: 330
+      y: 282
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 27704
+      x: 359
+      y: 282
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 27714
+      x: 388
+      y: 282
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 27785
+      x: 417
+      y: 282
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 27809
+      x: 638
+      y: 141
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 27827
+      x: 523
+      y: 524
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 27839
+      x: 261
+      y: 114
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 27861
+      x: 446
+      y: 281
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 27873
+      x: 232
+      y: 114
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 5
+      advance: 28
+      channel: 15
+    - index: 27880
+      x: 406
+      y: 85
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 5
+      advance: 28
+      channel: 15
+    - index: 27891
+      x: 377
+      y: 85
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 27927
+      x: 366
+      y: 0
+      width: 28
+      height: 28
+      offsetX: 0
+      offsetY: 5
+      advance: 28
+      channel: 15
+    - index: 27934
+      x: 143
+      y: 656
+      width: 27
+      height: 25
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 27963
+      x: 348
+      y: 86
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 27969
+      x: 189
+      y: 0
+      width: 29
+      height: 28
+      offsetX: 0
+      offsetY: 5
+      advance: 28
+      channel: 15
+    - index: 28034
+      x: 475
+      y: 281
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 28040
+      x: 428
+      y: 471
+      width: 27
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 28120
+      x: 486
+      y: 225
+      width: 27
+      height: 27
+      offsetX: 0
+      offsetY: 5
+      advance: 28
+      channel: 15
+    - index: 28145
+      x: 609
+      y: 576
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 28165
+      x: 290
+      y: 86
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 5
+      advance: 28
+      channel: 15
+    - index: 28216
+      x: 99
+      y: 0
+      width: 29
+      height: 28
+      offsetX: -1
+      offsetY: 5
+      advance: 28
+      channel: 15
+    - index: 28304
+      x: 504
+      y: 281
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 28369
+      x: 28
+      y: 499
+      width: 27
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 28378
+      x: 203
+      y: 86
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 5
+      advance: 28
+      channel: 15
+    - index: 28385
+      x: 533
+      y: 281
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 28436
+      x: 173
+      y: 29
+      width: 27
+      height: 28
+      offsetX: 0
+      offsetY: 5
+      advance: 28
+      channel: 15
+    - index: 28459
+      x: 562
+      y: 281
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 28608
+      x: 69
+      y: 0
+      width: 29
+      height: 28
+      offsetX: -1
+      offsetY: 5
+      advance: 28
+      channel: 15
+    - index: 28779
+      x: 591
+      y: 281
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 28783
+      x: 620
+      y: 280
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 28784
+      x: 757
+      y: 57
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 5
+      advance: 28
+      channel: 15
+    - index: 28789
+      x: 319
+      y: 731
+      width: 28
+      height: 24
+      offsetX: 0
+      offsetY: 8
+      advance: 28
+      channel: 15
+    - index: 28856
+      x: 649
+      y: 280
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 28857
+      x: 678
+      y: 280
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 28895
+      x: 255
+      y: 655
+      width: 27
+      height: 25
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 28903
+      x: 395
+      y: 0
+      width: 28
+      height: 28
+      offsetX: 0
+      offsetY: 5
+      advance: 28
+      channel: 15
+    - index: 28909
+      x: 650
+      y: 253
+      width: 29
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 28982
+      x: 159
+      y: 0
+      width: 29
+      height: 28
+      offsetX: -1
+      offsetY: 5
+      advance: 28
+      channel: 15
+    - index: 29004
+      x: 515
+      y: 29
+      width: 29
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 29087
+      x: 707
+      y: 280
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 29123
+      x: 496
+      y: 57
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 29190
+      x: 667
+      y: 549
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 29233
+      x: 696
+      y: 549
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 29237
+      x: 456
+      y: 471
+      width: 27
+      height: 26
+      offsetX: 1
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 29245
+      x: 467
+      y: 57
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 29255
+      x: 484
+      y: 470
+      width: 27
+      height: 26
+      offsetX: 1
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 29256
+      x: 736
+      y: 280
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 29260
+      x: 395
+      y: 29
+      width: 29
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 29289
+      x: 765
+      y: 280
+      width: 28
+      height: 26
+      offsetX: -1
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 29305
+      x: 740
+      y: 253
+      width: 29
+      height: 26
+      offsetX: -1
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 29366
+      x: 794
+      y: 280
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 29378
+      x: 116
+      y: 578
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 29394
+      x: 409
+      y: 57
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 29399
+      x: 542
+      y: 225
+      width: 27
+      height: 27
+      offsetX: 0
+      offsetY: 5
+      advance: 28
+      channel: 15
+    - index: 29492
+      x: 264
+      y: 58
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 29575
+      x: 0
+      y: 310
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 29579
+      x: 442
+      y: 756
+      width: 28
+      height: 23
+      offsetX: 0
+      offsetY: 8
+      advance: 28
+      channel: 15
+    - index: 29609
+      x: 308
+      y: 681
+      width: 29
+      height: 24
+      offsetX: 0
+      offsetY: 8
+      advance: 28
+      channel: 15
+    - index: 29615
+      x: 87
+      y: 733
+      width: 28
+      height: 24
+      offsetX: 0
+      offsetY: 8
+      advance: 28
+      channel: 15
+    - index: 29616
+      x: 348
+      y: 577
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 8
+      advance: 28
+      channel: 15
+    - index: 29699
+      x: 29
+      y: 310
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 29702
+      x: 529
+      y: 756
+      width: 28
+      height: 23
+      offsetX: 0
+      offsetY: 8
+      advance: 28
+      channel: 15
+    - index: 29747
+      x: 206
+      y: 58
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 5
+      advance: 28
+      channel: 15
+    - index: 29943
+      x: 177
+      y: 58
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 29983
+      x: 493
+      y: 577
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 29992
+      x: 548
+      y: 731
+      width: 27
+      height: 24
+      offsetX: 0
+      offsetY: 8
+      advance: 28
+      channel: 15
+    - index: 30001
+      x: 580
+      y: 253
+      width: 24
+      height: 27
+      offsetX: 2
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 30005
+      x: 458
+      y: 225
+      width: 27
+      height: 27
+      offsetX: 1
+      offsetY: 5
+      advance: 28
+      channel: 15
+    - index: 30021
+      x: 274
+      y: 498
+      width: 26
+      height: 26
+      offsetX: 1
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 30028
+      x: 638
+      y: 576
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 8
+      advance: 28
+      channel: 15
+    - index: 30041
+      x: 755
+      y: 652
+      width: 26
+      height: 25
+      offsetX: 1
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 30053
+      x: 430
+      y: 225
+      width: 27
+      height: 27
+      offsetX: 1
+      offsetY: 5
+      advance: 28
+      channel: 15
+    - index: 30058
+      x: 90
+      y: 58
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 30331
+      x: 58
+      y: 310
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 30334
+      x: 29
+      y: 733
+      width: 28
+      height: 24
+      offsetX: 0
+      offsetY: 8
+      advance: 28
+      channel: 15
+    - index: 30340
+      x: 301
+      y: 498
+      width: 26
+      height: 26
+      offsetX: 1
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 30418
+      x: 87
+      y: 310
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 30422
+      x: 116
+      y: 310
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 5
+      advance: 28
+      channel: 15
+    - index: 30423
+      x: 145
+      y: 310
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 5
+      advance: 28
+      channel: 15
+    - index: 30427
+      x: 174
+      y: 309
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 5
+      advance: 28
+      channel: 15
+    - index: 30446
+      x: 827
+      y: 496
+      width: 22
+      height: 25
+      offsetX: 3
+      offsetY: 8
+      advance: 28
+      channel: 15
+    - index: 30456
+      x: 402
+      y: 225
+      width: 27
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 30462
+      x: 174
+      y: 604
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 8
+      advance: 28
+      channel: 15
+    - index: 30475
+      x: 203
+      y: 604
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 30495
+      x: 522
+      y: 197
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 30496
+      x: 783
+      y: 703
+      width: 28
+      height: 24
+      offsetX: 1
+      offsetY: 8
+      advance: 28
+      channel: 15
+    - index: 30504
+      x: 203
+      y: 309
+      width: 28
+      height: 26
+      offsetX: 1
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 30524
+      x: 84
+      y: 499
+      width: 27
+      height: 26
+      offsetX: 1
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 30528
+      x: 493
+      y: 197
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 5
+      advance: 28
+      channel: 15
+    - index: 30701
+      x: 377
+      y: 603
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 30707
+      x: 232
+      y: 309
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 8
+      advance: 28
+      channel: 15
+    - index: 30719
+      x: 424
+      y: 0
+      width: 28
+      height: 28
+      offsetX: 0
+      offsetY: 5
+      advance: 28
+      channel: 15
+    - index: 30740
+      x: 464
+      y: 603
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 8
+      advance: 28
+      channel: 15
+    - index: 30742
+      x: 174
+      y: 170
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 30772
+      x: 129
+      y: 0
+      width: 29
+      height: 28
+      offsetX: 0
+      offsetY: 5
+      advance: 28
+      channel: 15
+    - index: 30828
+      x: 638
+      y: 705
+      width: 28
+      height: 24
+      offsetX: 0
+      offsetY: 8
+      advance: 28
+      channel: 15
+    - index: 30830
+      x: 229
+      y: 29
+      width: 27
+      height: 28
+      offsetX: 0
+      offsetY: 5
+      advance: 28
+      channel: 15
+    - index: 30861
+      x: 218
+      y: 682
+      width: 29
+      height: 24
+      offsetX: 0
+      offsetY: 8
+      advance: 28
+      channel: 15
+    - index: 30865
+      x: 485
+      y: 29
+      width: 29
+      height: 27
+      offsetX: 0
+      offsetY: 5
+      advance: 28
+      channel: 15
+    - index: 30896
+      x: 261
+      y: 309
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 5
+      advance: 28
+      channel: 15
+    - index: 30913
+      x: 754
+      y: 141
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 5
+      advance: 28
+      channel: 15
+    - index: 31034
+      x: 580
+      y: 705
+      width: 28
+      height: 24
+      offsetX: 0
+      offsetY: 8
+      advance: 28
+      channel: 15
+    - index: 31036
+      x: 598
+      y: 0
+      width: 28
+      height: 28
+      offsetX: 0
+      offsetY: 5
+      advance: 28
+      channel: 15
+    - index: 31038
+      x: 290
+      y: 309
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 31070
+      x: 374
+      y: 226
+      width: 27
+      height: 27
+      offsetX: 0
+      offsetY: 5
+      advance: 28
+      channel: 15
+    - index: 31077
+      x: 0
+      y: 143
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 31105
+      x: 319
+      y: 309
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 31163
+      x: 580
+      y: 113
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 5
+      advance: 28
+      channel: 15
+    - index: 31169
+      x: 348
+      y: 309
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 31181
+      x: 336
+      y: 254
+      width: 27
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 31215
+      x: 300
+      y: 282
+      width: 29
+      height: 26
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 31216
+      x: 377
+      y: 309
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 31243
+      x: 203
+      y: 630
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 31245
+      x: 406
+      y: 309
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 31283
+      x: 60
+      y: 59
+      width: 29
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 31350
+      x: 203
+      y: 226
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 5
+      advance: 28
+      channel: 15
+    - index: 31354
+      x: 435
+      y: 309
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 5
+      advance: 28
+      channel: 15
+    - index: 31359
+      x: 464
+      y: 308
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 31361
+      x: 174
+      y: 226
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 5
+      advance: 28
+      channel: 15
+    - index: 31364
+      x: 145
+      y: 226
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 31435
+      x: 87
+      y: 227
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 4
+      advance: 28
+      channel: 15
+    - index: 31561
+      x: 0
+      y: 227
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 5
+      advance: 28
+      channel: 15
+    - index: 31563
+      x: 812
+      y: 197
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 31569
+      x: 493
+      y: 308
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 31574
+      x: 783
+      y: 197
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 31616
+      x: 754
+      y: 197
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 5
+      advance: 28
+      channel: 15
+    - index: 31665
+      x: 772
+      y: 0
+      width: 28
+      height: 28
+      offsetX: 0
+      offsetY: 5
+      advance: 28
+      channel: 15
+    - index: 31726
+      x: 522
+      y: 308
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 31859
+      x: 667
+      y: 627
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 31867
+      x: 667
+      y: 197
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 31881
+      x: 725
+      y: 626
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 31934
+      x: 551
+      y: 308
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 31957
+      x: 743
+      y: 0
+      width: 28
+      height: 28
+      offsetX: 0
+      offsetY: 5
+      advance: 28
+      channel: 15
+    - index: 31967
+      x: 609
+      y: 197
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 32032
+      x: 580
+      y: 308
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 32034
+      x: 580
+      y: 197
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 5
+      advance: 28
+      channel: 15
+    - index: 32047
+      x: 570
+      y: 680
+      width: 28
+      height: 24
+      offsetX: 0
+      offsetY: 8
+      advance: 28
+      channel: 15
+    - index: 32423
+      x: 696
+      y: 575
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 32426
+      x: 609
+      y: 308
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 32431
+      x: 638
+      y: 307
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 32451
+      x: 767
+      y: 496
+      width: 29
+      height: 25
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 32452
+      x: 725
+      y: 548
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 32454
+      x: 232
+      y: 471
+      width: 27
+      height: 26
+      offsetX: 0
+      offsetY: 5
+      advance: 28
+      channel: 15
+    - index: 32458
+      x: 551
+      y: 197
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 32463
+      x: 773
+      y: 678
+      width: 28
+      height: 24
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 32467
+      x: 815
+      y: 29
+      width: 29
+      height: 27
+      offsetX: -1
+      offsetY: 5
+      advance: 28
+      channel: 15
+    - index: 32473
+      x: 785
+      y: 29
+      width: 29
+      height: 27
+      offsetX: -1
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 32476
+      x: 667
+      y: 307
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 5
+      advance: 28
+      channel: 15
+    - index: 32477
+      x: 696
+      y: 307
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 5
+      advance: 28
+      channel: 15
+    - index: 32479
+      x: 725
+      y: 307
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 32487
+      x: 754
+      y: 307
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 32489
+      x: 435
+      y: 197
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 32493
+      x: 348
+      y: 198
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 32541
+      x: 319
+      y: 198
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 32593
+      x: 52
+      y: 758
+      width: 24
+      height: 24
+      offsetX: 2
+      offsetY: 8
+      advance: 28
+      channel: 15
+    - index: 32622
+      x: 667
+      y: 601
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 32654
+      x: 290
+      y: 198
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 5
+      advance: 28
+      channel: 15
+    - index: 32676
+      x: 783
+      y: 307
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 32705
+      x: 261
+      y: 198
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 32736
+      x: 232
+      y: 577
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 8
+      advance: 28
+      channel: 15
+    - index: 32737
+      x: 203
+      y: 198
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 32763
+      x: 507
+      y: 655
+      width: 27
+      height: 25
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 32771
+      x: 522
+      y: 551
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 32773
+      x: 174
+      y: 198
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 32780
+      x: 512
+      y: 681
+      width: 28
+      height: 24
+      offsetX: 0
+      offsetY: 8
+      advance: 28
+      channel: 15
+    - index: 32781
+      x: 464
+      y: 551
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 8
+      advance: 28
+      channel: 15
+    - index: 32784
+      x: 812
+      y: 307
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 32791
+      x: 145
+      y: 198
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 32852
+      x: 0
+      y: 337
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 32938
+      x: 335
+      y: 29
+      width: 29
+      height: 27
+      offsetX: -1
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 32966
+      x: 812
+      y: 626
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 8
+      advance: 28
+      channel: 15
+    - index: 32988
+      x: 783
+      y: 626
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 33021
+      x: 29
+      y: 337
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 33026
+      x: 116
+      y: 198
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 33050
+      x: 535
+      y: 655
+      width: 27
+      height: 25
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 33258
+      x: 312
+      y: 29
+      width: 22
+      height: 28
+      offsetX: 3
+      offsetY: 5
+      advance: 28
+      channel: 15
+    - index: 33267
+      x: 297
+      y: 756
+      width: 28
+      height: 23
+      offsetX: 0
+      offsetY: 8
+      advance: 28
+      channel: 15
+    - index: 33298
+      x: 755
+      y: 29
+      width: 29
+      height: 27
+      offsetX: 0
+      offsetY: 5
+      advance: 28
+      channel: 15
+    - index: 33310
+      x: 725
+      y: 29
+      width: 29
+      height: 27
+      offsetX: -1
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 33394
+      x: 58
+      y: 337
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 33410
+      x: 685
+      y: 0
+      width: 28
+      height: 28
+      offsetX: 0
+      offsetY: 5
+      advance: 28
+      channel: 15
+    - index: 33452
+      x: 754
+      y: 169
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 33457
+      x: 725
+      y: 169
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 33521
+      x: 87
+      y: 337
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 33606
+      x: 0
+      y: 255
+      width: 27
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 33609
+      x: 638
+      y: 169
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 33719
+      x: 580
+      y: 169
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 33756
+      x: 551
+      y: 169
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 33778
+      x: 522
+      y: 169
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 33795
+      x: 665
+      y: 29
+      width: 29
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 33988
+      x: 116
+      y: 337
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 34255
+      x: 406
+      y: 169
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 34880
+      x: 377
+      y: 629
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 34892
+      x: 145
+      y: 337
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 34917
+      x: 319
+      y: 170
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 34920
+      x: 290
+      y: 170
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 34955
+      x: 261
+      y: 170
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 34987
+      x: 232
+      y: 170
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 35010
+      x: 203
+      y: 170
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 35013
+      x: 656
+      y: 0
+      width: 28
+      height: 28
+      offsetX: 0
+      offsetY: 5
+      advance: 28
+      channel: 15
+    - index: 35201
+      x: 29
+      y: 630
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 8
+      advance: 28
+      channel: 15
+    - index: 35266
+      x: 783
+      y: 600
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 8
+      advance: 28
+      channel: 15
+    - index: 35268
+      x: 627
+      y: 0
+      width: 28
+      height: 28
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 35270
+      x: 219
+      y: 0
+      width: 29
+      height: 28
+      offsetX: 0
+      offsetY: 5
+      advance: 28
+      channel: 15
+    - index: 35272
+      x: 0
+      y: 171
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 35273
+      x: 511
+      y: 0
+      width: 28
+      height: 28
+      offsetX: 0
+      offsetY: 5
+      advance: 28
+      channel: 15
+    - index: 35282
+      x: 285
+      y: 29
+      width: 26
+      height: 28
+      offsetX: 0
+      offsetY: 5
+      advance: 28
+      channel: 15
+    - index: 35299
+      x: 174
+      y: 336
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 35686
+      x: 725
+      y: 141
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 35745
+      x: 203
+      y: 336
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 35753
+      x: 348
+      y: 603
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 35759
+      x: 174
+      y: 630
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 35760
+      x: 232
+      y: 336
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 35774
+      x: 261
+      y: 336
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 35775
+      x: 482
+      y: 0
+      width: 28
+      height: 28
+      offsetX: 0
+      offsetY: 5
+      advance: 28
+      channel: 15
+    - index: 35780
+      x: 232
+      y: 603
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 35797
+      x: 453
+      y: 0
+      width: 28
+      height: 28
+      offsetX: 0
+      offsetY: 5
+      advance: 28
+      channel: 15
+    - index: 35805
+      x: 609
+      y: 141
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 35813
+      x: 580
+      y: 141
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 35814
+      x: 551
+      y: 141
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 35823
+      x: 290
+      y: 336
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 35828
+      x: 522
+      y: 141
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 35831
+      x: 319
+      y: 336
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 35845
+      x: 493
+      y: 141
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 35874
+      x: 348
+      y: 336
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 35895
+      x: 464
+      y: 141
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 35937
+      x: 377
+      y: 336
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 36130
+      x: 435
+      y: 141
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 36133
+      x: 406
+      y: 141
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 36134
+      x: 377
+      y: 141
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 36136
+      x: 348
+      y: 142
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 36138
+      x: 319
+      y: 142
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 36141
+      x: 257
+      y: 29
+      width: 27
+      height: 28
+      offsetX: 0
+      offsetY: 5
+      advance: 28
+      channel: 15
+    - index: 36142
+      x: 58
+      y: 578
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 36151
+      x: 261
+      y: 142
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 36153
+      x: 290
+      y: 226
+      width: 27
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 36164
+      x: 232
+      y: 142
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 36187
+      x: 308
+      y: 0
+      width: 28
+      height: 28
+      offsetX: 0
+      offsetY: 5
+      advance: 28
+      channel: 15
+    - index: 36192
+      x: 224
+      y: 254
+      width: 27
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 36194
+      x: 29
+      y: 30
+      width: 28
+      height: 28
+      offsetX: 0
+      offsetY: 5
+      advance: 28
+      channel: 15
+    - index: 36208
+      x: 87
+      y: 143
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 36215
+      x: 29
+      y: 143
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 36229
+      x: 406
+      y: 336
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 36234
+      x: 812
+      y: 85
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 36259
+      x: 435
+      y: 336
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 36275
+      x: 319
+      y: 577
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 8
+      advance: 28
+      channel: 15
+    - index: 36291
+      x: 261
+      y: 732
+      width: 28
+      height: 24
+      offsetX: 0
+      offsetY: 8
+      advance: 28
+      channel: 15
+    - index: 36305
+      x: 464
+      y: 335
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 36317
+      x: 290
+      y: 731
+      width: 28
+      height: 24
+      offsetX: 0
+      offsetY: 8
+      advance: 28
+      channel: 15
+    - index: 36328
+      x: 493
+      y: 335
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 36335
+      x: 522
+      y: 335
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 36339
+      x: 770
+      y: 253
+      width: 29
+      height: 26
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 36394
+      x: 174
+      y: 444
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 36424
+      x: 682
+      y: 225
+      width: 27
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 36481
+      x: 0
+      y: 526
+      width: 29
+      height: 25
+      offsetX: 0
+      offsetY: 8
+      advance: 28
+      channel: 15
+    - index: 36523
+      x: 551
+      y: 335
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 36530
+      x: 725
+      y: 113
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 36710
+      x: 696
+      y: 113
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 36716
+      x: 667
+      y: 113
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 36719
+      x: 695
+      y: 29
+      width: 29
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 36731
+      x: 580
+      y: 335
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 36733
+      x: 493
+      y: 113
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 36742
+      x: 377
+      y: 113
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 36745
+      x: 522
+      y: 113
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 36767
+      x: 612
+      y: 57
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 36793
+      x: 609
+      y: 335
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 36798
+      x: 638
+      y: 334
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 36807
+      x: 667
+      y: 334
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 36814
+      x: 435
+      y: 551
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 36816
+      x: 726
+      y: 522
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 36817
+      x: 696
+      y: 334
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 36820
+      x: 668
+      y: 523
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 36824
+      x: 725
+      y: 334
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 36825
+      x: 754
+      y: 334
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 36827
+      x: 639
+      y: 523
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 36828
+      x: 610
+      y: 524
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 36830
+      x: 319
+      y: 86
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 5
+      advance: 28
+      channel: 15
+    - index: 36842
+      x: 783
+      y: 334
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 36848
+      x: 812
+      y: 334
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 36857
+      x: 0
+      y: 364
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 36864
+      x: 29
+      y: 364
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 36865
+      x: 464
+      y: 85
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 5
+      advance: 28
+      channel: 15
+    - index: 36867
+      x: 58
+      y: 364
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 36873
+      x: 0
+      y: 115
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 5
+      advance: 28
+      channel: 15
+    - index: 36879
+      x: 407
+      y: 525
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 36884
+      x: 800
+      y: 253
+      width: 29
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 36890
+      x: 349
+      y: 525
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 36895
+      x: 87
+      y: 364
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 36896
+      x: 116
+      y: 364
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 36935
+      x: 145
+      y: 364
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 36947
+      x: 29
+      y: 115
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 5
+      advance: 28
+      channel: 15
+    - index: 36951
+      x: 174
+      y: 363
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 36965
+      x: 203
+      y: 363
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 36991
+      x: 783
+      y: 85
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 5
+      advance: 28
+      channel: 15
+    - index: 36992
+      x: 232
+      y: 363
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 37027
+      x: 175
+      y: 526
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 8
+      advance: 28
+      channel: 15
+    - index: 37034
+      x: 146
+      y: 526
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 8
+      advance: 28
+      channel: 15
+    - index: 37038
+      x: 196
+      y: 254
+      width: 27
+      height: 27
+      offsetX: 1
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 37096
+      x: 670
+      y: 57
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 37117
+      x: 235
+      y: 58
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 37197
+      x: 59
+      y: 526
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 8
+      advance: 28
+      channel: 15
+    - index: 37226
+      x: 119
+      y: 58
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 37228
+      x: 168
+      y: 254
+      width: 27
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 37322
+      x: 609
+      y: 113
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 37324
+      x: 413
+      y: 756
+      width: 28
+      height: 23
+      offsetX: 0
+      offsetY: 8
+      advance: 28
+      channel: 15
+    - index: 37325
+      x: 396
+      y: 681
+      width: 28
+      height: 24
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 37326
+      x: 425
+      y: 681
+      width: 28
+      height: 24
+      offsetX: 0
+      offsetY: 8
+      advance: 28
+      channel: 15
+    - index: 37327
+      x: 29
+      y: 656
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 37329
+      x: 696
+      y: 627
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 38053
+      x: 145
+      y: 29
+      width: 27
+      height: 28
+      offsetX: 0
+      offsetY: 5
+      advance: 28
+      channel: 15
+    - index: 38065
+      x: 261
+      y: 363
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 38081
+      x: 290
+      y: 363
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 38108
+      x: 0
+      y: 499
+      width: 27
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 38134
+      x: 635
+      y: 29
+      width: 29
+      height: 27
+      offsetX: -1
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 38136
+      x: 0
+      y: 59
+      width: 29
+      height: 27
+      offsetX: -1
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 38138
+      x: 319
+      y: 363
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 38142
+      x: 714
+      y: 0
+      width: 28
+      height: 28
+      offsetX: 0
+      offsetY: 5
+      advance: 28
+      channel: 15
+    - index: 38145
+      x: 319
+      y: 114
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 38169
+      x: 290
+      y: 114
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 38190
+      x: 0
+      y: 30
+      width: 28
+      height: 28
+      offsetX: 0
+      offsetY: 5
+      advance: 28
+      channel: 15
+    - index: 38271
+      x: 174
+      y: 114
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 38376
+      x: 458
+      y: 498
+      width: 24
+      height: 26
+      offsetX: 2
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 38378
+      x: 220
+      y: 498
+      width: 26
+      height: 26
+      offsetX: 1
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 38381
+      x: 112
+      y: 499
+      width: 26
+      height: 26
+      offsetX: 1
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 38382
+      x: 472
+      y: 253
+      width: 26
+      height: 27
+      offsetX: 1
+      offsetY: 5
+      advance: 28
+      channel: 15
+    - index: 38388
+      x: 499
+      y: 253
+      width: 26
+      height: 27
+      offsetX: 1
+      offsetY: 5
+      advance: 28
+      channel: 15
+    - index: 38395
+      x: 328
+      y: 498
+      width: 26
+      height: 26
+      offsetX: 1
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 38431
+      x: 28
+      y: 255
+      width: 27
+      height: 27
+      offsetX: 1
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 38450
+      x: 201
+      y: 29
+      width: 27
+      height: 28
+      offsetX: 1
+      offsetY: 5
+      advance: 28
+      channel: 15
+    - index: 38470
+      x: 822
+      y: 225
+      width: 27
+      height: 27
+      offsetX: 1
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 38477
+      x: 316
+      y: 471
+      width: 27
+      height: 26
+      offsetX: 1
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 38480
+      x: 288
+      y: 471
+      width: 27
+      height: 26
+      offsetX: 1
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 38497
+      x: 794
+      y: 225
+      width: 27
+      height: 27
+      offsetX: 1
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 38500
+      x: 348
+      y: 363
+      width: 28
+      height: 26
+      offsetX: 1
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 38505
+      x: 252
+      y: 254
+      width: 27
+      height: 27
+      offsetX: 1
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 38543
+      x: 738
+      y: 225
+      width: 27
+      height: 27
+      offsetX: 1
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 38544
+      x: 56
+      y: 499
+      width: 27
+      height: 26
+      offsetX: 1
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 38556
+      x: 710
+      y: 225
+      width: 27
+      height: 27
+      offsetX: 1
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 38590
+      x: 725
+      y: 85
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 38598
+      x: 365
+      y: 29
+      width: 29
+      height: 27
+      offsetX: 0
+      offsetY: 5
+      advance: 28
+      channel: 15
+    - index: 38646
+      x: 377
+      y: 363
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 38656
+      x: 464
+      y: 577
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 8
+      advance: 28
+      channel: 15
+    - index: 38712
+      x: 654
+      y: 225
+      width: 27
+      height: 27
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 38750
+      x: 696
+      y: 85
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 38754
+      x: 203
+      y: 578
+      width: 28
+      height: 25
+      offsetX: 0
+      offsetY: 8
+      advance: 28
+      channel: 15
+    - index: 38795
+      x: 406
+      y: 363
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 38899
+      x: 667
+      y: 85
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 39033
+      x: 435
+      y: 363
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 39046
+      x: 638
+      y: 85
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 39064
+      x: 464
+      y: 362
+      width: 28
+      height: 26
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 39069
+      x: 249
+      y: 0
+      width: 29
+      height: 28
+      offsetX: 0
+      offsetY: 5
+      advance: 28
+      channel: 15
+    - index: 39118
+      x: 686
+      y: 679
+      width: 28
+      height: 24
+      offsetX: 0
+      offsetY: 8
+      advance: 28
+      channel: 15
+    - index: 39134
+      x: 715
+      y: 679
+      width: 28
+      height: 24
+      offsetX: 0
+      offsetY: 8
+      advance: 28
+      channel: 15
+    - index: 39318
+      x: 609
+      y: 85
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 39532
+      x: 227
+      y: 656
+      width: 27
+      height: 25
+      offsetX: 0
+      offsetY: 7
+      advance: 28
+      channel: 15
+    - index: 39564
+      x: 580
+      y: 85
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 5
+      advance: 28
+      channel: 15
+    - index: 39640
+      x: 551
+      y: 85
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 5
+      advance: 28
+      channel: 15
+    - index: 39740
+      x: 522
+      y: 85
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 39764
+      x: 29
+      y: 0
+      width: 28
+      height: 29
+      offsetX: 0
+      offsetY: 5
+      advance: 28
+      channel: 15
+    - index: 40486
+      x: 626
+      y: 225
+      width: 27
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 40644
+      x: 337
+      y: 0
+      width: 28
+      height: 28
+      offsetX: 0
+      offsetY: 5
+      advance: 28
+      channel: 15
+    - index: 40657
+      x: 145
+      y: 708
+      width: 28
+      height: 24
+      offsetX: 0
+      offsetY: 8
+      advance: 28
+      channel: 15
+    - index: 40857
+      x: 435
+      y: 85
+      width: 28
+      height: 27
+      offsetX: 0
+      offsetY: 6
+      advance: 28
+      channel: 15
+    - index: 65281
+      x: 841
+      y: 307
+      width: 6
+      height: 21
+      offsetX: 11
+      offsetY: 8
+      advance: 28
+      channel: 15
+    - index: 65288
+      x: 830
+      y: 253
+      width: 9
+      height: 26
+      offsetX: 11
+      offsetY: 8
+      advance: 28
+      channel: 15
+    - index: 65289
+      x: 841
+      y: 139
+      width: 8
+      height: 26
+      offsetX: 9
+      offsetY: 8
+      advance: 28
+      channel: 15
+    - index: 65292
+      x: 841
+      y: 391
+      width: 5
+      height: 7
+      offsetX: 11
+      offsetY: 26
+      advance: 28
+      channel: 15
+    - index: 65306
+      x: 841
+      y: 351
+      width: 6
+      height: 15
+      offsetX: 11
+      offsetY: 14
+      advance: 28
+      channel: 15
+    - index: 65308
+      x: 241
+      y: 803
+      width: 14
+      height: 14
+      offsetX: 7
+      offsetY: 13
+      advance: 28
+      channel: 15
+    - index: 65311
+      x: 807
+      y: 777
+      width: 12
+      height: 21
+      offsetX: 9
+      offsetY: 8
+      advance: 28
+      channel: 15
+    - index: 65509
+      x: 597
+      y: 780
+      width: 16
+      height: 21
+      offsetX: 6
+      offsetY: 8
+      advance: 28
+      channel: 15
+    mSymbols: []
+  mSpacingX: 0
+  mSpacingY: 0
+  mAtlas: {fileID: 0}
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

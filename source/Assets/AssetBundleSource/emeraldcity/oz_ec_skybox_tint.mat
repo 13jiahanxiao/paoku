@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: oz_ec_skybox_tint
+  m_Shader: {fileID: 4800000, guid: 5d42e6de809d8d74084915ab71b8e9f3, type: 1}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 283ed0791699a524e9e661f8e190ce06, type: 1}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _TintValue
+        second: 0
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: .745098054, g: .956862748, b: .980392158, a: 1}

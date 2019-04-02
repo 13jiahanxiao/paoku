@@ -1,0 +1,454 @@
+fileFormatVersion: 2
+guid: 34665c053037cad4d83a763865d7a7cb
+ModelImporter:
+  fileIDToRecycleName:
+    4300000: oz_ybr_fields_slightdown_a
+    4300002: polySurface25
+    4300004: oz_ybr_fields_straight_a2
+    4300006: decals
+    4300008: polySurface26
+    4300010: polySurface27
+    4300012: polySurface32
+    4300014: polySurface33
+    4300016: polySurface34
+    4300018: polySurface35
+    4300020: polySurface36
+    4300022: polySurface37
+    4300024: polySurface38
+    4300026: polySurface39
+    4300028: polySurface40
+    4300030: polySurface41
+    4300032: polySurface42
+    4300034: polySurface43
+    4300036: polySurface44
+    4300038: polySurface45
+    4300040: polySurface46
+    4300042: polySurface47
+    4300044: polySurface48
+    4300046: polySurface49
+    4300048: polySurface50
+    4300050: polySurface51
+    4300052: polySurface52
+    4300054: polySurface53
+    4300056: polySurface54
+    4300058: polySurface55
+    4300060: polySurface56
+    4300062: polySurface57
+    4300064: polySurface58
+    4300066: polySurface59
+    4300068: polySurface60
+    4300070: polySurface61
+    4300072: polySurface62
+    4300074: polySurface63
+    4300076: polySurface64
+    4300078: polySurface65
+    4300080: polySurface66
+    4300082: polySurface67
+    4300084: polySurface68
+    4300086: polySurface69
+    4300088: polySurface70
+    4300090: polySurface71
+    4300092: polySurface72
+    4300094: polySurface73
+    4300096: polySurface74
+    4300098: polySurface75
+    4300100: polySurface76
+    4300102: polySurface77
+    4300104: polySurface78
+    4300106: polySurface79
+    4300108: polySurface80
+    4300110: polySurface81
+    4300112: polySurface82
+    4300114: polySurface83
+    4300116: polySurface84
+    4300118: polySurface85
+    4300120: polySurface86
+    4300122: polySurface87
+    4300124: polySurface88
+    4300126: polySurface89
+    4300128: polySurface90
+    4300130: polySurface91
+    4300132: polySurface92
+    4300134: polySurface93
+    4300136: polySurface94
+    4300138: polySurface95
+    4300140: polySurface96
+    4300142: polySurface97
+    4300144: polySurface98
+    4300146: polySurface99
+    4300148: polySurface100
+    4300150: polySurface101
+    4300152: polySurface102
+    4300154: polySurface103
+    4300156: polySurface104
+    4300158: polySurface105
+    4300160: polySurface106
+    4300162: polySurface107
+    4300164: polySurface108
+    4300166: polySurface109
+    4300168: polySurface110
+    4300170: polySurface111
+    4300172: polySurface112
+    4300174: polySurface113
+    4300176: polySurface114
+    4300178: polySurface115
+    4300180: polySurface116
+    4300182: polySurface117
+    4300184: polySurface118
+    4300186: polySurface119
+    4300188: polySurface120
+    4300190: polySurface121
+    4300192: polySurface122
+    4300194: polySurface123
+    4300196: polySurface124
+    4300198: polySurface125
+    4300200: polySurface126
+    4300202: polySurface127
+    4300204: polySurface128
+    4300206: polySurface129
+    4300208: polySurface130
+    4300210: polySurface131
+    4300212: polySurface132
+    4300214: polySurface133
+    4300216: polySurface134
+    4300218: polySurface135
+    4300220: polySurface136
+    4300222: polySurface137
+    4300224: polySurface138
+    4300226: polySurface139
+    4300228: polySurface140
+    4300230: polySurface141
+    4300232: polySurface142
+    4300234: polySurface143
+    4300236: polySurface144
+    4300238: polySurface145
+    4300240: polySurface146
+    4300242: polySurface147
+    4300244: polySurface148
+    4300246: polySurface149
+    4300248: polySurface150
+    4300250: polySurface151
+    4300252: polySurface152
+    4300254: polySurface153
+    4300256: polySurface154
+    4300258: polySurface155
+    4300260: polySurface156
+    4300262: polySurface157
+    4300264: polySurface158
+    4300266: polySurface159
+    4300268: polySurface160
+    4300270: polySurface161
+    4300272: polySurface162
+    4300274: polySurface163
+    4300276: polySurface164
+    4300278: polySurface165
+    4300280: polySurface166
+    4300282: polySurface167
+    4300284: polySurface168
+    4300286: polySurface169
+    4300288: polySurface170
+    4300290: polySurface171
+    4300292: polySurface172
+    4300294: polySurface173
+    4300296: polySurface174
+    4300298: polySurface175
+    4300300: polySurface176
+    4300302: polySurface177
+    4300304: polySurface178
+    4300306: polySurface179
+    4300308: polySurface180
+    4300310: polySurface181
+    4300312: polySurface182
+    4300314: polySurface183
+    4300316: polySurface184
+    4300318: polySurface185
+    4300320: polySurface186
+    4300322: polySurface187
+    4300324: polySurface188
+    4300326: polySurface189
+    4300328: polySurface190
+    4300330: polySurface191
+    4300332: polySurface192
+    4300334: polySurface193
+    4300336: polySurface194
+    4300338: polySurface199
+    4300340: polySurface200
+    4300342: polySurface201
+    4300344: polySurface202
+    4300346: polySurface203
+    4300348: polySurface204
+    4300350: polySurface205
+    4300352: polySurface206
+    4300354: polySurface207
+    4300356: polySurface208
+    4300358: polySurface209
+    4300360: polySurface210
+    4300362: polySurface211
+    4300364: polySurface212
+    4300366: polySurface213
+    4300368: polySurface214
+    4300370: polySurface215
+    4300372: polySurface216
+    4300374: polySurface217
+    4300376: polySurface218
+    4300378: polySurface219
+    4300380: polySurface220
+    4300382: polySurface221
+    4300384: polySurface222
+    4300386: polySurface223
+    4300388: polySurface224
+    4300390: polySurface225
+    4300392: polySurface226
+    4300394: polySurface227
+    4300396: polySurface228
+    4300398: polySurface229
+    4300400: polySurface230
+    4300402: polySurface231
+    4300404: polySurface232
+    4300406: polySurface233
+    4300408: polySurface234
+    4300410: polySurface235
+    4300412: polySurface236
+    4300414: polySurface237
+    4300416: polySurface238
+    4300418: polySurface239
+    4300420: polySurface240
+    4300422: polySurface241
+    4300424: polySurface242
+    4300426: polySurface243
+    4300428: polySurface244
+    4300430: polySurface245
+    4300432: polySurface246
+    4300434: polySurface247
+    4300436: polySurface248
+    4300438: polySurface249
+    4300440: polySurface250
+    4300442: polySurface251
+    4300444: polySurface252
+    4300446: polySurface253
+    4300448: polySurface254
+    4300450: polySurface255
+    4300452: polySurface256
+    4300454: polySurface257
+    4300456: polySurface258
+    4300458: polySurface259
+    4300460: polySurface260
+    4300462: polySurface261
+    4300464: polySurface262
+    4300466: polySurface263
+    4300468: polySurface264
+    4300470: polySurface265
+    4300472: polySurface266
+    4300474: polySurface267
+    4300476: polySurface268
+    4300478: polySurface269
+    4300480: polySurface270
+    4300482: polySurface271
+    4300484: polySurface272
+    4300486: polySurface273
+    4300488: polySurface274
+    4300490: polySurface275
+    4300492: polySurface276
+    4300494: polySurface277
+    4300496: polySurface278
+    4300498: polySurface279
+    4300500: polySurface280
+    4300502: polySurface281
+    4300504: polySurface282
+    4300506: polySurface283
+    4300508: polySurface284
+    4300510: polySurface285
+    4300512: polySurface286
+    4300514: polySurface287
+    4300516: polySurface288
+    4300518: polySurface289
+    4300520: polySurface290
+    4300522: polySurface291
+    4300524: polySurface292
+    4300526: polySurface293
+    4300528: polySurface294
+    4300530: polySurface295
+    4300532: polySurface296
+    4300534: polySurface297
+    4300536: polySurface298
+    4300538: polySurface299
+    4300540: polySurface300
+    4300542: polySurface301
+    4300544: polySurface302
+    4300546: polySurface303
+    4300548: polySurface304
+    4300550: polySurface305
+    4300552: polySurface306
+    4300554: polySurface307
+    4300556: polySurface308
+    4300558: polySurface309
+    4300560: polySurface310
+    4300562: polySurface311
+    4300564: polySurface312
+    4300566: polySurface313
+    4300568: polySurface314
+    4300570: polySurface315
+    4300572: polySurface316
+    4300574: polySurface317
+    4300576: polySurface318
+    4300578: polySurface319
+    4300580: polySurface320
+    4300582: polySurface321
+    4300584: polySurface322
+    4300586: polySurface323
+    4300588: polySurface324
+    4300590: polySurface28
+    4300592: polySurface29
+    4300594: polySurface30
+    4300596: polySurface31
+    4300598: polySurface327
+    4300600: polySurface328
+    4300602: decals_overlays
+    4300604: decals_overlay
+    4300606: decals_hi
+    4300608: decals_lomesh
+    4300610: decals_lo
+    4300612: Temp_oz_ybr_fields_start_a_02_5:oz_ybr_fields_start_a1
+    4300614: Temp_oz_ybr_fields_start_a_02_5:pCylinder2
+    4300616: Temp_oz_ybr_fields_start_a_02_5:pCylinder3
+    4300618: Temp_oz_ybr_fields_start_a_02_5:pCylinder4
+    4300620: Temp_oz_ybr_fields_start_a_02_5:pCylinder5
+    4300622: Temp_oz_ybr_fields_start_a_02_5:pCylinder6
+    4300624: Temp_oz_ybr_fields_start_a_02_5:pCylinder7
+    4300626: Temp_oz_ybr_fields_start_a_02_5:pCylinder8
+    4300628: Temp_oz_ybr_fields_start_a_02_5:pCylinder9
+    4300630: Temp_oz_ybr_fields_start_a_02_5:pCylinder10
+    4300632: Temp_oz_ybr_fields_start_a_02_5:pCylinder11
+    4300634: decals_overlays_best
+    7400000: Take 001 //// oz_ybr_fields_slightdown_a
+  serializedVersion: 10
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    generateAnimations: 0
+    bakeSimulation: 0
+    splitAnimations: 1
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations: []
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00400000019
+    meshCompression: 3
+    addColliders: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMesh: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 2
+    tangentImportMode: 2
+  textMetaNamesToFileIDs:
+    //RootNode:
+      data:
+        first: 1
+        second: a6860100
+      data:
+        first: 4
+        second: 861a0600
+      data:
+        first: 111
+        second: 605fa900
+    decals:
+      data:
+        first: 1
+        second: bc860100
+      data:
+        first: 4
+        second: 9c1a0600
+      data:
+        first: 23
+        second: 60182300
+      data:
+        first: 33
+        second: a05a3200
+    decals_overlays:
+      data:
+        first: 1
+        second: ae860100
+      data:
+        first: 4
+        second: 8e1a0600
+      data:
+        first: 23
+        second: 64182300
+      data:
+        first: 33
+        second: a45a3200
+    decals_overlays_best:
+      data:
+        first: 1
+        second: b0860100
+      data:
+        first: 4
+        second: 901a0600
+      data:
+        first: 23
+        second: 66182300
+      data:
+        first: 33
+        second: a65a3200
+    dummy_a:
+      data:
+        first: 1
+        second: aa860100
+      data:
+        first: 4
+        second: 8a1a0600
+    dummy_b:
+      data:
+        first: 1
+        second: ac860100
+      data:
+        first: 4
+        second: 8c1a0600
+    dummy_c:
+      data:
+        first: 1
+        second: a4860100
+      data:
+        first: 4
+        second: 841a0600
+    dummy_d:
+      data:
+        first: 1
+        second: a8860100
+      data:
+        first: 4
+        second: 881a0600
+    oz_ybr_fields_slightdown_a:
+      data:
+        first: 1
+        second: a0860100
+      data:
+        first: 4
+        second: 801a0600
+      data:
+        first: 23
+        second: 62182300
+      data:
+        first: 33
+        second: a25a3200
+    path_default:
+      data:
+        first: 1
+        second: a2860100
+      data:
+        first: 4
+        second: 821a0600

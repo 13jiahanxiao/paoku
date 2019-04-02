@@ -1,0 +1,249 @@
+fileFormatVersion: 2
+guid: f956d5ab40632ae47835fcec9313a389
+ModelImporter:
+  fileIDToRecycleName:
+    4300000: balloon
+    4300002: oz_df_grave_junction_LR_a_decals
+    4300004: oz_df_grave_junction_LR_a
+    4300006: decals_overlays
+    4300008: decals
+    4300010: balloon5:Motor_01
+    4300012: balloon5:Propellor_01
+    4300014: balloon5:Motor_02
+    4300016: balloon5:Propellor_02
+    4300018: balloon5:balloon
+    4300020: Balloon6:Oz_Animnations_Ruel_22_noCoat:Rope
+    4300022: animatedBalloon:balloon4:Motor_01
+    4300024: animatedBalloon:balloon4:Propellor_01
+    4300026: animatedBalloon:balloon4:Motor_02
+    4300028: animatedBalloon:balloon4:Propellor_02
+    4300030: animatedBalloon:balloon4:balloon
+    4300032: animatedBalloon:Balloon5:Oz_Animnations_Ruel_22_noCoat:Rope
+    4300034: Balloon
+    7400000: Take 001 //// oz_df_grave_balloonjunctionLR_a
+    7400002: idle //// oz_df_grave_balloonjunctionLR_a
+    7400004: balloon //// oz_df_grave_balloonjunctionLR_a
+  serializedVersion: 10
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    generateAnimations: 3
+    bakeSimulation: 0
+    splitAnimations: 1
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations:
+    - name: balloon
+      firstFrame: 1
+      lastFrame: 60
+      wrapMode: 0
+      loop: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00400000019
+    meshCompression: 3
+    addColliders: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMesh: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 2
+    tangentImportMode: 2
+  textMetaNamesToFileIDs:
+    //RootNode:
+      data:
+        first: 1
+        second: a0860100
+      data:
+        first: 4
+        second: 801a0600
+      data:
+        first: 111
+        second: 605fa900
+    Balloon:
+      data:
+        first: 1
+        second: ac860100
+      data:
+        first: 4
+        second: 8c1a0600
+    BalloonRig02:
+      data:
+        first: 1
+        second: bc860100
+      data:
+        first: 4
+        second: 9c1a0600
+    custom_lights:
+      data:
+        first: 1
+        second: ca860100
+      data:
+        first: 4
+        second: aa1a0600
+    decals:
+      data:
+        first: 1
+        second: c8860100
+      data:
+        first: 4
+        second: a81a0600
+      data:
+        first: 23
+        second: 60182300
+      data:
+        first: 33
+        second: a05a3200
+    decals_overlays:
+      data:
+        first: 1
+        second: b6860100
+      data:
+        first: 4
+        second: 961a0600
+      data:
+        first: 23
+        second: 64182300
+      data:
+        first: 33
+        second: a45a3200
+    dummy_a_left:
+      data:
+        first: 1
+        second: b0860100
+      data:
+        first: 4
+        second: 901a0600
+    dummy_a_right:
+      data:
+        first: 1
+        second: b4860100
+      data:
+        first: 4
+        second: 941a0600
+    dummy_b_left:
+      data:
+        first: 1
+        second: a8860100
+      data:
+        first: 4
+        second: 881a0600
+    dummy_b_right:
+      data:
+        first: 1
+        second: a6860100
+      data:
+        first: 4
+        second: 861a0600
+    dummy_c_left:
+      data:
+        first: 1
+        second: aa860100
+      data:
+        first: 4
+        second: 8a1a0600
+    dummy_c_right:
+      data:
+        first: 1
+        second: a4860100
+      data:
+        first: 4
+        second: 841a0600
+    gravespotlight_forestspotlight_forestspotlight_spotLight1:
+      data:
+        first: 1
+        second: ba860100
+      data:
+        first: 4
+        second: 9a1a0600
+    gravespotlight_forestspotlight_forestspotlight_spotLight2:
+      data:
+        first: 1
+        second: c4860100
+      data:
+        first: 4
+        second: a41a0600
+    gravespotlight_forestspotlight_forestspotlight_spotLight3:
+      data:
+        first: 1
+        second: c2860100
+      data:
+        first: 4
+        second: a21a0600
+    joint10:
+      data:
+        first: 1
+        second: c0860100
+      data:
+        first: 4
+        second: a01a0600
+      data:
+        first: 137
+        second: a00bd100
+    joint11:
+      data:
+        first: 1
+        second: a2860100
+      data:
+        first: 4
+        second: 821a0600
+    joint12:
+      data:
+        first: 1
+        second: be860100
+      data:
+        first: 4
+        second: 9e1a0600
+    joint13:
+      data:
+        first: 1
+        second: c6860100
+      data:
+        first: 4
+        second: a61a0600
+    joint14:
+      data:
+        first: 1
+        second: cc860100
+      data:
+        first: 4
+        second: ac1a0600
+    oz_df_grave_junction_LR_a:
+      data:
+        first: 1
+        second: b8860100
+      data:
+        first: 4
+        second: 981a0600
+      data:
+        first: 23
+        second: 66182300
+      data:
+        first: 33
+        second: a65a3200
+    path_left:
+      data:
+        first: 1
+        second: ae860100
+      data:
+        first: 4
+        second: 8e1a0600
+    path_right:
+      data:
+        first: 1
+        second: b2860100
+      data:
+        first: 4
+        second: 921a0600

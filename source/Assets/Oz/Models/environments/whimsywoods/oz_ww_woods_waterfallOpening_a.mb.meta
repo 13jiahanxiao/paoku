@@ -1,0 +1,372 @@
+fileFormatVersion: 2
+guid: e6fefb57ddb0b15488caad479ab2e4be
+ModelImporter:
+  fileIDToRecycleName:
+    4300000: waterfallOpening
+    4300002: oz_woods_cliffs_props_02:polySurface75
+    4300004: oz_woods_cliffs_props_02:polySurface111
+    4300006: oz_woods_cliffs_props_02:polySurface112
+    4300008: oz_woods_cliffs_props_02:polySurface221
+    4300010: oz_woods_cliffs_props_02:polySurface235
+    4300012: split_tree
+    4300014: fork_tree
+    4300016: straight_tree
+    4300018: three_trees
+    4300020: straight_tree1
+    4300022: fork_tree1
+    4300024: straight_tree2
+    4300026: grass_clump_high_a2
+    4300028: left_bend_tree_01
+    4300030: left_bend_tree_02
+    4300032: tree_branch_a
+    4300034: tall_grass_plant_b5
+    4300036: tall_grass_plant_a17
+    4300038: shrub_plant_a3
+    4300040: large_leaf_plant_a5
+    4300042: cliffs_med_rock_a4
+    4300044: cliffs_med_rock_a
+    4300046: cliffs_med_rock_a1
+    4300048: tall_grass_plant_b
+    4300050: tall_grass_plant_b1
+    4300052: tall_grass_plant_b2
+    4300054: large_leaf_plant_a
+    4300056: tall_grass_plant_b3
+    4300058: tall_grass_plant_b4
+    4300060: large_leaf_plant_a1
+    4300062: tall_grass_plant_a
+    4300064: tall_grass_plant_a1
+    4300066: tall_grass_plant_a2
+    4300068: tall_grass_plant_a3
+    4300070: tall_grass_plant_a4
+    4300072: tall_grass_plant_a5
+    4300074: shrub_plant_a
+    4300076: tall_grass_plant_a6
+    4300078: tall_grass_plant_a7
+    4300080: tall_grass_plant_a8
+    4300082: tall_grass_plant_a9
+    4300084: shrub_plant_a1
+    4300086: tall_grass_plant_a10
+    4300088: tall_grass_plant_a11
+    4300090: tall_grass_plant_a12
+    4300092: tall_grass_plant_a13
+    4300094: shrub_plant_a2
+    4300096: tall_grass_plant_a14
+    4300098: tall_grass_plant_a15
+    4300100: tall_grass_plant_a16
+    4300102: large_leaf_plant_a2
+    4300104: large_leaf_plant_a3
+    4300106: large_leaf_plant_a4
+    4300108: cliffs_med_rock_a2
+    4300110: grass_clump_high_a
+    4300112: grass_clump_high_a1
+    4300114: cliffs_med_rock_a3
+    4300116: polySurface5
+    4300118: polySurface6
+    4300120: polySurface36
+    4300122: oz_ww_woods_waterfallOpening_a
+    4300124: whimsywoods_lightrig_lighting_skydome
+    4300126: polySurface1
+    4300128: polySurface2
+    4300130: polySurface3
+    4300132: polySurface4
+    4300134: oz_ww_woods_waterOpening_a
+    4300136: cyclorama
+    4300138: polySurface919
+    4300140: polySurface918
+    4300142: polySurface929
+    4300144: polySurface1846
+    4300146: polySurface1845
+    4300148: cliffs_mesh
+    4300150: water
+    4300152: waterfall_opening
+    4300154: polySurface922
+    4300156: polySurface920
+    4300158: polySurface917
+    4300160: polySurface916
+    4300162: polySurface921
+    4300164: polySurface914
+    4300166: polySurface915
+    4300168: oz_ww_waterfallOpening_a
+    4300170: Decals
+    4300172: decals
+    4300174: decals_overlay
+    4300176: waterfall
+    4300178: waterpools
+    4300180: polySurface927
+    4300182: polySurface928
+    4300184: oz_ww_straight_a
+    4300186: tropic_mesh
+    4300188: Plant_Mesh
+    4300190: Mushroom_Mesh
+    4300192: Iris_Mesh
+    4300194: oz_ww_straight_a2
+    4300196: oz_ww_woods_slightright_a
+    4300198: oz_ww_woods_slightright_a1
+    4300200: oz_ww_straight_a3
+    4300202: pCylinder2
+    4300204: pCylinder3
+    4300206: pCylinder5
+    4300208: pCylinder6
+    4300210: pCylinder7
+    4300212: Plant_Mesh1
+    4300214: Plant_Mesh2
+    4300216: Plant_Mesh3
+    4300218: tropic_mesh1
+    4300220: tropic_mesh2
+    4300222: tropic_mesh3
+    4300224: WhiteFlowers_overlay
+    4300226: weed_overlay
+    4300228: Purpel_Flowers_decals2
+    4300230: Pinkl_Flowers_decals
+    4300232: orangel_Flowers_decals4
+    4300234: stripe_Flowers_decals6
+    4300236: weed_overlay1
+    4300238: weed_overlay2
+    4300240: weed_overlay3
+    4300242: roots_overlay
+    4300244: fern01_decals
+    4300246: whiteFlowers_decal
+    4300248: Curles_Decals
+    4300250: weedCard_decals
+    4300252: poppies_decals
+    4300254: polySurface437
+    4300256: fern02_decals2
+    4300258: polySurface438
+    4300260: polySurface439
+    4300262: polySurface440
+    4300264: treeLeaves_decals
+    4300266: treeLeavesPink_decals
+    4300268: polySurface923
+    4300270: treeLeaves_decals1
+    4300272: polySurface924
+    4300274: polySurface925
+    4300276: weedCard_decals1
+    4300278: weedCard_decals2
+    4300280: weedCard_decals3
+    4300282: weedCard_decals4
+    4300284: weedCard_decals5
+    4300286: weedCard_decals6
+    4300288: weedCard_decals7
+    4300290: decals_overlays
+    4300292: oz_ww_woods_waterfallOpening_a_right
+    4300294: water_extra1
+    4300296: waterfall_extra2
+    4300298: waterfall_extra3
+    4300300: oz_ww_waterfallOpening_a1
+    4300302: oz_ww_waterfallOpening_a2
+    4300304: oz_ww_waterfallOpening_a3
+    4300306: oz_ww_waterfallOpening_a4
+    4300308: oz_ww_waterfallOpening_a5
+    4300310: oz_ww_waterfallOpening_a6
+    4300312: oz_ww_waterfallOpening_a7
+    4300314: oz_ww_waterfallOpening_a8
+    4300316: oz_ww_waterfallOpening_a9
+    4300318: oz_ww_waterfallOpening_a10
+    4300320: oz_ww_waterfallOpening_a11
+    4300322: oz_ww_waterfallOpening_a12
+    4300324: decals1
+    4300326: decals2
+    4300328: decals3
+    4300330: decals4
+    4300332: decals5
+    4300334: decals6
+    4300336: oz_ww_waterfallOpening_a13
+    4300338: decals7
+    4300340: pPlane1
+    4300342: pPlane2
+    4300344: pPlane3
+    4300346: pPlane4
+    4300348: pPlane5
+    4300350: pPlane6
+    4300352: pPlane7
+    4300354: pPlane8
+    4300356: pPlane9
+    4300358: pPlane10
+    4300360: pPlane11
+    4300362: pPlane12
+    4300364: pPlane13
+    4300366: pPlane14
+    4300368: pPlane15
+    4300370: pPlane16
+    4300372: pPlane17
+    4300374: pPlane18
+    4300376: pPlane19
+    4300378: pPlane20
+    4300380: pPlane21
+    4300382: pPlane22
+    4300384: pPlane23
+    4300386: oz_ww_woods_waterfallOpening_a_left
+    4300388: oz_ww_woods_waterfallOpening_a1
+    4300390: oz_ww_woods_waterfallOpening_a3
+    4300392: decals_lomesh
+    4300394: decals_lo
+    4300396: decals_hi
+  serializedVersion: 10
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    generateAnimations: 3
+    bakeSimulation: 0
+    splitAnimations: 1
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations: []
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00400000019
+    meshCompression: 3
+    addColliders: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMesh: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 2
+    tangentImportMode: 2
+  textMetaNamesToFileIDs:
+    //RootNode:
+      data:
+        first: 1
+        second: a0860100
+      data:
+        first: 4
+        second: 801a0600
+      data:
+        first: 111
+        second: 605fa900
+    decals:
+      data:
+        first: 1
+        second: a2860100
+      data:
+        first: 4
+        second: 821a0600
+      data:
+        first: 23
+        second: 60182300
+      data:
+        first: 33
+        second: a05a3200
+    decals_hi:
+      data:
+        first: 1
+        second: b6860100
+      data:
+        first: 4
+        second: 961a0600
+      data:
+        first: 23
+        second: 6e182300
+      data:
+        first: 33
+        second: ae5a3200
+    decals_lo:
+      data:
+        first: 1
+        second: b4860100
+      data:
+        first: 4
+        second: 941a0600
+      data:
+        first: 23
+        second: 6c182300
+      data:
+        first: 33
+        second: ac5a3200
+    decals_lomesh:
+      data:
+        first: 1
+        second: ae860100
+      data:
+        first: 4
+        second: 8e1a0600
+      data:
+        first: 23
+        second: 64182300
+      data:
+        first: 33
+        second: a45a3200
+    decals_overlays:
+      data:
+        first: 1
+        second: b2860100
+      data:
+        first: 4
+        second: 921a0600
+      data:
+        first: 23
+        second: 6a182300
+      data:
+        first: 33
+        second: aa5a3200
+    dummy_a:
+      data:
+        first: 1
+        second: a6860100
+      data:
+        first: 4
+        second: 861a0600
+    dummy_b:
+      data:
+        first: 1
+        second: a4860100
+      data:
+        first: 4
+        second: 841a0600
+    oz_ww_woods_waterfallOpening_a:
+      data:
+        first: 1
+        second: aa860100
+      data:
+        first: 4
+        second: 8a1a0600
+      data:
+        first: 23
+        second: 62182300
+      data:
+        first: 33
+        second: a25a3200
+    path_default:
+      data:
+        first: 1
+        second: a8860100
+      data:
+        first: 4
+        second: 881a0600
+    water_extra1:
+      data:
+        first: 1
+        second: b0860100
+      data:
+        first: 4
+        second: 901a0600
+      data:
+        first: 23
+        second: 68182300
+      data:
+        first: 33
+        second: a85a3200
+    waterfall_extra2:
+      data:
+        first: 1
+        second: ac860100
+      data:
+        first: 4
+        second: 8c1a0600
+      data:
+        first: 23
+        second: 66182300
+      data:
+        first: 33
+        second: a65a3200

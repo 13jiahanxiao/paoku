@@ -1,0 +1,680 @@
+fileFormatVersion: 2
+guid: 56f97161ccede7e4687859ff0750e712
+ModelImporter:
+  fileIDToRecycleName:
+    4300000: Babbon_mesh
+    4300002: Oz_Rig_01:polySurface24
+    4300004: New_Baboon_001:baboon
+    4300006: baboonSpear_a:baboonSpear_a
+    4300008: Baboon01_Intro:WaterFall_Opening:oz_ww_woods_waterfallOpening_a
+    4300010: pPlane1
+    4300012: oz_ww_woods_waterfallOpening_a:oz_ww_woods_waterfallOpening_a_right
+    4300014: oz_ww_woods_waterfallOpening_a:decals_overlays
+    4300016: oz_ww_woods_waterfallOpening_a:decals
+    4300018: oz_ww_woods_waterfallOpening_a:water
+    4300020: oz_ww_woods_waterfallOpening_a:waterfall
+    4300022: oz_ww_woods_straight_a:oz_ww_woods_straight_a
+    4300024: oz_ww_woods_straight_a:decals_overlays
+    4300026: oz_ww_woods_straight_a:decals
+    4300028: baboon
+    7400000: Take 001 //// ChasingBaboons 02
+    7400002: chase //// ChasingBaboons 02
+    7400004: grab //// ChasingBaboons 02
+    7400006: chase //// ChasingBaboons
+    7400008: grab //// ChasingBaboons
+    7400010: IntroMiddle //// ChasingBaboons
+    7400012: IntroRight //// ChasingBaboons
+    7400014: IntroLeft //// ChasingBaboons
+    7400016: FlyInMiddle //// ChasingBaboons
+    7400018: FlyInRight //// ChasingBaboons
+    7400020: FlyInLeft //// ChasingBaboons
+    7400022: IdleMiddle //// ChasingBaboons
+    7400024: IdleRight //// ChasingBaboons
+    7400026: IdleLeft //// ChasingBaboons
+  serializedVersion: 10
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    generateAnimations: 3
+    bakeSimulation: 1
+    splitAnimations: 1
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations:
+    - name: chase
+      firstFrame: 1
+      lastFrame: 175
+      wrapMode: 2
+      loop: 0
+    - name: grab
+      firstFrame: 180
+      lastFrame: 234
+      wrapMode: 1
+      loop: 0
+    - name: IntroMiddle
+      firstFrame: 1001
+      lastFrame: 1300
+      wrapMode: 1
+      loop: 0
+    - name: IntroRight
+      firstFrame: 2001
+      lastFrame: 2300
+      wrapMode: 1
+      loop: 0
+    - name: IntroLeft
+      firstFrame: 3001
+      lastFrame: 3300
+      wrapMode: 1
+      loop: 0
+    - name: FlyInMiddle
+      firstFrame: 1330
+      lastFrame: 1420
+      wrapMode: 1
+      loop: 0
+    - name: FlyInRight
+      firstFrame: 2330
+      lastFrame: 2420
+      wrapMode: 1
+      loop: 0
+    - name: FlyInLeft
+      firstFrame: 3330
+      lastFrame: 3420
+      wrapMode: 1
+      loop: 0
+    - name: IdleMiddle
+      firstFrame: 1602
+      lastFrame: 1899
+      wrapMode: 2
+      loop: 0
+    - name: IdleRight
+      firstFrame: 2502
+      lastFrame: 2799
+      wrapMode: 2
+      loop: 0
+    - name: IdleLeft
+      firstFrame: 3462
+      lastFrame: 3759
+      wrapMode: 2
+      loop: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00400000019
+    meshCompression: 3
+    addColliders: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMesh: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 2
+    tangentImportMode: 2
+  textMetaNamesToFileIDs:
+    //RootNode:
+      data:
+        first: 1
+        second: fa860100
+      data:
+        first: 4
+        second: da1a0600
+      data:
+        first: 111
+        second: 605fa900
+    Baboon_All:
+      data:
+        first: 1
+        second: c2860100
+      data:
+        first: 4
+        second: a21a0600
+    Chest:
+      data:
+        first: 1
+        second: b6860100
+      data:
+        first: 4
+        second: 961a0600
+    Head_ctl:
+      data:
+        first: 1
+        second: c6860100
+      data:
+        first: 4
+        second: a61a0600
+    L_Foot_ctl:
+      data:
+        first: 1
+        second: cc860100
+      data:
+        first: 4
+        second: ac1a0600
+    L_Shoulder:
+      data:
+        first: 1
+        second: a0860100
+      data:
+        first: 4
+        second: 801a0600
+    L_Wing_1:
+      data:
+        first: 1
+        second: aa860100
+      data:
+        first: 4
+        second: 8a1a0600
+    L_Wing_2:
+      data:
+        first: 1
+        second: a8860100
+      data:
+        first: 4
+        second: 881a0600
+    L_Wing_3:
+      data:
+        first: 1
+        second: 08870100
+      data:
+        first: 4
+        second: e81a0600
+    L_Wing_4:
+      data:
+        first: 1
+        second: 06870100
+      data:
+        first: 4
+        second: e61a0600
+    L_ankle:
+      data:
+        first: 1
+        second: 02870100
+      data:
+        first: 4
+        second: e21a0600
+    L_elbow:
+      data:
+        first: 1
+        second: d2860100
+      data:
+        first: 4
+        second: b21a0600
+    L_elbow_ctl:
+      data:
+        first: 1
+        second: e4860100
+      data:
+        first: 4
+        second: c41a0600
+    L_foot_1:
+      data:
+        first: 1
+        second: a6860100
+      data:
+        first: 4
+        second: 861a0600
+    L_knee:
+      data:
+        first: 1
+        second: 04870100
+      data:
+        first: 4
+        second: e41a0600
+    L_kneePole_ctl:
+      data:
+        first: 1
+        second: bc860100
+      data:
+        first: 4
+        second: 9c1a0600
+    L_leg:
+      data:
+        first: 1
+        second: c8860100
+      data:
+        first: 4
+        second: a81a0600
+    L_shoulder_ctl:
+      data:
+        first: 1
+        second: ee860100
+      data:
+        first: 4
+        second: ce1a0600
+    L_wing_1_ctl:
+      data:
+        first: 1
+        second: f4860100
+      data:
+        first: 4
+        second: d41a0600
+    L_wing_2_ctl:
+      data:
+        first: 1
+        second: f2860100
+      data:
+        first: 4
+        second: d21a0600
+    L_wing_3_ctl:
+      data:
+        first: 1
+        second: 0c870100
+      data:
+        first: 4
+        second: ec1a0600
+    L_wing_4_ctl:
+      data:
+        first: 1
+        second: 0a870100
+      data:
+        first: 4
+        second: ea1a0600
+    L_wrist:
+      data:
+        first: 1
+        second: d0860100
+      data:
+        first: 4
+        second: b01a0600
+    L_wrist_ctl:
+      data:
+        first: 1
+        second: de860100
+      data:
+        first: 4
+        second: be1a0600
+    Neck:
+      data:
+        first: 1
+        second: a2860100
+      data:
+        first: 4
+        second: 821a0600
+    R_Foot_ctl:
+      data:
+        first: 1
+        second: ba860100
+      data:
+        first: 4
+        second: 9a1a0600
+    R_Shoulder:
+      data:
+        first: 1
+        second: e2860100
+      data:
+        first: 4
+        second: c21a0600
+    R_Wing_1:
+      data:
+        first: 1
+        second: e8860100
+      data:
+        first: 4
+        second: c81a0600
+    R_Wing_2:
+      data:
+        first: 1
+        second: e6860100
+      data:
+        first: 4
+        second: c61a0600
+    R_Wing_3:
+      data:
+        first: 1
+        second: f8860100
+      data:
+        first: 4
+        second: d81a0600
+    R_Wing_4:
+      data:
+        first: 1
+        second: f6860100
+      data:
+        first: 4
+        second: d61a0600
+    R_ankle:
+      data:
+        first: 1
+        second: d6860100
+      data:
+        first: 4
+        second: b61a0600
+    R_elbow:
+      data:
+        first: 1
+        second: e0860100
+      data:
+        first: 4
+        second: c01a0600
+    R_foot_1:
+      data:
+        first: 1
+        second: ce860100
+      data:
+        first: 4
+        second: ae1a0600
+    R_knee:
+      data:
+        first: 1
+        second: d8860100
+      data:
+        first: 4
+        second: b81a0600
+    R_kneePole_ctl:
+      data:
+        first: 1
+        second: ae860100
+      data:
+        first: 4
+        second: 8e1a0600
+    R_leg:
+      data:
+        first: 1
+        second: a4860100
+      data:
+        first: 4
+        second: 841a0600
+    R_shoulder_ctl:
+      data:
+        first: 1
+        second: dc860100
+      data:
+        first: 4
+        second: bc1a0600
+    R_wing_1_ctl:
+      data:
+        first: 1
+        second: da860100
+      data:
+        first: 4
+        second: ba1a0600
+    R_wing_2_ctl:
+      data:
+        first: 1
+        second: 00870100
+      data:
+        first: 4
+        second: e01a0600
+    R_wing_3_ctl:
+      data:
+        first: 1
+        second: fe860100
+      data:
+        first: 4
+        second: de1a0600
+    R_wing_4_ctl:
+      data:
+        first: 1
+        second: fc860100
+      data:
+        first: 4
+        second: dc1a0600
+    R_wrist:
+      data:
+        first: 1
+        second: ca860100
+      data:
+        first: 4
+        second: aa1a0600
+    R_wrist_ctl:
+      data:
+        first: 1
+        second: b0860100
+      data:
+        first: 4
+        second: 901a0600
+    Spear_All_TransA:
+      data:
+        first: 1
+        second: 96870100
+      data:
+        first: 4
+        second: 761b0600
+    Spear_All_TransB:
+      data:
+        first: 1
+        second: 94870100
+      data:
+        first: 4
+        second: 741b0600
+    Spine1:
+      data:
+        first: 1
+        second: b8860100
+      data:
+        first: 4
+        second: 981a0600
+    baboon:
+      data:
+        first: 1
+        second: d4860100
+      data:
+        first: 4
+        second: b41a0600
+    baboonSpear_a:baboonSpear_a:
+      data:
+        first: 1
+        second: 92870100
+      data:
+        first: 4
+        second: 721b0600
+      data:
+        first: 23
+        second: 60182300
+      data:
+        first: 33
+        second: a05a3200
+    chest_ctl:
+      data:
+        first: 1
+        second: f0860100
+      data:
+        first: 4
+        second: d01a0600
+    cog_ctl:
+      data:
+        first: 1
+        second: be860100
+      data:
+        first: 4
+        second: 9e1a0600
+    ikHandle1:
+      data:
+        first: 1
+        second: b4860100
+      data:
+        first: 4
+        second: 941a0600
+    ikHandle2:
+      data:
+        first: 1
+        second: b2860100
+      data:
+        first: 4
+        second: 921a0600
+    ikHandle3:
+      data:
+        first: 1
+        second: ec860100
+      data:
+        first: 4
+        second: cc1a0600
+    ikHandle4:
+      data:
+        first: 1
+        second: ea860100
+      data:
+        first: 4
+        second: ca1a0600
+    joint1:
+      data:
+        first: 1
+        second: b8870100
+      data:
+        first: 4
+        second: 981b0600
+    joint10:
+      data:
+        first: 1
+        second: a6870100
+      data:
+        first: 4
+        second: 861b0600
+    joint11:
+      data:
+        first: 1
+        second: a4870100
+      data:
+        first: 4
+        second: 841b0600
+    joint12:
+      data:
+        first: 1
+        second: a2870100
+      data:
+        first: 4
+        second: 821b0600
+    joint2:
+      data:
+        first: 1
+        second: b6870100
+      data:
+        first: 4
+        second: 961b0600
+    joint3:
+      data:
+        first: 1
+        second: b4870100
+      data:
+        first: 4
+        second: 941b0600
+    joint4:
+      data:
+        first: 1
+        second: b2870100
+      data:
+        first: 4
+        second: 921b0600
+    joint5:
+      data:
+        first: 1
+        second: b0870100
+      data:
+        first: 4
+        second: 901b0600
+    joint6:
+      data:
+        first: 1
+        second: ae870100
+      data:
+        first: 4
+        second: 8e1b0600
+    joint7:
+      data:
+        first: 1
+        second: ac870100
+      data:
+        first: 4
+        second: 8c1b0600
+    joint8:
+      data:
+        first: 1
+        second: aa870100
+      data:
+        first: 4
+        second: 8a1b0600
+    joint9:
+      data:
+        first: 1
+        second: a8870100
+      data:
+        first: 4
+        second: 881b0600
+    midTorso_ctl:
+      data:
+        first: 1
+        second: ac860100
+      data:
+        first: 4
+        second: 8c1a0600
+    nurbsCircle2:
+      data:
+        first: 1
+        second: c0870100
+      data:
+        first: 4
+        second: a01b0600
+    nurbsCircle3:
+      data:
+        first: 1
+        second: be870100
+      data:
+        first: 4
+        second: 9e1b0600
+    nurbsCircle4:
+      data:
+        first: 1
+        second: bc870100
+      data:
+        first: 4
+        second: 9c1b0600
+    nurbsCircle5:
+      data:
+        first: 1
+        second: ba870100
+      data:
+        first: 4
+        second: 9a1b0600
+    nurbsCircle6:
+      data:
+        first: 1
+        second: 9a870100
+      data:
+        first: 4
+        second: 7a1b0600
+    nurbsCircle7:
+      data:
+        first: 1
+        second: 98870100
+      data:
+        first: 4
+        second: 781b0600
+    nurbsCircle8:
+      data:
+        first: 1
+        second: 9e870100
+      data:
+        first: 4
+        second: 7e1b0600
+    nurbsCircle9:
+      data:
+        first: 1
+        second: 9c870100
+      data:
+        first: 4
+        second: 7c1b0600
+    root:
+      data:
+        first: 1
+        second: c4860100
+      data:
+        first: 4
+        second: a41a0600
+      data:
+        first: 137
+        second: a00bd100
+    trs_ctl:
+      data:
+        first: 1
+        second: c0860100
+      data:
+        first: 4
+        second: a01a0600

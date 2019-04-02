@@ -1,0 +1,258 @@
+fileFormatVersion: 2
+guid: 70ce4aa3312d44e439a740eef6bd1741
+ModelImporter:
+  fileIDToRecycleName:
+    4300000: oz_df_ruins_junction_a
+    4300002: oz_df_ruins_junctionLR_a
+    4300004: decals
+    4300006: polySurface1
+    4300008: polySurface2
+    4300010: polySurface3
+    4300012: polySurface4
+    4300014: polySurface5
+    4300016: polySurface6
+    4300018: polySurface7
+    4300020: polySurface8
+    4300022: polySurface9
+    4300024: polySurface10
+    4300026: polySurface11
+    4300028: polySurface12
+    4300030: polySurface13
+    4300032: polySurface14
+    4300034: polySurface15
+    4300036: polySurface16
+    4300038: polySurface17
+    4300040: polySurface18
+    4300042: polySurface19
+    4300044: polySurface21
+    4300046: polySurface24
+    4300048: polySurface26
+    4300050: polySurface29
+    4300052: polySurface30
+    4300054: polySurface34
+    4300056: polySurface43
+    4300058: polySurface45
+    4300060: polySurface46
+    4300062: polySurface47
+    4300064: polySurface48
+    4300066: polySurface49
+    4300068: polySurface50
+    4300070: polySurface51
+    4300072: polySurface52
+    4300074: polySurface53
+    4300076: polySurface54
+    4300078: polySurface55
+    4300080: polySurface56
+    4300082: polySurface57
+    4300084: polySurface58
+    4300086: polySurface59
+    4300088: polySurface60
+    4300090: polySurface61
+    4300092: polySurface62
+    4300094: polySurface63
+    4300096: polySurface64
+    4300098: polySurface65
+    4300100: polySurface66
+    4300102: polySurface67
+    4300104: polySurface68
+    4300106: polySurface69
+    4300108: polySurface70
+    4300110: polySurface71
+    4300112: polySurface72
+    4300114: polySurface73
+    4300116: polySurface74
+    4300118: polySurface75
+    4300120: polySurface76
+    4300122: polySurface77
+    4300124: polySurface78
+    4300126: polySurface79
+    4300128: polySurface80
+    4300130: polySurface81
+    4300132: polySurface82
+    4300134: polySurface83
+    4300136: polySurface84
+    4300138: polySurface85
+    4300140: polySurface86
+    4300142: polySurface87
+    4300144: polySurface89
+    4300146: polySurface91
+    4300148: tree_f
+    4300150: tree_c
+    4300152: polySurface92
+    4300154: decals_overlays
+    4300156: oz_df_ruins_junctionLR_a_02
+    4300158: oz_df_ruins_junctionLR_a1
+  serializedVersion: 10
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    generateAnimations: 0
+    bakeSimulation: 0
+    splitAnimations: 1
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations: []
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00400000019
+    meshCompression: 3
+    addColliders: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMesh: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 2
+    tangentImportMode: 2
+  textMetaNamesToFileIDs:
+    //RootNode:
+      data:
+        first: 1
+        second: b0860100
+      data:
+        first: 4
+        second: 901a0600
+      data:
+        first: 111
+        second: 605fa900
+    custom_lights:
+      data:
+        first: 1
+        second: b8860100
+      data:
+        first: 4
+        second: 981a0600
+    decals:
+      data:
+        first: 1
+        second: a2860100
+      data:
+        first: 4
+        second: 821a0600
+      data:
+        first: 23
+        second: 60182300
+      data:
+        first: 33
+        second: a05a3200
+    decals_overlays:
+      data:
+        first: 1
+        second: b6860100
+      data:
+        first: 4
+        second: 961a0600
+      data:
+        first: 23
+        second: 64182300
+      data:
+        first: 33
+        second: a45a3200
+    dummy_a_left:
+      data:
+        first: 1
+        second: b2860100
+      data:
+        first: 4
+        second: 921a0600
+    dummy_a_right:
+      data:
+        first: 1
+        second: a8860100
+      data:
+        first: 4
+        second: 881a0600
+    dummy_b_left:
+      data:
+        first: 1
+        second: ae860100
+      data:
+        first: 4
+        second: 8e1a0600
+    dummy_b_right:
+      data:
+        first: 1
+        second: ac860100
+      data:
+        first: 4
+        second: 8c1a0600
+    dummy_c_left:
+      data:
+        first: 1
+        second: a4860100
+      data:
+        first: 4
+        second: 841a0600
+    dummy_c_right:
+      data:
+        first: 1
+        second: a6860100
+      data:
+        first: 4
+        second: 861a0600
+    oz_df_ruins_junctionLR_a:
+      data:
+        first: 1
+        second: c0860100
+      data:
+        first: 4
+        second: a01a0600
+      data:
+        first: 23
+        second: 62182300
+      data:
+        first: 33
+        second: a25a3200
+    path_left:
+      data:
+        first: 1
+        second: a0860100
+      data:
+        first: 4
+        second: 801a0600
+    path_right:
+      data:
+        first: 1
+        second: aa860100
+      data:
+        first: 4
+        second: 8a1a0600
+    spotLight1:
+      data:
+        first: 1
+        second: bc860100
+      data:
+        first: 4
+        second: 9c1a0600
+    spotLight2:
+      data:
+        first: 1
+        second: be860100
+      data:
+        first: 4
+        second: 9e1a0600
+    spotLight3:
+      data:
+        first: 1
+        second: b4860100
+      data:
+        first: 4
+        second: 941a0600
+    spotLight4:
+      data:
+        first: 1
+        second: ba860100
+      data:
+        first: 4
+        second: 9a1a0600

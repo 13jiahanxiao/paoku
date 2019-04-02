@@ -1,0 +1,133 @@
+global proc shelf_TROZ_Misc () {
+    global string $gBuffStr;
+    global string $gBuffStr0;
+    global string $gBuffStr1;
+
+
+    shelfButton
+        -enableCommandRepeat 1
+        -enable 1
+        -width 35
+        -height 35
+        -manage 1
+        -visible 1
+        -preventOverride 0
+        -annotation "Snap to Edge Negative" 
+        -enableBackground 0
+        -align "center" 
+        -label "Snap to Edge Negative" 
+        -labelOffset 0
+        -font "plainLabelFont" 
+        -overlayLabelColor 0.8 0.8 0.8 
+        -overlayLabelBackColor 0 0 0 0.25 
+        -image "C:/Users/jstegall/TempleRunOzNew/Temp/maya/icons/SnapToEdgeNegative.bmp" 
+        -image1 "C:/Users/jstegall/TempleRunOzNew/Temp/maya/icons/SnapToEdgeNegative.bmp" 
+        -style "iconOnly" 
+        -marginWidth 1
+        -marginHeight 1
+        -command "import snaptoedge\nsnaptoedge.SnapToEdge(aimVector=[-1.0,0.0,0.0])" 
+        -sourceType "python" 
+        -commandRepeatable 1
+    ;
+    shelfButton
+        -enableCommandRepeat 1
+        -enable 1
+        -width 35
+        -height 35
+        -manage 1
+        -visible 1
+        -preventOverride 0
+        -annotation "Snap to Edge Positive" 
+        -enableBackground 0
+        -align "center" 
+        -label "Snap to Edge Positive" 
+        -labelOffset 0
+        -font "plainLabelFont" 
+        -overlayLabelColor 0.8 0.8 0.8 
+        -overlayLabelBackColor 0 0 0 0.25 
+        -image "C:/Users/jstegall/TempleRunOzNew/Temp/maya/icons/SnapToEdgePositive.bmp" 
+        -image1 "C:/Users/jstegall/TempleRunOzNew/Temp/maya/icons/SnapToEdgePositive.bmp" 
+        -style "iconOnly" 
+        -marginWidth 1
+        -marginHeight 1
+        -command "import snaptoedge\nsnaptoedge.SnapToEdge(aimVector=[1.0,0.0,0.0])" 
+        -sourceType "python" 
+        -commandRepeatable 1
+    ;
+    shelfButton
+        -enableCommandRepeat 1
+        -enable 1
+        -width 35
+        -height 35
+        -manage 1
+        -visible 1
+        -preventOverride 0
+        -annotation "Fix Decal Object Vert Order" 
+        -enableBackground 0
+        -align "center" 
+        -label "Fix Decal Object Vert Order" 
+        -labelOffset 0
+        -font "plainLabelFont" 
+        -overlayLabelColor 0.8 0.8 0.8 
+        -overlayLabelBackColor 0 0 0 0.25 
+        -image "C:/Users/jstegall/TempleRunOzNew/Temp/maya/icons/decalvertorderfix.bmp" 
+        -image1 "C:/Users/jstegall/TempleRunOzNew/Temp/maya/icons/decalvertorderfix.bmp" 
+        -style "iconOnly" 
+        -marginWidth 1
+        -marginHeight 1
+        -command "import decalvertorderfix\ndecalvertorderfix.DecalVertOrderFix()" 
+        -sourceType "python" 
+        -commandRepeatable 1
+    ;
+    shelfButton
+        -enableCommandRepeat 1
+        -enable 1
+        -width 35
+        -height 35
+        -manage 1
+        -visible 1
+        -preventOverride 0
+        -annotation "Fix Clip Planes" 
+        -enableBackground 0
+        -align "center" 
+        -label "Fix Clip Planes" 
+        -labelOffset 0
+        -font "plainLabelFont" 
+        -overlayLabelColor 0.8 0.8 0.8 
+        -overlayLabelBackColor 0 0 0 0.25 
+        -image "C:/Users/jstegall/TempleRunOzNew/Temp/maya/icons/FixClipPlanes.bmp" 
+        -image1 "C:/Users/jstegall/TempleRunOzNew/Temp/maya/icons/FixClipPlanes.bmp" 
+        -style "iconOnly" 
+        -marginWidth 1
+        -marginHeight 1
+        -command "import mainmayautil\nmainmayautil.FixClipPlanes()" 
+        -sourceType "python" 
+        -commandRepeatable 1
+    ;
+    shelfButton
+        -enableCommandRepeat 1
+        -enable 1
+        -width 35
+        -height 35
+        -manage 1
+        -visible 1
+        -preventOverride 0
+        -annotation "Fix Texture User Paths" 
+        -enableBackground 0
+        -align "center" 
+        -label "Fix Texture User Paths" 
+        -labelOffset 0
+        -font "plainLabelFont" 
+        -overlayLabelColor 0.8 0.8 0.8 
+        -overlayLabelBackColor 0 0 0 0.25 
+        -image "C:/Users/jstegall/TempleRunOzNew/Temp/maya/icons/FixTextureUserPaths.bmp" 
+        -image1 "C:/Users/jstegall/TempleRunOzNew/Temp/maya/icons/FixTextureUserPaths.bmp" 
+        -style "iconOnly" 
+        -marginWidth 1
+        -marginHeight 1
+        -command "import mainmayautil\nmainmayautil.FixTextureUserPaths()" 
+        -sourceType "python" 
+        -commandRepeatable 1
+    ;
+
+} 

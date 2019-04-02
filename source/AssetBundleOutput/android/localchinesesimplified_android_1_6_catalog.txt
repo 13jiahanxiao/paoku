@@ -1,0 +1,3 @@
+Font Chinese Simple
+logoOzChineseSimplified_HIGH
+rebuild_chinesesimplified

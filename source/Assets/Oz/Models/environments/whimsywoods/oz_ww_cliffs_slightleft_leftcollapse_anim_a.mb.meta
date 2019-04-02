@@ -1,0 +1,435 @@
+fileFormatVersion: 2
+guid: a49a38ae29b400a43bbf8ec7c18f463a
+ModelImporter:
+  fileIDToRecycleName:
+    4300000: ww_cliffs_slightleft_leftcollapse_anim_mesh
+    4300002: piece1
+    4300004: piece2
+    4300006: piece3
+    4300008: piece4
+    4300010: piece6
+    4300012: piece9
+    4300014: piece7
+    4300016: piece8
+    4300018: piece5
+    4300020: oz_ww_cliffs_slightleft_leftcollapse_anim_a_mesh
+    4300022: TempMeshProfileMeshPeice
+    4300024: pasted__ground_vine_01_01
+    4300026: pasted__Flower_Purple01_01
+    4300028: pasted__Flower_Purple01_02
+    4300030: pasted__star_plant01_01
+    4300032: pasted__pink_flower_bunch01_01
+    4300034: FernLarge01_01
+    4300036: FernSml01_01
+    4300038: white_flower_01_01
+    4300040: snow_drop01_01
+    4300042: snow_drop_bunch01_01
+    4300044: Rock01_01
+    4300046: Rock02_01
+    4300048: Rock03_01
+    4300050: Rock04_01
+    4300052: Rock05_01
+    4300054: Mushroom02_01
+    4300056: Mushroom01_01
+    4300058: Weed01_01
+    4300060: CurlyPlant01_01
+    4300062: trees:scraggly_tree_02
+    4300064: trees:whimsywoods_forest:frond_046
+    4300066: trees:whimsywoods_forest:pPlane33
+    4300068: trees:whimsywoods_forest:frond_045
+    4300070: trees:whimsywoods_forest:pPlane32
+    4300072: trees:whimsywoods_forest:frond_047
+    4300074: trees:whimsywoods_forest:frond_055
+    4300076: trees:whimsywoods_forest:frond_061
+    4300078: trees:whimsywoods_forest:frond_054
+    4300080: trees:whimsywoods_forest:frond_060
+    4300082: trees:whimsywoods_forest:pPlane15
+    4300084: trees:whimsywoods_forest:frond_059
+    4300086: trees:whimsywoods_forest:frond_058
+    4300088: trees:whimsywoods_forest:frond_057
+    4300090: trees:whimsywoods_forest:frond_049
+    4300092: trees:whimsywoods_forest:frond_048
+    4300094: trees:whimsywoods_forest:frond_051
+    4300096: trees:whimsywoods_forest:frond_053
+    4300098: trees:whimsywoods_forest:frond_052
+    4300100: trees:whimsywoods_forest:frond_050
+    4300102: trees:whimsywoods_forest:pPlane16
+    4300104: trees:frond_045
+    4300106: trees:scraggly_tree_01
+    4300108: trees:whimsywoods_forest:pPlane8
+    4300110: trees:whimsywoods_forest:pPlane9
+    4300112: trees:whimsywoods_forest:pPlane10
+    4300114: trees:whimsywoods_forest:pPlane11
+    4300116: trees:whimsywoods_forest:frond_023
+    4300118: trees:whimsywoods_forest:frond_025
+    4300120: trees:whimsywoods_forest:frond_026
+    4300122: trees:whimsywoods_forest:frond_027
+    4300124: trees:whimsywoods_forest:pPlane17
+    4300126: trees:whimsywoods_forest:frond_028
+    4300128: trees:whimsywoods_forest:frond_029
+    4300130: trees:whimsywoods_forest:frond_030
+    4300132: trees:whimsywoods_forest:frond_031
+    4300134: trees:whimsywoods_forest:pPlane18
+    4300136: trees:whimsywoods_forest:pPlane19
+    4300138: trees:whimsywoods_forest:pPlane20
+    4300140: trees:whimsywoods_forest:frond_032
+    4300142: trees:whimsywoods_forest:pPlane21
+    4300144: trees:whimsywoods_forest:pPlane22
+    4300146: trees:whimsywoods_forest:frond_033
+    4300148: trees:whimsywoods_forest:frond_034
+    4300150: trees:whimsywoods_forest:pPlane23
+    4300152: trees:whimsywoods_forest:pPlane24
+    4300154: trees:whimsywoods_forest:pPlane25
+    4300156: trees:whimsywoods_forest:frond_035
+    4300158: trees:whimsywoods_forest:frond_036
+    4300160: trees:whimsywoods_forest:frond_037
+    4300162: trees:whimsywoods_forest:frond_038
+    4300164: trees:whimsywoods_forest:frond_039
+    4300166: trees:whimsywoods_forest:frond_040
+    4300168: trees:whimsywoods_forest:frond_041
+    4300170: trees:whimsywoods_forest:frond_042
+    4300172: trees:whimsywoods_forest:frond_043
+    4300174: trees:whimsywoods_forest:pPlane26
+    4300176: trees:whimsywoods_forest:pPlane27
+    4300178: trees:whimsywoods_forest:pPlane28
+    4300180: trees:whimsywoods_forest:pPlane29
+    4300182: trees:whimsywoods_forest:pPlane30
+    4300184: trees:whimsywoods_forest:frond_05
+    4300186: trees:whimsywoods_forest:pPlane7
+    4300188: trees:whimsywoods_forest:pasted__frond_024
+    4300190: PinkTree01_01
+    4300192: tree_shape_planes:pPlane83
+    4300194: tree_shape_planes:pPlane58
+    4300196: tree_shape_planes:pPlane62
+    4300198: tree_shape_planes:pPlane63
+    4300200: tree_shape_planes:pPlane52
+    4300202: tree_shape_planes:pPlane60
+    4300204: tree_shape_planes:pPlane84
+    4300206: tree_shape_planes:pPlane56
+    4300208: tree_shape_planes:pPlane51
+    4300210: PillerTall01_01
+    4300212: PillerSmalll01_01
+    4300214: pCube1
+    4300216: pCube2
+    4300218: Weed01_02
+    4300220: pasted__ground_vine_01_02
+    4300222: pasted__ground_vine_01_03
+    4300224: pasted__ground_vine_01_01
+    4300226: pasted__Flower_Purple01_01
+    4300228: pasted__Flower_Purple01_02
+    4300230: pasted__star_plant01_01
+    4300232: pasted__pink_flower_bunch01_01
+    4300234: FernLarge01_01
+    4300236: FernSml01_01
+    4300238: white_flower_01_01
+    4300240: snow_drop01_01
+    4300242: snow_drop_bunch01_01
+    4300244: Rock01_01
+    4300246: Rock02_01
+    4300248: Rock03_01
+    4300250: Rock04_01
+    4300252: Rock05_01
+    4300254: Mushroom02_01
+    4300256: Mushroom01_01
+    4300258: Weed01_01
+    4300260: CurlyPlant01_01
+    4300262: SetDressingPeices_TempMeshProfileMeshPeice
+    4300264: trees1:scraggly_tree_01
+    4300266: trees1:whimsywoods_forest:pPlane8
+    4300268: trees1:whimsywoods_forest:pPlane9
+    4300270: trees1:whimsywoods_forest:pPlane10
+    4300272: trees1:whimsywoods_forest:pPlane11
+    4300274: trees1:whimsywoods_forest:frond_023
+    4300276: trees1:whimsywoods_forest:frond_025
+    4300278: trees1:whimsywoods_forest:frond_026
+    4300280: trees1:whimsywoods_forest:frond_027
+    4300282: trees1:whimsywoods_forest:pPlane17
+    4300284: trees1:whimsywoods_forest:frond_028
+    4300286: trees1:whimsywoods_forest:frond_029
+    4300288: trees1:whimsywoods_forest:frond_030
+    4300290: trees1:whimsywoods_forest:frond_031
+    4300292: trees1:whimsywoods_forest:pPlane18
+    4300294: trees1:whimsywoods_forest:pPlane19
+    4300296: trees1:whimsywoods_forest:pPlane20
+    4300298: trees1:whimsywoods_forest:frond_032
+    4300300: trees1:whimsywoods_forest:pPlane21
+    4300302: trees1:whimsywoods_forest:pPlane22
+    4300304: trees1:whimsywoods_forest:frond_033
+    4300306: trees1:whimsywoods_forest:frond_034
+    4300308: trees1:whimsywoods_forest:pPlane23
+    4300310: trees1:whimsywoods_forest:pPlane24
+    4300312: trees1:whimsywoods_forest:pPlane25
+    4300314: trees1:whimsywoods_forest:frond_035
+    4300316: trees1:whimsywoods_forest:frond_036
+    4300318: trees1:whimsywoods_forest:frond_037
+    4300320: trees1:whimsywoods_forest:frond_038
+    4300322: trees1:whimsywoods_forest:frond_039
+    4300324: trees1:whimsywoods_forest:frond_040
+    4300326: trees1:whimsywoods_forest:frond_041
+    4300328: trees1:whimsywoods_forest:frond_042
+    4300330: trees1:whimsywoods_forest:frond_043
+    4300332: trees1:whimsywoods_forest:pPlane26
+    4300334: trees1:whimsywoods_forest:pPlane27
+    4300336: trees1:whimsywoods_forest:pPlane28
+    4300338: trees1:whimsywoods_forest:pPlane29
+    4300340: trees1:whimsywoods_forest:pPlane30
+    4300342: trees1:whimsywoods_forest:frond_05
+    4300344: trees1:whimsywoods_forest:pPlane7
+    4300346: trees1:whimsywoods_forest:pasted__frond_024
+    4300348: SetDressingPeices_PillerTall01_01
+    4300350: SetDressingPeices_PillerSmalll01_01
+    4300352: SetDressingPeices_pCube1
+    4300354: SetDressingPeices_pCube2
+    4300356: oz_ww_cliffs_slightleft_leftcollapse_anim_a
+    4300358: decals
+    4300360: decals_overlays
+    4300362: decals_treeleaves
+    7400000: Take 001 //// oz_ww_cliffs_slightleft_leftcollapse_anim_a
+    7400002: collapse //// oz_ww_cliffs_slightleft_leftcollapse_anim_a
+  serializedVersion: 10
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    generateAnimations: 3
+    bakeSimulation: 0
+    splitAnimations: 1
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations:
+    - name: collapse
+      firstFrame: 1
+      lastFrame: 48
+      wrapMode: 1
+      loop: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00400000019
+    meshCompression: 3
+    addColliders: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMesh: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 2
+    tangentImportMode: 2
+  textMetaNamesToFileIDs:
+    //RootNode:
+      data:
+        first: 1
+        second: a6860100
+      data:
+        first: 4
+        second: 861a0600
+      data:
+        first: 111
+        second: 605fa900
+    decals:
+      data:
+        first: 1
+        second: b8860100
+      data:
+        first: 4
+        second: 981a0600
+      data:
+        first: 23
+        second: 6a182300
+      data:
+        first: 33
+        second: aa5a3200
+    decals_overlays:
+      data:
+        first: 1
+        second: c4860100
+      data:
+        first: 4
+        second: a41a0600
+      data:
+        first: 23
+        second: 76182300
+      data:
+        first: 33
+        second: b65a3200
+    decals_treeleaves:
+      data:
+        first: 1
+        second: c2860100
+      data:
+        first: 4
+        second: a21a0600
+      data:
+        first: 23
+        second: 74182300
+      data:
+        first: 33
+        second: b45a3200
+    dummy_a:
+      data:
+        first: 1
+        second: ae860100
+      data:
+        first: 4
+        second: 8e1a0600
+    dummy_b:
+      data:
+        first: 1
+        second: b6860100
+      data:
+        first: 4
+        second: 961a0600
+    dummy_c:
+      data:
+        first: 1
+        second: b4860100
+      data:
+        first: 4
+        second: 941a0600
+    dummy_d:
+      data:
+        first: 1
+        second: aa860100
+      data:
+        first: 4
+        second: 8a1a0600
+    dummy_e:
+      data:
+        first: 1
+        second: b2860100
+      data:
+        first: 4
+        second: 921a0600
+    oz_ww_cliffs_slightleft_leftcollapse_anim_a:
+      data:
+        first: 1
+        second: a8860100
+      data:
+        first: 4
+        second: 881a0600
+      data:
+        first: 23
+        second: 66182300
+      data:
+        first: 33
+        second: a65a3200
+    path_default:
+      data:
+        first: 1
+        second: b0860100
+      data:
+        first: 4
+        second: 901a0600
+    piece2:
+      data:
+        first: 1
+        second: a4860100
+      data:
+        first: 4
+        second: 841a0600
+      data:
+        first: 23
+        second: 64182300
+      data:
+        first: 33
+        second: a45a3200
+    piece3:
+      data:
+        first: 1
+        second: c0860100
+      data:
+        first: 4
+        second: a01a0600
+      data:
+        first: 23
+        second: 72182300
+      data:
+        first: 33
+        second: b25a3200
+    piece4:
+      data:
+        first: 1
+        second: ac860100
+      data:
+        first: 4
+        second: 8c1a0600
+      data:
+        first: 23
+        second: 68182300
+      data:
+        first: 33
+        second: a85a3200
+    piece5:
+      data:
+        first: 1
+        second: a0860100
+      data:
+        first: 4
+        second: 801a0600
+      data:
+        first: 23
+        second: 60182300
+      data:
+        first: 33
+        second: a05a3200
+    piece6:
+      data:
+        first: 1
+        second: be860100
+      data:
+        first: 4
+        second: 9e1a0600
+      data:
+        first: 23
+        second: 70182300
+      data:
+        first: 33
+        second: b05a3200
+    piece7:
+      data:
+        first: 1
+        second: a2860100
+      data:
+        first: 4
+        second: 821a0600
+      data:
+        first: 23
+        second: 62182300
+      data:
+        first: 33
+        second: a25a3200
+    piece8:
+      data:
+        first: 1
+        second: bc860100
+      data:
+        first: 4
+        second: 9c1a0600
+      data:
+        first: 23
+        second: 6e182300
+      data:
+        first: 33
+        second: ae5a3200
+    piece9:
+      data:
+        first: 1
+        second: ba860100
+      data:
+        first: 4
+        second: 9a1a0600
+      data:
+        first: 23
+        second: 6c182300
+      data:
+        first: 33
+        second: ac5a3200

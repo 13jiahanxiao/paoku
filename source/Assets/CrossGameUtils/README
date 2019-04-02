@@ -1,0 +1,22 @@
+This repository is meant to be a collection of utilities that would be useful across multiple Unity game projects.
+It is meant to reside somewhere under <Unity dir>/Assets.
+
+For installing this into your own unity project, use the following command (assuming you're somewhere under <Unity dir>).  
+git subtree add --prefix=Assets/CrossGameUtils git@github.wdig.com:URBIR003/CrossGameUtils.git master
+
+To push changes into this CrossGameUtils repository from your Game specific project, use
+git subtree push --prefix=Assets/CrossGameUtils git@github.wdig.com:URBIR003/CrossGameUtils.git master
+
+For more info on git subtree, take a look at 
+http://psionides.eu/2010/02/04/sharing-code-between-projects-with-git-subtree/
+http://apenwarr.ca/log/?m=200904
+I placed a copy of git-subtree in 
+raven.wdig.com//BYTESIZED/GettingStarted/InstallingPrograms/git-subtree
+
+When making commits, it is best to separate commits into the CrossGameUtils directory from the rest of your project.
+
+Finally since it's meant to be used across different projects, please do not break backwards compatibility.  If you do really need to break it talk to Redmond first.  
+
+Most importantly, do NOT put game specific files in here. 
+
+(minor change to test forked repos picking up from source repo changes)

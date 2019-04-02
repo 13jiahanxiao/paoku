@@ -1,0 +1,200 @@
+fileFormatVersion: 2
+guid: 34aac46c0d8735449abea7bcda4347dc
+ModelImporter:
+  fileIDToRecycleName:
+    4300000: oz_ec_narrows_transition_exit_a
+    4300002: spikeyTowers
+    4300004: oz_ec_narrows_straight_overunder_a
+    4300006: oz_ec_narrows_biggap_anim_a
+    4300008: bridgePiece1
+    4300010: bridgePiece2
+    4300012: bridgePiece3
+    4300014: bridgePiece4
+    4300016: bridgePiece5
+    4300018: bridgePiece6
+    4300020: bridgePiece7
+    4300022: bridgePiece8
+    4300024: bridgePiece9
+    4300026: bridgePiece10
+    4300028: bridgePiece11
+    4300030: bridgePiece12
+    4300032: bridgePiece13
+    4300034: bridgePiece14
+    4300036: bridgePiece15
+    4300038: bridgePiece16
+    4300040: bridgePiece17
+    4300042: bridgePiece18
+    4300044: bridgePiece19
+    4300046: bridgePiece20
+    4300048: bridgePiece21
+    4300050: bridgePiece22
+    4300052: bridgePiece23
+    4300054: bridgePiece24
+    4300056: bridgePiece25
+    4300058: bridgePiece26
+    4300060: bridgePiece27
+    4300062: bridgePiece28
+    4300064: bridgePiece29
+    4300066: bridgePiece30
+    4300068: bridgePiece31
+    4300070: oz_ec_narrows_hardleft_a
+    4300072: decals
+    4300074: oz_ec_narrows_hardright_a
+    4300076: oz_ec_narrows_transition_entrance_b
+    4300078: polySurface4
+    4300080: oz_ec_narrows_transition_exit_a1
+    4300082: oz_ec_narrows_straight_a:oz_ec_narrows_straight_a
+  serializedVersion: 10
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    generateAnimations: 0
+    bakeSimulation: 0
+    splitAnimations: 1
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations: []
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00400000019
+    meshCompression: 3
+    addColliders: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMesh: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 2
+    tangentImportMode: 2
+  textMetaNamesToFileIDs:
+    //RootNode:
+      data:
+        first: 1
+        second: a2860100
+      data:
+        first: 4
+        second: 821a0600
+      data:
+        first: 111
+        second: 605fa900
+    custom_lights:
+      data:
+        first: 1
+        second: ae860100
+      data:
+        first: 4
+        second: 8e1a0600
+    dummy_a:
+      data:
+        first: 1
+        second: ac860100
+      data:
+        first: 4
+        second: 8c1a0600
+    dummy_b:
+      data:
+        first: 1
+        second: a6860100
+      data:
+        first: 4
+        second: 861a0600
+    dummy_c:
+      data:
+        first: 1
+        second: a4860100
+      data:
+        first: 4
+        second: 841a0600
+    dummy_d:
+      data:
+        first: 1
+        second: a0860100
+      data:
+        first: 4
+        second: 801a0600
+    oz_ec_narrows_straight_a:oz_ec_narrows_straight_a:
+      data:
+        first: 1
+        second: bc860100
+      data:
+        first: 4
+        second: 9c1a0600
+      data:
+        first: 23
+        second: 62182300
+      data:
+        first: 33
+        second: a25a3200
+    oz_ec_narrows_transition_exit_a:
+      data:
+        first: 1
+        second: a8860100
+      data:
+        first: 4
+        second: 881a0600
+      data:
+        first: 23
+        second: 60182300
+      data:
+        first: 33
+        second: a05a3200
+    path_default:
+      data:
+        first: 1
+        second: aa860100
+      data:
+        first: 4
+        second: 8a1a0600
+    pointLight1:
+      data:
+        first: 1
+        second: b0860100
+      data:
+        first: 4
+        second: 901a0600
+    pointLight2:
+      data:
+        first: 1
+        second: b6860100
+      data:
+        first: 4
+        second: 961a0600
+    pointLight3:
+      data:
+        first: 1
+        second: ba860100
+      data:
+        first: 4
+        second: 9a1a0600
+    pointLight4:
+      data:
+        first: 1
+        second: b4860100
+      data:
+        first: 4
+        second: 941a0600
+    pointLight5:
+      data:
+        first: 1
+        second: b2860100
+      data:
+        first: 4
+        second: 921a0600
+    pointLight6:
+      data:
+        first: 1
+        second: b8860100
+      data:
+        first: 4
+        second: 981a0600

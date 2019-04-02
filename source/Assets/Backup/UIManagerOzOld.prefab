@@ -1,0 +1,166 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 3
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400002}
+  - 20: {fileID: 2000000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: UIManagerOzOld
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.00024796, y: 1.00024796, z: 1.00024796}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!20 &2000000
+Camera:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 3
+  m_BackGroundColor: {r: .192156866, g: .301960796, b: .474509805, a: .0196078438}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: -2
+  far clip plane: 6
+  field of view: 60
+  orthographic: 1
+  orthographic size: 1
+  m_Depth: 5
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 546311424
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_HDR: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a92b5d748695fd44aac9feef17ba415, type: 1}
+  m_Name: 
+  useMouse: 1
+  useTouch: 1
+  allowMultiTouch: 1
+  useKeyboard: 1
+  useController: 1
+  eventReceiverMask:
+    serializedVersion: 2
+    m_Bits: 546311424
+  clipRaycasts: 1
+  tooltipDelay: 1
+  stickyTooltip: 1
+  mouseDragThreshold: 4
+  mouseClickThreshold: 10
+  touchDragThreshold: 40
+  touchClickThreshold: 40
+  rangeDistance: -1
+  scrollAxisName: Mouse ScrollWheel
+  verticalAxisName: Vertical
+  horizontalAxisName: Horizontal
+  submitKey0: 13
+  submitKey1: 330
+  cancelKey0: 27
+  cancelKey1: 331
+--- !u!114 &11400002
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7526522dd63724135b6fc95b03f9f784, type: 1}
+  m_Name: 
+  InstantiateDialogs: 1
+  PaperVC: {fileID: 0}
+  mainVC: {fileID: 0}
+  characterSelectVC: {fileID: 0}
+  idolMenuVC: {fileID: 0}
+  postGameVC: {fileID: 0}
+  inGameVC: {fileID: 0}
+  inventoryVC: {fileID: 0}
+  IAPMiniStoreVC: {fileID: 0}
+  ObjectivesVC: {fileID: 0}
+  settingsVC: {fileID: 0}
+  statsVC: {fileID: 0}
+  leaderboardVC: {fileID: 0}
+  gatchVC: {fileID: 0}
+  worldOfOzVC: {fileID: 0}
+  confirmDialog: {fileID: 0}
+  okayDialog: {fileID: 0}
+  downloadDialog: {fileID: 0}
+  downloadUIDialog: {fileID: 0}
+  downloadLocalDialog: {fileID: 0}
+  facebookLoginDialog: {fileID: 0}
+  progressBar: {fileID: 0}
+  UIResurrectMenu: {fileID: 0}
+  CoinLabels: []
+  SpecialCoinLabels: []
+  MainGameCamera: {fileID: 0}
+  resurrectProgressBar: {fileID: 0}
+  neighborScoreLabel: {fileID: 0}
+  UICamera: {fileID: 0}
+  deviceSupportsHiRes: 1
+  InterfaceMaster: {fileID: 11400000, guid: d9917c5373f55264abcfe4768b6596ea, type: 2}
+  InterfaceMasterOpaque: {fileID: 11400000, guid: 5ab9eeca2b8ac43f88eaa6048862b175,
+    type: 2}
+  InterfaceMaster2: {fileID: 11400000, guid: 678adbfd80282e74f86ab1638b386f4c, type: 2}
+  InterfaceMasterReplacements:
+  - Oz/Interface/Atlases/_AtlasData/InterfaceMasterOz_SMALL
+  - Oz/Interface/Atlases/_AtlasData/InterfaceMasterOz_MED
+  - Oz/Interface/Atlases/_AtlasData/InterfaceMasterOz_MED
+  - hiresresources/InterfaceMasterOz_HIGH_Prefab
+  - hiresresources/InterfaceMasterOz_HIGH_Prefab
+  InterfaceMasterReplacementsOpaque:
+  - Oz/Interface/Atlases/_AtlasData/InterfaceMasterOz_SMALL_op
+  - Oz/Interface/Atlases/_AtlasData/InterfaceMasterOz_MED_op
+  - Oz/Interface/Atlases/_AtlasData/InterfaceMasterOz_MED_op
+  - hiresresources/InterfaceMasterOz_HIGH_Prefab_op
+  - hiresresources/InterfaceMasterOz_HIGH_Prefab_op
+  InterfaceMasterReplacements2:
+  - Oz/Interface/Atlases/_AtlasData/InterfaceMasterOz_SMALL02
+  - Oz/Interface/Atlases/_AtlasData/InterfaceMasterOz_MED02
+  - Oz/Interface/Atlases/_AtlasData/InterfaceMasterOz_MED02
+  - hiresresources/InterfaceMasterOz_HIGH02_Prefab
+  - hiresresources/InterfaceMasterOz_HIGH02_Prefab
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

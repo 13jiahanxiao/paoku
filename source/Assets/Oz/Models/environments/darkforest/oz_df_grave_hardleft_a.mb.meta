@@ -1,0 +1,275 @@
+fileFormatVersion: 2
+guid: 81727d9c3bf157a449c6d40f5a41f900
+ModelImporter:
+  fileIDToRecycleName:
+    4300000: oz_df_grave_hardleft_a
+    4300002: decals
+    4300004: oz_df_grave_hardleft_a_opaque
+    4300006: polySurface1
+    4300008: polySurface2
+    4300010: polySurface4
+    4300012: polySurface5
+    4300014: polySurface7
+    4300016: polySurface20
+    4300018: polySurface21
+    4300020: polySurface22
+    4300022: polySurface23
+    4300024: polySurface24
+    4300026: polySurface25
+    4300028: polySurface26
+    4300030: polySurface27
+    4300032: polySurface28
+    4300034: polySurface29
+    4300036: polySurface30
+    4300038: polySurface31
+    4300040: polySurface32
+    4300042: polySurface33
+    4300044: polySurface34
+    4300046: polySurface35
+    4300048: polySurface36
+    4300050: polySurface37
+    4300052: polySurface38
+    4300054: polySurface39
+    4300056: polySurface40
+    4300058: polySurface41
+    4300060: polySurface42
+    4300062: polySurface43
+    4300064: polySurface44
+    4300066: polySurface45
+    4300068: polySurface46
+    4300070: polySurface47
+    4300072: polySurface48
+    4300074: polySurface49
+    4300076: polySurface50
+    4300078: polySurface51
+    4300080: polySurface52
+    4300082: polySurface53
+    4300084: polySurface54
+    4300086: polySurface55
+    4300088: polySurface56
+    4300090: polySurface58
+    4300092: polySurface59
+    4300094: polySurface60
+    4300096: polySurface61
+    4300098: polySurface62
+    4300100: polySurface63
+    4300102: polySurface64
+    4300104: polySurface65
+    4300106: polySurface66
+    4300108: polySurface67
+    4300110: polySurface68
+    4300112: polySurface69
+    4300114: polySurface70
+    4300116: polySurface71
+    4300118: polySurface72
+    4300120: polySurface73
+    4300122: polySurface74
+    4300124: polySurface75
+    4300126: polySurface76
+    4300128: polySurface77
+    4300130: polySurface78
+    4300132: polySurface79
+    4300134: polySurface80
+    4300136: polySurface81
+    4300138: polySurface82
+    4300140: polySurface83
+    4300142: polySurface84
+    4300144: polySurface85
+    4300146: polySurface86
+    4300148: polySurface87
+    4300150: polySurface88
+    4300152: polySurface89
+    4300154: polySurface90
+    4300156: polySurface92
+    4300158: polySurface93
+    4300160: polySurface94
+    4300162: polySurface95
+    4300164: polySurface1
+    4300166: polySurface91
+    4300168: pPlane1
+    4300170: decals_overlays
+    4300172: FlatStone01
+    4300174: FlatStone02
+    4300176: FlatStone03
+    4300178: FlatStone04
+    4300180: FlatStone05
+    4300182: FlatStone06
+    4300184: FlatStone07
+    4300186: FlatStone09
+    4300188: FlatStone010
+    4300190: FlatStone011
+    4300192: dGraveStone04
+    4300194: dGraveStone06
+    4300196: BigRock02
+    4300198: dGraveStone05
+    4300200: FlatStone012
+    4300202: FlatStone013
+    4300204: FlatStone014
+    4300206: FlatStone015
+    4300208: FlatStone016
+    4300210: FlatStone017
+    4300212: PathStoneLight01
+    4300214: PathStoneDark01
+    4300216: PathStoneDark02
+    4300218: PathStoneLight02
+    4300220: PathStoneLight03
+    4300222: PathStoneDark03
+    4300224: PathStoneDark04
+    4300226: bushSmall01
+    4300228: Tree01
+    4300230: Tree02
+    4300232: Tree03
+    4300234: Tree04
+    4300236: Tree05
+    4300238: Tree06
+    4300240: bushSmall02
+    4300242: bushSmall03
+    4300244: bushSmall04
+    4300246: oz_df_grave_hardleft_a1
+    4300248: pPlane14
+    4300250: PathDebrie01
+    4300252: PathRoots02
+    4300254: PathRoots01
+    4300256: pPlane28
+    4300258: PathDebrie02
+    4300260: PathRoots03
+    7400000: Take 001 //// oz_df_grave_hardleft_a
+  serializedVersion: 10
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    generateAnimations: 0
+    bakeSimulation: 0
+    splitAnimations: 1
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations: []
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00400000019
+    meshCompression: 3
+    addColliders: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMesh: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 2
+    tangentImportMode: 2
+  textMetaNamesToFileIDs:
+    //RootNode:
+      data:
+        first: 1
+        second: a8860100
+      data:
+        first: 4
+        second: 881a0600
+      data:
+        first: 111
+        second: 605fa900
+    custom_lights:
+      data:
+        first: 1
+        second: ae860100
+      data:
+        first: 4
+        second: 8e1a0600
+    decals:
+      data:
+        first: 1
+        second: ac860100
+      data:
+        first: 4
+        second: 8c1a0600
+      data:
+        first: 23
+        second: 60182300
+      data:
+        first: 33
+        second: a05a3200
+    decals_overlays:
+      data:
+        first: 1
+        second: b6860100
+      data:
+        first: 4
+        second: 961a0600
+      data:
+        first: 23
+        second: 64182300
+      data:
+        first: 33
+        second: a45a3200
+    dummy_a:
+      data:
+        first: 1
+        second: a0860100
+      data:
+        first: 4
+        second: 801a0600
+    dummy_b:
+      data:
+        first: 1
+        second: a6860100
+      data:
+        first: 4
+        second: 861a0600
+    dummy_c:
+      data:
+        first: 1
+        second: a2860100
+      data:
+        first: 4
+        second: 821a0600
+    gravespotlight_forestspotlight_forestspotlight_spotLight1:
+      data:
+        first: 1
+        second: b4860100
+      data:
+        first: 4
+        second: 941a0600
+    gravespotlight_forestspotlight_forestspotlight_spotLight2:
+      data:
+        first: 1
+        second: b2860100
+      data:
+        first: 4
+        second: 921a0600
+    gravespotlight_forestspotlight_forestspotlight_spotLight3:
+      data:
+        first: 1
+        second: b0860100
+      data:
+        first: 4
+        second: 901a0600
+    oz_df_grave_hardleft_a:
+      data:
+        first: 1
+        second: a4860100
+      data:
+        first: 4
+        second: 841a0600
+      data:
+        first: 23
+        second: 62182300
+      data:
+        first: 33
+        second: a25a3200
+    path_default:
+      data:
+        first: 1
+        second: aa860100
+      data:
+        first: 4
+        second: 8a1a0600

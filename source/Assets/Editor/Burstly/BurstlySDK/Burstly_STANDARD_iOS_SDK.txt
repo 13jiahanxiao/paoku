@@ -1,0 +1,17 @@
+v1.40.0.37742
+author:=Tommy McGlynn
+email:=onboard@burstly.com
+timestamp:=201304181620
+
+local_include:=BurstlyAdNetwork BurstlyCore BurstlyCurrency BurstlyConvenienceLayer BurstlyCommon BurstlyInstalledAppsTracker BurstlyDownloadTracker Burstly_burstly_Adaptor BurstlyJSONParser
+
+arch:=armv7  armv7s  i386 
+type:=release
+thumb:=thumb
+compiler:=llvm
+adHost:=mercury.appads.com
+adHostMask:=mercury%d.appads.com
+adHostNumber:=3
+currencyHost:=lv.appads.com
+currencyHostMask:=lv%d.appads.com
+currencyHostNumber:=3

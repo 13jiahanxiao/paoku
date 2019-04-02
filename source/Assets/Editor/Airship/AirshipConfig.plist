@@ -1,0 +1,17 @@
+{
+	"APP_STORE_OR_AD_HOC_BUILD" = YES;
+	"PRODUCTION_APP_KEY" = "zUYLMttLSm-7v6q0l-UY4Q";
+	"PRODUCTION_APP_SECRET" = "1QNaUFUVRJi09HaN3YQuCg";
+	"DEVELOPMENT_APP_KEY" = "U_snOmhxSkC3bHA1VfEM0w";
+	"DEVELOPMENT_APP_SECRET" = "k1PKG_9cToSoLDLvXaZLFw";
+	"ANALYTICS_SERVER" = "";
+}
+
+// com.disney.TempleRunOz prod app key :      zUYLMttLSm-7v6q0l-UY4Q
+// com.disney.TempleRunOz prod app secret :   1QNaUFUVRJi09HaN3YQuCg
+
+// com.disney.troz dev app key :      U_snOmhxSkC3bHA1VfEM0w
+// com.disney.troz dev app secret :   k1PKG_9cToSoLDLvXaZLFw
+
+// com.disney.troz prod app key :      OlihbaxXScu6ZEDmL8nphQ
+// com.disney.troz prod app secret :   HLNczck2RDyM60hj033iuQ

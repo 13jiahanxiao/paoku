@@ -1,0 +1,953 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 3
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: BalanceData
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6b85ca3fbe41486d91d74e2d24fbcf9, type: 1}
+  m_Name: 
+  BalanceInfo:
+  - Distance: 0
+    Commands: []
+    StateParamKeys:
+    - AllowCoins
+    - MinDistBetweenCoinRuns
+    - MaxCoinsPerRun
+    - AllowTurns
+    - AllowObstacles
+    - MinDistBetweenTurns
+    - MaxDistBetweenTurns
+    - MaxDifficulty
+    - MinDistBetweenObstacles
+    - MaxDistBetweenObstacles
+    - AllowTurnAfterObstacle
+    - MinDistAfterTurnForObstacle
+    - DistToTurnSection
+    - DoubleObstaclePercent
+    - MaxDistBetweenCoinRuns
+    - MinCoinsPerRun
+    StateParamValues:
+    - Identifier: AllowCoins
+      Value: 0
+      BoolValue: 1
+      IsBool: 1
+      IsEnabled: 1
+    - Identifier: MinDistBetweenCoinRuns
+      Value: 50
+      BoolValue: 1
+      IsBool: 0
+      IsEnabled: 1
+    - Identifier: MaxCoinsPerRun
+      Value: 25
+      BoolValue: 1
+      IsBool: 0
+      IsEnabled: 1
+    - Identifier: AllowTurns
+      Value: 0
+      BoolValue: 1
+      IsBool: 1
+      IsEnabled: 1
+    - Identifier: AllowObstacles
+      Value: 0
+      BoolValue: 1
+      IsBool: 1
+      IsEnabled: 1
+    - Identifier: MinDistBetweenTurns
+      Value: 20
+      BoolValue: 1
+      IsBool: 0
+      IsEnabled: 1
+    - Identifier: MaxDistBetweenTurns
+      Value: 45
+      BoolValue: 1
+      IsBool: 0
+      IsEnabled: 1
+    - Identifier: MaxDifficulty
+      Value: 1
+      BoolValue: 1
+      IsBool: 0
+      IsEnabled: 1
+    - Identifier: MinDistBetweenObstacles
+      Value: 10
+      BoolValue: 1
+      IsBool: 0
+      IsEnabled: 1
+    - Identifier: MaxDistBetweenObstacles
+      Value: 20
+      BoolValue: 1
+      IsBool: 0
+      IsEnabled: 1
+    - Identifier: AllowTurnAfterObstacle
+      Value: 0
+      BoolValue: 0
+      IsBool: 1
+      IsEnabled: 1
+    - Identifier: MinDistAfterTurnForObstacle
+      Value: 10
+      BoolValue: 1
+      IsBool: 0
+      IsEnabled: 1
+    - Identifier: DistToTurnSection
+      Value: 1000
+      BoolValue: 1
+      IsBool: 0
+      IsEnabled: 1
+    - Identifier: DoubleObstaclePercent
+      Value: 0
+      BoolValue: 1
+      IsBool: 0
+      IsEnabled: 1
+    - Identifier: MaxDistBetweenCoinRuns
+      Value: 0
+      BoolValue: 1
+      IsBool: 0
+      IsEnabled: 1
+    - Identifier: MinCoinsPerRun
+      Value: 10
+      BoolValue: 1
+      IsBool: 0
+      IsEnabled: 1
+  - Distance: 333
+    Commands: []
+    StateParamKeys:
+    - AllowCoins
+    - MinDistBetweenCoinRuns
+    - MaxCoinsPerRun
+    - AllowTurns
+    - AllowObstacles
+    - MinDistBetweenTurns
+    - MaxDistBetweenTurns
+    - MaxDifficulty
+    - MinDistBetweenObstacles
+    - MaxDistBetweenObstacles
+    - AllowTurnAfterObstacle
+    - MinDistAfterTurnForObstacle
+    - DistToTurnSection
+    - DoubleObstaclePercent
+    - MaxDistBetweenCoinRuns
+    - MinCoinsPerRun
+    StateParamValues:
+    - Identifier: AllowCoins
+      Value: 0
+      BoolValue: 1
+      IsBool: 1
+      IsEnabled: 1
+    - Identifier: MinDistBetweenCoinRuns
+      Value: 50
+      BoolValue: 1
+      IsBool: 0
+      IsEnabled: 1
+    - Identifier: MaxCoinsPerRun
+      Value: 25
+      BoolValue: 1
+      IsBool: 0
+      IsEnabled: 1
+    - Identifier: AllowTurns
+      Value: 0
+      BoolValue: 1
+      IsBool: 1
+      IsEnabled: 1
+    - Identifier: AllowObstacles
+      Value: 0
+      BoolValue: 1
+      IsBool: 1
+      IsEnabled: 1
+    - Identifier: MinDistBetweenTurns
+      Value: 20
+      BoolValue: 1
+      IsBool: 0
+      IsEnabled: 1
+    - Identifier: MaxDistBetweenTurns
+      Value: 40
+      BoolValue: 1
+      IsBool: 0
+      IsEnabled: 1
+    - Identifier: MaxDifficulty
+      Value: 1
+      BoolValue: 1
+      IsBool: 0
+      IsEnabled: 1
+    - Identifier: MinDistBetweenObstacles
+      Value: 10
+      BoolValue: 1
+      IsBool: 0
+      IsEnabled: 1
+    - Identifier: MaxDistBetweenObstacles
+      Value: 20
+      BoolValue: 1
+      IsBool: 0
+      IsEnabled: 1
+    - Identifier: AllowTurnAfterObstacle
+      Value: 0
+      BoolValue: 0
+      IsBool: 1
+      IsEnabled: 1
+    - Identifier: MinDistAfterTurnForObstacle
+      Value: 10
+      BoolValue: 1
+      IsBool: 0
+      IsEnabled: 1
+    - Identifier: DistToTurnSection
+      Value: 1000
+      BoolValue: 1
+      IsBool: 0
+      IsEnabled: 1
+    - Identifier: DoubleObstaclePercent
+      Value: 0
+      BoolValue: 1
+      IsBool: 0
+      IsEnabled: 1
+    - Identifier: MaxDistBetweenCoinRuns
+      Value: 0
+      BoolValue: 1
+      IsBool: 0
+      IsEnabled: 1
+    - Identifier: MinCoinsPerRun
+      Value: 10
+      BoolValue: 1
+      IsBool: 0
+      IsEnabled: 1
+  - Distance: 667
+    Commands: []
+    StateParamKeys:
+    - AllowCoins
+    - MinDistBetweenCoinRuns
+    - MaxCoinsPerRun
+    - AllowTurns
+    - AllowObstacles
+    - MinDistBetweenTurns
+    - MaxDistBetweenTurns
+    - MaxDifficulty
+    - MinDistBetweenObstacles
+    - MaxDistBetweenObstacles
+    - AllowTurnAfterObstacle
+    - MinDistAfterTurnForObstacle
+    - DistToTurnSection
+    - DoubleObstaclePercent
+    - MaxDistBetweenCoinRuns
+    - MinCoinsPerRun
+    StateParamValues:
+    - Identifier: AllowCoins
+      Value: 0
+      BoolValue: 1
+      IsBool: 1
+      IsEnabled: 1
+    - Identifier: MinDistBetweenCoinRuns
+      Value: 40
+      BoolValue: 1
+      IsBool: 0
+      IsEnabled: 1
+    - Identifier: MaxCoinsPerRun
+      Value: 25
+      BoolValue: 1
+      IsBool: 0
+      IsEnabled: 1
+    - Identifier: AllowTurns
+      Value: 0
+      BoolValue: 1
+      IsBool: 1
+      IsEnabled: 1
+    - Identifier: AllowObstacles
+      Value: 0
+      BoolValue: 1
+      IsBool: 1
+      IsEnabled: 1
+    - Identifier: MinDistBetweenTurns
+      Value: 20
+      BoolValue: 1
+      IsBool: 0
+      IsEnabled: 1
+    - Identifier: MaxDistBetweenTurns
+      Value: 35
+      BoolValue: 1
+      IsBool: 0
+      IsEnabled: 1
+    - Identifier: MaxDifficulty
+      Value: 2
+      BoolValue: 1
+      IsBool: 0
+      IsEnabled: 1
+    - Identifier: MinDistBetweenObstacles
+      Value: 10
+      BoolValue: 1
+      IsBool: 0
+      IsEnabled: 1
+    - Identifier: MaxDistBetweenObstacles
+      Value: 20
+      BoolValue: 1
+      IsBool: 0
+      IsEnabled: 1
+    - Identifier: AllowTurnAfterObstacle
+      Value: 0
+      BoolValue: 0
+      IsBool: 1
+      IsEnabled: 1
+    - Identifier: MinDistAfterTurnForObstacle
+      Value: 10
+      BoolValue: 1
+      IsBool: 0
+      IsEnabled: 1
+    - Identifier: DistToTurnSection
+      Value: 1000
+      BoolValue: 1
+      IsBool: 0
+      IsEnabled: 1
+    - Identifier: DoubleObstaclePercent
+      Value: 0
+      BoolValue: 1
+      IsBool: 0
+      IsEnabled: 1
+    - Identifier: MaxDistBetweenCoinRuns
+      Value: 0
+      BoolValue: 1
+      IsBool: 0
+      IsEnabled: 1
+    - Identifier: MinCoinsPerRun
+      Value: 10
+      BoolValue: 1
+      IsBool: 0
+      IsEnabled: 1
+  - Distance: 1000
+    Commands: []
+    StateParamKeys:
+    - AllowCoins
+    - MinDistBetweenCoinRuns
+    - MaxCoinsPerRun
+    - AllowTurns
+    - AllowObstacles
+    - MinDistBetweenTurns
+    - MaxDistBetweenTurns
+    - MaxDifficulty
+    - MinDistBetweenObstacles
+    - MaxDistBetweenObstacles
+    - AllowTurnAfterObstacle
+    - MinDistAfterTurnForObstacle
+    - DistToTurnSection
+    - DoubleObstaclePercent
+    - MaxDistBetweenCoinRuns
+    - MinCoinsPerRun
+    StateParamValues:
+    - Identifier: AllowCoins
+      Value: 0
+      BoolValue: 1
+      IsBool: 1
+      IsEnabled: 1
+    - Identifier: MinDistBetweenCoinRuns
+      Value: 40
+      BoolValue: 1
+      IsBool: 0
+      IsEnabled: 1
+    - Identifier: MaxCoinsPerRun
+      Value: 25
+      BoolValue: 1
+      IsBool: 0
+      IsEnabled: 1
+    - Identifier: AllowTurns
+      Value: 0
+      BoolValue: 1
+      IsBool: 1
+      IsEnabled: 1
+    - Identifier: AllowObstacles
+      Value: 0
+      BoolValue: 1
+      IsBool: 1
+      IsEnabled: 1
+    - Identifier: MinDistBetweenTurns
+      Value: 20
+      BoolValue: 1
+      IsBool: 0
+      IsEnabled: 1
+    - Identifier: MaxDistBetweenTurns
+      Value: 35
+      BoolValue: 1
+      IsBool: 0
+      IsEnabled: 1
+    - Identifier: MaxDifficulty
+      Value: 3
+      BoolValue: 1
+      IsBool: 0
+      IsEnabled: 1
+    - Identifier: MinDistBetweenObstacles
+      Value: 10
+      BoolValue: 1
+      IsBool: 0
+      IsEnabled: 1
+    - Identifier: MaxDistBetweenObstacles
+      Value: 15
+      BoolValue: 1
+      IsBool: 0
+      IsEnabled: 1
+    - Identifier: AllowTurnAfterObstacle
+      Value: 0
+      BoolValue: 0
+      IsBool: 1
+      IsEnabled: 1
+    - Identifier: MinDistAfterTurnForObstacle
+      Value: 10
+      BoolValue: 1
+      IsBool: 0
+      IsEnabled: 1
+    - Identifier: DistToTurnSection
+      Value: 850
+      BoolValue: 1
+      IsBool: 0
+      IsEnabled: 1
+    - Identifier: DoubleObstaclePercent
+      Value: 0
+      BoolValue: 1
+      IsBool: 0
+      IsEnabled: 1
+    - Identifier: MaxDistBetweenCoinRuns
+      Value: 0
+      BoolValue: 1
+      IsBool: 0
+      IsEnabled: 1
+    - Identifier: MinCoinsPerRun
+      Value: 10
+      BoolValue: 1
+      IsBool: 0
+      IsEnabled: 1
+  - Distance: 1333
+    Commands: []
+    StateParamKeys:
+    - AllowCoins
+    - MinDistBetweenCoinRuns
+    - MaxCoinsPerRun
+    - AllowTurns
+    - AllowObstacles
+    - MinDistBetweenTurns
+    - MaxDistBetweenTurns
+    - MaxDifficulty
+    - MinDistBetweenObstacles
+    - MaxDistBetweenObstacles
+    - AllowTurnAfterObstacle
+    - MinDistAfterTurnForObstacle
+    - DistToTurnSection
+    - DoubleObstaclePercent
+    - MaxDistBetweenCoinRuns
+    - MinCoinsPerRun
+    StateParamValues:
+    - Identifier: AllowCoins
+      Value: 0
+      BoolValue: 1
+      IsBool: 1
+      IsEnabled: 1
+    - Identifier: MinDistBetweenCoinRuns
+      Value: 30
+      BoolValue: 1
+      IsBool: 0
+      IsEnabled: 1
+    - Identifier: MaxCoinsPerRun
+      Value: 25
+      BoolValue: 1
+      IsBool: 0
+      IsEnabled: 1
+    - Identifier: AllowTurns
+      Value: 0
+      BoolValue: 1
+      IsBool: 1
+      IsEnabled: 1
+    - Identifier: AllowObstacles
+      Value: 0
+      BoolValue: 1
+      IsBool: 1
+      IsEnabled: 1
+    - Identifier: MinDistBetweenTurns
+      Value: 15
+      BoolValue: 1
+      IsBool: 0
+      IsEnabled: 1
+    - Identifier: MaxDistBetweenTurns
+      Value: 30
+      BoolValue: 1
+      IsBool: 0
+      IsEnabled: 1
+    - Identifier: MaxDifficulty
+      Value: 3
+      BoolValue: 1
+      IsBool: 0
+      IsEnabled: 1
+    - Identifier: MinDistBetweenObstacles
+      Value: 7.5
+      BoolValue: 1
+      IsBool: 0
+      IsEnabled: 1
+    - Identifier: MaxDistBetweenObstacles
+      Value: 15
+      BoolValue: 1
+      IsBool: 0
+      IsEnabled: 1
+    - Identifier: AllowTurnAfterObstacle
+      Value: 0
+      BoolValue: 1
+      IsBool: 1
+      IsEnabled: 1
+    - Identifier: MinDistAfterTurnForObstacle
+      Value: 10
+      BoolValue: 1
+      IsBool: 0
+      IsEnabled: 1
+    - Identifier: DistToTurnSection
+      Value: 850
+      BoolValue: 1
+      IsBool: 0
+      IsEnabled: 1
+    - Identifier: DoubleObstaclePercent
+      Value: 0
+      BoolValue: 1
+      IsBool: 0
+      IsEnabled: 1
+    - Identifier: MaxDistBetweenCoinRuns
+      Value: 0
+      BoolValue: 1
+      IsBool: 0
+      IsEnabled: 1
+    - Identifier: MinCoinsPerRun
+      Value: 10
+      BoolValue: 1
+      IsBool: 0
+      IsEnabled: 1
+  - Distance: 2167
+    Commands: []
+    StateParamKeys:
+    - AllowCoins
+    - MinDistBetweenCoinRuns
+    - MaxCoinsPerRun
+    - AllowTurns
+    - AllowObstacles
+    - MinDistBetweenTurns
+    - MaxDistBetweenTurns
+    - MaxDifficulty
+    - MinDistBetweenObstacles
+    - MaxDistBetweenObstacles
+    - AllowTurnAfterObstacle
+    - MinDistAfterTurnForObstacle
+    - DistToTurnSection
+    - DoubleObstaclePercent
+    - MaxDistBetweenCoinRuns
+    - MinCoinsPerRun
+    StateParamValues:
+    - Identifier: AllowCoins
+      Value: 0
+      BoolValue: 1
+      IsBool: 1
+      IsEnabled: 1
+    - Identifier: MinDistBetweenCoinRuns
+      Value: 20
+      BoolValue: 1
+      IsBool: 0
+      IsEnabled: 1
+    - Identifier: MaxCoinsPerRun
+      Value: 25
+      BoolValue: 1
+      IsBool: 0
+      IsEnabled: 1
+    - Identifier: AllowTurns
+      Value: 0
+      BoolValue: 1
+      IsBool: 1
+      IsEnabled: 1
+    - Identifier: AllowObstacles
+      Value: 0
+      BoolValue: 1
+      IsBool: 1
+      IsEnabled: 1
+    - Identifier: MinDistBetweenTurns
+      Value: 15
+      BoolValue: 1
+      IsBool: 0
+      IsEnabled: 1
+    - Identifier: MaxDistBetweenTurns
+      Value: 30
+      BoolValue: 1
+      IsBool: 0
+      IsEnabled: 1
+    - Identifier: MaxDifficulty
+      Value: 4
+      BoolValue: 1
+      IsBool: 0
+      IsEnabled: 1
+    - Identifier: MinDistBetweenObstacles
+      Value: 7.5
+      BoolValue: 1
+      IsBool: 0
+      IsEnabled: 1
+    - Identifier: MaxDistBetweenObstacles
+      Value: 10
+      BoolValue: 1
+      IsBool: 0
+      IsEnabled: 1
+    - Identifier: AllowTurnAfterObstacle
+      Value: 0
+      BoolValue: 1
+      IsBool: 1
+      IsEnabled: 1
+    - Identifier: MinDistAfterTurnForObstacle
+      Value: 10
+      BoolValue: 1
+      IsBool: 0
+      IsEnabled: 1
+    - Identifier: DistToTurnSection
+      Value: 850
+      BoolValue: 1
+      IsBool: 0
+      IsEnabled: 1
+    - Identifier: DoubleObstaclePercent
+      Value: 0
+      BoolValue: 1
+      IsBool: 0
+      IsEnabled: 1
+    - Identifier: MaxDistBetweenCoinRuns
+      Value: 0
+      BoolValue: 1
+      IsBool: 0
+      IsEnabled: 1
+    - Identifier: MinCoinsPerRun
+      Value: 10
+      BoolValue: 1
+      IsBool: 0
+      IsEnabled: 1
+  - Distance: 3000
+    Commands: []
+    StateParamKeys:
+    - AllowCoins
+    - MinDistBetweenCoinRuns
+    - MaxCoinsPerRun
+    - AllowTurns
+    - AllowObstacles
+    - MinDistBetweenTurns
+    - MaxDistBetweenTurns
+    - MaxDifficulty
+    - MinDistBetweenObstacles
+    - MaxDistBetweenObstacles
+    - AllowTurnAfterObstacle
+    - MinDistAfterTurnForObstacle
+    - DistToTurnSection
+    - DoubleObstaclePercent
+    - MaxDistBetweenCoinRuns
+    - MinCoinsPerRun
+    StateParamValues:
+    - Identifier: AllowCoins
+      Value: 0
+      BoolValue: 1
+      IsBool: 1
+      IsEnabled: 1
+    - Identifier: MinDistBetweenCoinRuns
+      Value: 20
+      BoolValue: 1
+      IsBool: 0
+      IsEnabled: 1
+    - Identifier: MaxCoinsPerRun
+      Value: 25
+      BoolValue: 1
+      IsBool: 0
+      IsEnabled: 1
+    - Identifier: AllowTurns
+      Value: 0
+      BoolValue: 1
+      IsBool: 1
+      IsEnabled: 1
+    - Identifier: AllowObstacles
+      Value: 0
+      BoolValue: 1
+      IsBool: 1
+      IsEnabled: 1
+    - Identifier: MinDistBetweenTurns
+      Value: 10
+      BoolValue: 1
+      IsBool: 0
+      IsEnabled: 1
+    - Identifier: MaxDistBetweenTurns
+      Value: 25
+      BoolValue: 1
+      IsBool: 0
+      IsEnabled: 1
+    - Identifier: MaxDifficulty
+      Value: 4
+      BoolValue: 1
+      IsBool: 0
+      IsEnabled: 1
+    - Identifier: MinDistBetweenObstacles
+      Value: 5
+      BoolValue: 1
+      IsBool: 0
+      IsEnabled: 1
+    - Identifier: MaxDistBetweenObstacles
+      Value: 10
+      BoolValue: 1
+      IsBool: 0
+      IsEnabled: 1
+    - Identifier: AllowTurnAfterObstacle
+      Value: 0
+      BoolValue: 1
+      IsBool: 1
+      IsEnabled: 1
+    - Identifier: MinDistAfterTurnForObstacle
+      Value: 10
+      BoolValue: 1
+      IsBool: 0
+      IsEnabled: 1
+    - Identifier: DistToTurnSection
+      Value: 850
+      BoolValue: 1
+      IsBool: 0
+      IsEnabled: 1
+    - Identifier: DoubleObstaclePercent
+      Value: 0
+      BoolValue: 1
+      IsBool: 0
+      IsEnabled: 1
+    - Identifier: MaxDistBetweenCoinRuns
+      Value: 0
+      BoolValue: 1
+      IsBool: 0
+      IsEnabled: 1
+    - Identifier: MinCoinsPerRun
+      Value: 10
+      BoolValue: 1
+      IsBool: 0
+      IsEnabled: 1
+  - Distance: 4000
+    Commands: []
+    StateParamKeys:
+    - AllowCoins
+    - MinDistBetweenCoinRuns
+    - MaxCoinsPerRun
+    - AllowTurns
+    - AllowObstacles
+    - MinDistBetweenTurns
+    - MaxDistBetweenTurns
+    - MaxDifficulty
+    - MinDistBetweenObstacles
+    - MaxDistBetweenObstacles
+    - AllowTurnAfterObstacle
+    - MinDistAfterTurnForObstacle
+    - DistToTurnSection
+    - DoubleObstaclePercent
+    - MaxDistBetweenCoinRuns
+    - MinCoinsPerRun
+    StateParamValues:
+    - Identifier: AllowCoins
+      Value: 0
+      BoolValue: 1
+      IsBool: 1
+      IsEnabled: 1
+    - Identifier: MinDistBetweenCoinRuns
+      Value: 15
+      BoolValue: 1
+      IsBool: 0
+      IsEnabled: 1
+    - Identifier: MaxCoinsPerRun
+      Value: 25
+      BoolValue: 1
+      IsBool: 0
+      IsEnabled: 1
+    - Identifier: AllowTurns
+      Value: 0
+      BoolValue: 1
+      IsBool: 1
+      IsEnabled: 1
+    - Identifier: AllowObstacles
+      Value: 0
+      BoolValue: 1
+      IsBool: 1
+      IsEnabled: 1
+    - Identifier: MinDistBetweenTurns
+      Value: 5
+      BoolValue: 1
+      IsBool: 0
+      IsEnabled: 1
+    - Identifier: MaxDistBetweenTurns
+      Value: 25
+      BoolValue: 1
+      IsBool: 0
+      IsEnabled: 1
+    - Identifier: MaxDifficulty
+      Value: 5
+      BoolValue: 1
+      IsBool: 0
+      IsEnabled: 1
+    - Identifier: MinDistBetweenObstacles
+      Value: 5
+      BoolValue: 1
+      IsBool: 0
+      IsEnabled: 1
+    - Identifier: MaxDistBetweenObstacles
+      Value: 5
+      BoolValue: 1
+      IsBool: 0
+      IsEnabled: 1
+    - Identifier: AllowTurnAfterObstacle
+      Value: 0
+      BoolValue: 1
+      IsBool: 1
+      IsEnabled: 1
+    - Identifier: MinDistAfterTurnForObstacle
+      Value: 10
+      BoolValue: 1
+      IsBool: 0
+      IsEnabled: 1
+    - Identifier: DistToTurnSection
+      Value: 750
+      BoolValue: 1
+      IsBool: 0
+      IsEnabled: 1
+    - Identifier: DoubleObstaclePercent
+      Value: 0
+      BoolValue: 1
+      IsBool: 0
+      IsEnabled: 1
+    - Identifier: MaxDistBetweenCoinRuns
+      Value: 0
+      BoolValue: 1
+      IsBool: 0
+      IsEnabled: 1
+    - Identifier: MinCoinsPerRun
+      Value: 10
+      BoolValue: 1
+      IsBool: 0
+      IsEnabled: 1
+  BalanceSheetPrototype:
+    Distance: 0
+    Commands: []
+    StateParamKeys:
+    - AllowCoins
+    - MinDistBetweenCoinRuns
+    - MaxCoinsPerRun
+    - AllowTurns
+    - AllowObstacles
+    - MinDistBetweenTurns
+    - MaxDistBetweenTurns
+    - MaxDifficulty
+    - MinDistBetweenObstacles
+    - MaxDistBetweenObstacles
+    - AllowTurnAfterObstacle
+    - MinDistAfterTurnForObstacle
+    - DistToTurnSection
+    - DoubleObstaclePercent
+    - MaxDistBetweenCoinRuns
+    - MinCoinsPerRun
+    StateParamValues:
+    - Identifier: AllowCoins
+      Value: 0
+      BoolValue: 1
+      IsBool: 1
+      IsEnabled: 1
+    - Identifier: MinDistBetweenCoinRuns
+      Value: 0
+      BoolValue: 1
+      IsBool: 0
+      IsEnabled: 1
+    - Identifier: MaxCoinsPerRun
+      Value: 0
+      BoolValue: 1
+      IsBool: 0
+      IsEnabled: 1
+    - Identifier: AllowTurns
+      Value: 0
+      BoolValue: 1
+      IsBool: 1
+      IsEnabled: 1
+    - Identifier: AllowObstacles
+      Value: 0
+      BoolValue: 1
+      IsBool: 1
+      IsEnabled: 1
+    - Identifier: MinDistBetweenTurns
+      Value: 0
+      BoolValue: 1
+      IsBool: 0
+      IsEnabled: 1
+    - Identifier: MaxDistBetweenTurns
+      Value: 0
+      BoolValue: 1
+      IsBool: 0
+      IsEnabled: 1
+    - Identifier: MaxDifficulty
+      Value: 0
+      BoolValue: 1
+      IsBool: 0
+      IsEnabled: 1
+    - Identifier: MinDistBetweenObstacles
+      Value: 0
+      BoolValue: 1
+      IsBool: 0
+      IsEnabled: 1
+    - Identifier: MaxDistBetweenObstacles
+      Value: 0
+      BoolValue: 1
+      IsBool: 0
+      IsEnabled: 1
+    - Identifier: AllowTurnAfterObstacle
+      Value: 0
+      BoolValue: 1
+      IsBool: 1
+      IsEnabled: 1
+    - Identifier: MinDistAfterTurnForObstacle
+      Value: 0
+      BoolValue: 1
+      IsBool: 0
+      IsEnabled: 1
+    - Identifier: DistToTurnSection
+      Value: 0
+      BoolValue: 1
+      IsBool: 0
+      IsEnabled: 1
+    - Identifier: DoubleObstaclePercent
+      Value: 0
+      BoolValue: 1
+      IsBool: 0
+      IsEnabled: 1
+    - Identifier: MaxDistBetweenCoinRuns
+      Value: 0
+      BoolValue: 1
+      IsBool: 0
+      IsEnabled: 1
+    - Identifier: MinCoinsPerRun
+      Value: 0
+      BoolValue: 1
+      IsBool: 0
+      IsEnabled: 1
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

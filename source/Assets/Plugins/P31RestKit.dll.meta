@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: d4aaf6a3e69b44e75acc440235493200
+MonoAssemblyImporter:
+  serializedVersion: 1
+  iconMap: {}
+  executionOrder:
+    Prime31.AbstractManager: 400
+    Prime31.MonoBehaviourGUI: 15136
+    Prime31.ThreadingCallbackHelper: 20400

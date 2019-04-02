@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 3
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400002}
+  m_Layer: 0
+  m_Name: UIManagerOz
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: -1.62920685e-07}
+  m_LocalPosition: {x: 0, y: .346313477, z: -.000407169166}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400002
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7526522dd63724135b6fc95b03f9f784, type: 1}
+  m_Name: 
+  mainVC: {fileID: 0}
+  mapVC: {fileID: 0}
+  aboutVC: {fileID: 0}
+  PaperVC: {fileID: 0}
+  characterSelectVC: {fileID: 0}
+  storeVC: {fileID: 0}
+  idolMenuVC: {fileID: 0}
+  postGameVC: {fileID: 0}
+  inGameVC: {fileID: 0}
+  invenotryVC: {fileID: 0}
+  confirmDialog: {fileID: 0}
+  IAPStoreVC: {fileID: 0}
+  ObjectivesVC: {fileID: 0}
+  moreGamesVC: {fileID: 0}
+  settingsVC: {fileID: 0}
+  statsVC: {fileID: 0}
+  leaderboardVC: {fileID: 0}
+  UIResurrectMenu: {fileID: 0}
+  CoinLabels: []
+  SpecialCoinLabels: []
+  MainGameCamera: {fileID: 0}
+  resurrectProgressBar: {fileID: 0}
+  CharacterCards: []
+  InterfaceMaster: {fileID: 0}
+  InterfaceMasterReplacements: []
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

@@ -1,0 +1,701 @@
+fileFormatVersion: 2
+guid: 467485db754eb994f9262adb7e100be1
+ModelImporter:
+  fileIDToRecycleName:
+    4300000: woods_hard_left_mesh
+    4300002: ww_hardLeft_mesh
+    4300004: polySurface1
+    4300006: polySurface2
+    4300008: polySurface3
+    4300010: polySurface4
+    4300012: polySurface5
+    4300014: polySurface6
+    4300016: polySurface7
+    4300018: polySurface8
+    4300020: polySurface9
+    4300022: polySurface10
+    4300024: polySurface11
+    4300026: polySurface12
+    4300028: polySurface13
+    4300030: polySurface14
+    4300032: polySurface15
+    4300034: polySurface16
+    4300036: polySurface17
+    4300038: polySurface18
+    4300040: polySurface19
+    4300042: polySurface20
+    4300044: polySurface21
+    4300046: polySurface22
+    4300048: polySurface23
+    4300050: polySurface24
+    4300052: polySurface25
+    4300054: polySurface26
+    4300056: polySurface27
+    4300058: polySurface28
+    4300060: polySurface29
+    4300062: polySurface30
+    4300064: polySurface31
+    4300066: polySurface32
+    4300068: polySurface33
+    4300070: polySurface34
+    4300072: polySurface35
+    4300074: polySurface36
+    4300076: polySurface37
+    4300078: polySurface38
+    4300080: polySurface39
+    4300082: polySurface40
+    4300084: polySurface41
+    4300086: polySurface42
+    4300088: polySurface43
+    4300090: polySurface44
+    4300092: polySurface45
+    4300094: polySurface46
+    4300096: polySurface47
+    4300098: polySurface48
+    4300100: polySurface49
+    4300102: polySurface50
+    4300104: polySurface51
+    4300106: polySurface52
+    4300108: polySurface53
+    4300110: polySurface54
+    4300112: polySurface55
+    4300114: polySurface56
+    4300116: polySurface57
+    4300118: polySurface58
+    4300120: polySurface59
+    4300122: polySurface60
+    4300124: polySurface61
+    4300126: polySurface62
+    4300128: polySurface63
+    4300130: polySurface64
+    4300132: polySurface65
+    4300134: polySurface66
+    4300136: polySurface67
+    4300138: polySurface68
+    4300140: polySurface69
+    4300142: polySurface70
+    4300144: polySurface71
+    4300146: polySurface72
+    4300148: polySurface73
+    4300150: woods_hardleft_a
+    4300152: ww_woods_hardleft_a_mesh
+    4300154: oz_ww_woods_hardleft_a
+    4300156: Oz_Mesh_LoPoly
+    4300158: blueFlower_01
+    4300160: fern_1
+    4300162: fern_2
+    4300164: Rock_1
+    4300166: flatrock2
+    4300168: Flatrock3
+    4300170: HangingMoss_1
+    4300172: orangeFlower_1
+    4300174: Vine02
+    4300176: violetFlower02
+    4300178: yellowFlower02
+    4300180: shortGrass02
+    4300182: LargeLeafPlant02
+    4300184: shortGrass03
+    4300186: shortGrass04
+    4300188: shortGrass05
+    4300190: oz_ww_woods_hardleft_a_mesh
+    4300192: decals
+    4300194: oz_ww_woo
+    4300196: oz_ww_woods_junctionLR_a_decals
+    4300198: oz_ww_woods_junctionLR_a_decals1
+    4300200: pPlane1
+    4300202: pPlane3
+    4300204: pPlane4
+    4300206: pPlane5
+    4300208: pPlane6
+    4300210: pPlane7
+    4300212: pPlane8
+    4300214: pPlane9
+    4300216: pPlane10
+    4300218: pPlane11
+    4300220: pPlane12
+    4300222: pPlane13
+    4300224: decals_overlay
+    4300226: oz_ww_woods_junctionLR
+    4300228: oz_ww_woods_junctionLR1
+    4300230: oz_ww_straight_a
+    4300232: tropic_mesh
+    4300234: Plant_Mesh
+    4300236: Mushroom_Mesh
+    4300238: Iris_Mesh
+    4300240: oz_ww_straight_a2
+    4300242: oz_ww_woods_slightright_a
+    4300244: oz_ww_woods_slightright_a1
+    4300246: oz_ww_straight_a3
+    4300248: pCylinder2
+    4300250: pCylinder3
+    4300252: pCylinder5
+    4300254: pCylinder6
+    4300256: pCylinder7
+    4300258: tree
+    4300260: pCylinder8
+    4300262: pCylinder9
+    4300264: pCylinder10
+    4300266: pCylinder11
+    4300268: pCylinder12
+    4300270: pCylinder13
+    4300272: WhiteFlowers_overlay
+    4300274: weed_overlay
+    4300276: Purpel_Flowers_decals2
+    4300278: Pinkl_Flowers_decals
+    4300280: orangel_Flowers_decals4
+    4300282: stripe_Flowers_decals6
+    4300284: weed_overlay1
+    4300286: weed_overlay2
+    4300288: weed_overlay3
+    4300290: roots_overlay
+    4300292: fern01_decals
+    4300294: whiteFlowers_decal
+    4300296: Curles_Decals
+    4300298: weedCard_decals
+    4300300: poppies_decals
+    4300302: polySurface437
+    4300304: fern02_decals2
+    4300306: polySurface438
+    4300308: polySurface439
+    4300310: polySurface440
+    4300312: treeLeaves_decals
+    4300314: treeLeavesPink_decals
+    4300316: decals_overlays
+    4300318: oz_ww_woods_hardleft_a_force
+    4300320: decals_force
+    4300322: decals_lo
+    4300324: decals_lomesh
+    4300326: decals_lomesh_force
+    4300328: decals_lo_force
+    4300330: decals_hi
+    4300332: polySurface431
+    4300334: polySurface432
+    4300336: polySurface433
+    4300338: polySurface434
+    4300340: polySurface435
+    4300342: polySurface436
+    4300344: polySurface441
+    4300346: polySurface442
+    4300348: polySurface443
+    4300350: polySurface444
+    4300352: polySurface445
+    4300354: polySurface446
+    4300356: polySurface447
+    4300358: polySurface448
+    4300360: polySurface449
+    4300362: polySurface450
+    4300364: polySurface451
+    4300366: polySurface452
+    4300368: polySurface453
+    4300370: polySurface454
+    4300372: polySurface455
+    4300374: polySurface456
+    7400000: Take 001 //// oz_ww_woods_hardleft_a
+  serializedVersion: 10
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    generateAnimations: 0
+    bakeSimulation: 0
+    splitAnimations: 1
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations: []
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00400000019
+    meshCompression: 3
+    addColliders: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMesh: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 2
+    tangentImportMode: 2
+  textMetaNamesToFileIDs:
+    //RootNode:
+      data:
+        first: 1
+        second: a2860100
+      data:
+        first: 4
+        second: 821a0600
+      data:
+        first: 111
+        second: 605fa900
+    decals:
+      data:
+        first: 1
+        second: a6860100
+      data:
+        first: 4
+        second: 861a0600
+      data:
+        first: 23
+        second: 60182300
+      data:
+        first: 33
+        second: a05a3200
+    decals_force:
+      data:
+        first: 1
+        second: b0860100
+      data:
+        first: 4
+        second: 901a0600
+      data:
+        first: 23
+        second: 66182300
+      data:
+        first: 33
+        second: a65a3200
+    decals_hi:
+      data:
+        first: 1
+        second: bc860100
+      data:
+        first: 4
+        second: 9c1a0600
+      data:
+        first: 23
+        second: 72182300
+      data:
+        first: 33
+        second: b25a3200
+    decals_lo:
+      data:
+        first: 1
+        second: b4860100
+      data:
+        first: 4
+        second: 941a0600
+      data:
+        first: 23
+        second: 6a182300
+      data:
+        first: 33
+        second: aa5a3200
+    decals_lo_force:
+      data:
+        first: 1
+        second: b8860100
+      data:
+        first: 4
+        second: 981a0600
+      data:
+        first: 23
+        second: 6e182300
+      data:
+        first: 33
+        second: ae5a3200
+    decals_lomesh:
+      data:
+        first: 1
+        second: b6860100
+      data:
+        first: 4
+        second: 961a0600
+      data:
+        first: 23
+        second: 6c182300
+      data:
+        first: 33
+        second: ac5a3200
+    decals_lomesh_force:
+      data:
+        first: 1
+        second: ba860100
+      data:
+        first: 4
+        second: 9a1a0600
+      data:
+        first: 23
+        second: 70182300
+      data:
+        first: 33
+        second: b05a3200
+    decals_overlays:
+      data:
+        first: 1
+        second: ac860100
+      data:
+        first: 4
+        second: 8c1a0600
+      data:
+        first: 23
+        second: 64182300
+      data:
+        first: 33
+        second: a45a3200
+    dummy_a:
+      data:
+        first: 1
+        second: a4860100
+      data:
+        first: 4
+        second: 841a0600
+    dummy_b:
+      data:
+        first: 1
+        second: a8860100
+      data:
+        first: 4
+        second: 881a0600
+    dummy_c:
+      data:
+        first: 1
+        second: aa860100
+      data:
+        first: 4
+        second: 8a1a0600
+    oz_ww_woods_hardleft_a:
+      data:
+        first: 1
+        second: ae860100
+      data:
+        first: 4
+        second: 8e1a0600
+    oz_ww_woods_hardleft_a_force:
+      data:
+        first: 1
+        second: b2860100
+      data:
+        first: 4
+        second: 921a0600
+      data:
+        first: 23
+        second: 68182300
+      data:
+        first: 33
+        second: a85a3200
+    path_default:
+      data:
+        first: 1
+        second: a0860100
+      data:
+        first: 4
+        second: 801a0600
+    polySurface431:
+      data:
+        first: 1
+        second: e2860100
+      data:
+        first: 4
+        second: c21a0600
+      data:
+        first: 23
+        second: 96182300
+      data:
+        first: 33
+        second: d65a3200
+    polySurface432:
+      data:
+        first: 1
+        second: e0860100
+      data:
+        first: 4
+        second: c01a0600
+      data:
+        first: 23
+        second: 94182300
+      data:
+        first: 33
+        second: d45a3200
+    polySurface433:
+      data:
+        first: 1
+        second: c6860100
+      data:
+        first: 4
+        second: a61a0600
+      data:
+        first: 23
+        second: 7a182300
+      data:
+        first: 33
+        second: ba5a3200
+    polySurface434:
+      data:
+        first: 1
+        second: c4860100
+      data:
+        first: 4
+        second: a41a0600
+      data:
+        first: 23
+        second: 78182300
+      data:
+        first: 33
+        second: b85a3200
+    polySurface435:
+      data:
+        first: 1
+        second: e6860100
+      data:
+        first: 4
+        second: c61a0600
+      data:
+        first: 23
+        second: 9a182300
+      data:
+        first: 33
+        second: da5a3200
+    polySurface436:
+      data:
+        first: 1
+        second: d8860100
+      data:
+        first: 4
+        second: b81a0600
+      data:
+        first: 23
+        second: 8c182300
+      data:
+        first: 33
+        second: cc5a3200
+    polySurface438:
+      data:
+        first: 1
+        second: d6860100
+      data:
+        first: 4
+        second: b61a0600
+      data:
+        first: 23
+        second: 8a182300
+      data:
+        first: 33
+        second: ca5a3200
+    polySurface439:
+      data:
+        first: 1
+        second: e4860100
+      data:
+        first: 4
+        second: c41a0600
+      data:
+        first: 23
+        second: 98182300
+      data:
+        first: 33
+        second: d85a3200
+    polySurface441:
+      data:
+        first: 1
+        second: c8860100
+      data:
+        first: 4
+        second: a81a0600
+      data:
+        first: 23
+        second: 7c182300
+      data:
+        first: 33
+        second: bc5a3200
+    polySurface442:
+      data:
+        first: 1
+        second: cc860100
+      data:
+        first: 4
+        second: ac1a0600
+      data:
+        first: 23
+        second: 80182300
+      data:
+        first: 33
+        second: c05a3200
+    polySurface443:
+      data:
+        first: 1
+        second: ce860100
+      data:
+        first: 4
+        second: ae1a0600
+      data:
+        first: 23
+        second: 82182300
+      data:
+        first: 33
+        second: c25a3200
+    polySurface444:
+      data:
+        first: 1
+        second: e8860100
+      data:
+        first: 4
+        second: c81a0600
+      data:
+        first: 23
+        second: 9c182300
+      data:
+        first: 33
+        second: dc5a3200
+    polySurface445:
+      data:
+        first: 1
+        second: ea860100
+      data:
+        first: 4
+        second: ca1a0600
+      data:
+        first: 23
+        second: 9e182300
+      data:
+        first: 33
+        second: de5a3200
+    polySurface446:
+      data:
+        first: 1
+        second: de860100
+      data:
+        first: 4
+        second: be1a0600
+      data:
+        first: 23
+        second: 92182300
+      data:
+        first: 33
+        second: d25a3200
+    polySurface447:
+      data:
+        first: 1
+        second: ca860100
+      data:
+        first: 4
+        second: aa1a0600
+      data:
+        first: 23
+        second: 7e182300
+      data:
+        first: 33
+        second: be5a3200
+    polySurface448:
+      data:
+        first: 1
+        second: be860100
+      data:
+        first: 4
+        second: 9e1a0600
+      data:
+        first: 23
+        second: 62182300
+      data:
+        first: 33
+        second: a25a3200
+    polySurface449:
+      data:
+        first: 1
+        second: c2860100
+      data:
+        first: 4
+        second: a21a0600
+      data:
+        first: 23
+        second: 76182300
+      data:
+        first: 33
+        second: b65a3200
+    polySurface450:
+      data:
+        first: 1
+        second: dc860100
+      data:
+        first: 4
+        second: bc1a0600
+      data:
+        first: 23
+        second: 90182300
+      data:
+        first: 33
+        second: d05a3200
+    polySurface451:
+      data:
+        first: 1
+        second: d0860100
+      data:
+        first: 4
+        second: b01a0600
+      data:
+        first: 23
+        second: 84182300
+      data:
+        first: 33
+        second: c45a3200
+    polySurface452:
+      data:
+        first: 1
+        second: c0860100
+      data:
+        first: 4
+        second: a01a0600
+      data:
+        first: 23
+        second: 74182300
+      data:
+        first: 33
+        second: b45a3200
+    polySurface453:
+      data:
+        first: 1
+        second: d4860100
+      data:
+        first: 4
+        second: b41a0600
+      data:
+        first: 23
+        second: 88182300
+      data:
+        first: 33
+        second: c85a3200
+    polySurface454:
+      data:
+        first: 1
+        second: da860100
+      data:
+        first: 4
+        second: ba1a0600
+      data:
+        first: 23
+        second: 8e182300
+      data:
+        first: 33
+        second: ce5a3200
+    polySurface455:
+      data:
+        first: 1
+        second: d2860100
+      data:
+        first: 4
+        second: b21a0600
+      data:
+        first: 23
+        second: 86182300
+      data:
+        first: 33
+        second: c65a3200
+    polySurface456:
+      data:
+        first: 1
+        second: ec860100
+      data:
+        first: 4
+        second: cc1a0600
+      data:
+        first: 23
+        second: a0182300
+      data:
+        first: 33
+        second: e05a3200

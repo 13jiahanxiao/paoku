@@ -1,0 +1,121 @@
+fileFormatVersion: 2
+guid: 7589889c11903e2488b396ed9054b5e4
+ModelImporter:
+  fileIDToRecycleName:
+    4300000: skybox_emeraldcity
+    4300002: polySurface1
+    4300004: pPlane1
+    4300006: pCube1
+    4300008: pCube2
+    4300010: pCube3
+    4300012: pCube4
+    4300014: pCube5
+    4300016: pCube6
+    4300018: pCube7
+    4300020: pCube8
+    4300022: pCube9
+    4300024: pCube10
+    4300026: pCube11
+    4300028: pCube12
+    4300030: pCube13
+    4300032: pCube14
+    4300034: pCube15
+    4300036: pCube16
+    4300038: pCube17
+    4300040: pCube18
+    4300042: pCube19
+    4300044: pCube20
+    4300046: pCube21
+    4300048: pCube22
+    4300050: oz_ybr_skybox
+    4300052: temp_ec_skybox_floor:pPlane1
+    4300054: temp_ec_skybox_floor:pCube12
+    4300056: temp_ec_skybox_floor:pCube13
+    4300058: temp_ec_skybox_floor:pCube14
+    4300060: temp_ec_skybox_floor:pCube15
+    4300062: temp_ec_skybox_floor:pCube16
+    4300064: temp_ec_skybox_floor:pCube17
+    4300066: temp_ec_skybox_floor:pCube18
+    4300068: temp_ec_skybox_floor:pCube19
+    4300070: temp_ec_skybox_floor:pCube20
+    4300072: temp_ec_skybox_floor:pCube21
+    4300074: temp_ec_skybox_floor:pCube22
+    4300076: oz_ec_skybox
+    4300078: polySurface2
+    4300080: polySurface5
+    4300082: polySurface6
+    4300084: polySurface7
+    4300086: polySurface8
+    4300088: polySurface9
+    4300090: polySurface10
+    4300092: polySurface11
+    4300094: polySurface12
+    4300096: polySurface13
+    4300098: polySurface25
+    4300100: polySurface26
+    4300102: polySurface27
+    4300104: polySurface28
+    4300106: polySurface29
+    4300108: polySurface30
+    4300110: polySurface31
+    4300112: polySurface32
+    4300114: polySurface33
+    4300116: polySurface34
+    4300118: polySurface35
+    4300120: polySurface36
+    4300122: polySurface37
+    4300124: polySurface38
+    4300126: polySurface39
+    4300128: polySurface40
+    4300130: polySurface41
+    4300132: polySurface42
+    4300134: polySurface43
+    4300136: polySurface45
+    4300138: polySurface51
+  serializedVersion: 10
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 1
+  animations:
+    generateAnimations: 0
+    bakeSimulation: 0
+    splitAnimations: 1
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations: []
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .100000001
+    meshCompression: 3
+    addColliders: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMesh: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 2
+    tangentImportMode: 2
+  textMetaNamesToFileIDs:
+    //RootNode:
+      data:
+        first: 1
+        second: a0860100
+      data:
+        first: 4
+        second: 801a0600
+      data:
+        first: 23
+        second: 60182300
+      data:
+        first: 33
+        second: a05a3200

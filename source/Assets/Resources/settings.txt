@@ -1,0 +1,247 @@
+# any line starts with # is a comment
+# settings.txt will ship with the game
+# create a new file called local-settings.txt
+# and you can override the settings defined here
+# more importantly only you will see those changes
+
+# valid values from least important to most important are:
+# trace debug info warning error
+# we really want to keep it at least at info as that's the level 
+# some important stuff gets printed out, e.g. version number, git build number
+default-notify-level = info
+
+# say you want to see all debug statements related to GamePlayer.cs, 
+# uncomment the line below in your own local-settings.txt
+# notify-level-GamePlayer = debug
+
+# =================== This section must be changed depending on qa or dev builds
+# *************** this is master branch stuff
+# 10.190.6.141 is the dev server, accessible only if you're connected to WLAN-TWDC or the wired disney network
+#server-url = https://10.190.6.147/v2
+#server-url = https://10.190.6.141/v2
+
+
+# amps.tapulous.com is the live server, 10.190.6.191 is the dev amps server
+#amps-server = http://10.190.6.191:8080
+
+# troz_test is for dev builds, troz will be for live builds ,troz_ec_branch is for 1.5 emerald city
+amps-app-id = troz_test
+
+# if false we get it from the alt-bundle-url, temporarily dev amps server has no space
+#use-amps-server = true
+
+# this is the place where we typically drop dev asset bundles, right now this is on Bojan's local web server
+#alt-bundle-url = http://nhmobile01.disid.disney.com/~urbir003
+
+# if true, the build will validate Apple receipts against the store sandbox
+#use-store-sandbox = true
+
+# if true, the build will prompt the user to load their stored profile from the server.
+#allow-profile-restore = true
+
+# dev builds product ids has this appended, as I made a mistake and google doesn't let you reuse product ids
+#google-product-suffix = .pm
+
+# the public key of the app
+#google-license-key = MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAk0RR5QDapYC4DXBsR6sozHLbFAuWvy+lKzHWJJbVT7WfEbw0mkuUrX7mTDrQCpCTkM1wRFQsw9xaYO9tl6K4deJmEnO7flYaIyLISz8vRRwI7V5Q0ss6F0IWZVgiXwnmUoqlG5JagM1lh0IiLz8Igpx49v/eXtcPLhnqUu8q4CT6dqDBczqt/s0CIn/wHqMDEDxkvjpQumGtmE2poYT3rTFAAcvcYlHB+KBzBI38eA7jacUcq5z2zEwm1bOJbizauFgMv3aF2I/QSPUv1ot0qyfpPO6xpbyFsof2O+FOuaHkLHtpMq7KGd+rofZwGRMinM0xASY+WtqFgvHHCp03OwIDAQAB
+
+# show the command console on top
+# console-enabled = true
+
+# show the build label on the bottom left of idol menu
+# show-build-label = true
+
+# how many hours to wait before we show the rate my app prompt again / for the 1st time
+# rate-app-hours-between-prompts = 0
+
+# how many launches before we start checking if we can ask the user to rate the app
+# rate-app-launch-minimum = 5
+
+# dev and qa servers don't have a cert yet, so use http instead of https
+# android-uses-ssl = false
+
+# ********* this is the qa branch stuff
+# 10.190.6.147 is the QA server, accessible only if you're connected to WLAN-TWDC or the wired disney network
+# https://stage.troz.tapulous.com/v2 is the staging server, accessible only if you're connected to WLAN-TWDC or the wired disney network
+# https://troz.tapulous.com/v2 is the live prod server, accessible to the world wide internet
+# Path /v2 will return similar data as /v1 with the exception that team challenges will not be returned by /v1
+# server-url = https://10.190.6.147/v3
+
+# amps.tapulous.com is the live server, 10.190.6.191 is the dev amps server
+#amps-server = http://amps.tapulous.com
+
+# troz_test is for dev/qa builds, troz will be for live builds
+#amps-app-id = troz_test
+
+# if false we get it from the alt-bundle-url
+#use-amps-server = true
+
+# this is the place where we typically drop dev asset bundles, right now this is on Bojan's local web server
+#alt-bundle-url = http://nhmobile01.disid.disney.com/~urbir003
+
+# if true, the build will validate Apple receipts against the store sandbox
+#use-store-sandbox = true
+
+# if true, the build will prompt the user to load their stored profile from the server.
+#allow-profile-restore = false
+
+# public key of the app for google
+#google-license-key = MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAo8nK4qeFT4D/LePwwtl3W+3Lwqrxx2Z6FhKNXnZ6BzGqHYWSTXwwxdKjT9yJXk7M693n9Yu/MTKA7nc0+LcAaL5tJiFpJpZrAFANXJ6CksKykc/77N9cXSnMKjFLoEMIgW0EnfhOsdT9t1T58Ei4IPQaUia95vYWyUp1ML+ohzqFYOtn+bDYA+uBJgF0utu5nAhLeXvn2rPnB+T0ZJTujtBZV1mMQHT3Z2QQGCkEgcs93ACHpov8zp4bfJpZwYMDCbvji3oehJNumLPxHS6yt1fuYhTBXc7wpkIHZTWsXbNm390aOe7wecvj2AdeGxMZv2it6at1H9PWtpdCdNvwCQIDAQAB
+
+# turned out publishing made the same mistake. we need this for the official builds as well
+#google-product-suffix = .pm
+
+# show the command console on top
+#console-enabled = true
+
+# show the build label on the bottom left of idol menu
+#show-build-label = true
+
+# how many hours to wait before we show the rate my app prompt again / for the 1st time
+# rate-app-hours-between-prompts = 1
+
+# how many launches before we start checking if we can ask the user to rate the app
+# rate-app-launch-minimum = 5
+
+# dev and qa servers don't have a cert yet, so use http instead of https
+# android-uses-ssl = false
+
+# ************** this is the release branch stuff
+
+# The cert on the production server is refusing connect
+android-uses-ssl = false
+
+# 10.190.6.147 is the QA server, accessible only if you're connected to WLAN-TWDC or the wired disney network
+# https://stage.troz.tapulous.com/v2 is the staging server, accessible only if you're connected to WLAN-TWDC or the wired disney network
+# https://troz.tapulous.com/v2 is the live prod server, accessible to the world wide internet
+# Path /v2 will return similar data as /v1 with the exception that team challenges will not be returned by /v1
+server-url = https://troz.tapulous.com/v3
+
+# amps.tapulous.com is the live server, 10.190.6.191 is the dev amps server
+amps-server = http://amps.tapulous.com
+
+# troz_test is for dev/qa builds, troz will be for live builds
+amps-app-id = troz
+
+# if false we get it from the alt-bundle-url
+use-amps-server = true
+
+# this is the place where we typically drop dev asset bundles, right now this is on Bojan's local web server
+alt-bundle-url = http://nhmobile01.disid.disney.com/~urbir003
+
+# if true, the build will validate Apple receipts against the store sandbox
+use-store-sandbox = false
+
+# if true, the build will prompt the user to load their stored profile from the server.
+allow-profile-restore = false
+
+# public key of the app for google
+google-license-key = MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAo8nK4qeFT4D/LePwwtl3W+3Lwqrxx2Z6FhKNXnZ6BzGqHYWSTXwwxdKjT9yJXk7M693n9Yu/MTKA7nc0+LcAaL5tJiFpJpZrAFANXJ6CksKykc/77N9cXSnMKjFLoEMIgW0EnfhOsdT9t1T58Ei4IPQaUia95vYWyUp1ML+ohzqFYOtn+bDYA+uBJgF0utu5nAhLeXvn2rPnB+T0ZJTujtBZV1mMQHT3Z2QQGCkEgcs93ACHpov8zp4bfJpZwYMDCbvji3oehJNumLPxHS6yt1fuYhTBXc7wpkIHZTWsXbNm390aOe7wecvj2AdeGxMZv2it6at1H9PWtpdCdNvwCQIDAQAB
+
+# release builds product ids has this appended, as publishing made a mistake and google doesn't let you reuse product ids
+google-product-suffix = .pm
+
+# show the command console on top
+console-enabled = false
+
+# show the build label on the bottom left of idol menu
+show-build-label = false
+
+# how many hours to wait before we show the rate my app prompt again / for the 1st time
+rate-app-hours-between-prompts = 100000
+
+# how many launches before we start checking if we can ask the user to rate the app
+rate-app-launch-minimum = 100000
+
+# ====== end of qa or dev or release builds section
+
+# when building for android, which store do we use for in app purchase, valid values are amazon or google
+android-store = google
+
+# forces all the envsets to be embedded inside the game, set this to true in your local settings
+embed-all-envsets = true
+
+# if true we send only the init msg, instead of sending out 3 gets for weekly challenges, news and store, defaults to false
+use-init-msg = true
+
+#Salt value to hash with JSON strings passed to the server.  Used for authenticating POSTs to the game server.
+hash-salt = 501ffe16e4c614094171e25f9e2b992
+
+# --- Burstly ------------------------------------------------------------------
+
+burstly-publisher-id-amazon = 1arRL9WTOU68bE0aYa9FuQ
+burstly-pregame-interstitial-amazon = 0956992879088264655
+burstly-postgame-interstitial-amazon = 0552992379088244655
+burstly-offerwall-interstitial-amazon = 0652992279088244655
+burstly-idol-badge-phone-amazon = 0350992179088244655
+burstly-idol-badge-tablet-amazon = 0450992179088244655
+burstly-mainmenu-banner-amazon = 0250992579088244655
+burstly-store-banner-amazon = 0350992579088244655
+burstly-leaderboards-banner-amazon = 0450992579088244655
+burstly-challenges-banner-amazon = 0550992579088244655
+
+burstly-publisher-id-google = c-IkJW6yYUiTC2fQhIE2tg
+burstly-pregame-interstitial-google = 0856911879025264085
+burstly-postgame-interstitial-google = 0552911179025244085
+burstly-offerwall-interstitial-google = 0552911279025244085
+burstly-idol-badge-phone-google = 0150911179025244085
+burstly-idol-badge-tablet-google = 0250911179025244085
+burstly-mainmenu-banner-google = 0850911479025244085
+burstly-store-banner-google = 0950911479025244085
+burstly-leaderboards-banner-google = 0050911579025244085
+burstly-challenges-banner-google = 0150911579025244085
+
+burstly-publisher-id-ios = ocgajopbwkaa24b8JAyCUg
+burstly-pregame-interstitial-ios = 0259110079002264958
+burstly-postgame-interstitial-ios = 0150110079002234958
+burstly-offerwall-interstitial-ios = 0452110279002244958
+burstly-idol-badge-phone-ios = 0850110079002244958
+burstly-idol-badge-tablet-ios = 0950110079002244958
+burstly-mainmenu-banner-ios = 0050110679002244958
+burstly-store-banner-ios = 0150110679002244958
+burstly-leaderboards-banner-ios = 0250110679002244958
+burstly-challenges-banner-ios = 0350110679002244958
+
+# --- DMOAnalytics -------------------------------------------------------------
+
+dmoanalytics-api-key-amazon = 14F34824-FD15-4002-AB03-30E81E098F28
+dmoanalytics-secret-amazon = 486E4CD9-D46B-490B-AD97-1AA11048AB8B
+
+dmoanalytics-api-key-google = BBA87C98-F4DB-4AD0-AFC2-4C30EA424AB8
+dmoanalytics-secret-google = 119A4239-42D1-40DE-AB40-E03A66B06904
+
+dmoanalytics-api-key-ios = CB92E846-01A7-4210-B310-38A5E4ADF67B
+dmoanalytics-secret-ios = 122F7259-C067-4AB9-9259-CCCE17CD6B61
+
+# --- DMOPromoter --------------------------------------------------------------
+
+dmopromoter-api-key-ios = PG1SX8N2-XHJ0-Z8L9-QGOM-QITH2FN12KEK
+dmopromoter-secret-ios = 1YFUYT3S-PYBP-ZX4C-PEKO-O2TR8FMA0VGJ
+
+# ------------------------------------------------------------------------------
+
+# in the pause menu, the button in the bottom left corner opens up the 'quit game' dialog box if active
+activate-quit-game-button = true
+
+# Show Burstly banner ads
+show-banner-ads = true
+
+# Show Burstly pre-game notification
+show-burstly-notification-ad = false
+
+# Allow push notifications to take the user directly to the menus after launch
+urban-airship-deep-linking = true
+
+#Number of miliseconds to delay Initializer calls 5*60*1000 = 5 minutes
+init-delay-time = 300000
+
+# Allow a profile restore for zero-rank player profile.
+allow-rank-one-profile-restore = false
+
+# Refresh init after every run
+Leaderboard-Test = false
+
+# Test weekly objectives in the post run.
+always-display-weekly-postrun = false
+
+

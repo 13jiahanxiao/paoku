@@ -1,0 +1,1518 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 3
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: InterfaceMasterOz_HIGH02_Prefab
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 1}
+  m_Name: 
+  material: {fileID: 2100000, guid: 91d524c55f8c0ba4db99223f55d4aa9a, type: 2}
+  sprites:
+  - name: _mainbutton_frame
+    outer:
+      serializedVersion: 2
+      x: 1800
+      y: 614
+      width: 117
+      height: 114
+    inner:
+      serializedVersion: 2
+      x: 1824
+      y: 638
+      width: 69
+      height: 66
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: button_close
+    outer:
+      serializedVersion: 2
+      x: 1369
+      y: 581
+      width: 71
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 1369
+      y: 581
+      width: 71
+      height: 72
+    paddingLeft: 0
+    paddingRight: .0563380271
+    paddingTop: .0694444478
+    paddingBottom: .0416666679
+  - name: button_radio_off
+    outer:
+      serializedVersion: 2
+      x: 1441
+      y: 581
+      width: 65
+      height: 66
+    inner:
+      serializedVersion: 2
+      x: 1441
+      y: 581
+      width: 65
+      height: 66
+    paddingLeft: .0615384616
+    paddingRight: .0923076943
+    paddingTop: .075757578
+    paddingBottom: .0151515156
+  - name: button_radio_on
+    outer:
+      serializedVersion: 2
+      x: 1330
+      y: 964
+      width: 51
+      height: 50
+    inner:
+      serializedVersion: 2
+      x: 1330
+      y: 964
+      width: 51
+      height: 50
+    paddingLeft: .235294119
+    paddingRight: .235294119
+    paddingTop: .219999999
+    paddingBottom: .219999999
+  - name: button_share
+    outer:
+      serializedVersion: 2
+      x: 1507
+      y: 581
+      width: 65
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 1507
+      y: 581
+      width: 65
+      height: 66
+    paddingLeft: .0615384616
+    paddingRight: .0923076943
+    paddingTop: .109375
+    paddingBottom: .015625
+  - name: button_slider_bg
+    outer:
+      serializedVersion: 2
+      x: 534
+      y: 825
+      width: 310
+      height: 19
+    inner:
+      serializedVersion: 2
+      x: 541
+      y: 832
+      width: 296
+      height: 5
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: button_slider_fill
+    outer:
+      serializedVersion: 2
+      x: 383
+      y: 168
+      width: 150
+      height: 9
+    inner:
+      serializedVersion: 2
+      x: 383
+      y: 168
+      width: 150
+      height: 9
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: coinbundle_01
+    outer:
+      serializedVersion: 2
+      x: 192
+      y: 1
+      width: 190
+      height: 182
+    inner:
+      serializedVersion: 2
+      x: 192
+      y: 1
+      width: 190
+      height: 182
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: coinbundle_02
+    outer:
+      serializedVersion: 2
+      x: 1
+      y: 735
+      width: 190
+      height: 182
+    inner:
+      serializedVersion: 2
+      x: 1
+      y: 735
+      width: 190
+      height: 182
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: coinbundle_03
+    outer:
+      serializedVersion: 2
+      x: 1
+      y: 185
+      width: 190
+      height: 183
+    inner:
+      serializedVersion: 2
+      x: 1
+      y: 185
+      width: 190
+      height: 182
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: coinbundle_04
+    outer:
+      serializedVersion: 2
+      x: 1
+      y: 1
+      width: 190
+      height: 183
+    inner:
+      serializedVersion: 2
+      x: 1
+      y: 1
+      width: 190
+      height: 182
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: coinbundle_05
+    outer:
+      serializedVersion: 2
+      x: 1
+      y: 552
+      width: 190
+      height: 182
+    inner:
+      serializedVersion: 2
+      x: 1
+      y: 552
+      width: 190
+      height: 182
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: coinbundle_cityofcoins
+    outer:
+      serializedVersion: 2
+      x: 1
+      y: 369
+      width: 190
+      height: 182
+    inner:
+      serializedVersion: 2
+      x: 1
+      y: 369
+      width: 190
+      height: 182
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: currency_coin
+    outer:
+      serializedVersion: 2
+      x: 1562
+      y: 941
+      width: 82
+      height: 80
+    inner:
+      serializedVersion: 2
+      x: 1562
+      y: 941
+      width: 82
+      height: 80
+    paddingLeft: .0609756112
+    paddingRight: .0609756112
+    paddingTop: .0500000007
+    paddingBottom: .0500000007
+  - name: gem_pickup
+    outer:
+      serializedVersion: 2
+      x: 548
+      y: 1
+      width: 170
+      height: 164
+    inner:
+      serializedVersion: 2
+      x: 548
+      y: 1
+      width: 170
+      height: 164
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: gembundle_01
+    outer:
+      serializedVersion: 2
+      x: 534
+      y: 168
+      width: 170
+      height: 164
+    inner:
+      serializedVersion: 2
+      x: 534
+      y: 168
+      width: 170
+      height: 164
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: gembundle_02
+    outer:
+      serializedVersion: 2
+      x: 477
+      y: 850
+      width: 170
+      height: 164
+    inner:
+      serializedVersion: 2
+      x: 477
+      y: 850
+      width: 170
+      height: 164
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: gembundle_03
+    outer:
+      serializedVersion: 2
+      x: 363
+      y: 685
+      width: 170
+      height: 164
+    inner:
+      serializedVersion: 2
+      x: 363
+      y: 685
+      width: 170
+      height: 164
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: gembundle_04
+    outer:
+      serializedVersion: 2
+      x: 363
+      y: 520
+      width: 170
+      height: 164
+    inner:
+      serializedVersion: 2
+      x: 363
+      y: 520
+      width: 170
+      height: 164
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: gembundle_05
+    outer:
+      serializedVersion: 2
+      x: 363
+      y: 355
+      width: 170
+      height: 164
+    inner:
+      serializedVersion: 2
+      x: 363
+      y: 355
+      width: 170
+      height: 164
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: gembundle_06
+    outer:
+      serializedVersion: 2
+      x: 363
+      y: 184
+      width: 170
+      height: 170
+    inner:
+      serializedVersion: 2
+      x: 363
+      y: 184
+      width: 170
+      height: 170
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_chinagirl
+    outer:
+      serializedVersion: 2
+      x: 192
+      y: 697
+      width: 170
+      height: 170
+    inner:
+      serializedVersion: 2
+      x: 192
+      y: 697
+      width: 170
+      height: 163
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_coinbonus
+    outer:
+      serializedVersion: 2
+      x: 1047
+      y: 329
+      width: 170
+      height: 163
+    inner:
+      serializedVersion: 2
+      x: 1047
+      y: 329
+      width: 170
+      height: 163
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_coinbonus_noborder
+    outer:
+      serializedVersion: 2
+      x: 1849
+      y: 248
+      width: 126
+      height: 123
+    inner:
+      serializedVersion: 2
+      x: 1849
+      y: 248
+      width: 126
+      height: 123
+    paddingLeft: .119047619
+    paddingRight: .0714285746
+    paddingTop: .08130081
+    paddingBottom: .08130081
+  - name: icon_coinmeterfillrate
+    outer:
+      serializedVersion: 2
+      x: 1061
+      y: 1
+      width: 170
+      height: 163
+    inner:
+      serializedVersion: 2
+      x: 1061
+      y: 1
+      width: 170
+      height: 163
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_corner
+    outer:
+      serializedVersion: 2
+      x: 192
+      y: 868
+      width: 46
+      height: 46
+    inner:
+      serializedVersion: 2
+      x: 207
+      y: 881
+      width: 16
+      height: 20
+    paddingLeft: .0869565234
+    paddingRight: .0869565234
+    paddingTop: .0217391308
+    paddingBottom: .0217391308
+  - name: icon_doublecoins01
+    outer:
+      serializedVersion: 2
+      x: 1047
+      y: 165
+      width: 170
+      height: 163
+    inner:
+      serializedVersion: 2
+      x: 1047
+      y: 165
+      width: 170
+      height: 163
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_fasttravel_darkforest
+    outer:
+      serializedVersion: 2
+      x: 1216
+      y: 656
+      width: 168
+      height: 162
+    inner:
+      serializedVersion: 2
+      x: 1216
+      y: 656
+      width: 168
+      height: 162
+    paddingLeft: .00595238106
+    paddingRight: .00595238106
+    paddingTop: .00617283955
+    paddingBottom: .00617283955
+  - name: icon_fasttravel_emeraldcity
+    outer:
+      serializedVersion: 2
+      x: 1047
+      y: 493
+      width: 170
+      height: 162
+    inner:
+      serializedVersion: 2
+      x: 1047
+      y: 493
+      width: 170
+      height: 163
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: .0123456791
+    paddingBottom: 0
+  - name: icon_fasttravel_whimsiewoods
+    outer:
+      serializedVersion: 2
+      x: 1161
+      y: 819
+      width: 168
+      height: 162
+    inner:
+      serializedVersion: 2
+      x: 1161
+      y: 819
+      width: 168
+      height: 162
+    paddingLeft: .00595238106
+    paddingRight: .00595238106
+    paddingTop: .00617283955
+    paddingBottom: .00617283955
+  - name: icon_fasttravel_winkiecountry
+    outer:
+      serializedVersion: 2
+      x: 1047
+      y: 656
+      width: 168
+      height: 162
+    inner:
+      serializedVersion: 2
+      x: 1047
+      y: 656
+      width: 168
+      height: 162
+    paddingLeft: .00595238106
+    paddingRight: .00595238106
+    paddingTop: .00617283955
+    paddingBottom: .00617283955
+  - name: icon_finleyfavor
+    outer:
+      serializedVersion: 2
+      x: 990
+      y: 821
+      width: 170
+      height: 163
+    inner:
+      serializedVersion: 2
+      x: 990
+      y: 821
+      width: 170
+      height: 163
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_finleyfavor_noborder
+    outer:
+      serializedVersion: 2
+      x: 1849
+      y: 134
+      width: 138
+      height: 113
+    inner:
+      serializedVersion: 2
+      x: 1849
+      y: 134
+      width: 138
+      height: 113
+    paddingLeft: .0507246368
+    paddingRight: .0362318829
+    paddingTop: .132743359
+    paddingBottom: .132743359
+  - name: icon_friends
+    outer:
+      serializedVersion: 2
+      x: 231
+      y: 915
+      width: 121
+      height: 107
+    inner:
+      serializedVersion: 2
+      x: 231
+      y: 915
+      width: 121
+      height: 107
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: .0934579447
+  - name: icon_gatcha_key
+    outer:
+      serializedVersion: 2
+      x: 1573
+      y: 1
+      width: 102
+      height: 137
+    inner:
+      serializedVersion: 2
+      x: 1573
+      y: 1
+      width: 102
+      height: 137
+    paddingLeft: .323529422
+    paddingRight: .441176474
+    paddingTop: .197080299
+    paddingBottom: .197080299
+  - name: icon_headstart
+    outer:
+      serializedVersion: 2
+      x: 876
+      y: 657
+      width: 170
+      height: 163
+    inner:
+      serializedVersion: 2
+      x: 876
+      y: 657
+      width: 170
+      height: 163
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_magicmagnet
+    outer:
+      serializedVersion: 2
+      x: 876
+      y: 493
+      width: 170
+      height: 163
+    inner:
+      serializedVersion: 2
+      x: 876
+      y: 493
+      width: 170
+      height: 163
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_magicmagnet_noborder
+    outer:
+      serializedVersion: 2
+      x: 1679
+      y: 627
+      width: 120
+      height: 118
+    inner:
+      serializedVersion: 2
+      x: 1679
+      y: 627
+      width: 120
+      height: 118
+    paddingLeft: .125
+    paddingRight: .125
+    paddingTop: .135593221
+    paddingBottom: .0847457647
+  - name: icon_magicwand
+    outer:
+      serializedVersion: 2
+      x: 876
+      y: 329
+      width: 170
+      height: 163
+    inner:
+      serializedVersion: 2
+      x: 876
+      y: 329
+      width: 170
+      height: 163
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_magicwand_noborder
+    outer:
+      serializedVersion: 2
+      x: 383
+      y: 1
+      width: 164
+      height: 166
+    inner:
+      serializedVersion: 2
+      x: 383
+      y: 1
+      width: 164
+      height: 166
+    paddingLeft: .0853658542
+    paddingRight: .073170729
+    paddingTop: .0180722885
+    paddingBottom: .0783132538
+  - name: icon_megaheadstart
+    outer:
+      serializedVersion: 2
+      x: 890
+      y: 1
+      width: 170
+      height: 163
+    inner:
+      serializedVersion: 2
+      x: 890
+      y: 1
+      width: 170
+      height: 163
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_modifyheadstart
+    outer:
+      serializedVersion: 2
+      x: 876
+      y: 165
+      width: 170
+      height: 163
+    inner:
+      serializedVersion: 2
+      x: 876
+      y: 165
+      width: 170
+      height: 163
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_modifypowerups
+    outer:
+      serializedVersion: 2
+      x: 705
+      y: 658
+      width: 170
+      height: 163
+    inner:
+      serializedVersion: 2
+      x: 705
+      y: 658
+      width: 170
+      height: 163
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_moredisney
+    outer:
+      serializedVersion: 2
+      x: 1645
+      y: 924
+      width: 111
+      height: 93
+    inner:
+      serializedVersion: 2
+      x: 1645
+      y: 924
+      width: 111
+      height: 132
+    paddingLeft: .180180177
+    paddingRight: .180180177
+    paddingTop: .290322572
+    paddingBottom: .268817216
+  - name: icon_multiplier1
+    outer:
+      serializedVersion: 2
+      x: 705
+      y: 494
+      width: 170
+      height: 163
+    inner:
+      serializedVersion: 2
+      x: 705
+      y: 494
+      width: 170
+      height: 163
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_multiplier2
+    outer:
+      serializedVersion: 2
+      x: 705
+      y: 330
+      width: 170
+      height: 163
+    inner:
+      serializedVersion: 2
+      x: 705
+      y: 330
+      width: 170
+      height: 163
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_multiplier3
+    outer:
+      serializedVersion: 2
+      x: 719
+      y: 1
+      width: 170
+      height: 163
+    inner:
+      serializedVersion: 2
+      x: 719
+      y: 1
+      width: 170
+      height: 163
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_obj_class_coin
+    outer:
+      serializedVersion: 2
+      x: 1369
+      y: 436
+      width: 150
+      height: 144
+    inner:
+      serializedVersion: 2
+      x: 1369
+      y: 436
+      width: 150
+      height: 144
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_obj_class_collection
+    outer:
+      serializedVersion: 2
+      x: 1369
+      y: 291
+      width: 150
+      height: 144
+    inner:
+      serializedVersion: 2
+      x: 1369
+      y: 291
+      width: 150
+      height: 144
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_obj_class_discovery
+    outer:
+      serializedVersion: 2
+      x: 1383
+      y: 1
+      width: 150
+      height: 144
+    inner:
+      serializedVersion: 2
+      x: 1383
+      y: 1
+      width: 150
+      height: 144
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_obj_class_distance
+    outer:
+      serializedVersion: 2
+      x: 1369
+      y: 146
+      width: 150
+      height: 144
+    inner:
+      serializedVersion: 2
+      x: 1369
+      y: 146
+      width: 150
+      height: 144
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_obj_class_legendary
+    outer:
+      serializedVersion: 2
+      x: 1218
+      y: 455
+      width: 150
+      height: 144
+    inner:
+      serializedVersion: 2
+      x: 1218
+      y: 455
+      width: 150
+      height: 144
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_obj_class_obstacle
+    outer:
+      serializedVersion: 2
+      x: 1218
+      y: 310
+      width: 150
+      height: 144
+    inner:
+      serializedVersion: 2
+      x: 1218
+      y: 310
+      width: 150
+      height: 144
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_obj_class_score
+    outer:
+      serializedVersion: 2
+      x: 1232
+      y: 1
+      width: 150
+      height: 144
+    inner:
+      serializedVersion: 2
+      x: 1232
+      y: 1
+      width: 150
+      height: 144
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_obj_class_skill
+    outer:
+      serializedVersion: 2
+      x: 1218
+      y: 165
+      width: 150
+      height: 144
+    inner:
+      serializedVersion: 2
+      x: 1218
+      y: 165
+      width: 150
+      height: 144
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_obj_class_weekly
+    outer:
+      serializedVersion: 2
+      x: 1330
+      y: 819
+      width: 150
+      height: 144
+    inner:
+      serializedVersion: 2
+      x: 1330
+      y: 819
+      width: 150
+      height: 144
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_objective_status_checked
+    outer:
+      serializedVersion: 2
+      x: 1481
+      y: 941
+      width: 80
+      height: 81
+    inner:
+      serializedVersion: 2
+      x: 1481
+      y: 941
+      width: 80
+      height: 81
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_objectives_legendary
+    outer:
+      serializedVersion: 2
+      x: 1633
+      y: 785
+      width: 143
+      height: 138
+    inner:
+      serializedVersion: 2
+      x: 1633
+      y: 785
+      width: 143
+      height: 138
+    paddingLeft: .0279720277
+    paddingRight: .0279720277
+    paddingTop: .0217391308
+    paddingBottom: .0362318829
+  - name: icon_objectives_team
+    outer:
+      serializedVersion: 2
+      x: 1481
+      y: 798
+      width: 151
+      height: 142
+    inner:
+      serializedVersion: 2
+      x: 1481
+      y: 798
+      width: 151
+      height: 142
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: .0281690136
+    paddingBottom: 0
+  - name: icon_objectives_weekly
+    outer:
+      serializedVersion: 2
+      x: 1535
+      y: 646
+      width: 143
+      height: 138
+    inner:
+      serializedVersion: 2
+      x: 1535
+      y: 646
+      width: 143
+      height: 138
+    paddingLeft: .0279720277
+    paddingRight: .0279720277
+    paddingTop: .0217391308
+    paddingBottom: .0362318829
+  - name: icon_oz_characters
+    outer:
+      serializedVersion: 2
+      x: 1385
+      y: 654
+      width: 149
+      height: 143
+    inner:
+      serializedVersion: 2
+      x: 1385
+      y: 654
+      width: 149
+      height: 143
+    paddingLeft: .0134228189
+    paddingRight: 0
+    paddingTop: .0139860138
+    paddingBottom: 0
+  - name: icon_oz_lands
+    outer:
+      serializedVersion: 2
+      x: 105
+      y: 918
+      width: 125
+      height: 99
+    inner:
+      serializedVersion: 2
+      x: 105
+      y: 918
+      width: 125
+      height: 99
+    paddingLeft: .128000006
+    paddingRight: .0799999982
+    paddingTop: .24242425
+    paddingBottom: .222222224
+  - name: icon_ozmagicianpng
+    outer:
+      serializedVersion: 2
+      x: 192
+      y: 526
+      width: 170
+      height: 170
+    inner:
+      serializedVersion: 2
+      x: 192
+      y: 526
+      width: 170
+      height: 163
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_ozshirtonly
+    outer:
+      serializedVersion: 2
+      x: 192
+      y: 355
+      width: 170
+      height: 170
+    inner:
+      serializedVersion: 2
+      x: 192
+      y: 355
+      width: 170
+      height: 163
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_oztophat
+    outer:
+      serializedVersion: 2
+      x: 192
+      y: 184
+      width: 170
+      height: 170
+    inner:
+      serializedVersion: 2
+      x: 192
+      y: 184
+      width: 170
+      height: 163
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_poof
+    outer:
+      serializedVersion: 2
+      x: 705
+      y: 166
+      width: 170
+      height: 163
+    inner:
+      serializedVersion: 2
+      x: 705
+      y: 166
+      width: 170
+      height: 163
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_poof_noborder
+    outer:
+      serializedVersion: 2
+      x: 1638
+      y: 497
+      width: 108
+      height: 129
+    inner:
+      serializedVersion: 2
+      x: 1638
+      y: 497
+      width: 108
+      height: 129
+    paddingLeft: .175925925
+    paddingRight: .21296297
+    paddingTop: .0542635657
+    paddingBottom: .0542635657
+  - name: icon_settings
+    outer:
+      serializedVersion: 2
+      x: 1
+      y: 918
+      width: 103
+      height: 101
+    inner:
+      serializedVersion: 2
+      x: 1
+      y: 918
+      width: 103
+      height: 101
+    paddingLeft: .233009711
+    paddingRight: .233009711
+    paddingTop: .227722779
+    paddingBottom: .20792079
+  - name: icon_settings_about
+    outer:
+      serializedVersion: 2
+      x: 1849
+      y: 372
+      width: 123
+      height: 124
+    inner:
+      serializedVersion: 2
+      x: 1849
+      y: 372
+      width: 123
+      height: 124
+    paddingLeft: .113821141
+    paddingRight: .113821141
+    paddingTop: .0887096748
+    paddingBottom: .0887096748
+  - name: icon_settings_credits
+    outer:
+      serializedVersion: 2
+      x: 1747
+      y: 497
+      width: 116
+      height: 116
+    inner:
+      serializedVersion: 2
+      x: 1747
+      y: 497
+      width: 116
+      height: 116
+    paddingLeft: .0517241396
+    paddingRight: .068965517
+    paddingTop: .0517241396
+    paddingBottom: .0344827585
+  - name: icon_social_topdistance
+    outer:
+      serializedVersion: 2
+      x: 1679
+      y: 265
+      width: 125
+      height: 122
+    inner:
+      serializedVersion: 2
+      x: 1679
+      y: 265
+      width: 125
+      height: 122
+    paddingLeft: .136000007
+    paddingRight: .0719999969
+    paddingTop: .106557377
+    paddingBottom: .0901639313
+  - name: icon_social_topscore
+    outer:
+      serializedVersion: 2
+      x: 1520
+      y: 269
+      width: 123
+      height: 132
+    inner:
+      serializedVersion: 2
+      x: 1520
+      y: 269
+      width: 123
+      height: 132
+    paddingLeft: .130081296
+    paddingRight: .097560972
+    paddingTop: .0227272734
+    paddingBottom: .0833333358
+  - name: icon_starterpack
+    outer:
+      serializedVersion: 2
+      x: 819
+      y: 845
+      width: 170
+      height: 163
+    inner:
+      serializedVersion: 2
+      x: 819
+      y: 845
+      width: 170
+      height: 163
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_stats_score
+    outer:
+      serializedVersion: 2
+      x: 1757
+      y: 924
+      width: 91
+      height: 93
+    inner:
+      serializedVersion: 2
+      x: 1757
+      y: 924
+      width: 91
+      height: 93
+    paddingLeft: 0
+    paddingRight: .0659340695
+    paddingTop: .0322580636
+    paddingBottom: .0322580636
+  - name: icon_store_abiltities
+    outer:
+      serializedVersion: 2
+      x: 353
+      y: 868
+      width: 123
+      height: 146
+    inner:
+      serializedVersion: 2
+      x: 353
+      y: 868
+      width: 123
+      height: 146
+    paddingLeft: .130081296
+    paddingRight: .097560972
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_store_morecoins
+    outer:
+      serializedVersion: 2
+      x: 1849
+      y: 1
+      width: 154
+      height: 132
+    inner:
+      serializedVersion: 2
+      x: 1849
+      y: 1
+      width: 154
+      height: 132
+    paddingLeft: .0259740259
+    paddingRight: .012987013
+    paddingTop: .0454545468
+    paddingBottom: .0303030312
+  - name: icon_store_powerups
+    outer:
+      serializedVersion: 2
+      x: 1520
+      y: 402
+      width: 117
+      height: 138
+    inner:
+      serializedVersion: 2
+      x: 1520
+      y: 402
+      width: 117
+      height: 138
+    paddingLeft: .179487184
+    paddingRight: .111111112
+    paddingTop: 0
+    paddingBottom: .0579710156
+  - name: icon_store_utilities
+    outer:
+      serializedVersion: 2
+      x: 1534
+      y: 139
+      width: 127
+      height: 129
+    inner:
+      serializedVersion: 2
+      x: 1534
+      y: 139
+      width: 127
+      height: 129
+    paddingLeft: .0708661452
+    paddingRight: .133858263
+    paddingTop: .0620155036
+    paddingBottom: .0775193796
+  - name: icon_stumbleproof
+    outer:
+      serializedVersion: 2
+      x: 648
+      y: 845
+      width: 170
+      height: 163
+    inner:
+      serializedVersion: 2
+      x: 648
+      y: 845
+      width: 170
+      height: 163
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_thirdeye
+    outer:
+      serializedVersion: 2
+      x: 534
+      y: 661
+      width: 170
+      height: 163
+    inner:
+      serializedVersion: 2
+      x: 534
+      y: 661
+      width: 170
+      height: 163
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_tophat
+    outer:
+      serializedVersion: 2
+      x: 534
+      y: 497
+      width: 170
+      height: 163
+    inner:
+      serializedVersion: 2
+      x: 534
+      y: 497
+      width: 170
+      height: 163
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_tophat_noborder
+    outer:
+      serializedVersion: 2
+      x: 1679
+      y: 153
+      width: 138
+      height: 111
+    inner:
+      serializedVersion: 2
+      x: 1679
+      y: 153
+      width: 138
+      height: 170
+    paddingLeft: .0217391308
+    paddingRight: .0652173907
+    paddingTop: .162162155
+    paddingBottom: .126126125
+  - name: leaderboards_down
+    outer:
+      serializedVersion: 2
+      x: 1777
+      y: 77
+      width: 50
+      height: 75
+    inner:
+      serializedVersion: 2
+      x: 1777
+      y: 77
+      width: 50
+      height: 75
+    paddingLeft: .319999993
+    paddingRight: .280000001
+    paddingTop: 0
+    paddingBottom: .0266666673
+  - name: leaderboards_up
+    outer:
+      serializedVersion: 2
+      x: 1777
+      y: 1
+      width: 50
+      height: 75
+    inner:
+      serializedVersion: 2
+      x: 1777
+      y: 1
+      width: 50
+      height: 75
+    paddingLeft: .300000012
+    paddingRight: .300000012
+    paddingTop: .0266666673
+    paddingBottom: 0
+  - name: musicbox_pickup
+    outer:
+      serializedVersion: 2
+      x: 534
+      y: 333
+      width: 170
+      height: 163
+    inner:
+      serializedVersion: 2
+      x: 534
+      y: 333
+      width: 170
+      height: 163
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: sales_sleeve
+    outer:
+      serializedVersion: 2
+      x: 1777
+      y: 746
+      width: 110
+      height: 116
+    inner:
+      serializedVersion: 2
+      x: 1777
+      y: 746
+      width: 110
+      height: 116
+    paddingLeft: .0272727273
+    paddingRight: .0636363626
+    paddingTop: .0172413792
+    paddingBottom: .0172413792
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

@@ -1,0 +1,242 @@
+fileFormatVersion: 2
+guid: ccccc7ef51e347b4f9d1f238871b3d2b
+ModelImporter:
+  fileIDToRecycleName:
+    4300000: oz_ybr_fields_junctionLR_a
+    4300002: decals
+    4300004: decals_overlays
+    4300006: tree_clump_opt
+    4300008: tree_clump_opt1
+    4300010: allGrovesPieces:pCube1
+    4300012: allGrovesPieces:pCube2
+    4300014: pCube2
+    4300016: pCube4
+    4300018: pCube3
+    4300020: pCube2
+    4300022: pCube1
+    4300024: pPlane21
+    4300026: pCube5
+    4300028: pCube6
+    4300030: pCube7
+    4300032: pCube8
+    4300034: pCube9
+    4300036: pCube10
+    4300038: pCube11
+    4300040: pCube12
+    4300042: pPlane22
+    4300044: pPlane23
+    4300046: pPlane24
+    4300048: pCube13
+    4300050: pCube14
+    4300052: Temp_oz_ybr_fields_start_a_02_5:oz_ybr_fields_start_a1
+    4300054: Temp_oz_ybr_fields_start_a_02_5:pCylinder2
+    4300056: Temp_oz_ybr_fields_start_a_02_5:pCylinder3
+    4300058: Temp_oz_ybr_fields_start_a_02_5:pCylinder4
+    4300060: Temp_oz_ybr_fields_start_a_02_5:pCylinder5
+    4300062: Temp_oz_ybr_fields_start_a_02_5:pCylinder6
+    4300064: Temp_oz_ybr_fields_start_a_02_5:pCylinder7
+    4300066: Temp_oz_ybr_fields_start_a_02_5:pCylinder8
+    4300068: Temp_oz_ybr_fields_start_a_02_5:pCylinder9
+    4300070: Temp_oz_ybr_fields_start_a_02_5:pCylinder10
+    4300072: Temp_oz_ybr_fields_start_a_02_5:pCylinder11
+    4300074: decals_overlays_best
+    4300076: decals_hi
+    4300078: decals_lomesh
+    4300080: decals_lo
+    7400000: Take 001 //// oz_ybr_fields_junctionLR_a
+  serializedVersion: 10
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    generateAnimations: 0
+    bakeSimulation: 0
+    splitAnimations: 1
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations:
+    - name: Balloon
+      firstFrame: 1
+      lastFrame: 60
+      wrapMode: 0
+      loop: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00400000019
+    meshCompression: 3
+    addColliders: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMesh: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 2
+    tangentImportMode: 2
+  textMetaNamesToFileIDs:
+    //RootNode:
+      data:
+        first: 1
+        second: aa860100
+      data:
+        first: 4
+        second: 8a1a0600
+      data:
+        first: 111
+        second: 605fa900
+    decals:
+      data:
+        first: 1
+        second: b4860100
+      data:
+        first: 4
+        second: 941a0600
+      data:
+        first: 23
+        second: 62182300
+      data:
+        first: 33
+        second: a25a3200
+    decals_hi:
+      data:
+        first: 1
+        second: be860100
+      data:
+        first: 4
+        second: 9e1a0600
+      data:
+        first: 23
+        second: 6c182300
+      data:
+        first: 33
+        second: ac5a3200
+    decals_lo:
+      data:
+        first: 1
+        second: ba860100
+      data:
+        first: 4
+        second: 9a1a0600
+      data:
+        first: 23
+        second: 68182300
+      data:
+        first: 33
+        second: a85a3200
+    decals_lomesh:
+      data:
+        first: 1
+        second: bc860100
+      data:
+        first: 4
+        second: 9c1a0600
+      data:
+        first: 23
+        second: 6a182300
+      data:
+        first: 33
+        second: aa5a3200
+    decals_overlays:
+      data:
+        first: 1
+        second: b6860100
+      data:
+        first: 4
+        second: 961a0600
+      data:
+        first: 23
+        second: 64182300
+      data:
+        first: 33
+        second: a45a3200
+    decals_overlays_best:
+      data:
+        first: 1
+        second: b8860100
+      data:
+        first: 4
+        second: 981a0600
+      data:
+        first: 23
+        second: 66182300
+      data:
+        first: 33
+        second: a65a3200
+    dummy_a_left:
+      data:
+        first: 1
+        second: b0860100
+      data:
+        first: 4
+        second: 901a0600
+    dummy_a_right:
+      data:
+        first: 1
+        second: a6860100
+      data:
+        first: 4
+        second: 861a0600
+    dummy_b_left:
+      data:
+        first: 1
+        second: b2860100
+      data:
+        first: 4
+        second: 921a0600
+    dummy_b_right:
+      data:
+        first: 1
+        second: a8860100
+      data:
+        first: 4
+        second: 881a0600
+    dummy_c_left:
+      data:
+        first: 1
+        second: a4860100
+      data:
+        first: 4
+        second: 841a0600
+    dummy_c_right:
+      data:
+        first: 1
+        second: a2860100
+      data:
+        first: 4
+        second: 821a0600
+    oz_ybr_fields_junctionLR_a:
+      data:
+        first: 1
+        second: ae860100
+      data:
+        first: 4
+        second: 8e1a0600
+      data:
+        first: 23
+        second: 60182300
+      data:
+        first: 33
+        second: a05a3200
+    path_left:
+      data:
+        first: 1
+        second: ac860100
+      data:
+        first: 4
+        second: 8c1a0600
+    path_right:
+      data:
+        first: 1
+        second: a0860100
+      data:
+        first: 4
+        second: 801a0600

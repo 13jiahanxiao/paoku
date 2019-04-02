@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>pListAdditions</key>
+	<array/>
+	<key>requiredFrameworks</key>
+	<array>
+		<string>CFNetwork.framework</string>
+		<string>CoreGraphics.framework</string>
+		<string>Foundation.framework</string>
+		<string>MobileCoreServices.framework</string>
+		<string>Security.framework</string>
+		<string>SystemConfiguration.framework</string>
+		<string>UIKit.framework</string>
+		<string>CoreTelephony.framework</string>
+		<string>CoreLocation.framework</string>
+		<string>MapKit.framework</string>
+	</array>
+	<key>dynamicLibraries</key>
+	<array/>
+	<key>linkerFlags</key>
+	<array/>
+	<key>neverShowCompletedMessage</key>
+	<true/>
+	<key>weakLinkFrameworks</key>
+	<array/>
+</dict>
+</plist>

@@ -1,0 +1,240 @@
+fileFormatVersion: 2
+guid: d469d3a47fdde45db8783ae59de5b824
+ModelImporter:
+  fileIDToRecycleName:
+    4300000: polySurface2
+    4300002: polySurface3
+    4300004: polySurface4
+    4300006: polySurface8
+    4300008: polySurface15
+    4300010: polySurface17
+    4300012: polySurface20
+    4300014: polySurface23
+    4300016: polySurface30
+    4300018: polySurface31
+    4300020: polySurface32
+    4300022: polySurface143
+    4300024: polySurface1
+    4300026: polySurface5
+    4300028: polySurface7
+    4300030: polySurface9
+    4300032: polySurface10
+    4300034: polySurface11
+    4300036: polySurface12
+    4300038: polySurface13
+    4300040: pPlane1
+    4300042: pPlane2
+    4300044: pPlane3
+    4300046: pPlane4
+    4300048: pPlane5
+    4300050: pPlane6
+    4300052: pPlane7
+    4300054: pPlane8
+    4300056: pPlane9
+    4300058: pPlane10
+    4300060: pPlane11
+    4300062: pPlane12
+    4300064: polySurface18
+    4300066: oz_df_forest_straight_a_opaque
+    4300068: oz_df_forest_straight_a_alpha
+    4300070: oz_df_forest_straight_a
+    4300072: decals
+    4300074: polySurface6
+    4300076: polySurface14
+    4300078: polySurface16
+    4300080: polySurface19
+    4300082: polySurface21
+    4300084: polySurface22
+    4300086: polySurface24
+    4300088: polySurface25
+    4300090: polySurface26
+    4300092: polySurface27
+    4300094: polySurface28
+    4300096: polySurface29
+    4300098: polySurface33
+    4300100: polySurface34
+    4300102: polySurface35
+    4300104: polySurface36
+    4300106: polySurface37
+    4300108: polySurface38
+    4300110: polySurface39
+    4300112: polySurface40
+    4300114: polySurface41
+    4300116: polySurface42
+    4300118: polySurface43
+    4300120: polySurface44
+    4300122: polySurface45
+    4300124: polySurface46
+    4300126: polySurface47
+    4300128: polySurface48
+    4300130: polySurface49
+    4300132: polySurface50
+    4300134: polySurface51
+    4300136: polySurface52
+    4300138: polySurface53
+    4300140: polySurface54
+    4300142: polySurface55
+    4300144: polySurface56
+    4300146: polySurface57
+    4300148: polySurface58
+    4300150: polySurface59
+    4300152: polySurface60
+    4300154: polySurface61
+    4300156: polySurface62
+    4300158: polySurface63
+    4300160: polySurface64
+    4300162: polySurface65
+    4300164: polySurface66
+    4300166: polySurface67
+    4300168: polySurface68
+    4300170: polySurface69
+    4300172: polySurface70
+    4300174: polySurface71
+    4300176: polySurface72
+    4300178: polySurface73
+    4300180: polySurface74
+    4300182: polySurface75
+    4300184: polySurface76
+    4300186: polySurface77
+    4300188: polySurface78
+    4300190: polySurface79
+    4300192: polySurface80
+    4300194: polySurface81
+    4300196: polySurface82
+    4300198: polySurface83
+    4300200: polySurface84
+    4300202: backdrop
+    4300204: decals_overlays
+    4300206: oz_df_forest_straight_a_opaque1
+    4300208: seamCover
+    7400000: Take 001 //// oz_df_forest_straight_a
+  serializedVersion: 10
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    generateAnimations: 0
+    bakeSimulation: 0
+    splitAnimations: 1
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations: []
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00400000019
+    meshCompression: 3
+    addColliders: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMesh: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 2
+    tangentImportMode: 2
+  textMetaNamesToFileIDs:
+    //RootNode:
+      data:
+        first: 1
+        second: a0860100
+      data:
+        first: 4
+        second: 801a0600
+      data:
+        first: 111
+        second: 605fa900
+    backdrop:
+      data:
+        first: 1
+        second: 3a870100
+      data:
+        first: 4
+        second: 1a1b0600
+      data:
+        first: 23
+        second: ee182300
+      data:
+        first: 33
+        second: 2e5b3200
+    decals:
+      data:
+        first: 1
+        second: a2860100
+      data:
+        first: 4
+        second: 821a0600
+      data:
+        first: 23
+        second: 60182300
+      data:
+        first: 33
+        second: a05a3200
+    decals_overlays:
+      data:
+        first: 1
+        second: ac860100
+      data:
+        first: 4
+        second: 8c1a0600
+      data:
+        first: 23
+        second: 64182300
+      data:
+        first: 33
+        second: a45a3200
+    dummy_a:
+      data:
+        first: 1
+        second: a4860100
+      data:
+        first: 4
+        second: 841a0600
+    dummy_b:
+      data:
+        first: 1
+        second: a8860100
+      data:
+        first: 4
+        second: 881a0600
+    oz_df_forest_straight_a:
+      data:
+        first: 1
+        second: ae860100
+      data:
+        first: 4
+        second: 8e1a0600
+      data:
+        first: 23
+        second: 66182300
+      data:
+        first: 33
+        second: a65a3200
+    path_default:
+      data:
+        first: 1
+        second: a6860100
+      data:
+        first: 4
+        second: 861a0600
+    seamCover:
+      data:
+        first: 1
+        second: aa860100
+      data:
+        first: 4
+        second: 8a1a0600
+      data:
+        first: 23
+        second: 62182300
+      data:
+        first: 33
+        second: a25a3200

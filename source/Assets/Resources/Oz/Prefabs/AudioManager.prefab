@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 3
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76b8c7299f75f4399ba0af54dc6d71d8, type: 1}
+  m_Name: 
+  BaboonsFlyIn: {fileID: 8300000, guid: a1264f94f74fa4f3e9d3c5dbcd7ba0cc, type: 1}
+  LaunchMusic: {fileID: 8300000, guid: 62671da6b3dc44d7796c3d2ab9cbc935, type: 1}
+  MainMenuMusic: {fileID: 8300000, guid: 39ac64d82077a429ab79cd3479ce0e62, type: 1}
+  TunnelMusic: {fileID: 8300000, guid: 0cff75106be17495fb9c618f8152b33d, type: 1}
+  BalloonMusic: {fileID: 8300000, guid: d0214e89925254799a90890da92e3f98, type: 1}
+  Controller: {fileID: 0}
+  Player: {fileID: 0}
+  Swish: {fileID: 8300000, guid: 7a4a81b4961a7154399838e932a078be, type: 1}
+  Recharged: {fileID: 8300000, guid: 5cddc834b6f6dd34098d3494837e2cfd, type: 1}
+  ScoreBlast: {fileID: 8300000, guid: 75c2f9354d6d4294cb9e7a622ccc67e0, type: 1}
+  AngelWings: {fileID: 8300000, guid: e7f43ba170366aa48958b9a04103e579, type: 1}
+  landing: {fileID: 8300000, guid: 404db5e95c0004a74bca75f3915e3461, type: 1}
+  jumping: {fileID: 8300000, guid: 4c3b3851be4f043049430665e87f7a72, type: 1}
+  sliding: {fileID: 8300000, guid: 6717db645edfd40769ee715ad4731a70, type: 1}
+  turnRight: {fileID: 8300000, guid: 6717db645edfd40769ee715ad4731a70, type: 1}
+  turnLeft: {fileID: 8300000, guid: 6717db645edfd40769ee715ad4731a70, type: 1}
+  DisableAudio: 0
+  SFXready: 0
+  footstepsSfx:
+  - {fileID: 8300000, guid: cd37b24d2ff4745c5ae725c2161a12d7, type: 1}
+  - {fileID: 8300000, guid: 0d08f275426814bdba23a68535dc825e, type: 1}
+  - {fileID: 8300000, guid: 4a58585ab78ab44c7b05eec0bdbea954, type: 1}
+  - {fileID: 8300000, guid: 233ad020aca474f33bba719f9ed35314, type: 1}
+  - {fileID: 8300000, guid: 31c922da802374cf09c1aab274cf1966, type: 1}
+  - {fileID: 8300000, guid: c259213cd57db4fb9ac5efd29f13964b, type: 1}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

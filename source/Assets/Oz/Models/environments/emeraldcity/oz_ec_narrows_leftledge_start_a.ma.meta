@@ -1,0 +1,333 @@
+fileFormatVersion: 2
+guid: 841b3040c0d5d6841a360d77c00a332c
+ModelImporter:
+  fileIDToRecycleName:
+    4300000: oz_ec_narrows_leftledge_start_a
+    4300002: oz_ec_narrowsleftledge_start_a
+    4300004: oz_ec_narrows_leftledge_end_a1
+    4300006: oz_ec_narrows_leftledge_middle_a1
+    4300008: brokenPiece1
+    4300010: brokenPiece2
+    4300012: brokenPiece3
+    4300014: brokenPiece4
+    4300016: brokenPiece5
+    4300018: brokenPiece6
+    4300020: brokenPiece7
+    4300022: brokenPiece8
+    4300024: brokenPiece9
+    4300026: brokenPiece10
+    4300028: brokenPiece11
+    4300030: oz_ec_narrows_leftledge_middle_a
+    4300032: pCube1
+    4300034: polySurface3
+    4300036: polySurface47
+    4300038: polySurface48
+    4300040: polySurface49
+    4300042: polySurface50
+    4300044: polySurface71
+    4300046: polySurface72
+    4300048: polySurface73
+    4300050: polySurface74
+    4300052: polySurface75
+    4300054: polySurface76
+    4300056: polySurface77
+    4300058: polySurface78
+    4300060: polySurface79
+    4300062: polySurface80
+    4300064: polySurface81
+    4300066: polySurface82
+    4300068: polySurface83
+    4300070: polySurface84
+    4300072: polySurface85
+    4300074: polySurface86
+    4300076: polySurface87
+    4300078: polySurface88
+    4300080: polySurface89
+    4300082: polySurface90
+    4300084: polySurface91
+    4300086: polySurface92
+    4300088: polySurface93
+    4300090: polySurface94
+    4300092: polySurface95
+    4300094: polySurface96
+    4300096: polySurface97
+    4300098: polySurface98
+    4300100: polySurface99
+    4300102: polySurface100
+    4300104: polySurface101
+    4300106: polySurface102
+    4300108: polySurface103
+    4300110: polySurface104
+    4300112: polySurface105
+    4300114: polySurface106
+    4300116: polySurface107
+    4300118: polySurface108
+    4300120: building
+    4300122: explodingBridge7
+    4300124: explodingBridge8
+    4300126: explodingBridge9
+    4300128: explodingBridge10
+    4300130: explodingBridge11
+    4300132: explodingBridge12
+    4300134: breakingBase
+    4300136: explodingBridgeBase
+    4300138: explodingBridge1
+    4300140: explodingBridge2
+    4300142: explodingBridge3
+    4300144: explodingBridge4
+    4300146: explodingBridge5
+    4300148: explodingBridge6
+    4300150: pCube2
+    4300152: pCube3
+    4300154: pCube4
+    4300156: pCube5
+    4300158: polySurface1
+    4300160: polySurface2
+    4300162: pCube6
+    4300164: polySurface8
+    4300166: polySurface9
+    4300168: polySurface10
+    4300170: polySurface46
+    4300172: loftedSurface1
+    4300174: pCube7
+    4300176: pCube8
+    4300178: pPlane1
+    4300180: pPlane2
+    4300182: pPlane3
+    4300184: pPlane4
+    4300186: pPlane5
+    4300188: pPlane6
+    4300190: pPlane7
+    4300192: pPlane8
+    4300194: polySurface6
+    4300196: Piece
+    7400000: Collapse //// oz_ec_narrows_leftledge_start_a
+  serializedVersion: 10
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    generateAnimations: 3
+    bakeSimulation: 0
+    splitAnimations: 1
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations:
+    - name: Collapse
+      firstFrame: 1
+      lastFrame: 30
+      wrapMode: 1
+      loop: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00400000019
+    meshCompression: 3
+    addColliders: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMesh: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 2
+    tangentImportMode: 2
+  textMetaNamesToFileIDs:
+    //RootNode:
+      data:
+        first: 1
+        second: a2860100
+      data:
+        first: 4
+        second: 821a0600
+      data:
+        first: 111
+        second: 605fa900
+    Piece:
+      data:
+        first: 1
+        second: d0860100
+      data:
+        first: 4
+        second: b01a0600
+      data:
+        first: 23
+        second: 62182300
+      data:
+        first: 33
+        second: a25a3200
+    custom_lights:
+      data:
+        first: 1
+        second: cc860100
+      data:
+        first: 4
+        second: ac1a0600
+    dummy_a:
+      data:
+        first: 1
+        second: c6860100
+      data:
+        first: 4
+        second: a61a0600
+    dummy_b:
+      data:
+        first: 1
+        second: c4860100
+      data:
+        first: 4
+        second: a41a0600
+    oz_ec_narrows_leftledge_start_a:
+      data:
+        first: 1
+        second: a8860100
+      data:
+        first: 4
+        second: 881a0600
+      data:
+        first: 23
+        second: 60182300
+      data:
+        first: 33
+        second: a05a3200
+    path_default:
+      data:
+        first: 1
+        second: c2860100
+      data:
+        first: 4
+        second: a21a0600
+    pointLight1:
+      data:
+        first: 1
+        second: ca860100
+      data:
+        first: 4
+        second: aa1a0600
+    pointLight10:
+      data:
+        first: 1
+        second: ce860100
+      data:
+        first: 4
+        second: ae1a0600
+    pointLight11:
+      data:
+        first: 1
+        second: c8860100
+      data:
+        first: 4
+        second: a81a0600
+    pointLight12:
+      data:
+        first: 1
+        second: bc860100
+      data:
+        first: 4
+        second: 9c1a0600
+    pointLight13:
+      data:
+        first: 1
+        second: b4860100
+      data:
+        first: 4
+        second: 941a0600
+    pointLight2:
+      data:
+        first: 1
+        second: ac860100
+      data:
+        first: 4
+        second: 8c1a0600
+    pointLight3:
+      data:
+        first: 1
+        second: a0860100
+      data:
+        first: 4
+        second: 801a0600
+    pointLight4:
+      data:
+        first: 1
+        second: b2860100
+      data:
+        first: 4
+        second: 921a0600
+    pointLight5:
+      data:
+        first: 1
+        second: a4860100
+      data:
+        first: 4
+        second: 841a0600
+    pointLight6:
+      data:
+        first: 1
+        second: b0860100
+      data:
+        first: 4
+        second: 901a0600
+    pointLight7:
+      data:
+        first: 1
+        second: aa860100
+      data:
+        first: 4
+        second: 8a1a0600
+    pointLight8:
+      data:
+        first: 1
+        second: a6860100
+      data:
+        first: 4
+        second: 861a0600
+    pointLight9:
+      data:
+        first: 1
+        second: ae860100
+      data:
+        first: 4
+        second: 8e1a0600
+    spotLight12:
+      data:
+        first: 1
+        second: ba860100
+      data:
+        first: 4
+        second: 9a1a0600
+    spotLight13:
+      data:
+        first: 1
+        second: b6860100
+      data:
+        first: 4
+        second: 961a0600
+    spotLight14:
+      data:
+        first: 1
+        second: c0860100
+      data:
+        first: 4
+        second: a01a0600
+    spotLight15:
+      data:
+        first: 1
+        second: be860100
+      data:
+        first: 4
+        second: 9e1a0600
+    spotLight9:
+      data:
+        first: 1
+        second: b8860100
+      data:
+        first: 4
+        second: 981a0600

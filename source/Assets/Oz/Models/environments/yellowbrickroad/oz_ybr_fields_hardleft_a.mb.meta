@@ -1,0 +1,228 @@
+fileFormatVersion: 2
+guid: 67242d46056eb0a4db45bb70c2d9f3d9
+ModelImporter:
+  fileIDToRecycleName:
+    4300000: oz_ybr_fields_junctionLR_a
+    4300002: oz_ybr_fields_hardleft_a
+    4300004: decals_overlays
+    4300006: decals
+    4300008: oz_ybr_fields_hardleft_a5
+    4300010: oz_fields_hardleft_a
+    4300012: polySurface2
+    4300014: polySurface3
+    4300016: polySurface32
+    4300018: polySurface33
+    4300020: polySurface1
+    4300022: polySurface4
+    4300024: polySurface5
+    4300026: polySurface6
+    4300028: polySurface7
+    4300030: polySurface8
+    4300032: polySurface9
+    4300034: polySurface10
+    4300036: polySurface11
+    4300038: polySurface12
+    4300040: polySurface13
+    4300042: polySurface14
+    4300044: polySurface15
+    4300046: polySurface16
+    4300048: polySurface17
+    4300050: polySurface18
+    4300052: polySurface20
+    4300054: polySurface21
+    4300056: polySurface22
+    4300058: polySurface23
+    4300060: polySurface24
+    4300062: polySurface25
+    4300064: polySurface26
+    4300066: polySurface27
+    4300068: polySurface28
+    4300070: polySurface29
+    4300072: polySurface30
+    4300074: polySurface20
+    4300076: polySurface21
+    4300078: polySurface22
+    4300080: polySurface23
+    4300082: polySurface24
+    4300084: polySurface25
+    4300086: polySurface26
+    4300088: polySurface27
+    4300090: polySurface28
+    4300092: polySurface29
+    4300094: polySurface30
+    4300096: polySurface34
+    4300098: polySurface35
+    4300100: ybr_tree_cards:tree_decal_01
+    4300102: ybr_tree_cards:treE_decal_02
+    4300104: treE_decal_02
+    4300106: polySurface38
+    4300108: polySurface56
+    4300110: polySurface57
+    4300112: decals_overlays_best
+    4300114: decals_hi
+    4300116: decals_lo
+    4300118: decals_lomesh
+    7400000: Take 001 //// oz_ybr_fields_hardleft_a
+  serializedVersion: 10
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    generateAnimations: 0
+    bakeSimulation: 0
+    splitAnimations: 1
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations: []
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00400000019
+    meshCompression: 3
+    addColliders: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMesh: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 2
+    tangentImportMode: 2
+  textMetaNamesToFileIDs:
+    //RootNode:
+      data:
+        first: 1
+        second: b2860100
+      data:
+        first: 4
+        second: 921a0600
+      data:
+        first: 111
+        second: 605fa900
+    decals:
+      data:
+        first: 1
+        second: aa860100
+      data:
+        first: 4
+        second: 8a1a0600
+      data:
+        first: 23
+        second: 62182300
+      data:
+        first: 33
+        second: a25a3200
+    decals_hi:
+      data:
+        first: 1
+        second: b6860100
+      data:
+        first: 4
+        second: 961a0600
+      data:
+        first: 23
+        second: 6c182300
+      data:
+        first: 33
+        second: ac5a3200
+    decals_lo:
+      data:
+        first: 1
+        second: b0860100
+      data:
+        first: 4
+        second: 901a0600
+      data:
+        first: 23
+        second: 66182300
+      data:
+        first: 33
+        second: a65a3200
+    decals_lomesh:
+      data:
+        first: 1
+        second: b4860100
+      data:
+        first: 4
+        second: 941a0600
+      data:
+        first: 23
+        second: 68182300
+      data:
+        first: 33
+        second: a85a3200
+    decals_overlays:
+      data:
+        first: 1
+        second: ac860100
+      data:
+        first: 4
+        second: 8c1a0600
+      data:
+        first: 23
+        second: 64182300
+      data:
+        first: 33
+        second: a45a3200
+    decals_overlays_best:
+      data:
+        first: 1
+        second: ae860100
+      data:
+        first: 4
+        second: 8e1a0600
+      data:
+        first: 23
+        second: 60182300
+      data:
+        first: 33
+        second: a05a3200
+    dummy_a:
+      data:
+        first: 1
+        second: a2860100
+      data:
+        first: 4
+        second: 821a0600
+    dummy_b:
+      data:
+        first: 1
+        second: a6860100
+      data:
+        first: 4
+        second: 861a0600
+    dummy_c:
+      data:
+        first: 1
+        second: a0860100
+      data:
+        first: 4
+        second: 801a0600
+    oz_ybr_fields_hardleft_a:
+      data:
+        first: 1
+        second: a4860100
+      data:
+        first: 4
+        second: 841a0600
+      data:
+        first: 23
+        second: 6a182300
+      data:
+        first: 33
+        second: aa5a3200
+    path_default:
+      data:
+        first: 1
+        second: a8860100
+      data:
+        first: 4
+        second: 881a0600

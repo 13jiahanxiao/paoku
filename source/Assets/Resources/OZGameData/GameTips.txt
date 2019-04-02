@@ -1,0 +1,1 @@
+{"hash":"55caaf89a9872f1ba43a548652e8c834","data":[{"Title":"Enemy Tip 1","Tip":"Slide to avoid the flying baboon","ID":0},{"Title":"Enemy Tip 2","Tip":"Dodge or Jump to evade SnapDragons","ID":1}]}

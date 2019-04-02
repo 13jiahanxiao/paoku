@@ -1,0 +1,257 @@
+fileFormatVersion: 2
+guid: 6b6e6038ce2580345a7533f9f606c668
+ModelImporter:
+  fileIDToRecycleName:
+    4300000: cliffs_overunder_a
+    4300002: cliffs_overunder_a1
+    4300004: oz_ww_woods_straight_a1:woods_straight_a
+    4300006: ww_cliffs_straight_overunder_anim_mesh
+    4300008: oz_ww_straight_overunder_anim_a_mesh
+    4300010: oz_woods_straight_overunder_anim_a_mesh
+    4300012: treefall
+    4300014: polySurface5
+    4300016: polySurface4
+    4300018: polySurface3
+    4300020: polySurface7
+    4300022: polySurface8
+    4300024: polySurface6
+    4300026: oz_ww_woods_straight_overunder_anim_a
+    4300028: leaf1
+    4300030: leaf2
+    4300032: leaf3
+    4300034: leaf4
+    4300036: leaf5
+    4300038: leaf6
+    4300040: pPlane34
+    4300042: pPlane29
+    4300044: pPlane30
+    4300046: pPlane28
+    4300048: FernLarge
+    4300050: FernLarge1
+    4300052: Flower_Purple01_02
+    4300054: _Flower_Purple01_03
+    4300056: snow_drop_bunch
+    4300058: pasted__pasted__ground_vine_01_01
+    4300060: pasted__pasted__star_plant01_01
+    4300062: decals_overlays
+    4300064: decals
+    4300066: decals_overlay
+    4300068: decals_1
+    4300070: decals1
+    4300072: decals_lo
+    4300074: decals_hi
+    4300076: decals_lomesh
+    4300078: treefallexport:polySurface1
+    4300080: treefallexport:tree_piece2
+    4300082: treefallexport:tree_piece1
+    4300084: treefallexport:tree_piece
+    7400000: Take 001 //// oz_ww_woods_straight_overunder_anim_a
+    7400002: idle //// oz_ww_woods_straight_overunder_anim_a
+    7400004: treefall //// oz_ww_woods_straight_overunder_anim_a
+  serializedVersion: 10
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    generateAnimations: 3
+    bakeSimulation: 1
+    splitAnimations: 1
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations:
+    - name: treefall
+      firstFrame: 1
+      lastFrame: 30
+      wrapMode: 1
+      loop: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00400000019
+    meshCompression: 3
+    addColliders: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMesh: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 2
+    tangentImportMode: 2
+  textMetaNamesToFileIDs:
+    //RootNode:
+      data:
+        first: 1
+        second: a8860100
+      data:
+        first: 4
+        second: 881a0600
+      data:
+        first: 111
+        second: 605fa900
+    decals:
+      data:
+        first: 1
+        second: c0860100
+      data:
+        first: 4
+        second: a01a0600
+      data:
+        first: 23
+        second: 62182300
+      data:
+        first: 33
+        second: a25a3200
+    decals_hi:
+      data:
+        first: 1
+        second: ac860100
+      data:
+        first: 4
+        second: 8c1a0600
+      data:
+        first: 23
+        second: 66182300
+      data:
+        first: 33
+        second: a65a3200
+    decals_lo:
+      data:
+        first: 1
+        second: a4860100
+      data:
+        first: 4
+        second: 841a0600
+      data:
+        first: 23
+        second: 64182300
+      data:
+        first: 33
+        second: a45a3200
+    decals_lomesh:
+      data:
+        first: 1
+        second: ae860100
+      data:
+        first: 4
+        second: 8e1a0600
+      data:
+        first: 23
+        second: 6c182300
+      data:
+        first: 33
+        second: ac5a3200
+    decals_overlays:
+      data:
+        first: 1
+        second: a0860100
+      data:
+        first: 4
+        second: 801a0600
+      data:
+        first: 23
+        second: 60182300
+      data:
+        first: 33
+        second: a05a3200
+    dummy_a:
+      data:
+        first: 1
+        second: a6860100
+      data:
+        first: 4
+        second: 861a0600
+    dummy_b:
+      data:
+        first: 1
+        second: aa860100
+      data:
+        first: 4
+        second: 8a1a0600
+    group1:
+      data:
+        first: 1
+        second: b2860100
+      data:
+        first: 4
+        second: 921a0600
+    oz_ww_woods_straight_overunder_anim_a:
+      data:
+        first: 1
+        second: b4860100
+      data:
+        first: 4
+        second: 941a0600
+      data:
+        first: 23
+        second: 6a182300
+      data:
+        first: 33
+        second: aa5a3200
+    path_default:
+      data:
+        first: 1
+        second: a2860100
+      data:
+        first: 4
+        second: 821a0600
+    treefallexport:polySurface1:
+      data:
+        first: 1
+        second: ba860100
+      data:
+        first: 4
+        second: 9a1a0600
+      data:
+        first: 23
+        second: 72182300
+      data:
+        first: 33
+        second: b25a3200
+    treefallexport:tree_piece:
+      data:
+        first: 1
+        second: b0860100
+      data:
+        first: 4
+        second: 901a0600
+      data:
+        first: 23
+        second: 68182300
+      data:
+        first: 33
+        second: a85a3200
+    treefallexport:tree_piece1:
+      data:
+        first: 1
+        second: b6860100
+      data:
+        first: 4
+        second: 961a0600
+      data:
+        first: 23
+        second: 6e182300
+      data:
+        first: 33
+        second: ae5a3200
+    treefallexport:tree_piece2:
+      data:
+        first: 1
+        second: b8860100
+      data:
+        first: 4
+        second: 981a0600
+      data:
+        first: 23
+        second: 70182300
+      data:
+        first: 33
+        second: b05a3200

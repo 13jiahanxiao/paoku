@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 3
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: localization
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac9aec432392845828c8b05d50aeb8a9, type: 1}
+  m_Name: 
+  startingLanguage: Chinese_Traditional
+  ForceLanguage: 0
+  languages:
+  - {fileID: 4900000, guid: 4427089d3a5bdd14ba4c6bcd7a2f6f14, type: 1}
+  - {fileID: 4900000, guid: 9d47c4825c40cea4085e15f3e52c1565, type: 1}
+  - {fileID: 4900000, guid: abac7ab09c7a1ba44b7b0efb4cab78ef, type: 1}
+  - {fileID: 4900000, guid: 90f57ba55dbbc9f499bfe49c532f7577, type: 1}
+  - {fileID: 4900000, guid: 1cd79e29a0dea96469758017a6904c86, type: 1}
+  - {fileID: 4900000, guid: 4e98521a4c206fd45af7bcf562e9325d, type: 1}
+  - {fileID: 4900000, guid: 398d1048a2f478e43b3d20a8afd8666c, type: 1}
+  - {fileID: 4900000, guid: d6d1419fe0d17fc419e8465bb0203def, type: 1}
+  - {fileID: 4900000, guid: 609ded607fe4e30458d2d89a7c64ca1d, type: 1}
+  - {fileID: 4900000, guid: df179cf5c2a36a245ba2c44742b78b93, type: 1}
+  - {fileID: 4900000, guid: 2a9a9b1f1ba69a449aef2992b57e4722, type: 1}
+  - {fileID: 4900000, guid: 0248ffeddaa2e7a419ce5bc97152e541, type: 1}
+  fontMainRefPrefab: {fileID: 11400000, guid: b9cf0465429761b439d4861f762f6e37, type: 2}
+  fontMainRefPrefab2: {fileID: 11400000, guid: 9c456e6685ca5fe45b0f4aac901f2b01, type: 2}
+  standardFontPath: Oz/Interface/Fonts/Font Chinese Simple
+  chineseSimpleFontPath: Oz/Interface/Fonts/Font Chinese Simple
+  chineseTradFontPath: Oz/Interface/Fonts/Font Chinese Traditional
+  japaneseFontPath: Oz/Interface/Fonts/Font Japanese
+  koreanFontPath: Oz/Interface/Fonts/Font Korean
+  standardFontPathHD: Oz/Interface/Fonts/Font Chinese Simple
+  chineseSimpleFontPathHD: Oz/Interface/Fonts/Font Chinese Simple
+  chineseTradFontPathHD: Oz/Interface/Fonts/Font Chinese Traditional
+  japaneseFontPathHD: Oz/Interface/Fonts/Font Japanese
+  koreanFontPathHD: Oz/Interface/Fonts/Font Korean
+  standardFontPath2: Oz/Interface/Fonts/Font Chinese Simple
+  chineseSimpleFontPath2: Oz/Interface/Fonts/Font Chinese Simple
+  chineseTradFontPath2: Oz/Interface/Fonts/Font Chinese Traditional
+  japaneseFontPath2: Oz/Interface/Fonts/Font Japanese
+  koreanFontPath2: Oz/Interface/Fonts/Font Korean
+  standardFontPathHD2: Oz/Interface/Fonts/Font Chinese Simple
+  chineseSimpleFontPathHD2: Oz/Interface/Fonts/Font Chinese Simple
+  chineseTradFontPathHD2: Oz/Interface/Fonts/Font Chinese Traditional
+  japaneseFontPathHD2: Oz/Interface/Fonts/Font Japanese
+  koreanFontPathHD2: Oz/Interface/Fonts/Font Korean
+  standardFontIos: Arial
+  chineseSimpleFontIos: Fang Song
+  chineseTradFontIos: Apple LiGothic
+  japaneseFontIos: Gothic Pro
+  koreanFontIos: Apple Gothic
+  standardFontAndroid: Droid Serif
+  chineseSimpleFontAndroid: Droid Serif
+  chineseTradFontAndroid: Droid Serif
+  japaneseFontAndroid: Droid Serif
+  koreanFontAndroid: Droid Serif
+  currentIosFont: 
+  currentAndroidFont: 
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

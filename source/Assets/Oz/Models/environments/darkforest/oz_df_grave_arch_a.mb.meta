@@ -1,0 +1,511 @@
+fileFormatVersion: 2
+guid: a49e80c4cff755f4788b28e07631f1ac
+ModelImporter:
+  fileIDToRecycleName:
+    4300000: oz_df_grave_arch_a
+    4300002: polySurface30
+    4300004: polySurface31
+    4300006: polySurface32
+    4300008: polySurface33
+    4300010: polySurface34
+    4300012: polySurface35
+    4300014: polySurface36
+    4300016: polySurface37
+    4300018: polySurface38
+    4300020: polySurface39
+    4300022: polySurface40
+    4300024: polySurface41
+    4300026: polySurface42
+    4300028: polySurface43
+    4300030: polySurface44
+    4300032: polySurface45
+    4300034: polySurface46
+    4300036: polySurface47
+    4300038: polySurface48
+    4300040: polySurface49
+    4300042: polySurface50
+    4300044: polySurface51
+    4300046: polySurface52
+    4300048: polySurface53
+    4300050: polySurface54
+    4300052: polySurface55
+    4300054: polySurface56
+    4300056: polySurface57
+    4300058: tombstone_1
+    4300060: tombstone_2
+    4300062: tombstone_3
+    4300064: tombstone_4
+    4300066: tombstone_5
+    4300068: tombstoneColumn_1
+    4300070: flatrock2
+    4300072: Flatrock3
+    4300074: Rock_2
+    4300076: kingStatue_1
+    4300078: gatePillar_1
+    4300080: tombstone_22
+    4300082: wallRuin_1
+    4300084: wallRuin_2
+    4300086: dead_tree_2
+    4300088: dead_tree_1
+    4300090: decals
+    4300092: polySurface59
+    4300094: oz_df_grave_arch_a_opaque
+    4300096: decals_overlays
+    4300098: FlatStone01
+    4300100: FlatStone02
+    4300102: FlatStone03
+    4300104: FlatStone04
+    4300106: FlatStone05
+    4300108: FlatStone06
+    4300110: FlatStone07
+    4300112: FlatStone08
+    4300114: FlatStone09
+    4300116: FlatStone010
+    4300118: FlatStone011
+    4300120: BigRock02
+    4300122: PathStoneLight01
+    4300124: PathStoneDark01
+    4300126: PathStoneDark02
+    4300128: PathStoneDark03
+    4300130: FlatStone012
+    4300132: FlatStone013
+    4300134: FlatStone014
+    4300136: FlatStone015
+    4300138: FlatStone016
+    4300140: FlatStone017
+    4300142: FlatStone018
+    4300144: FlatStone019
+    4300146: FlatStone020
+    4300148: FlatStone021
+    4300150: FlatStone022
+    4300152: FlatStone023
+    4300154: FlatStone024
+    4300156: FlatStone025
+    4300158: FlatStone027
+    4300160: PathStoneLight02
+    4300162: PathStoneLight03
+    4300164: ThornCircle01
+    4300166: woodFence02
+    4300168: TallFence01
+    4300170: bushSmall01
+    4300172: Tree01
+    4300174: Brishbush01
+    4300176: ThornCircle02
+    4300178: Tree02
+    4300180: Tree03
+    4300182: Tree04
+    4300184: woodFence03
+    4300186: Tree05
+    4300188: Tree06
+    4300190: bushSmall02
+    4300192: woodFence04
+    4300194: woodFence05
+    4300196: woodFence06
+    4300198: Tree07
+    4300200: Brishbush02
+    4300202: bushSmall03
+    4300204: ThornCircle03
+    4300206: Tree08
+    4300208: PathDebrie01
+    4300210: PathRoots01
+    4300212: PathRoots03
+    4300214: oz_df_grave_arch_a1
+    7400000: Take 001 //// oz_df_grave_arch_a
+  serializedVersion: 10
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    generateAnimations: 0
+    bakeSimulation: 0
+    splitAnimations: 1
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations: []
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00400000019
+    meshCompression: 3
+    addColliders: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMesh: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 2
+    tangentImportMode: 2
+  textMetaNamesToFileIDs:
+    //RootNode:
+      data:
+        first: 1
+        second: ba860100
+      data:
+        first: 4
+        second: 9a1a0600
+      data:
+        first: 111
+        second: 605fa900
+    custom_lights:
+      data:
+        first: 1
+        second: ee860100
+      data:
+        first: 4
+        second: ce1a0600
+    decals:
+      data:
+        first: 1
+        second: a2860100
+      data:
+        first: 4
+        second: 821a0600
+      data:
+        first: 23
+        second: 62182300
+      data:
+        first: 33
+        second: a25a3200
+    decals_overlays:
+      data:
+        first: 1
+        second: e4860100
+      data:
+        first: 4
+        second: c41a0600
+      data:
+        first: 23
+        second: 64182300
+      data:
+        first: 33
+        second: a45a3200
+    dummy_a:
+      data:
+        first: 1
+        second: a0860100
+      data:
+        first: 4
+        second: 801a0600
+    dummy_b:
+      data:
+        first: 1
+        second: aa860100
+      data:
+        first: 4
+        second: 8a1a0600
+    dummy_c:
+      data:
+        first: 1
+        second: ce860100
+      data:
+        first: 4
+        second: ae1a0600
+    dummy_d:
+      data:
+        first: 1
+        second: cc860100
+      data:
+        first: 4
+        second: ac1a0600
+    dummy_e:
+      data:
+        first: 1
+        second: ca860100
+      data:
+        first: 4
+        second: aa1a0600
+    dummy_f:
+      data:
+        first: 1
+        second: c8860100
+      data:
+        first: 4
+        second: a81a0600
+    dummy_g:
+      data:
+        first: 1
+        second: b0860100
+      data:
+        first: 4
+        second: 901a0600
+    dummy_h:
+      data:
+        first: 1
+        second: ae860100
+      data:
+        first: 4
+        second: 8e1a0600
+    dummy_i:
+      data:
+        first: 1
+        second: ac860100
+      data:
+        first: 4
+        second: 8c1a0600
+    dummy_j:
+      data:
+        first: 1
+        second: a8860100
+      data:
+        first: 4
+        second: 881a0600
+    dummy_k:
+      data:
+        first: 1
+        second: a6860100
+      data:
+        first: 4
+        second: 861a0600
+    forestspotlight_forestspotlight_spotLight1:
+      data:
+        first: 1
+        second: ec860100
+      data:
+        first: 4
+        second: cc1a0600
+    forestspotlight_forestspotlight_spotLight2:
+      data:
+        first: 1
+        second: ea860100
+      data:
+        first: 4
+        second: ca1a0600
+    forestspotlight_forestspotlight_spotLight3:
+      data:
+        first: 1
+        second: e8860100
+      data:
+        first: 4
+        second: c81a0600
+    forestspotlight_forestspotlight_spotLight4:
+      data:
+        first: 1
+        second: e6860100
+      data:
+        first: 4
+        second: c61a0600
+    forestspotlight_forestspotlight_spotLight5:
+      data:
+        first: 1
+        second: f0860100
+      data:
+        first: 4
+        second: d01a0600
+    obs_a:
+      data:
+        first: 1
+        second: c4860100
+      data:
+        first: 4
+        second: a41a0600
+    obs_b:
+      data:
+        first: 1
+        second: c2860100
+      data:
+        first: 4
+        second: a21a0600
+    obs_c:
+      data:
+        first: 1
+        second: c0860100
+      data:
+        first: 4
+        second: a01a0600
+    obs_d:
+      data:
+        first: 1
+        second: be860100
+      data:
+        first: 4
+        second: 9e1a0600
+    obs_e:
+      data:
+        first: 1
+        second: bc860100
+      data:
+        first: 4
+        second: 9c1a0600
+    obs_f:
+      data:
+        first: 1
+        second: b8860100
+      data:
+        first: 4
+        second: 981a0600
+    obs_g:
+      data:
+        first: 1
+        second: b6860100
+      data:
+        first: 4
+        second: 961a0600
+    obs_h:
+      data:
+        first: 1
+        second: b2860100
+      data:
+        first: 4
+        second: 921a0600
+    obs_i:
+      data:
+        first: 1
+        second: d4860100
+      data:
+        first: 4
+        second: b41a0600
+    obs_i1:
+      data:
+        first: 1
+        second: 00870100
+      data:
+        first: 4
+        second: e01a0600
+    obs_i2:
+      data:
+        first: 1
+        second: fa860100
+      data:
+        first: 4
+        second: da1a0600
+    obs_j:
+      data:
+        first: 1
+        second: d2860100
+      data:
+        first: 4
+        second: b21a0600
+    obs_j1:
+      data:
+        first: 1
+        second: fc860100
+      data:
+        first: 4
+        second: dc1a0600
+    obs_j2:
+      data:
+        first: 1
+        second: fe860100
+      data:
+        first: 4
+        second: de1a0600
+    obs_k:
+      data:
+        first: 1
+        second: d0860100
+      data:
+        first: 4
+        second: b01a0600
+    obs_l:
+      data:
+        first: 1
+        second: da860100
+      data:
+        first: 4
+        second: ba1a0600
+    obs_m:
+      data:
+        first: 1
+        second: dc860100
+      data:
+        first: 4
+        second: bc1a0600
+    obs_o:
+      data:
+        first: 1
+        second: d8860100
+      data:
+        first: 4
+        second: b81a0600
+    obs_p:
+      data:
+        first: 1
+        second: d6860100
+      data:
+        first: 4
+        second: b61a0600
+    obs_q:
+      data:
+        first: 1
+        second: de860100
+      data:
+        first: 4
+        second: be1a0600
+    obs_r:
+      data:
+        first: 1
+        second: f2860100
+      data:
+        first: 4
+        second: d21a0600
+    obs_s:
+      data:
+        first: 1
+        second: e0860100
+      data:
+        first: 4
+        second: c01a0600
+    obs_t:
+      data:
+        first: 1
+        second: e2860100
+      data:
+        first: 4
+        second: c21a0600
+    obs_u:
+      data:
+        first: 1
+        second: f6860100
+      data:
+        first: 4
+        second: d61a0600
+    obs_v:
+      data:
+        first: 1
+        second: f4860100
+      data:
+        first: 4
+        second: d41a0600
+    obs_w:
+      data:
+        first: 1
+        second: f8860100
+      data:
+        first: 4
+        second: d81a0600
+    obstacles:
+      data:
+        first: 1
+        second: c6860100
+      data:
+        first: 4
+        second: a61a0600
+    oz_df_grave_arch_a:
+      data:
+        first: 1
+        second: a4860100
+      data:
+        first: 4
+        second: 841a0600
+      data:
+        first: 23
+        second: 60182300
+      data:
+        first: 33
+        second: a05a3200
+    path_default:
+      data:
+        first: 1
+        second: b4860100
+      data:
+        first: 4
+        second: 941a0600

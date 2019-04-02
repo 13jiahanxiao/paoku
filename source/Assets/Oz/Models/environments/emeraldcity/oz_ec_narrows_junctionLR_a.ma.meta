@@ -1,0 +1,352 @@
+fileFormatVersion: 2
+guid: e077bbba261df914a9290f066b90b68a
+ModelImporter:
+  fileIDToRecycleName:
+    4300000: oz_ec_narrows_junctionLR_a
+    4300002: polySurface3
+    4300004: pCube1
+    4300006: pCube2
+    4300008: pCylinder1
+    4300010: polySurface15
+    4300012: pCube9
+    4300014: pCube10
+    4300016: polySurface1
+    4300018: polySurface2
+    4300020: polySurface4
+    4300022: polySurface5
+    4300024: polySurface6
+    4300026: polySurface7
+    4300028: polySurface8
+    4300030: polySurface9
+    4300032: polySurface10
+    4300034: polySurface11
+    4300036: polySurface12
+    4300038: polySurface13
+    4300040: polySurface16
+    4300042: polySurface17
+    4300044: polySurface18
+    4300046: polySurface20
+    4300048: polySurface21
+    4300050: polySurface22
+    4300052: polySurface23
+    4300054: polySurface24
+    4300056: polySurface25
+    4300058: polySurface26
+    4300060: polySurface27
+    4300062: polySurface28
+    4300064: polySurface29
+    4300066: polySurface30
+    4300068: polySurface31
+    4300070: polySurface32
+    4300072: polySurface33
+    4300074: polySurface34
+    4300076: polySurface35
+    4300078: polySurface36
+    4300080: polySurface37
+    4300082: polySurface38
+    4300084: polySurface39
+    4300086: polySurface40
+    4300088: polySurface41
+    4300090: polySurface42
+    4300092: polySurface43
+    4300094: polySurface44
+    4300096: polySurface45
+    4300098: polySurface46
+    4300100: polySurface47
+    4300102: polySurface48
+    4300104: polySurface49
+    4300106: polySurface50
+    4300108: polySurface51
+    4300110: polySurface52
+    4300112: polySurface53
+    4300114: polySurface54
+    4300116: polySurface55
+    4300118: polySurface56
+    4300120: polySurface57
+    4300122: polySurface58
+    4300124: polySurface59
+    4300126: polySurface60
+    4300128: polySurface61
+    4300130: polySurface62
+    4300132: polySurface63
+    4300134: polySurface64
+    4300136: polySurface65
+    4300138: polySurface66
+    4300140: polySurface67
+    4300142: polySurface68
+    4300144: polySurface69
+    4300146: polySurface70
+    4300148: polySurface71
+    4300150: polySurface72
+    4300152: polySurface73
+    4300154: polySurface74
+    4300156: polySurface75
+    4300158: polySurface76
+    4300160: polySurface77
+    4300162: polySurface78
+    4300164: polySurface79
+    4300166: polySurface80
+    4300168: polySurface81
+    4300170: polySurface82
+    4300172: polySurface83
+    4300174: polySurface84
+    4300176: polySurface85
+    4300178: polySurface86
+    4300180: polySurface87
+    4300182: polySurface88
+    4300184: polySurface89
+    4300186: polySurface90
+    4300188: polySurface91
+    4300190: polySurface92
+    4300192: polySurface93
+    4300194: polySurface94
+    4300196: polySurface95
+    4300198: polySurface96
+    4300200: polySurface97
+    4300202: polySurface98
+    4300204: polySurface99
+    4300206: polySurface100
+    4300208: polySurface101
+    4300210: polySurface102
+    4300212: polySurface103
+    4300214: polySurface104
+    4300216: polySurface105
+    4300218: polySurface106
+    4300220: polySurface107
+    4300222: polySurface108
+    4300224: polySurface109
+    4300226: polySurface110
+    4300228: polySurface111
+    4300230: polySurface112
+    4300232: polySurface113
+    4300234: polySurface114
+    4300236: polySurface115
+    4300238: polySurface116
+    4300240: polySurface117
+    4300242: polySurface118
+    4300244: polySurface119
+    4300246: polySurface120
+    4300248: polySurface121
+    4300250: polySurface122
+    4300252: polySurface123
+    4300254: polySurface124
+    4300256: polySurface125
+    4300258: polySurface126
+    4300260: polySurface127
+    4300262: polySurface128
+    4300264: polySurface129
+    4300266: polySurface130
+    4300268: polySurface131
+    4300270: polySurface132
+    4300272: polySurface133
+    4300274: polySurface134
+    4300276: polySurface135
+    4300278: polySurface136
+    4300280: polySurface137
+    4300282: polySurface138
+    4300284: polySurface139
+    4300286: polySurface140
+    4300288: polySurface141
+    4300290: polySurface142
+    4300292: polySurface143
+    4300294: polySurface144
+    4300296: polySurface145
+    4300298: polySurface146
+    4300300: polySurface147
+    4300302: polySurface148
+    4300304: polySurface149
+    4300306: polySurface150
+    4300308: polySurface151
+    4300310: polySurface152
+    4300312: polySurface153
+    4300314: polySurface154
+    4300316: polySurface155
+    4300318: polySurface156
+    4300320: polySurface157
+    4300322: polySurface158
+    4300324: polySurface159
+    4300326: polySurface160
+    4300328: polySurface161
+    4300330: polySurface162
+    4300332: polySurface163
+    4300334: polySurface164
+    4300336: polySurface165
+    4300338: polySurface166
+    4300340: polySurface167
+    4300342: polySurface168
+    4300344: brazier1:polySurface94
+    4300346: oz_ec_narrows_straight_a:oz_ec_narrows_straight_a
+    4300348: oz_ec_narrows_straight_a1
+  serializedVersion: 10
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    generateAnimations: 0
+    bakeSimulation: 0
+    splitAnimations: 1
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations: []
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00400000019
+    meshCompression: 3
+    addColliders: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMesh: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 2
+    tangentImportMode: 2
+  textMetaNamesToFileIDs:
+    //RootNode:
+      data:
+        first: 1
+        second: aa860100
+      data:
+        first: 4
+        second: 8a1a0600
+      data:
+        first: 111
+        second: 605fa900
+    custom_lights:
+      data:
+        first: 1
+        second: b4860100
+      data:
+        first: 4
+        second: 941a0600
+    dummy_a_left:
+      data:
+        first: 1
+        second: a0860100
+      data:
+        first: 4
+        second: 801a0600
+    dummy_a_right:
+      data:
+        first: 1
+        second: a2860100
+      data:
+        first: 4
+        second: 821a0600
+    dummy_b_left:
+      data:
+        first: 1
+        second: ac860100
+      data:
+        first: 4
+        second: 8c1a0600
+    dummy_b_right:
+      data:
+        first: 1
+        second: ae860100
+      data:
+        first: 4
+        second: 8e1a0600
+    dummy_c_left:
+      data:
+        first: 1
+        second: b0860100
+      data:
+        first: 4
+        second: 901a0600
+    dummy_c_right:
+      data:
+        first: 1
+        second: a6860100
+      data:
+        first: 4
+        second: 861a0600
+    left:
+      data:
+        first: 1
+        second: b8860100
+      data:
+        first: 4
+        second: 981a0600
+    oz_ec_narrows_junctionLR_a:
+      data:
+        first: 1
+        second: 6c870100
+      data:
+        first: 4
+        second: 4c1b0600
+      data:
+        first: 23
+        second: 60182300
+      data:
+        first: 33
+        second: a05a3200
+    oz_ec_narrows_straight_a1:
+      data:
+        first: 1
+        second: a4860100
+      data:
+        first: 4
+        second: 841a0600
+      data:
+        first: 23
+        second: 62182300
+      data:
+        first: 33
+        second: a25a3200
+    oz_ec_narrows_straight_a:oz_ec_narrows_straight_a:
+      data:
+        first: 1
+        second: bc860100
+      data:
+        first: 4
+        second: 9c1a0600
+      data:
+        first: 23
+        second: 66182300
+      data:
+        first: 33
+        second: a65a3200
+    pCube1:
+      data:
+        first: 1
+        second: ba860100
+      data:
+        first: 4
+        second: 9a1a0600
+      data:
+        first: 23
+        second: 64182300
+      data:
+        first: 33
+        second: a45a3200
+    path_left:
+      data:
+        first: 1
+        second: a8860100
+      data:
+        first: 4
+        second: 881a0600
+    path_right:
+      data:
+        first: 1
+        second: b2860100
+      data:
+        first: 4
+        second: 921a0600
+    pointLight1:
+      data:
+        first: 1
+        second: b6860100
+      data:
+        first: 4
+        second: 961a0600

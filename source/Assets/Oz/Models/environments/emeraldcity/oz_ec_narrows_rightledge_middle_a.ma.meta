@@ -1,0 +1,511 @@
+fileFormatVersion: 2
+guid: 19f94ca162b3e6542948295588ec6d0b
+ModelImporter:
+  fileIDToRecycleName:
+    4300000: oz_ec_narrows_rightledge_middle_a
+    4300002: polySurface13
+    4300004: polySurface14
+    4300006: polySurface15
+    4300008: polySurface16
+    4300010: polySurface17
+    4300012: polySurface18
+    4300014: polySurface19
+    4300016: polySurface20
+    4300018: polySurface21
+    4300020: polySurface22
+    4300022: polySurface23
+    4300024: polySurface24
+    4300026: polySurface25
+    4300028: polySurface26
+    4300030: polySurface27
+    4300032: polySurface28
+    4300034: polySurface29
+    4300036: polySurface30
+    4300038: polySurface31
+    4300040: polySurface32
+    4300042: polySurface33
+    4300044: polySurface34
+    4300046: polySurface35
+    4300048: polySurface36
+    4300050: polySurface37
+    4300052: polySurface38
+    4300054: polySurface39
+    4300056: polySurface40
+    4300058: polySurface41
+    4300060: FireWork1
+    4300062: polySurface43
+    4300064: polySurface44
+    4300066: polySurface45
+    4300068: polySurface46
+    4300070: polySurface47
+    4300072: polySurface48
+    4300074: polySurface49
+    4300076: polySurface50
+    4300078: polySurface51
+    4300080: polySurface52
+    4300082: polySurface53
+    4300084: polySurface54
+    4300086: polySurface55
+    4300088: polySurface60
+    4300090: polySurface61
+    4300092: polySurface64
+    4300094: polySurface65
+    4300096: polySurface66
+    4300098: polySurface67
+    4300100: pCube9
+    4300102: pCube10
+    4300104: pCube11
+    4300106: pCube12
+    4300108: pCube13
+    4300110: polySurface63
+    4300112: middlePostSolidPiece
+    4300114: pathBase
+    4300116: brokenPiece1
+    4300118: brokenPiece2
+    4300120: brokenPiece3
+    4300122: brokenPiece4
+    4300124: brokenPiece5
+    4300126: brokenPiece6
+    4300128: brokenPiece7
+    4300130: brokenPiece8
+    4300132: explodingBridgeBase
+    4300134: explodingBridge1
+    4300136: explodingBridge2
+    4300138: explodingBridge3
+    4300140: explodingBridge4
+    4300142: explodingBridge5
+    4300144: explodingBridge6
+    4300146: explodingBridge7
+    4300148: explodingBridge8
+    4300150: explodingBridge9
+    4300152: explodingBridge10
+    4300154: explodingBridge11
+    4300156: explodingBridge12
+    4300158: firework
+    4300160: PathPiece1
+    4300162: PathPiece3
+    4300164: PathPiece2
+    4300166: PathPiece4
+    4300168: PathPiece5
+    4300170: PathPiece6
+    4300172: PathPiece7
+    4300174: PathPiece8
+    4300176: PathPiece9
+    4300178: PathPiece10
+    4300180: Structure1
+    4300182: Structure2
+    4300184: Structure3
+    4300186: Structure4
+    4300188: Structure5
+    4300190: Structure6
+    4300192: Structure7
+    4300194: Structure8
+    4300196: Structure9
+    4300198: Structure10
+    4300200: Structure11
+    4300202: Structure12
+    4300204: Structure13
+    7400000: firework //// oz_ec_narrows_rightledge_middle_a
+    7400002: collapse //// oz_ec_narrows_rightledge_middle_a
+  serializedVersion: 10
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    generateAnimations: 3
+    bakeSimulation: 0
+    splitAnimations: 1
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations:
+    - name: collapse
+      firstFrame: 1
+      lastFrame: 80
+      wrapMode: 0
+      loop: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00400000019
+    meshCompression: 3
+    addColliders: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMesh: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 2
+    tangentImportMode: 2
+  textMetaNamesToFileIDs:
+    //RootNode:
+      data:
+        first: 1
+        second: a6860100
+      data:
+        first: 4
+        second: 861a0600
+      data:
+        first: 111
+        second: 605fa900
+    AnimatedPieces:
+      data:
+        first: 1
+        second: cc860100
+      data:
+        first: 4
+        second: ac1a0600
+    PathPiece1:
+      data:
+        first: 1
+        second: ca860100
+      data:
+        first: 4
+        second: aa1a0600
+      data:
+        first: 23
+        second: 82182300
+      data:
+        first: 33
+        second: c25a3200
+    PathPiece10:
+      data:
+        first: 1
+        second: ba860100
+      data:
+        first: 4
+        second: 9a1a0600
+      data:
+        first: 23
+        second: 72182300
+      data:
+        first: 33
+        second: b25a3200
+    PathPiece2:
+      data:
+        first: 1
+        second: c0860100
+      data:
+        first: 4
+        second: a01a0600
+      data:
+        first: 23
+        second: 78182300
+      data:
+        first: 33
+        second: b85a3200
+    PathPiece3:
+      data:
+        first: 1
+        second: c2860100
+      data:
+        first: 4
+        second: a21a0600
+      data:
+        first: 23
+        second: 7c182300
+      data:
+        first: 33
+        second: bc5a3200
+    PathPiece4:
+      data:
+        first: 1
+        second: ac860100
+      data:
+        first: 4
+        second: 8c1a0600
+      data:
+        first: 23
+        second: 64182300
+      data:
+        first: 33
+        second: a45a3200
+    PathPiece5:
+      data:
+        first: 1
+        second: aa860100
+      data:
+        first: 4
+        second: 8a1a0600
+      data:
+        first: 23
+        second: 62182300
+      data:
+        first: 33
+        second: a25a3200
+    PathPiece6:
+      data:
+        first: 1
+        second: d0860100
+      data:
+        first: 4
+        second: b01a0600
+      data:
+        first: 23
+        second: 86182300
+      data:
+        first: 33
+        second: c65a3200
+    PathPiece7:
+      data:
+        first: 1
+        second: d8860100
+      data:
+        first: 4
+        second: b81a0600
+      data:
+        first: 23
+        second: 8e182300
+      data:
+        first: 33
+        second: ce5a3200
+    PathPiece8:
+      data:
+        first: 1
+        second: b2860100
+      data:
+        first: 4
+        second: 921a0600
+      data:
+        first: 23
+        second: 6a182300
+      data:
+        first: 33
+        second: aa5a3200
+    PathPiece9:
+      data:
+        first: 1
+        second: ae860100
+      data:
+        first: 4
+        second: 8e1a0600
+      data:
+        first: 23
+        second: 66182300
+      data:
+        first: 33
+        second: a65a3200
+    Structure1:
+      data:
+        first: 1
+        second: c8860100
+      data:
+        first: 4
+        second: a81a0600
+      data:
+        first: 23
+        second: 80182300
+      data:
+        first: 33
+        second: c05a3200
+    Structure10:
+      data:
+        first: 1
+        second: a2860100
+      data:
+        first: 4
+        second: 821a0600
+      data:
+        first: 23
+        second: 60182300
+      data:
+        first: 33
+        second: a05a3200
+    Structure11:
+      data:
+        first: 1
+        second: da860100
+      data:
+        first: 4
+        second: ba1a0600
+      data:
+        first: 23
+        second: 90182300
+      data:
+        first: 33
+        second: d05a3200
+    Structure12:
+      data:
+        first: 1
+        second: d2860100
+      data:
+        first: 4
+        second: b21a0600
+      data:
+        first: 23
+        second: 88182300
+      data:
+        first: 33
+        second: c85a3200
+    Structure13:
+      data:
+        first: 1
+        second: b0860100
+      data:
+        first: 4
+        second: 901a0600
+      data:
+        first: 23
+        second: 68182300
+      data:
+        first: 33
+        second: a85a3200
+    Structure2:
+      data:
+        first: 1
+        second: be860100
+      data:
+        first: 4
+        second: 9e1a0600
+      data:
+        first: 23
+        second: 76182300
+      data:
+        first: 33
+        second: b65a3200
+    Structure3:
+      data:
+        first: 1
+        second: d6860100
+      data:
+        first: 4
+        second: b61a0600
+      data:
+        first: 23
+        second: 8c182300
+      data:
+        first: 33
+        second: cc5a3200
+    Structure4:
+      data:
+        first: 1
+        second: b4860100
+      data:
+        first: 4
+        second: 941a0600
+      data:
+        first: 23
+        second: 6c182300
+      data:
+        first: 33
+        second: ac5a3200
+    Structure5:
+      data:
+        first: 1
+        second: b8860100
+      data:
+        first: 4
+        second: 981a0600
+      data:
+        first: 23
+        second: 70182300
+      data:
+        first: 33
+        second: b05a3200
+    Structure6:
+      data:
+        first: 1
+        second: bc860100
+      data:
+        first: 4
+        second: 9c1a0600
+      data:
+        first: 23
+        second: 74182300
+      data:
+        first: 33
+        second: b45a3200
+    Structure7:
+      data:
+        first: 1
+        second: d4860100
+      data:
+        first: 4
+        second: b41a0600
+      data:
+        first: 23
+        second: 8a182300
+      data:
+        first: 33
+        second: ca5a3200
+    Structure8:
+      data:
+        first: 1
+        second: ce860100
+      data:
+        first: 4
+        second: ae1a0600
+      data:
+        first: 23
+        second: 84182300
+      data:
+        first: 33
+        second: c45a3200
+    Structure9:
+      data:
+        first: 1
+        second: b6860100
+      data:
+        first: 4
+        second: 961a0600
+      data:
+        first: 23
+        second: 6e182300
+      data:
+        first: 33
+        second: ae5a3200
+    dummy_a:
+      data:
+        first: 1
+        second: a0860100
+      data:
+        first: 4
+        second: 801a0600
+    dummy_b:
+      data:
+        first: 1
+        second: a8860100
+      data:
+        first: 4
+        second: 881a0600
+    firework:
+      data:
+        first: 1
+        second: c4860100
+      data:
+        first: 4
+        second: a41a0600
+      data:
+        first: 23
+        second: 7e182300
+      data:
+        first: 33
+        second: be5a3200
+    oz_ec_narrows_rightledge_middle_a:
+      data:
+        first: 1
+        second: c6860100
+      data:
+        first: 4
+        second: a61a0600
+      data:
+        first: 23
+        second: 7a182300
+      data:
+        first: 33
+        second: ba5a3200
+    path_default:
+      data:
+        first: 1
+        second: a4860100
+      data:
+        first: 4
+        second: 841a0600

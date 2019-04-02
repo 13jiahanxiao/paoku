@@ -1,0 +1,187 @@
+fileFormatVersion: 2
+guid: b99ac2b22bf97d844b2480899742b1f3
+ModelImporter:
+  fileIDToRecycleName:
+    4300000: oz_ybr_farms_straight_leftpath_a
+    4300002: decals_overlays
+    4300004: decals
+    4300006: allGrovesPieces_Rock_1
+    4300008: allGrovesPieces_Flatrock3
+    4300010: allGrovesPieces_oz_ww_treeLarge1
+    4300012: allGrovesPieces_polySurface16
+    4300014: allGrovesPieces_tree_large_3
+    4300016: allGrovesPieces_tree_large_4
+    4300018: allGrovesPieces_polySurface10
+    4300020: allGrovesPieces_polySurface17
+    4300022: allGrovesPieces_polySurface89
+    4300024: allGrovesPieces_polySurface45
+    4300026: allGrovesPieces_polySurface57
+    4300028: allGrovesPieces_polySurface58
+    4300030: allGrovesPieces_Small_rock
+    4300032: allGrovesPieces_Med_rock
+    4300034: allGrovesPieces_Large_rock
+    4300036: allGrovesPieces_fence
+    4300038: allGrovesPieces_tree_f
+    4300040: allGrovesPieces_pPlane1
+    4300042: allGrovesPieces_pPlane2
+    4300044: allGrovesPieces_pPlane3
+    4300046: allGrovesPieces_pPlane4
+    4300048: allGrovesPieces_pPlane5
+    4300050: allGrovesPieces_pPlane7
+    4300052: allGrovesPieces_pPlane8
+    4300054: allGrovesPieces_pPlane9
+    4300056: allGrovesPieces_pPlane10
+    4300058: allGrovesPieces_polySurface90
+    4300060: allGrovesPieces_polySurface92
+    4300062: allGrovesPieces_polySurface1
+    4300064: allGrovesPieces_polySurface2
+    4300066: allGrovesPieces_pPlane11
+    4300068: allGrovesPieces_pPlane13
+    4300070: allGrovesPieces_pPlane14
+    4300072: allGrovesPieces_pPlane15
+    4300074: allGrovesPieces_pCube1
+    4300076: allGrovesPieces_pCube2
+    4300078: allGrovesPieces_pCube3
+    4300080: allGrovesPieces_pCube4
+    4300082: allGrovesPieces_bench
+    4300084: polySurface1
+    4300086: polySurface2
+    4300088: polySurface3
+    4300090: polySurface4
+    4300092: oz_ybr_farms_straight_a_oz_ybr_farms_straight_a_oz_ybr_farms_straight_a
+    4300094: oz_ybr_farms_straight_a_oz_ybr_farms_straight_a_decals_overlays
+    4300096: oz_ybr_farms_straight_a_oz_ybr_farms_straight_a_decals
+    4300098: farm_card
+    4300100: farm_card8
+    4300102: farm_card7
+    4300104: farm_card6
+    4300106: farm_card5
+    4300108: farm_card4
+    4300110: farm_card3
+    4300112: farm_card9
+    4300114: farm_card10
+    4300116: farm_card11
+    4300118: farm_card12
+    4300120: farm_card13
+    4300122: farm_card14
+    4300124: farm_card15
+    4300126: oz_ybr_farms_straight_rightpath_a
+    4300128: decals_overlays_best
+    7400000: Take 001 //// oz_ybr_farms_straight_leftpath_a
+  serializedVersion: 10
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    generateAnimations: 0
+    bakeSimulation: 0
+    splitAnimations: 1
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations: []
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00400000019
+    meshCompression: 3
+    addColliders: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMesh: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 2
+    tangentImportMode: 2
+  textMetaNamesToFileIDs:
+    //RootNode:
+      data:
+        first: 1
+        second: a6860100
+      data:
+        first: 4
+        second: 861a0600
+      data:
+        first: 111
+        second: 605fa900
+    decals:
+      data:
+        first: 1
+        second: ac860100
+      data:
+        first: 4
+        second: 8c1a0600
+      data:
+        first: 23
+        second: 64182300
+      data:
+        first: 33
+        second: a45a3200
+    decals_overlays:
+      data:
+        first: 1
+        second: aa860100
+      data:
+        first: 4
+        second: 8a1a0600
+      data:
+        first: 23
+        second: 62182300
+      data:
+        first: 33
+        second: a25a3200
+    decals_overlays_best:
+      data:
+        first: 1
+        second: ae860100
+      data:
+        first: 4
+        second: 8e1a0600
+      data:
+        first: 23
+        second: 66182300
+      data:
+        first: 33
+        second: a65a3200
+    dummy_a:
+      data:
+        first: 1
+        second: a2860100
+      data:
+        first: 4
+        second: 821a0600
+    dummy_b:
+      data:
+        first: 1
+        second: a8860100
+      data:
+        first: 4
+        second: 881a0600
+    oz_ybr_farms_straight_rightpath_a:
+      data:
+        first: 1
+        second: a0860100
+      data:
+        first: 4
+        second: 801a0600
+      data:
+        first: 23
+        second: 60182300
+      data:
+        first: 33
+        second: a05a3200
+    path_default:
+      data:
+        first: 1
+        second: a4860100
+      data:
+        first: 4
+        second: 841a0600

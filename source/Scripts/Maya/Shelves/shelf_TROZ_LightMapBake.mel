@@ -1,0 +1,333 @@
+global proc shelf_TROZ_LightMapBake () {
+    global string $gBuffStr;
+    global string $gBuffStr0;
+    global string $gBuffStr1;
+
+
+    shelfButton
+        -enableCommandRepeat 1
+        -enable 1
+        -width 35
+        -height 35
+        -manage 1
+        -visible 1
+        -preventOverride 0
+        -annotation "Setup Selected for Bake" 
+        -enableBackground 0
+        -align "center" 
+        -label "Setup Selected for Bake" 
+        -labelOffset 0
+        -font "plainLabelFont" 
+        -overlayLabelColor 0.8 0.8 0.8 
+        -overlayLabelBackColor 0 0 0 0.25 
+        -image "C:/Users/jstegall/TempleRunOzNew/Temp/maya/icons/SetupSelected.bmp" 
+        -image1 "C:/Users/jstegall/TempleRunOzNew/Temp/maya/icons/SetupSelected.bmp" 
+        -style "iconOnly" 
+        -marginWidth 1
+        -marginHeight 1
+        -command "import lightbakeapi\nlightbakeapi.SetupSelectedForBake()" 
+        -sourceType "python" 
+        -commandRepeatable 1
+    ;
+    shelfButton
+        -enableCommandRepeat 1
+        -enable 1
+        -width 35
+        -height 35
+        -manage 1
+        -visible 1
+        -preventOverride 0
+        -annotation "Reference Light Rig and Bake" 
+        -enableBackground 0
+        -align "center" 
+        -label "Reference Light Rig and Bake" 
+        -labelOffset 0
+        -font "plainLabelFont" 
+        -overlayLabelColor 0.8 0.8 0.8 
+        -overlayLabelBackColor 0 0 0 0.25 
+        -image "C:/Users/jstegall/TempleRunOzNew/Temp/maya/icons/RigAndBake.bmp" 
+        -image1 "C:/Users/jstegall/TempleRunOzNew/Temp/maya/icons/RigAndBake.bmp" 
+        -style "iconOnly" 
+        -marginWidth 1
+        -marginHeight 1
+        -command "import lightbakeapi\nlightbakeapi.ReferenceRigAndBakeSelected()" 
+        -sourceType "python" 
+        -commandRepeatable 1
+    ;
+    shelfButton
+        -enableCommandRepeat 1
+        -enable 1
+        -width 35
+        -height 35
+        -manage 1
+        -visible 1
+        -preventOverride 0
+        -annotation "Bake Selected Object" 
+        -enableBackground 0
+        -align "center" 
+        -label "Bake Selected Object" 
+        -labelOffset 0
+        -font "plainLabelFont" 
+        -overlayLabelColor 0.8 0.8 0.8 
+        -overlayLabelBackColor 0 0 0 0.25 
+        -image "C:/Users/jstegall/TempleRunOzNew/Temp/maya/icons/BakeSelected.bmp" 
+        -image1 "C:/Users/jstegall/TempleRunOzNew/Temp/maya/icons/BakeSelected.bmp" 
+        -style "iconOnly" 
+        -marginWidth 1
+        -marginHeight 1
+        -command "import lightbakeapi\nlightbakeapi.BakeSelected()" 
+        -sourceType "python" 
+        -commandRepeatable 1
+    ;
+    shelfButton
+        -enableCommandRepeat 1
+        -enable 1
+        -width 35
+        -height 35
+        -manage 1
+        -visible 1
+        -preventOverride 0
+        -annotation "AO Bake Selected Object" 
+        -enableBackground 0
+        -align "center" 
+        -label "AO Bake Selected Object" 
+        -labelOffset 0
+        -font "plainLabelFont" 
+        -overlayLabelColor 0.8 0.8 0.8 
+        -overlayLabelBackColor 0 0 0 0.25 
+        -image "C:/Users/jstegall/TempleRunOzNew/Temp/maya/icons/AOBakeSelected.bmp" 
+        -image1 "C:/Users/jstegall/TempleRunOzNew/Temp/maya/icons/AOBakeSelected.bmp" 
+        -style "iconOnly" 
+        -marginWidth 1
+        -marginHeight 1
+        -command "import lightbakeapi\nlightbakeapi.AOBakeSelected()" 
+        -sourceType "python" 
+        -commandRepeatable 1
+    ;
+    shelfButton
+        -enableCommandRepeat 1
+        -enable 1
+        -width 35
+        -height 35
+        -manage 1
+        -visible 1
+        -preventOverride 0
+        -annotation "Reference Light Rig" 
+        -enableBackground 0
+        -align "center" 
+        -label "Reference Light Rig" 
+        -labelOffset 0
+        -font "plainLabelFont" 
+        -overlayLabelColor 0.8 0.8 0.8 
+        -overlayLabelBackColor 0 0 0 0.25 
+        -image "C:/Users/jstegall/TempleRunOzNew/Temp/maya/icons/ReferenceRig.bmp" 
+        -image1 "C:/Users/jstegall/TempleRunOzNew/Temp/maya/icons/ReferenceRig.bmp" 
+        -style "iconOnly" 
+        -marginWidth 1
+        -marginHeight 1
+        -command "import lightbakeapi\nlightbakeapi.ReferenceLightRig()" 
+        -sourceType "python" 
+        -commandRepeatable 1
+    ;
+    shelfButton
+        -enableCommandRepeat 1
+        -enable 1
+        -width 35
+        -height 35
+        -manage 1
+        -visible 1
+        -preventOverride 0
+        -annotation "Lightmap Bake Tool Settings" 
+        -enableBackground 0
+        -align "center" 
+        -label "Lightmap Bake Tool Settings" 
+        -labelOffset 0
+        -font "plainLabelFont" 
+        -overlayLabelColor 0.8 0.8 0.8 
+        -overlayLabelBackColor 0 0 0 0.25 
+        -image "C:/Users/jstegall/TempleRunOzNew/Temp/maya/icons/LightMapSettings.bmp" 
+        -image1 "C:/Users/jstegall/TempleRunOzNew/Temp/maya/icons/LightMapSettings.bmp" 
+        -style "iconOnly" 
+        -marginWidth 1
+        -marginHeight 1
+        -command "import lightbakesettingsui\nlightbakesettingsui.LightBakeSettingsUI()" 
+        -sourceType "python" 
+        -commandRepeatable 1
+    ;
+    shelfButton
+        -enableCommandRepeat 1
+        -enable 1
+        -width 35
+        -height 35
+        -manage 1
+        -visible 1
+        -preventOverride 0
+        -annotation "Batch Lightmaps" 
+        -enableBackground 0
+        -align "center" 
+        -label "Batch Lightmaps" 
+        -labelOffset 0
+        -font "plainLabelFont" 
+        -overlayLabelColor 0.8 0.8 0.8 
+        -overlayLabelBackColor 0 0 0 0.25 
+        -image "C:/Users/jstegall/TempleRunOzNew/Temp/maya/icons/LightMapBatch.bmp" 
+        -image1 "C:/Users/jstegall/TempleRunOzNew/Temp/maya/icons/LightMapBatch.bmp" 
+        -style "iconOnly" 
+        -marginWidth 1
+        -marginHeight 1
+        -command "import batchbakemapsui\nbatchbakemapsui.BatchBakeMapsUI()" 
+        -sourceType "python" 
+        -commandRepeatable 1
+    ;
+    shelfButton
+        -enableCommandRepeat 1
+        -enable 1
+        -width 35
+        -height 35
+        -manage 1
+        -visible 1
+        -preventOverride 0
+        -annotation "Consistency Check" 
+        -enableBackground 0
+        -align "center" 
+        -label "Consistency Check" 
+        -labelOffset 0
+        -font "plainLabelFont" 
+        -overlayLabelColor 0.8 0.8 0.8 
+        -overlayLabelBackColor 0 0 0 0.25 
+        -image "C:/Users/jstegall/TempleRunOzNew/Temp/maya/icons/ConsistencyCheck.bmp" 
+        -image1 "C:/Users/jstegall/TempleRunOzNew/Temp/maya/icons/ConsistencyCheck.bmp" 
+        -style "iconOnly" 
+        -marginWidth 1
+        -marginHeight 1
+        -command "import consistencycheckui\nconsistencycheckui.ConsistencyCheckUI()" 
+        -sourceType "python" 
+        -commandRepeatable 1
+    ;
+    shelfButton
+        -enableCommandRepeat 1
+        -enable 1
+        -width 35
+        -height 35
+        -manage 1
+        -visible 1
+        -preventOverride 0
+        -annotation "Resize UV's from 0-1 normal space to atlas space" 
+        -enableBackground 0
+        -align "center" 
+        -label "Resize UV's from 0-1 normal space to atlas space" 
+        -labelOffset 0
+        -font "plainLabelFont" 
+        -overlayLabelColor 0.8 0.8 0.8 
+        -overlayLabelBackColor 0 0 0 0.25 
+        -image "C:/Users/jstegall/TempleRunOzNew/Temp/maya/icons/NormalToAtlas.bmp" 
+        -image1 "C:/Users/jstegall/TempleRunOzNew/Temp/maya/icons/NormalToAtlas.bmp" 
+        -style "iconOnly" 
+        -marginWidth 1
+        -marginHeight 1
+        -command "import uvnormaltoatlasui\nuvnormaltoatlasui.UVNormalToAtlasUI()" 
+        -sourceType "python" 
+        -commandRepeatable 1
+    ;
+    shelfButton
+        -enableCommandRepeat 1
+        -enable 1
+        -width 35
+        -height 35
+        -manage 1
+        -visible 1
+        -preventOverride 0
+        -annotation "Resize UV's from atlas space to 0-1 Normal space" 
+        -enableBackground 0
+        -align "center" 
+        -label "Resize UV's from atlas space to 0-1 Normal space" 
+        -labelOffset 0
+        -font "plainLabelFont" 
+        -overlayLabelColor 0.8 0.8 0.8 
+        -overlayLabelBackColor 0 0 0 0.2 
+        -image "C:/Users/jstegall/TempleRunOzNew/Temp/maya/icons/AtlasToNormal.bmp" 
+        -image1 "C:/Users/jstegall/TempleRunOzNew/Temp/maya/icons/AtlasToNormal.bmp" 
+        -style "iconOnly" 
+        -marginWidth 1
+        -marginHeight 1
+        -command "import lightbakeapi\nlightbakeapi.UVAtlasToNormalSelected()" 
+        -sourceType "python" 
+        -commandRepeatable 1
+    ;
+    shelfButton
+        -enableCommandRepeat 1
+        -enable 1
+        -width 35
+        -height 35
+        -manage 1
+        -visible 1
+        -preventOverride 0
+        -annotation "UV Deluxe" 
+        -enableBackground 0
+        -align "center" 
+        -label "UV Deluxe" 
+        -labelOffset 0
+        -font "plainLabelFont" 
+        -overlayLabelColor 0.8 0.8 0.8 
+        -overlayLabelBackColor 0 0 0 0.2 
+        -image "C:/Users/jstegall/TempleRunOzNew/Temp/maya/icons/uvdeluxe.bmp" 
+        -image1 "C:/Users/jstegall/TempleRunOzNew/Temp/maya/icons/uvdeluxe.bmp" 
+        -style "iconOnly" 
+        -marginWidth 1
+        -marginHeight 1
+        -command "from UVDeluxe import uvdeluxe\nuvdeluxe.createUI()" 
+        -sourceType "python" 
+        -commandRepeatable 1
+    ;
+    shelfButton
+        -enableCommandRepeat 1
+        -enable 1
+        -width 35
+        -height 35
+        -manage 1
+        -visible 1
+        -preventOverride 0
+        -annotation "Lightmap 3d Paint" 
+        -enableBackground 0
+        -align "center" 
+        -label "Lightmap 3d paint" 
+        -labelOffset 0
+        -font "plainLabelFont" 
+        -overlayLabelColor 0.8 0.8 0.8 
+        -overlayLabelBackColor 0 0 0 0.2 
+        -image "C:/Users/jstegall/TempleRunOzNew/Temp/maya/icons/LightmapPaint.bmp" 
+        -image1 "C:/Users/jstegall/TempleRunOzNew/Temp/maya/icons/LightmapPaint.bmp" 
+        -style "iconOnly" 
+        -marginWidth 1
+        -marginHeight 1
+        -command "import lightbakeapi\nlightbakeapi.Lightmap3dPaintSelected()" 
+        -sourceType "python" 
+        -commandRepeatable 1
+    ;
+    shelfButton
+        -enableCommandRepeat 1
+        -enable 1
+        -width 35
+        -height 35
+        -manage 1
+        -visible 1
+        -preventOverride 0
+        -annotation "Lightmap 3d Paint Save" 
+        -enableBackground 0
+        -align "center" 
+        -label "Lightmap 3d Paint Save" 
+        -labelOffset 0
+        -font "plainLabelFont" 
+        -overlayLabelColor 0.8 0.8 0.8 
+        -overlayLabelBackColor 0 0 0 0.2 
+        -image "C:/Users/jstegall/TempleRunOzNew/Temp/maya/icons/LightmapPaintSave.bmp" 
+        -image1 "C:/Users/jstegall/TempleRunOzNew/Temp/maya/icons/LightmapPaintSave.bmp" 
+        -style "iconOnly" 
+        -marginWidth 1
+        -marginHeight 1
+        -command "import lightbakeapi\nlightbakeapi.LightmapSavePaint3d()" 
+        -sourceType "python" 
+        -commandRepeatable 1
+    ;
+
+} 

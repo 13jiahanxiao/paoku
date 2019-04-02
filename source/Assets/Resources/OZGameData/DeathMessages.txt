@@ -1,0 +1,621 @@
+{
+  "hash": "2e95c91aaf15bb751ece10790858839b",
+  "data": [
+    {
+      "spriteName": "Fall",
+      "messageChoices": [
+        "You fell to your death.",
+        "Aaaaaaaah!",
+	"But I'm scared of heights!",
+        "End of the road…",
+	"Mind the gap.",
+	"Missed it by *that* much."
+      ],
+      "characters": {
+        "0": {
+          "spriteName": "Guy_Fall1",
+          "msgs": [
+            "You fell to your death.",
+            "Aaaaaaaah!",
+	    "But I'm scared of heights!",
+       	    "End of the road...",
+	    "Mind the gap.",
+	    "Missed it by *that* much."
+          ]
+        },
+        "1": {
+          "spriteName": "Scarlett_Fall1",
+          "msgs": [
+            "You fell to your death.",
+            "Aaaaaaaah!",
+	    "But I'm scared of heights!",
+       	    "End of the road...",
+	    "Mind the gap.",
+	    "Missed it by *that* much."
+          ]
+        },
+        "2": {
+          "spriteName": "Barry_Fall1",
+          "msgs": [
+            "You fell to your death.",
+            "Aaaaaaaah!",
+	    "But I'm scared of heights!",
+       	    "End of the road...",
+	    "Mind the gap.",
+	    "Missed it by *that* much.",
+	    "Not again!",
+	    "I'm reporting this safety violation!"
+          ]
+        },
+        "3": {
+          "spriteName": "Karma_Fall1",
+          "msgs": [
+            "You fell to your death.",
+            "Aaaaaaaah!",
+	    "But I'm scared of heights!",
+       	    "End of the road...",
+	    "Mind the gap.",
+	    "Missed it by *that* much.",
+	    "I knew I should have learned how to fly!"
+          ]
+        },
+        "4": {
+          "spriteName": "Montanna Smith",
+          "msgs": [
+            "Montanna SmithFall1",
+            "Montanna SmithFall2",
+            "Montanna SmithFall3"
+          ]
+        },
+        "5": {
+          "spriteName": "Francisco Montoya",
+          "msgs": [
+            "Francisco MontoyaFall1",
+            "Francisco MontoyaFall2",
+            "Francisco MontoyaFall3"
+          ]
+        },
+        "6": {
+          "spriteName": "Zack Wonder",
+          "msgs": [
+            "Zack WonderFall1",
+            "Zack WonderFall2",
+            "Zack WonderFall3"
+          ]
+        }
+      },
+      "deathtype": "Fall"
+    },
+    {
+      "spriteName": "Eaten",
+      "messageChoices": [
+        "You made a tasty snack.",
+        "I eat explorers like you for breakfast.",
+        "Nom nom... leathery!"
+      ],
+      "characters": {
+        "0": {
+          "spriteName": "Guy_Eaten1",
+          "msgs": [
+            "You made a tasty snack.",
+            "I eat explorers like you for breakfast.",
+            "Nom nom... leathery!"
+          ]
+        },
+        "1": {
+          "spriteName": "Scarlett_Eaten1",
+          "msgs": [
+            "You made a tasty snack.",
+            "I eat explorers like you for breakfast.",
+            "Nom nom... leathery!"
+          ]
+        },
+        "2": {
+          "spriteName": "Barry_Eaten1",
+          "msgs": [
+            "You made a tasty snack.",
+            "I eat explorers like you for breakfast.",
+            "Nom nom... leathery!"
+          ]
+        },
+        "3": {
+          "spriteName": "Karma_Eaten1",
+          "msgs": [
+            "You made a tasty snack.",
+            "I eat explorers like you for breakfast.",
+            "Nom nom... leathery!"
+          ]
+        },
+        "4": {
+          "spriteName": "Montanna Smith",
+          "msgs": [
+            "Montanna SmithEaten1",
+            "Montanna SmithEaten2",
+            "Montanna SmithEaten3"
+          ]
+        },
+        "5": {
+          "spriteName": "Francisco Montoya",
+          "msgs": [
+            "Francisco MontoyaEaten1",
+            "Francisco MontoyaEaten2",
+            "Francisco MontoyaEaten3"
+          ]
+        },
+        "6": {
+          "spriteName": "Zack Wonder",
+          "msgs": [
+            "Zack WonderEaten1",
+            "Zack WonderEaten2",
+            "Zack WonderEaten3"
+          ]
+        }
+      },
+      "deathtype": "Eaten"
+    },
+    {
+      "spriteName": "Fire",
+      "messageChoices": [
+        "Mmmm, crispy explorer.",
+        "Smells like toast."
+      ],
+      "characters": {
+        "0": {
+          "spriteName": "Guy_Fire1",
+          "msgs": [
+            "Mmmm, crispy explorer.",
+            "Smells like toast."
+          ]
+        },
+        "1": {
+          "spriteName": "Scarlett_Fire1",
+          "msgs": [
+            "Mmmm, crispy explorer.",
+            "Smells like toast."
+          ]
+        },
+        "2": {
+          "spriteName": "Barry_Fire1",
+          "msgs": [
+            "Mmmm, crispy explorer.",
+            "Smells like toast."
+          ]
+        },
+        "3": {
+          "spriteName": "Karma_Fire1",
+          "msgs": [
+            "Mmmm, crispy explorer.",
+            "Smells like toast."
+          ]
+        },
+        "4": {
+          "spriteName": "Montanna Smith",
+          "msgs": [
+            "Montanna SmithFire1",
+            "Montanna SmithFire2",
+            "Montanna SmithFire3"
+          ]
+        },
+        "5": {
+          "spriteName": "Francisco Montoya",
+          "msgs": [
+            "Francisco MontoyaFire1",
+            "Francisco MontoyaFire2",
+            "Francisco MontoyaFire3"
+          ]
+        },
+        "6": {
+          "spriteName": "Zack Wonder",
+          "msgs": [
+            "Zack WonderFire1",
+            "Zack WonderFire2",
+            "Zack WonderFire3"
+          ]
+        }
+      },
+      "deathtype": "Fire"
+    },
+    {
+      "spriteName": "Mine",
+      "messageChoices": [
+        "Ow, my head!",
+        "Who put that there?!",
+        "Should have ducked."
+      ],
+      "characters": {
+        "0": {
+          "spriteName": "Guy_Hit1",
+          "msgs": [
+            "Ow, my head!",
+            "Who put that there?!",
+            "Should have ducked."
+          ]
+        },
+        "1": {
+          "spriteName": "Scarlett_Hit1",
+          "msgs": [
+            "Ow, my head!",
+            "Who put that there?!",
+            "Should have ducked."
+          ]
+        },
+        "2": {
+          "spriteName": "Barry_Hit1",
+          "msgs": [
+            "Ow, my head!",
+            "Who put that there?!",
+            "Should have ducked."
+          ]
+        },
+        "3": {
+          "spriteName": "Karma_Hit1",
+          "msgs": [
+            "Ow, my head!",
+            "Who put that there?!",
+            "Should have ducked."
+          ]
+        },
+        "4": {
+          "spriteName": "Montanna Smith",
+          "msgs": [
+            "Montanna SmithMine1",
+            "Montanna SmithMine2",
+            "Montanna SmithMine3"
+          ]
+        },
+        "5": {
+          "spriteName": "Francisco Montoya",
+          "msgs": [
+            "Francisco MontoyaMine1",
+            "Francisco MontoyaMine2",
+            "Francisco MontoyaMine3"
+          ]
+        },
+        "6": {
+          "spriteName": "Zack Wonder",
+          "msgs": [
+            "Zack WonderMine1",
+            "Zack WonderMine2",
+            "Zack WonderMine3"
+          ]
+        }
+      },
+      "deathtype": "Mine"
+    },
+    {
+      "spriteName": "Wheel",
+      "messageChoices": [
+        "Who put that here?",
+        "Really? Wheels with spikes?!",
+        "Ground into a fine pulp."
+      ],
+      "characters": {
+        "0": {
+          "spriteName": "Guy_Hit1",
+          "msgs": [
+            "Who put that here?",
+            "Really? Wheels with spikes?!",
+            "Ground into a fine pulp."
+          ]
+        },
+        "1": {
+          "spriteName": "Scarlett_Hit1",
+          "msgs": [
+            "Who put that here?",
+            "Really? Wheels with spikes?!",
+            "Ground into a fine pulp."
+          ]
+        },
+        "2": {
+          "spriteName": "Barry_Hit1",
+          "msgs": [
+            "Who put that here?",
+            "Really? Wheels with spikes?!",
+            "Ground into a fine pulp."
+          ]
+        },
+        "3": {
+          "spriteName": "Karma_Hit1",
+          "msgs": [
+            "Who put that here?",
+            "Really? Wheels with spikes?!",
+            "Ground into a fine pulp."
+          ]
+        },
+        "4": {
+          "spriteName": "Montanna Smith",
+          "msgs": [
+            "Montanna SmithWheel1",
+            "Montanna SmithWheel2",
+            "Montanna SmithWheel3"
+          ]
+        },
+        "5": {
+          "spriteName": "Francisco Montoya",
+          "msgs": [
+            "Francisco MontoyaWheel1",
+            "Francisco MontoyaWheel2",
+            "Francisco MontoyaWheel3"
+          ]
+        },
+        "6": {
+          "spriteName": "Zack Wonder",
+          "msgs": [
+            "Zack WonderWheel1",
+            "Zack WonderWheel2",
+            "Zack WonderWheel3"
+          ]
+        }
+      },
+      "deathtype": "Wheel"
+    },
+    {
+      "spriteName": "WaterFall",
+      "messageChoices": [
+        "Weeee, sliding time!",
+        "Bubble, bubble, bubble...",
+        "If only I brought my barrel."
+      ],
+      "characters": {
+        "0": {
+          "spriteName": "Guy_WaterFall1",
+          "msgs": [
+            "Weeee, sliding time!",
+            "Bubble, bubble, bubble...",
+            "If only I brought my barrel."
+          ]
+        },
+        "1": {
+          "spriteName": "Scarlett_WaterFall1",
+          "msgs": [
+            "Weeee, sliding time!",
+            "Bubble, bubble, bubble...",
+            "If only I brought my barrel."
+          ]
+        },
+        "2": {
+          "spriteName": "Barry_WaterFall1",
+          "msgs": [
+            "Weeee, sliding time!",
+            "Bubble, bubble, bubble...",
+            "If only I brought my barrel."
+          ]
+        },
+        "3": {
+          "spriteName": "Karma_WaterFall1",
+          "msgs": [
+            "Weeee, sliding time!",
+            "Bubble, bubble, bubble...",
+            "If only I brought my barrel."
+          ]
+        },
+        "4": {
+          "spriteName": "Montanna Smith",
+          "msgs": [
+            "Montanna SmithWaterFall1",
+            "Montanna SmithWaterFall2",
+            "Montanna SmithWaterFall3"
+          ]
+        },
+        "5": {
+          "spriteName": "Francisco Montoya",
+          "msgs": [
+            "Francisco MontoyaWaterFall1",
+            "Francisco MontoyaWaterFall2",
+            "Francisco MontoyaWaterFall3"
+          ]
+        },
+        "6": {
+          "spriteName": "Zack Wonder",
+          "msgs": [
+            "Zack WonderWaterFall1",
+            "Zack WonderWaterFall2",
+            "Zack WonderWaterFall3"
+          ]
+        }
+      },
+      "deathtype": "WaterFall"
+    },
+    {
+      "spriteName": "Ledge",
+      "messageChoices": [
+        "Missed it by *that* much.",
+        "You fell to your death.",
+        "Aaaaaaaah!"
+      ],
+      "characters": {
+        "0": {
+          "spriteName": "Guy_Fall1",
+          "msgs": [
+            "Missed it by *that* much.",
+            "You fell to your death.",
+            "Aaaaaaaah!"
+          ]
+        },
+        "1": {
+          "spriteName": "Scarlett_Fall1",
+          "msgs": [
+            "Missed it by *that* much.",
+            "You fell to your death.",
+            "Aaaaaaaah!"
+          ]
+        },
+        "2": {
+          "spriteName": "Barry_Fall1",
+          "msgs": [
+            "Missed it by *that* much.",
+            "You fell to your death.",
+            "Aaaaaaaah!"
+          ]
+        },
+        "3": {
+          "spriteName": "Karma_Fall1",
+          "msgs": [
+            "Missed it by *that* much.",
+            "You fell to your death.",
+            "Aaaaaaaah!"
+          ]
+        },
+        "4": {
+          "spriteName": "Montanna Smith",
+          "msgs": [
+            "Montanna SmithLedge1",
+            "Montanna SmithLedge2",
+            "Montanna SmithLedge3"
+          ]
+        },
+        "5": {
+          "spriteName": "Francisco Montoya",
+          "msgs": [
+            "Francisco MontoyaLedge1",
+            "Francisco MontoyaLedge2",
+            "Francisco MontoyaLedge3"
+          ]
+        },
+        "6": {
+          "spriteName": "Zack Wonder",
+          "msgs": [
+            "Zack WonderLedge1",
+            "Zack WonderLedge2",
+            "Zack WonderLedge3"
+          ]
+        }
+      },
+      "deathtype": "Ledge"
+    },
+    {
+      "spriteName": "SceneryTree",
+      "messageChoices": [
+        "Tree Hugger!",
+        "Trees hurt.",
+        "Who left this tree here?"
+      ],
+      "characters": {
+        "0": {
+          "spriteName": "Guy_Hit1",
+          "msgs": [
+            "Tree Hugger!",
+            "Trees hurt.",
+            "Who left this tree here?"
+          ]
+        },
+        "1": {
+          "spriteName": "Scarlett_Hit1",
+          "msgs": [
+            "Tree Hugger!",
+            "Trees hurt.",
+            "Who left this tree here?"
+          ]
+        },
+        "2": {
+          "spriteName": "Barry_Hit1",
+          "msgs": [
+            "Tree Hugger!",
+            "Trees hurt.",
+            "Who left this tree here?"
+          ]
+        },
+        "3": {
+          "spriteName": "Karma_Hit1",
+          "msgs": [
+            "Tree Hugger!",
+            "Trees hurt.",
+            "Who left this tree here?"
+          ]
+        },
+        "4": {
+          "spriteName": "Montanna Smith",
+          "msgs": [
+            "Montanna SmithSceneryTree1",
+            "Montanna SmithSceneryTree2",
+            "Montanna SmithSceneryTree3"
+          ]
+        },
+        "5": {
+          "spriteName": "Francisco Montoya",
+          "msgs": [
+            "Francisco MontoyaSceneryTree1",
+            "Francisco MontoyaSceneryTree2",
+            "Francisco MontoyaSceneryTree3"
+          ]
+        },
+        "6": {
+          "spriteName": "Zack Wonder",
+          "msgs": [
+            "Zack WonderSceneryTree1",
+            "Zack WonderSceneryTree2",
+            "Zack WonderSceneryTree3"
+          ]
+        }
+      },
+      "deathtype": "SceneryTree"
+    },
+    {
+      "spriteName": "SceneryRock",
+      "messageChoices": [
+        "Harder than it looks...",
+        "Good thing I have a hard head!",
+        "Wish I had a helmet..."
+      ],
+      "characters": {
+        "0": {
+          "spriteName": "Guy_Hit1",
+          "msgs": [
+            "Harder than it looks...",
+            "Good thing I have a hard head!",
+            "Wish I had a helmet..."
+          ]
+        },
+        "1": {
+          "spriteName": "Scarlett_Hit1",
+          "msgs": [
+            "Harder than it looks...",
+            "Good thing I have a hard head!",
+            "Wish I had a helmet..."
+          ]
+        },
+        "2": {
+          "spriteName": "Barry_Hit1",
+          "msgs": [
+            "Harder than it looks...",
+            "Good thing I have a hard head!",
+            "Wish I had a helmet..."
+          ]
+        },
+        "3": {
+          "spriteName": "Karma_Hit1",
+          "msgs": [
+            "Harder than it looks...",
+            "Good thing I have a hard head!",
+            "Wish I had a helmet..."
+          ]
+        },
+        "4": {
+          "spriteName": "Montanna Smith",
+          "msgs": [
+            "Montanna SmithSceneryRock1",
+            "Montanna SmithSceneryRock2",
+            "Montanna SmithSceneryRock3"
+          ]
+        },
+        "5": {
+          "spriteName": "Francisco Montoya",
+          "msgs": [
+            "Francisco MontoyaSceneryRock1",
+            "Francisco MontoyaSceneryRock2",
+            "Francisco MontoyaSceneryRock3"
+          ]
+        },
+        "6": {
+          "spriteName": "Zack Wonder",
+          "msgs": [
+            "Zack WonderSceneryRock1",
+            "Zack WonderSceneryRock2",
+            "Zack WonderSceneryRock3"
+          ]
+        }
+      },
+      "deathtype": "SceneryRock"
+    }
+  ]
+}

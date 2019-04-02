@@ -1,0 +1,1518 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 3
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: InterfaceMasterOz_MED_op
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -.159882963, y: .244263053, z: 3.11060524}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 1}
+  m_Name: 
+  material: {fileID: 2100000, guid: e4284d0154e7a40059e63262565f39cc, type: 2}
+  sprites:
+  - name: _blackbg_fill
+    outer:
+      serializedVersion: 2
+      x: 309
+      y: 442
+      width: 40
+      height: 40
+    inner:
+      serializedVersion: 2
+      x: 309
+      y: 442
+      width: 40
+      height: 40
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _bottombutton_bg
+    outer:
+      serializedVersion: 2
+      x: 800
+      y: 221
+      width: 100
+      height: 74
+    inner:
+      serializedVersion: 2
+      x: 812
+      y: 233
+      width: 76
+      height: 50
+    paddingLeft: .0299999993
+    paddingRight: .0700000003
+    paddingTop: .0405405387
+    paddingBottom: .0945945978
+  - name: _bottombutton_bg_halved
+    outer:
+      serializedVersion: 2
+      x: 801
+      y: 669
+      width: 100
+      height: 37
+    inner:
+      serializedVersion: 2
+      x: 809
+      y: 677
+      width: 84
+      height: 21
+    paddingLeft: .0299999993
+    paddingRight: .0700000003
+    paddingTop: .108108111
+    paddingBottom: 0
+  - name: _bottombutton_frame
+    outer:
+      serializedVersion: 2
+      x: 664
+      y: 690
+      width: 92
+      height: 83
+    inner:
+      serializedVersion: 2
+      x: 702
+      y: 735
+      width: 14
+      height: 13
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _bottombutton_highlight
+    outer:
+      serializedVersion: 2
+      x: 585
+      y: 964
+      width: 96
+      height: 38
+    inner:
+      serializedVersion: 2
+      x: 615
+      y: 979
+      width: 36
+      height: 8
+    paddingLeft: .0625
+    paddingRight: .0833333358
+    paddingTop: .105263159
+    paddingBottom: 1.10526311
+  - name: _bottomheader_bg
+    outer:
+      serializedVersion: 2
+      x: 659
+      y: 2
+      width: 325
+      height: 75
+    inner:
+      serializedVersion: 2
+      x: 659
+      y: 2
+      width: 325
+      height: 75
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _freebutton
+    outer:
+      serializedVersion: 2
+      x: 252
+      y: 755
+      width: 173
+      height: 118
+    inner:
+      serializedVersion: 2
+      x: 252
+      y: 755
+      width: 173
+      height: 118
+    paddingLeft: .0115606934
+    paddingRight: 0
+    paddingTop: .0169491526
+    paddingBottom: 0
+  - name: _mainbutton_frame
+    outer:
+      serializedVersion: 2
+      x: 824
+      y: 780
+      width: 59
+      height: 57
+    inner:
+      serializedVersion: 2
+      x: 838
+      y: 794
+      width: 31
+      height: 29
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _mainbutton_framehalved
+    outer:
+      serializedVersion: 2
+      x: 252
+      y: 988
+      width: 59
+      height: 31
+    inner:
+      serializedVersion: 2
+      x: 264
+      y: 1000
+      width: 35
+      height: 13
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _paper_edge
+    outer:
+      serializedVersion: 2
+      x: 442
+      y: 999
+      width: 16
+      height: 16
+    inner:
+      serializedVersion: 2
+      x: 442
+      y: 999
+      width: 16
+      height: 16
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _paper_side01
+    outer:
+      serializedVersion: 2
+      x: 885
+      y: 763
+      width: 16
+      height: 73
+    inner:
+      serializedVersion: 2
+      x: 885
+      y: 763
+      width: 16
+      height: 73
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _paper_top01
+    outer:
+      serializedVersion: 2
+      x: 920
+      y: 646
+      width: 73
+      height: 16
+    inner:
+      serializedVersion: 2
+      x: 920
+      y: 646
+      width: 73
+      height: 16
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: bg_dialogwindow
+    outer:
+      serializedVersion: 2
+      x: 683
+      y: 937
+      width: 73
+      height: 73
+    inner:
+      serializedVersion: 2
+      x: 683
+      y: 937
+      width: 73
+      height: 73
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: bg_distancemeter_norope
+    outer:
+      serializedVersion: 2
+      x: 309
+      y: 483
+      width: 225
+      height: 142
+    inner:
+      serializedVersion: 2
+      x: 329
+      y: 503
+      width: 185
+      height: 102
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: bg_logo_gradient
+    outer:
+      serializedVersion: 2
+      x: 542
+      y: 189
+      width: 2
+      height: 394
+    inner:
+      serializedVersion: 2
+      x: 542
+      y: 189
+      width: 2
+      height: 394
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: bg_notification
+    outer:
+      serializedVersion: 2
+      x: 876
+      y: 838
+      width: 46
+      height: 46
+    inner:
+      serializedVersion: 2
+      x: 876
+      y: 838
+      width: 46
+      height: 46
+    paddingLeft: .0217391308
+    paddingRight: .0652173907
+    paddingTop: .0652173907
+    paddingBottom: .0217391308
+  - name: bg_paperview_38Opacity
+    outer:
+      serializedVersion: 2
+      x: 746
+      y: 860
+      width: 10
+      height: 10
+    inner:
+      serializedVersion: 2
+      x: 747
+      y: 861
+      width: 8
+      height: 8
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: bg_paperview_50Opacity
+    outer:
+      serializedVersion: 2
+      x: 995
+      y: 656
+      width: 10
+      height: 10
+    inner:
+      serializedVersion: 2
+      x: 996
+      y: 657
+      width: 8
+      height: 8
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: bg_paperview_75Opacity
+    outer:
+      serializedVersion: 2
+      x: 995
+      y: 645
+      width: 10
+      height: 10
+    inner:
+      serializedVersion: 2
+      x: 996
+      y: 646
+      width: 8
+      height: 8
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: bg_progressbar
+    outer:
+      serializedVersion: 2
+      x: 396
+      y: 964
+      width: 188
+      height: 18
+    inner:
+      serializedVersion: 2
+      x: 396
+      y: 964
+      width: 188
+      height: 18
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: bg_rank
+    outer:
+      serializedVersion: 2
+      x: 877
+      y: 885
+      width: 48
+      height: 35
+    inner:
+      serializedVersion: 2
+      x: 882
+      y: 890
+      width: 38
+      height: 25
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: button_arrow
+    outer:
+      serializedVersion: 2
+      x: 771
+      y: 584
+      width: 29
+      height: 125
+    inner:
+      serializedVersion: 2
+      x: 771
+      y: 584
+      width: 29
+      height: 125
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: button_close
+    outer:
+      serializedVersion: 2
+      x: 610
+      y: 690
+      width: 53
+      height: 55
+    inner:
+      serializedVersion: 2
+      x: 610
+      y: 690
+      width: 53
+      height: 55
+    paddingLeft: .0754716992
+    paddingRight: .113207549
+    paddingTop: .0909090936
+    paddingBottom: .0181818176
+  - name: currency_coin
+    outer:
+      serializedVersion: 2
+      x: 746
+      y: 895
+      width: 42
+      height: 40
+    inner:
+      serializedVersion: 2
+      x: 746
+      y: 895
+      width: 42
+      height: 40
+    paddingLeft: .0476190485
+    paddingRight: .0476190485
+    paddingTop: .0500000007
+    paddingBottom: .0500000007
+  - name: currency_gem
+    outer:
+      serializedVersion: 2
+      x: 829
+      y: 887
+      width: 47
+      height: 36
+    inner:
+      serializedVersion: 2
+      x: 829
+      y: 887
+      width: 47
+      height: 36
+    paddingLeft: .0212765951
+    paddingRight: .0212765951
+    paddingTop: .027777778
+    paddingBottom: .027777778
+  - name: divider_store
+    outer:
+      serializedVersion: 2
+      x: 305
+      y: 748
+      width: 300
+      height: 6
+    inner:
+      serializedVersion: 2
+      x: 305
+      y: 748
+      width: 300
+      height: 6
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: divider_tab
+    outer:
+      serializedVersion: 2
+      x: 253
+      y: 736
+      width: 48
+      height: 11
+    inner:
+      serializedVersion: 2
+      x: 253
+      y: 736
+      width: 48
+      height: 11
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: fill_rank
+    outer:
+      serializedVersion: 2
+      x: 312
+      y: 988
+      width: 48
+      height: 35
+    inner:
+      serializedVersion: 2
+      x: 312
+      y: 988
+      width: 48
+      height: 35
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: fill_rank_complete
+    outer:
+      serializedVersion: 2
+      x: 361
+      y: 988
+      width: 33
+      height: 33
+    inner:
+      serializedVersion: 2
+      x: 361
+      y: 988
+      width: 33
+      height: 33
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: fill_white_progressbar
+    outer:
+      serializedVersion: 2
+      x: 396
+      y: 983
+      width: 182
+      height: 14
+    inner:
+      serializedVersion: 2
+      x: 396
+      y: 983
+      width: 182
+      height: 14
+    paddingLeft: .0164835174
+    paddingRight: .0164835174
+    paddingTop: .142857149
+    paddingBottom: .142857149
+  - name: frame_dialogwindow
+    outer:
+      serializedVersion: 2
+      x: 683
+      y: 297
+      width: 122
+      height: 124
+    inner:
+      serializedVersion: 2
+      x: 683
+      y: 297
+      width: 122
+      height: 124
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: gatcha_curtain_tile
+    outer:
+      serializedVersion: 2
+      x: 395
+      y: 999
+      width: 45
+      height: 17
+    inner:
+      serializedVersion: 2
+      x: 395
+      y: 999
+      width: 45
+      height: 17
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: gatcha_gradient
+    outer:
+      serializedVersion: 2
+      x: 757
+      y: 690
+      width: 12
+      height: 190
+    inner:
+      serializedVersion: 2
+      x: 757
+      y: 690
+      width: 12
+      height: 190
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: gotcha_curtain_cornerpiece
+    outer:
+      serializedVersion: 2
+      x: 252
+      y: 874
+      width: 143
+      height: 112
+    inner:
+      serializedVersion: 2
+      x: 252
+      y: 874
+      width: 143
+      height: 112
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: hud_coinmeter_active
+    outer:
+      serializedVersion: 2
+      x: 545
+      y: 300
+      width: 136
+      height: 144
+    inner:
+      serializedVersion: 2
+      x: 545
+      y: 300
+      width: 136
+      height: 144
+    paddingLeft: .0588235296
+    paddingRight: .323529422
+    paddingTop: .131944448
+    paddingBottom: .3125
+  - name: hud_coinmeter_fill
+    outer:
+      serializedVersion: 2
+      x: 545
+      y: 445
+      width: 136
+      height: 136
+    inner:
+      serializedVersion: 2
+      x: 545
+      y: 445
+      width: 136
+      height: 136
+    paddingLeft: .0441176482
+    paddingRight: .0588235296
+    paddingTop: .0441176482
+    paddingBottom: .0588235296
+  - name: icon_characters
+    outer:
+      serializedVersion: 2
+      x: 919
+      y: 544
+      width: 86
+      height: 100
+    inner:
+      serializedVersion: 2
+      x: 919
+      y: 544
+      width: 86
+      height: 100
+    paddingLeft: .104651161
+    paddingRight: .174418598
+    paddingTop: .100000001
+    paddingBottom: 0
+  - name: icon_download_hd
+    outer:
+      serializedVersion: 2
+      x: 426
+      y: 755
+      width: 126
+      height: 122
+    inner:
+      serializedVersion: 2
+      x: 426
+      y: 755
+      width: 126
+      height: 122
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_freecoins
+    outer:
+      serializedVersion: 2
+      x: 919
+      y: 446
+      width: 100
+      height: 97
+    inner:
+      serializedVersion: 2
+      x: 919
+      y: 446
+      width: 100
+      height: 97
+    paddingLeft: .219999999
+    paddingRight: .25999999
+    paddingTop: .0824742243
+    paddingBottom: .0412371121
+  - name: icon_gamecenter
+    outer:
+      serializedVersion: 2
+      x: 670
+      y: 860
+      width: 75
+      height: 75
+    inner:
+      serializedVersion: 2
+      x: 670
+      y: 860
+      width: 75
+      height: 75
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_leaderboards
+    outer:
+      serializedVersion: 2
+      x: 682
+      y: 424
+      width: 120
+      height: 105
+    inner:
+      serializedVersion: 2
+      x: 682
+      y: 424
+      width: 120
+      height: 97
+    paddingLeft: .141666666
+    paddingRight: .0916666687
+    paddingTop: .0380952395
+    paddingBottom: 0
+  - name: icon_location_emeraldcity
+    outer:
+      serializedVersion: 2
+      x: 808
+      y: 562
+      width: 110
+      height: 106
+    inner:
+      serializedVersion: 2
+      x: 808
+      y: 562
+      width: 110
+      height: 106
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_map_darkforest
+    outer:
+      serializedVersion: 2
+      x: 808
+      y: 455
+      width: 110
+      height: 106
+    inner:
+      serializedVersion: 2
+      x: 808
+      y: 455
+      width: 110
+      height: 106
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_map_whimsiewoods
+    outer:
+      serializedVersion: 2
+      x: 918
+      y: 348
+      width: 100
+      height: 97
+    inner:
+      serializedVersion: 2
+      x: 918
+      y: 348
+      width: 100
+      height: 97
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_map_winkiecountry
+    outer:
+      serializedVersion: 2
+      x: 553
+      y: 755
+      width: 110
+      height: 106
+    inner:
+      serializedVersion: 2
+      x: 553
+      y: 755
+      width: 110
+      height: 106
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_morecoins
+    outer:
+      serializedVersion: 2
+      x: 545
+      y: 582
+      width: 112
+      height: 93
+    inner:
+      serializedVersion: 2
+      x: 545
+      y: 582
+      width: 112
+      height: 97
+    paddingLeft: .1875
+    paddingRight: .133928567
+    paddingTop: .107526883
+    paddingBottom: .0645161271
+  - name: icon_notifications_exclamation
+    outer:
+      serializedVersion: 2
+      x: 535
+      y: 584
+      width: 9
+      height: 29
+    inner:
+      serializedVersion: 2
+      x: 535
+      y: 584
+      width: 9
+      height: 29
+    paddingLeft: 1.44444442
+    paddingRight: 1.22222221
+    paddingTop: .172413796
+    paddingBottom: .172413796
+  - name: icon_objectives
+    outer:
+      serializedVersion: 2
+      x: 918
+      y: 244
+      width: 100
+      height: 103
+    inner:
+      serializedVersion: 2
+      x: 918
+      y: 244
+      width: 100
+      height: 103
+    paddingLeft: .25
+    paddingRight: .230000004
+    paddingTop: .0291262139
+    paddingBottom: .0291262139
+  - name: icon_pause
+    outer:
+      serializedVersion: 2
+      x: 664
+      y: 774
+      width: 85
+      height: 85
+    inner:
+      serializedVersion: 2
+      x: 664
+      y: 774
+      width: 85
+      height: 85
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_social_facebook
+    outer:
+      serializedVersion: 2
+      x: 808
+      y: 296
+      width: 109
+      height: 107
+    inner:
+      serializedVersion: 2
+      x: 808
+      y: 296
+      width: 109
+      height: 107
+    paddingLeft: .0275229365
+    paddingRight: .00917431153
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_stats
+    outer:
+      serializedVersion: 2
+      x: 909
+      y: 79
+      width: 114
+      height: 91
+    inner:
+      serializedVersion: 2
+      x: 909
+      y: 79
+      width: 114
+      height: 91
+    paddingLeft: .131578952
+    paddingRight: .166666672
+    paddingTop: .0769230798
+    paddingBottom: .120879121
+  - name: icon_stats_distance
+    outer:
+      serializedVersion: 2
+      x: 770
+      y: 857
+      width: 58
+      height: 37
+    inner:
+      serializedVersion: 2
+      x: 770
+      y: 857
+      width: 58
+      height: 37
+    paddingLeft: .0862068981
+    paddingRight: .0862068981
+    paddingTop: .405405402
+    paddingBottom: .351351351
+  - name: icon_stats_multiplier
+    outer:
+      serializedVersion: 2
+      x: 874
+      y: 707
+      width: 51
+      height: 54
+    inner:
+      serializedVersion: 2
+      x: 874
+      y: 707
+      width: 51
+      height: 54
+    paddingLeft: .137254909
+    paddingRight: .0980392173
+    paddingTop: .055555556
+    paddingBottom: .055555556
+  - name: icon_stats_score
+    outer:
+      serializedVersion: 2
+      x: 829
+      y: 838
+      width: 46
+      height: 48
+    inner:
+      serializedVersion: 2
+      x: 829
+      y: 838
+      width: 46
+      height: 48
+    paddingLeft: .260869563
+    paddingRight: .260869563
+    paddingTop: .208333328
+    paddingBottom: .208333328
+  - name: icon_store
+    outer:
+      serializedVersion: 2
+      x: 658
+      y: 584
+      width: 112
+      height: 105
+    inner:
+      serializedVersion: 2
+      x: 658
+      y: 584
+      width: 112
+      height: 105
+    paddingLeft: .205357149
+    paddingRight: .116071425
+    paddingTop: .0380952395
+    paddingBottom: 0
+  - name: icon_worldofoz
+    outer:
+      serializedVersion: 2
+      x: 553
+      y: 862
+      width: 116
+      height: 101
+    inner:
+      serializedVersion: 2
+      x: 553
+      y: 862
+      width: 116
+      height: 101
+    paddingLeft: .155172408
+    paddingRight: .120689653
+    paddingTop: .0396039598
+    paddingBottom: .0396039598
+  - name: leaderboards_brownbg
+    outer:
+      serializedVersion: 2
+      x: 759
+      y: 977
+      width: 21
+      height: 20
+    inner:
+      serializedVersion: 2
+      x: 759
+      y: 977
+      width: 21
+      height: 20
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: leaderboards_down
+    outer:
+      serializedVersion: 2
+      x: 903
+      y: 762
+      width: 26
+      height: 39
+    inner:
+      serializedVersion: 2
+      x: 903
+      y: 762
+      width: 26
+      height: 39
+    paddingLeft: .269230783
+    paddingRight: .269230783
+    paddingTop: 0
+    paddingBottom: 0
+  - name: leaderboards_up
+    outer:
+      serializedVersion: 2
+      x: 758
+      y: 936
+      width: 26
+      height: 39
+    inner:
+      serializedVersion: 2
+      x: 758
+      y: 936
+      width: 26
+      height: 39
+    paddingLeft: .269230783
+    paddingRight: .269230783
+    paddingTop: 0
+    paddingBottom: 0
+  - name: level_off
+    outer:
+      serializedVersion: 2
+      x: 824
+      y: 707
+      width: 49
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 824
+      y: 707
+      width: 49
+      height: 72
+    paddingLeft: .0816326514
+    paddingRight: .122448981
+    paddingTop: .055555556
+    paddingBottom: 0
+  - name: level_on
+    outer:
+      serializedVersion: 2
+      x: 770
+      y: 784
+      width: 53
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 770
+      y: 784
+      width: 53
+      height: 72
+    paddingLeft: .0754716992
+    paddingRight: .0377358496
+    paddingTop: .055555556
+    paddingBottom: 0
+  - name: line_endpiece
+    outer:
+      serializedVersion: 2
+      x: 789
+      y: 895
+      width: 39
+      height: 38
+    inner:
+      serializedVersion: 2
+      x: 789
+      y: 895
+      width: 39
+      height: 38
+    paddingLeft: 0
+    paddingRight: .15384616
+    paddingTop: 0
+    paddingBottom: 0
+  - name: logo_disney
+    outer:
+      serializedVersion: 2
+      x: 682
+      y: 530
+      width: 125
+      height: 53
+    inner:
+      serializedVersion: 2
+      x: 682
+      y: 530
+      width: 125
+      height: 53
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: .0566037744
+    paddingBottom: .0188679248
+  - name: logo_oz
+    outer:
+      serializedVersion: 2
+      x: 350
+      y: 1
+      width: 307
+      height: 187
+    inner:
+      serializedVersion: 2
+      x: 350
+      y: 1
+      width: 307
+      height: 187
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: logo_tr01
+    outer:
+      serializedVersion: 2
+      x: 1
+      y: 442
+      width: 307
+      height: 293
+    inner:
+      serializedVersion: 2
+      x: 1
+      y: 442
+      width: 307
+      height: 293
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: logo_tr02
+    outer:
+      serializedVersion: 2
+      x: 350
+      y: 189
+      width: 191
+      height: 293
+    inner:
+      serializedVersion: 2
+      x: 350
+      y: 189
+      width: 191
+      height: 293
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: maindeco_button_edge
+    outer:
+      serializedVersion: 2
+      x: 986
+      y: 1
+      width: 32
+      height: 74
+    inner:
+      serializedVersion: 2
+      x: 986
+      y: 1
+      width: 32
+      height: 74
+    paddingLeft: .121212125
+    paddingRight: 0
+    paddingTop: .0675675645
+    paddingBottom: .0945945978
+  - name: maindeco_button_tilable
+    outer:
+      serializedVersion: 2
+      x: 659
+      y: 221
+      width: 138
+      height: 74
+    inner:
+      serializedVersion: 2
+      x: 659
+      y: 221
+      width: 138
+      height: 74
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: .0675675645
+    paddingBottom: .0945945978
+  - name: Map_bg_image
+    outer:
+      serializedVersion: 2
+      x: 1
+      y: 1
+      width: 348
+      height: 440
+    inner:
+      serializedVersion: 2
+      x: 1
+      y: 1
+      width: 348
+      height: 440
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: musicbox_closed
+    outer:
+      serializedVersion: 2
+      x: 909
+      y: 171
+      width: 114
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 909
+      y: 171
+      width: 114
+      height: 72
+    paddingLeft: .105263159
+    paddingRight: .0175438598
+    paddingTop: .652777791
+    paddingBottom: .125
+  - name: musicbox_opened
+    outer:
+      serializedVersion: 2
+      x: 545
+      y: 189
+      width: 112
+      height: 110
+    inner:
+      serializedVersion: 2
+      x: 545
+      y: 189
+      width: 112
+      height: 110
+    paddingLeft: .125
+    paddingRight: .0178571437
+    paddingTop: .0818181783
+    paddingBottom: .0818181783
+  - name: Oz_DS_baboon_color_r01.jpg
+    outer:
+      serializedVersion: 2
+      x: 658
+      y: 79
+      width: 250
+      height: 141
+    inner:
+      serializedVersion: 2
+      x: 658
+      y: 79
+      width: 250
+      height: 141
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Oz_DS_falling_color_r01.jpg
+    outer:
+      serializedVersion: 2
+      x: 1
+      y: 878
+      width: 250
+      height: 141
+    inner:
+      serializedVersion: 2
+      x: 1
+      y: 878
+      width: 250
+      height: 141
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Oz_DS_stunned_color_r01.jpg
+    outer:
+      serializedVersion: 2
+      x: 1
+      y: 736
+      width: 250
+      height: 141
+    inner:
+      serializedVersion: 2
+      x: 1
+      y: 736
+      width: 250
+      height: 141
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: portrait_accentOnly
+    outer:
+      serializedVersion: 2
+      x: 902
+      y: 669
+      width: 12
+      height: 33
+    inner:
+      serializedVersion: 2
+      x: 902
+      y: 669
+      width: 12
+      height: 33
+    paddingLeft: 0
+    paddingRight: .166666672
+    paddingTop: .0606060624
+    paddingBottom: .121212125
+  - name: portrait_barOnly
+    outer:
+      serializedVersion: 2
+      x: 803
+      y: 425
+      width: 3
+      height: 37
+    inner:
+      serializedVersion: 2
+      x: 803
+      y: 425
+      width: 3
+      height: 37
+    paddingLeft: 2.5
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: portrait_side
+    outer:
+      serializedVersion: 2
+      x: 1006
+      y: 544
+      width: 14
+      height: 198
+    inner:
+      serializedVersion: 2
+      x: 1006
+      y: 544
+      width: 14
+      height: 198
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: .00505050505
+    paddingBottom: .00505050505
+  - name: portrait_top
+    outer:
+      serializedVersion: 2
+      x: 1
+      y: 1020
+      width: 303
+      height: 3
+    inner:
+      serializedVersion: 2
+      x: 1
+      y: 1020
+      width: 303
+      height: 3
+    paddingLeft: .0396039598
+    paddingRight: .0462046191
+    paddingTop: .666666687
+    paddingBottom: 0
+  - name: sales_banner
+    outer:
+      serializedVersion: 2
+      x: 309
+      y: 703
+      width: 300
+      height: 44
+    inner:
+      serializedVersion: 2
+      x: 309
+      y: 703
+      width: 300
+      height: 44
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: sales_burst
+    outer:
+      serializedVersion: 2
+      x: 808
+      y: 404
+      width: 106
+      height: 50
+    inner:
+      serializedVersion: 2
+      x: 808
+      y: 404
+      width: 106
+      height: 66
+    paddingLeft: .0188679248
+    paddingRight: .0188679248
+    paddingTop: .0399999991
+    paddingBottom: .0399999991
+  - name: title_Play
+    outer:
+      serializedVersion: 2
+      x: 309
+      y: 626
+      width: 229
+      height: 76
+    inner:
+      serializedVersion: 2
+      x: 309
+      y: 626
+      width: 229
+      height: 76
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: .0526315793
+    paddingBottom: .0263157897
+  - name: tools_1x1_empty_sprite
+    outer:
+      serializedVersion: 2
+      x: 664
+      y: 860
+      width: 1
+      height: 1
+    inner:
+      serializedVersion: 2
+      x: 664
+      y: 860
+      width: 1
+      height: 1
+    paddingLeft: 0
+    paddingRight: 9
+    paddingTop: 0
+    paddingBottom: 9
+  - name: tools_1x1_white_sprite
+    outer:
+      serializedVersion: 2
+      x: 658
+      y: 582
+      width: 1
+      height: 1
+    inner:
+      serializedVersion: 2
+      x: 658
+      y: 582
+      width: 1
+      height: 1
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: tools_2x2_white_sprite
+    outer:
+      serializedVersion: 2
+      x: 658
+      y: 582
+      width: 1
+      height: 1
+    inner:
+      serializedVersion: 2
+      x: 658
+      y: 582
+      width: 1
+      height: 1
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: tutorial_hand
+    outer:
+      serializedVersion: 2
+      x: 770
+      y: 710
+      width: 53
+      height: 73
+    inner:
+      serializedVersion: 2
+      x: 770
+      y: 710
+      width: 53
+      height: 73
+    paddingLeft: .207547173
+    paddingRight: .207547173
+    paddingTop: .01369863
+    paddingBottom: .01369863
+  - name: tutorial_tilt
+    outer:
+      serializedVersion: 2
+      x: 396
+      y: 878
+      width: 155
+      height: 85
+    inner:
+      serializedVersion: 2
+      x: 396
+      y: 878
+      width: 155
+      height: 85
+    paddingLeft: .0387096778
+    paddingRight: .0387096778
+    paddingTop: .0941176489
+    paddingBottom: .0705882385
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

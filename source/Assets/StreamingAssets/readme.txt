@@ -1,0 +1,1 @@
+The whimsywoods asset bundle gets placed in here
